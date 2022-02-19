@@ -142,18 +142,18 @@ CinnabarGymBlainePostBattle:
 	ld a, $f0
 	ld [wJoyIgnore], a
 ; fallthrough
-CinnabarGymReceiveTM38:
+CinnabarGymReceiveTM45:
 	ld a, $a
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_BLAINE
-	lb bc, TM_FIRE_BLAST, 1
+	lb bc, TM_THUNDER_WAVE, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $b
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM38
+	SetEvent EVENT_GOT_TM45
 	jr .gymVictory
 .BagFull
 	ld a, $c
@@ -184,8 +184,8 @@ CinnabarGym_TextPointers:
 	dw CinnabarGymTrainerText7
 	dw CinnabarGymGuideText
 	dw BlaineVolcanoBadgeInfoText
-	dw ReceivedTM38Text
-	dw TM38NoRoomText
+	dw ReceivedTM45Text
+	dw TM45NoRoomText
 
 CinnabarGymScript_758b7:
 	ldh a, [hSpriteIndexOrTextID]
@@ -211,9 +211,9 @@ BlaineText:
 	text_asm
 	CheckEvent EVENT_BEAT_BLAINE
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM38
+	CheckEventReuseA EVENT_GOT_TM45
 	jr nz, .afterBeat
-	call z, CinnabarGymReceiveTM38
+	call z, CinnabarGymReceiveTM45
 	call DisableWaitingAfterTextDisplay
 	jp TextScriptEnd
 .afterBeat
@@ -248,14 +248,14 @@ BlaineVolcanoBadgeInfoText:
 	text_far _BlaineVolcanoBadgeInfoText
 	text_end
 
-ReceivedTM38Text:
-	text_far _ReceivedTM38Text
+ReceivedTM45Text:
+	text_far _ReceivedTM45Text
 	sound_get_item_1
-	text_far _TM38ExplanationText
+	text_far _TM45ExplanationText
 	text_end
 
-TM38NoRoomText:
-	text_far _TM38NoRoomText
+TM45NoRoomText:
+	text_far _TM45NoRoomText
 	text_end
 
 CinnabarGymTrainerText1:

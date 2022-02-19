@@ -172,6 +172,11 @@ _DugAHoleText::
 	line "dug a hole!"
 	prompt
 
+_HidInShellText::
+	text_start
+	line "hid in its shell!"
+	prompt
+
 _BecameConfusedText::
 	text "<TARGET>"
 	line "became confused!"

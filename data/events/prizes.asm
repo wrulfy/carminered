@@ -55,13 +55,13 @@ ENDC
 	db "@"
 
 PrizeMenuTMsEntries:
-	db TM_DRAGON_RAGE
-	db TM_HYPER_BEAM
-	db TM_SUBSTITUTE
+	db MAX_ELIXER
+	db RARE_CANDY
+	db PP_UP
 	db "@"
 
 PrizeMenuTMsCost:
-	bcd2 3300
-	bcd2 5500
-	bcd2 7700
+	bcd2 1000
+	bcd2 1500
+	bcd2 500
 	db "@"

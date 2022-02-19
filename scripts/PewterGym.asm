@@ -42,18 +42,18 @@ PewterGymBrockPostBattle:
 	ld a, $f0
 	ld [wJoyIgnore], a
 ; fallthrough
-PewterGymScriptReceiveTM34:
+PewterGymScriptReceiveTM39:
 	ld a, $4
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_BROCK
-	lb bc, TM_BIDE, 1
+	lb bc, TM_SWIFT, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $5
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM34
+	SetEvent EVENT_GOT_TM39
 	jr .gymVictory
 .BagFull
 	ld a, $6
@@ -83,9 +83,9 @@ PewterGym_TextPointers:
 	dw BrockText
 	dw PewterGymTrainerText1
 	dw PewterGymGuideText
-	dw BeforeReceivedTM34Text
-	dw ReceivedTM34Text
-	dw TM34NoRoomText
+	dw BeforeReceivedTM39Text
+	dw ReceivedTM39Text
+	dw TM39NoRoomText
 
 PewterGymTrainerHeaders:
 	def_trainers 2
@@ -97,9 +97,9 @@ BrockText:
 	text_asm
 	CheckEvent EVENT_BEAT_BROCK
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM34
+	CheckEventReuseA EVENT_GOT_TM39
 	jr nz, .afterBeat
-	call z, PewterGymScriptReceiveTM34
+	call z, PewterGymScriptReceiveTM39
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
@@ -137,18 +137,18 @@ BrockPostBattleAdviceText:
 	text_far _BrockPostBattleAdviceText
 	text_end
 
-BeforeReceivedTM34Text:
-	text_far _BeforeReceivedTM34Text
+BeforeReceivedTM39Text:
+	text_far _BeforeReceivedTM39Text
 	text_end
 
-ReceivedTM34Text:
-	text_far _ReceivedTM34Text
+ReceivedTM39Text:
+	text_far _ReceivedTM39Text
 	sound_get_item_1
-	text_far _TM34ExplanationText
+	text_far _TM39ExplanationText
 	text_end
 
-TM34NoRoomText:
-	text_far _TM34NoRoomText
+TM39NoRoomText:
+	text_far _TM39NoRoomText
 	text_end
 
 ReceivedBoulderBadgeText:

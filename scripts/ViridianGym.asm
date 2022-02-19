@@ -134,18 +134,18 @@ ViridianGymGiovanniPostBattle:
 	ld a, $f0
 	ld [wJoyIgnore], a
 ; fallthrough
-ViridianGymReceiveTM27:
+ViridianGymReceiveTM26:
 	ld a, $c
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
-	lb bc, TM_FISSURE, 1
+	lb bc, TM_EARTHQUAKE, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $d
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM27
+	SetEvent EVENT_GOT_TM26
 	jr .gymVictory
 .BagFull
 	ld a, $e
@@ -179,8 +179,8 @@ ViridianGym_TextPointers:
 	dw ViridianGymGuideText
 	dw PickUpItemText
 	dw GiovanniEarthBadgeInfoText
-	dw ReceivedTM27Text
-	dw TM27NoRoomText
+	dw ReceivedTM26Text
+	dw TM26NoRoomText
 
 ViridianGymTrainerHeaders:
 	def_trainers 2
@@ -206,9 +206,9 @@ GiovanniText:
 	text_asm
 	CheckEvent EVENT_BEAT_VIRIDIAN_GYM_GIOVANNI
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM27
+	CheckEventReuseA EVENT_GOT_TM26
 	jr nz, .afterBeat
-	call z, ViridianGymReceiveTM27
+	call z, ViridianGymReceiveTM26
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
@@ -262,16 +262,16 @@ GiovanniEarthBadgeInfoText:
 	text_far _GiovanniEarthBadgeInfoText
 	text_end
 
-ReceivedTM27Text:
-	text_far _ReceivedTM27Text
+ReceivedTM26Text:
+	text_far _ReceivedTM26Text
 	sound_get_item_1
 
-TM27ExplanationText:
-	text_far _TM27ExplanationText
+TM26ExplanationText:
+	text_far _TM26ExplanationText
 	text_end
 
-TM27NoRoomText:
-	text_far _TM27NoRoomText
+TM26NoRoomText:
+	text_far _TM26NoRoomText
 	text_end
 
 ViridianGymTrainerText1:

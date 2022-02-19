@@ -42,18 +42,18 @@ CeruleanGymMistyPostBattle:
 	ld a, $f0
 	ld [wJoyIgnore], a
 
-CeruleanGymReceiveTM11:
+CeruleanGymReceiveTM49:
 	ld a, $5
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_MISTY
-	lb bc, TM_BUBBLEBEAM, 1
+	lb bc, TM_MIST, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $6
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM11
+	SetEvent EVENT_GOT_TM49
 	jr .gymVictory
 .BagFull
 	ld a, $7
@@ -76,8 +76,8 @@ CeruleanGym_TextPointers:
 	dw CeruleanGymTrainerText2
 	dw CeruleanGymGuideText
 	dw MistyCascadeBadgeInfoText
-	dw ReceivedTM11Text
-	dw TM11NoRoomText
+	dw ReceivedTM49Text
+	dw TM49NoRoomText
 
 CeruleanGymTrainerHeaders:
 	def_trainers 2
@@ -91,13 +91,13 @@ MistyText:
 	text_asm
 	CheckEvent EVENT_BEAT_MISTY
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM11
+	CheckEventReuseA EVENT_GOT_TM49
 	jr nz, .afterBeat
-	call z, CeruleanGymReceiveTM11
+	call z, CeruleanGymReceiveTM49
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
-	ld hl, TM11ExplanationText
+	ld hl, TM49ExplanationText
 	call PrintText
 	jr .done
 .beforeBeat
@@ -126,21 +126,21 @@ MistyPreBattleText:
 	text_far _MistyPreBattleText
 	text_end
 
-TM11ExplanationText:
-	text_far _TM11ExplanationText
+TM49ExplanationText:
+	text_far _TM49ExplanationText
 	text_end
 
 MistyCascadeBadgeInfoText:
 	text_far _MistyCascadeBadgeInfoText
 	text_end
 
-ReceivedTM11Text:
-	text_far _ReceivedTM11Text
+ReceivedTM49Text:
+	text_far _ReceivedTM49Text
 	sound_get_item_1
 	text_end
 
-TM11NoRoomText:
-	text_far _TM11NoRoomText
+TM49NoRoomText:
+	text_far _TM49NoRoomText
 	text_end
 
 ReceivedCascadeBadgeText:

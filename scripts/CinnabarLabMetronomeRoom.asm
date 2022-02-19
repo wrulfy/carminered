@@ -10,42 +10,42 @@ CinnabarLabMetronomeRoom_TextPointers:
 
 Lab3Text1:
 	text_asm
-	CheckEvent EVENT_GOT_TM35
+	CheckEvent EVENT_GOT_TM40
 	jr nz, .got_item
-	ld hl, TM35PreReceiveText
+	ld hl, TM40PreReceiveText
 	call PrintText
-	lb bc, TM_METRONOME, 1
+	lb bc, TM_GUILLOTINE, 1
 	call GiveItem
 	jr nc, .bag_full
-	ld hl, ReceivedTM35Text
+	ld hl, ReceivedTM40Text
 	call PrintText
-	SetEvent EVENT_GOT_TM35
+	SetEvent EVENT_GOT_TM40
 	jr .done
 .bag_full
-	ld hl, TM35NoRoomText
+	ld hl, TM40NoRoomText
 	call PrintText
 	jr .done
 .got_item
-	ld hl, TM35ExplanationText
+	ld hl, TM40ExplanationText
 	call PrintText
 .done
 	jp TextScriptEnd
 
-TM35PreReceiveText:
-	text_far _TM35PreReceiveText
+TM40PreReceiveText:
+	text_far _TM40PreReceiveText
 	text_end
 
-ReceivedTM35Text:
-	text_far _ReceivedTM35Text
+ReceivedTM40Text:
+	text_far _ReceivedTM40Text
 	sound_get_item_1
 	text_end
 
-TM35ExplanationText:
-	text_far _TM35ExplanationText
+TM40ExplanationText:
+	text_far _TM40ExplanationText
 	text_end
 
-TM35NoRoomText:
-	text_far _TM35NoRoomText
+TM40NoRoomText:
+	text_far _TM40NoRoomText
 	text_end
 
 Lab3Text2:

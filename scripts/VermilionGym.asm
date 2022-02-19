@@ -61,18 +61,18 @@ VermilionGymLTSurgePostBattle:
 	ld a, D_RIGHT | D_LEFT | D_UP | D_DOWN
 	ld [wJoyIgnore], a
 
-VermilionGymReceiveTM24:
+VermilionGymReceiveTM25:
 	ld a, $6
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
 	SetEvent EVENT_BEAT_LT_SURGE
-	lb bc, TM_THUNDERBOLT, 1
+	lb bc, TM_SMOKESCREEN, 1
 	call GiveItem
 	jr nc, .BagFull
 	ld a, $7
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID
-	SetEvent EVENT_GOT_TM24
+	SetEvent EVENT_GOT_TM25
 	jr .gymVictory
 .BagFull
 	ld a, $8
@@ -96,8 +96,8 @@ VermilionGym_TextPointers:
 	dw VermilionGymTrainerText3
 	dw VermilionGymGuideText
 	dw LTSurgeThunderBadgeInfoText
-	dw ReceivedTM24Text
-	dw TM24NoRoomText
+	dw ReceivedTM25Text
+	dw TM25NoRoomText
 
 VermilionGymTrainerHeaders:
 	def_trainers 2
@@ -113,9 +113,9 @@ LTSurgeText:
 	text_asm
 	CheckEvent EVENT_BEAT_LT_SURGE
 	jr z, .beforeBeat
-	CheckEventReuseA EVENT_GOT_TM24
+	CheckEventReuseA EVENT_GOT_TM25
 	jr nz, .afterBeat
-	call z, VermilionGymReceiveTM24
+	call z, VermilionGymReceiveTM25
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
@@ -157,14 +157,14 @@ LTSurgeThunderBadgeInfoText:
 	text_far _LTSurgeThunderBadgeInfoText
 	text_end
 
-ReceivedTM24Text:
-	text_far _ReceivedTM24Text
+ReceivedTM25Text:
+	text_far _ReceivedTM25Text
 	sound_get_key_item
-	text_far _TM24ExplanationText
+	text_far _TM25ExplanationText
 	text_end
 
-TM24NoRoomText:
-	text_far _TM24NoRoomText
+TM25NoRoomText:
+	text_far _TM25NoRoomText
 	text_end
 
 ReceivedThunderBadgeText:
