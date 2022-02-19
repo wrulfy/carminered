@@ -12,17 +12,17 @@ _BrockPostBattleAdviceText::
 	cont "your abilities!"
 	done
 
-_BeforeReceivedTM34Text::
+_BeforeReceivedTM39Text::
 	text "Wait! Take this"
 	line "with you!"
 	done
 
-_ReceivedTM34Text::
+_ReceivedTM39Text::
 	text "<PLAYER> received"
-	line "TM34!@"
+	line "TM39!@"
 	text_end
 
-_TM34ExplanationText::
+_TM39ExplanationText::
 	text_start
 
 	para "A TM contains a"
@@ -37,16 +37,16 @@ _TM34ExplanationText::
 	cont "pick the #MON"
 	cont "carefully!"
 
-	para "TM34 contains"
-	line "BIDE!"
+	para "TM39 contains"
+	line "SWIFT!"
 
 	para "Your #MON will"
-	line "absorb damage in"
-	cont "battle then pay"
-	cont "it back double!"
+	line "launch an attack"
+	cont "that won't miss"
+	cont "is very reliable!"
 	done
 
-_TM34NoRoomText::
+_TM39NoRoomText::
 	text "You don't have"
 	line "room for this!"
 	done

@@ -61,25 +61,25 @@ _GiovanniEarthBadgeInfoText::
 	cont "LEAGUE challenge!"
 	done
 
-_ReceivedTM27Text::
+_ReceivedTM26Text::
 	text "<PLAYER> received"
-	line "TM27!@"
+	line "TM26!@"
 	text_end
 
-_TM27ExplanationText::
+_TM26ExplanationText::
 	text_start
 
-	para "TM27 is FISSURE!"
-	line "It will take out"
-	cont "#MON with just"
-	cont "one hit!"
+	para "TM26 is EARTHQUAKE"
+	line "is a very strong"
+	cont "coverage move for"
+	cont "a lot of #MON"
 
 	para "I made it when I"
 	line "ran the GYM here,"
 	cont "too long ago..."
 	done
 
-_TM27NoRoomText::
+_TM26NoRoomText::
 	text "You do not have"
 	line "space for this!"
 	done

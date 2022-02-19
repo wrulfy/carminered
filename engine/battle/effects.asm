@@ -132,8 +132,8 @@ PoisonEffect:
 	ld hl, wEnemyBattleStatus3
 	ld de, wEnemyToxicCounter
 .ok
-	cp TOXIC
-	jr nz, .normalPoison ; done if move is not Toxic
+	cp POISON_GAS
+	jr nz, .normalPoison ; done if move is not POISON_GAS
 	set BADLY_POISONED, [hl] ; else set Toxic battstatus
 	xor a
 	ld [de], a
@@ -1017,6 +1017,12 @@ ChargeEffect:
 	jr nz, .notDigOrFly
 	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
 	ld b, ANIM_C0
+.notFly2
+	ld a, [de]
+	cp WITHDRAW
+	jr nz, .notDigOrFly
+	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
+	ld b, ANIM_C0
 .notDigOrFly
 	xor a
 	ld [wAnimationType], a
@@ -1048,6 +1054,9 @@ ChargeMoveEffectText:
 	jr z, .gotText
 	cp DIG
 	ld hl, DugAHoleText
+	cp WITHDRAW
+	ld hl, HidInShellText
+	jr z, .gotText
 .gotText
 	ret
 
@@ -1073,6 +1082,10 @@ FlewUpHighText:
 
 DugAHoleText:
 	text_far _DugAHoleText
+	text_end
+
+HidInShellText:
+	text_far _HidInShellText
 	text_end
 
 TrappingEffect:

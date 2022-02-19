@@ -61,26 +61,26 @@ _ErikaRainbowBadgeInfoText::
 	line "this with you."
 	done
 
-_ReceivedTM21Text::
+_ReceivedTM48Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_TM21ExplanationText::
+_TM48ExplanationText::
 	text_start
 
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM48 contains"
+	line "CONSTRICT."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "your #MON will"
+	line "cling to the foe"
+	cont "dealing damage and"
+	cont "may slow it down"
 	done
 
-_TM21NoRoomText::
+_TM48NoRoomText::
 	text "You should make"
 	line "room for this."
 	done

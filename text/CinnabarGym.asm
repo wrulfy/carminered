@@ -42,28 +42,28 @@ _BlaineVolcanoBadgeInfoText::
 	line "have this too!"
 	done
 
-_ReceivedTM38Text::
+_ReceivedTM45Text::
 	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_TM38ExplanationText::
+_TM45ExplanationText::
 	text_start
 
-	para "TM38 contains"
-	line "FIRE BLAST!"
+	para "TM45 contains"
+	line "THUNDER WAVE!"
 
-	para "Teach it to fire-"
-	line "type #MON!"
+	para "Teach it to type"
+	line "electric #MON!"
 
-	para "CHARMELEON or"
-	line "PONYTA would be"
+	para "ELECTRODE or"
+	line "STARMIE would be"
 	cont "good bets!"
 	done
 
-_TM38NoRoomText::
+_TM45NoRoomText::
 	text "Make room for my"
 	line "gift!"
 	done

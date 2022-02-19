@@ -1,30 +1,30 @@
-_TM35PreReceiveText::
-	text "Tch-tch-tch!"
+_TM40PreReceiveText::
+	text "Ka-chink!"
 	line "I made a cool TM!"
 
-	para "It can cause all"
-	line "kinds of fun!"
+	para "It can solve all"
+	line "kinds of issues!"
 	prompt
 
-_ReceivedTM35Text::
+_ReceivedTM40Text::
 	text "<PLAYER> received "
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
-_TM35ExplanationText::
-	text "Tch-tch-tch!"
+_TM40ExplanationText::
+	text "Ka-chink"
 	line "That's the sound"
-	cont "of a METRONOME!"
+	cont "of a GUILLOTINE!"
 
-	para "It tweaks your"
-	line "#MON's brain"
-	cont "into using moves"
-	cont "it doesn't know!"
+	para "Is the strongest"
+	line "bug-type attack."
+	cont "Use it to defeat"
+	cont "your enemies."
 	done
 
-_TM35NoRoomText::
+_TM40NoRoomText::
 	text "Your pack is"
 	line "crammed full!"
 	done

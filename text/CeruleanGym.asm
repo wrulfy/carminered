@@ -17,12 +17,12 @@ _MistyPreBattleText::
 	cont "#MON!"
 	done
 
-_TM11ExplanationText::
-	text "TM11 teaches"
-	line "BUBBLEBEAM!"
+_TM49ExplanationText::
+	text "TM49 teaches"
+	line "MIST!"
 
-	para "Use it on an"
-	line "aquatic #MON!"
+	para "It will slow down"
+	line "enemy #MON!"
 	done
 
 _MistyCascadeBadgeInfoText::
@@ -45,12 +45,12 @@ _MistyCascadeBadgeInfoText::
 	line "my favorite TM!"
 	done
 
-_ReceivedTM11Text::
+_ReceivedTM49Text::
 	text "<PLAYER> received"
-	line "TM11!@"
+	line "TM49!@"
 	text_end
 
-_TM11NoRoomText::
+_TM49NoRoomText::
 	text "You better make"
 	line "room for this!"
 	done

@@ -1,4 +1,4 @@
-_TM39PreReceiveText::
+_TM41PreReceiveText::
 	text "My #MON's"
 	line "ashes are stored"
 	cont "in #MON TOWER."
@@ -8,22 +8,22 @@ _TM39PreReceiveText::
 	cont "it any more..."
 	prompt
 
-_ReceivedTM39Text::
+_ReceivedTM41Text::
 	text "<PLAYER> received"
-	line "TM39!@"
+	line "TM41!@"
 	text_end
 
-_TM39ExplanationText::
-	text "TM39 is a move"
-	line "called SWIFT."
+_TM41ExplanationText::
+	text "TM41 is a move"
+	line "called SOFTBOILED."
 
-	para "It's very accurate,"
-	line "so use it during"
-	cont "battles you can't"
-	cont "afford to lose."
+	para "This move heals"
+	line "other #MON"
+	cont "with its own HP"
+	cont "so use it wisely."
 	done
 
-_TM39NoRoomText::
+_TM41NoRoomText::
 	text "You don't have"
 	line "room for this."
 	done

@@ -57,9 +57,9 @@ _CeladonMartRoofText_4850f::
 	para "@"
 	text_ram wStringBuffer
 	text " contains"
-	line "ROCK SLIDE!"
+	line "FLAMETHROWER!"
 
-	para "It can spook the"
+	para "It can burn the"
 	line "target sometimes!@"
 	text_end
 
@@ -74,16 +74,16 @@ _CeladonMartRoofText_48515::
 	line "from me!@"
 	text_end
 
-_ReceivedTM49Text::
+_ReceivedTM24Text::
 	text "<PLAYER> received"
-	line "TM49!@"
+	line "TM24!@"
 	text_end
 
 _CeladonMartRoofText_48520::
 	text_start
 
-	para "TM49 contains"
-	line "TRI ATTACK!@"
+	para "TM24 contains"
+	line "THUNDERBOLT!@"
 	text_end
 
 _CeladonMartRoofText_48526::

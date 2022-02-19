@@ -34,11 +34,11 @@ _ReceivedTM06Text::
 _TM06ExplanationText::
 	text_start
 	para "TM06 contains"
-	line "TOXIC!"
+	line "POISON GAS!"
 
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
+	para "It is a old tech"
+	line "that will badly"
+	cont "poison the enemy!"
 	done
 
 _TM06NoRoomText::
