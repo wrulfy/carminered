@@ -11,7 +11,7 @@
 	dw SquirtlePicFront, SquirtlePicBack
 
 	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

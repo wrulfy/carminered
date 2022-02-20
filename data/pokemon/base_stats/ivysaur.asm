@@ -11,7 +11,7 @@
 	dw IvysaurPicFront, IvysaurPicBack
 
 	db TACKLE, GROWL, LEECH_SEED, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

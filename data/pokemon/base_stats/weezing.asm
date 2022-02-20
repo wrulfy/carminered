@@ -11,7 +11,7 @@
 	dw WeezingPicFront, WeezingPicBack
 
 	db TACKLE, SMOG, SLUDGE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SLUDGE,       SLUDGE,       POISON_GAS,   GROWTH,       HYPER_BEAM,   \

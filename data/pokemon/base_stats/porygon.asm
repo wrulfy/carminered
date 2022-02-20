@@ -11,7 +11,7 @@
 	dw PorygonPicFront, PorygonPicBack
 
 	db TACKLE, SHARPEN, CONVERSION, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     GROWTH,       \

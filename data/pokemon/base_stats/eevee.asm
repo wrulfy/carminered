@@ -11,7 +11,7 @@
 	dw EeveePicFront, EeveePicBack
 
 	db TACKLE, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       \

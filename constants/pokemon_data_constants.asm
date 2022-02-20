@@ -59,10 +59,10 @@ EVOLUTION_SIZE EQU 4
 ; wMonHGrowthRate values
 ; GrowthRateTable indexes (see data/growth_rates.asm)
 	const_def
-	const GROWTH_MEDIUM_FAST
-	const GROWTH_SLIGHTLY_FAST
-	const GROWTH_SLIGHTLY_SLOW
-	const GROWTH_MEDIUM_SLOW
+	const GROWTH_NORMAL
+	const GROWTH_UNUSED
+	const GROWTH_SPECIAL
+	const GROWTH_STARTER
 	const GROWTH_FAST
 	const GROWTH_SLOW
 NUM_GROWTH_RATES EQU const_value

@@ -11,7 +11,7 @@
 	dw GloomPicFront, GloomPicBack
 
 	db ABSORB, POISONPOWDER, STUN_SPORE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

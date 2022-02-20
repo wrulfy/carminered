@@ -11,7 +11,7 @@
 	dw ArbokPicFront, ArbokPicBack
 
 	db WRAP, LEER, POISON_STING, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm WHIRLWIND,    SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

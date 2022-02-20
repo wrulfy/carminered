@@ -11,7 +11,7 @@
 	dw DugtrioPicFront, DugtrioPicBack
 
 	db SCRATCH, GROWL, DIG, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   SLUDGE,       BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

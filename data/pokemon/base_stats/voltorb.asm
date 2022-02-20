@@ -11,7 +11,7 @@
 	dw VoltorbPicFront, VoltorbPicBack
 
 	db TACKLE, SCREECH, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  LIGHT_SCREEN, THUNDERBOLT,  \

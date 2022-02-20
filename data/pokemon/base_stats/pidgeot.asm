@@ -11,7 +11,7 @@
 	dw PidgeotPicFront, PidgeotPicBack
 
 	db GUST, SAND_ATTACK, QUICK_ATTACK, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

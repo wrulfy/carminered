@@ -11,7 +11,7 @@
 	dw MewPicFront, MewPicBack
 
 	db POUND, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    SLUDGE,       \

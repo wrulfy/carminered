@@ -11,7 +11,7 @@
 	dw DrowzeePicFront, DrowzeePicBack
 
 	db POUND, HYPNOSIS, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

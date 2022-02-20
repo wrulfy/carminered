@@ -11,7 +11,7 @@
 	dw PersianPicFront, PersianPicBack
 
 	db SCRATCH, GROWL, BITE, SCREECH ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

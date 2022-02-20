@@ -11,7 +11,7 @@
 	dw DodrioPicFront, DodrioPicBack
 
 	db PECK, GROWL, FURY_ATTACK, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \

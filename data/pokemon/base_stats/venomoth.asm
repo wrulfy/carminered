@@ -11,7 +11,7 @@
 	dw VenomothPicFront, VenomothPicBack
 
 	db TACKLE, DISABLE, POISONPOWDER, LEECH_LIFE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

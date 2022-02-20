@@ -11,7 +11,7 @@
 	dw VulpixPicFront, VulpixPicBack
 
 	db EMBER, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  DIG,          \

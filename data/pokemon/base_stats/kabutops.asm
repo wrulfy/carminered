@@ -11,7 +11,7 @@
 	dw KabutopsPicFront, KabutopsPicBack
 
 	db SCRATCH, HARDEN, ABSORB, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

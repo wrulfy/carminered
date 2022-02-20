@@ -11,7 +11,7 @@
 	dw BeedrillPicFront, BeedrillPicBack
 
 	db FURY_ATTACK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, SLUDGE,       POISON_GAS,   HORN_DRILL,   \

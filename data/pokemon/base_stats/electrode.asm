@@ -11,7 +11,7 @@
 	dw ElectrodePicFront, ElectrodePicBack
 
 	db TACKLE, SCREECH, SONICBOOM, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   LIGHT_SCREEN, \

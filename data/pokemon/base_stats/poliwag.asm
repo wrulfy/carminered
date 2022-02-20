@@ -11,7 +11,7 @@
 	dw PoliwagPicFront, PoliwagPicBack
 
 	db BUBBLE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \

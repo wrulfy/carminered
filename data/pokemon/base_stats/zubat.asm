@@ -11,7 +11,7 @@
 	dw ZubatPicFront, ZubatPicBack
 
 	db LEECH_LIFE, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

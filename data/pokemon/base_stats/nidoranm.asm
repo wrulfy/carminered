@@ -11,7 +11,7 @@
 	dw NidoranMPicFront, NidoranMPicBack
 
 	db LEER, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_SLOW ; growth rate
+	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm SLUDGE,       POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \

@@ -11,7 +11,7 @@
 	dw FearowPicFront, FearowPicBack
 
 	db PECK, GROWL, LEER, NO_MOVE ; level 1 learnset
-	db GROWTH_MEDIUM_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   POISON_GAS,   HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  \
