@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db BUG, GRASS ; type
-	db 190 ; catch rate
+	db 150 ; catch rate
 	db 70 ; base exp
 
 	INCBIN "gfx/pokemon/front/paras.pic", 0, 1 ; sprite dimensions
 	dw ParasPicFront, ParasPicBack
 
 	db SCRATCH, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

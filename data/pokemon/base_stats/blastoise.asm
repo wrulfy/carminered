@@ -1,16 +1,16 @@
 	db DEX_BLASTOISE ; pokedex id
 
-	db  79,  83, 100,  78,  85
+	db  79,  83, 110,  78,  90
 	;   hp  atk  def  spd  spc
 
-	db WATER, WATER ; type
+	db WATER, ROCK ; type
 	db 45 ; catch rate
 	db 210 ; base exp
 
 	INCBIN "gfx/pokemon/front/blastoise.pic", 0, 1 ; sprite dimensions
 	dw BlastoisePicFront, BlastoisePicBack
 
-	db TACKLE, TAIL_WHIP, BUBBLE, WATER_GUN ; level 1 learnset
+	db ROCK_THROW, WITHDRAW, ROAR, SKULL_BASH ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
@@ -18,8 +18,8 @@
 	     BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     HYPER_BEAM,   SUBMISSION,   \
 	     COUNTER,      SEISMIC_TOSS, DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      \
 	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SELFDESTRUCT, REST,         MIST,         SUBSTITUTE,   \
-	     SURF,         STRENGTH      
+	     BIDE,         SELFDESTRUCT, EGG_BOMB,     REST,         MIST,         \
+		 SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

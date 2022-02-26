@@ -1,6 +1,6 @@
 	db DEX_SPEAROW ; pokedex id
 
-	db  40,  60,  30,  70,  31
+	db  40,  70,  30,  70,  31
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
@@ -15,8 +15,8 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   POISON_GAS,   HORN_DRILL,   TAKE_DOWN,    DOUBLE_EDGE,  \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY           
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        SOFTBOILED,   \
+	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding

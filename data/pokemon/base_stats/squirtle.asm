@@ -17,8 +17,8 @@
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, DRAGON_RAGE,  DIG,          TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, REST,         \
-	     MIST,         SUBSTITUTE,   SURF,         STRENGTH      
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, EGG_BOMB      \
+	     REST          MIST,         SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

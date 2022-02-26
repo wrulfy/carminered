@@ -1,6 +1,6 @@
 	db DEX_EKANS ; pokedex id
 
-	db  35,  60,  44,  55,  40
+	db  35,  65,  44,  55,  40
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ekans.pic", 0, 1 ; sprite dimensions
 	dw EkansPicFront, EkansPicBack
 
-	db WRAP, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TAIL_WHIP, WRAP, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

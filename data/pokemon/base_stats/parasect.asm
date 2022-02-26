@@ -1,17 +1,17 @@
 	db DEX_PARASECT ; pokedex id
 
-	db  60,  95,  80,  30,  80
+	db  85, 120, 105,  30, 105
 	;   hp  atk  def  spd  spc
 
 	db BUG, GRASS ; type
-	db 75 ; catch rate
-	db 128 ; base exp
+	db 25 ; catch rate
+	db 189 ; base exp
 
 	INCBIN "gfx/pokemon/front/parasect.pic", 0, 1 ; sprite dimensions
 	dw ParasectPicFront, ParasectPicBack
 
-	db SCRATCH, STUN_SPORE, LEECH_LIFE, NO_MOVE ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db ABSORB, LEECH_LIFE, SLASH, SPORE ; level 1 learnset
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

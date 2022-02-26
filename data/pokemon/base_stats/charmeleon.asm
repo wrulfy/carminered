@@ -1,6 +1,6 @@
 	db DEX_CHARMELEON ; pokedex id
 
-	db  58,  64,  58,  80,  65
+	db  58,  64,  58,  80,  70
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charmeleon.pic", 0, 1 ; sprite dimensions
 	dw CharmeleonPicFront, CharmeleonPicBack
 
-	db SCRATCH, GROWL, EMBER, NO_MOVE ; level 1 learnset
+	db RAGE, EMBER, LEER, STOMP ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

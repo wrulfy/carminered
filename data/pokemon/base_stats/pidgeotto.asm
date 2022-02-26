@@ -1,6 +1,6 @@
 	db DEX_PIDGEOTTO ; pokedex id
 
-	db  63,  60,  55,  71,  50
+	db  63,  60,  55,  72,  50
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
@@ -10,13 +10,13 @@
 	INCBIN "gfx/pokemon/front/pidgeotto.pic", 0, 1 ; sprite dimensions
 	dw PidgeottoPicFront, PidgeottoPicBack
 
-	db GUST, SAND_ATTACK, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SAND_ATTACK, PECK, QUICK_ATTACK, GROWL ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY           
+	     SOFTBOILED,   SKY_ATTACK,   REST,         SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding

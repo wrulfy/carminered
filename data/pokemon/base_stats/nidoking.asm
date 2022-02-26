@@ -1,6 +1,6 @@
 	db DEX_NIDOKING ; pokedex id
 
-	db  81,  92,  77,  85,  75
+	db  81, 112,  77,  90,  85
 	;   hp  atk  def  spd  spc
 
 	db POISON, GROUND ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidoking.pic", 0, 1 ; sprite dimensions
 	dw NidokingPicFront, NidokingPicBack
 
-	db TACKLE, HORN_ATTACK, POISON_STING, THRASH ; level 1 learnset
+	db POISON_STING, HORN_ATTACK, FOCUS_ENERGY, DOUBLE_KICK ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
@@ -19,8 +19,8 @@
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     DRAGON_RAGE,  THUNDERBOLT,  SMOKESCREEN,  EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     EGG_BOMB,     FLAMETHROWER, REST,         CONFUSE_RAY,  MIST,         \
-	     SUBSTITUTE,   CUT,          SURF,         STRENGTH      
+	     EGG_BOMB,     FLAMETHROWER, GUILLOTINE,   REST,         CONFUSE_RAY,  \
+	     MIST,         SUBSTITUTE,   CUT,          SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding
