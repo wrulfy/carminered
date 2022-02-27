@@ -1,6 +1,6 @@
 	db DEX_MEOWTH ; pokedex id
 
-	db  40,  45,  35,  90,  40
+	db  40,  50,  35,  90,  50
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type

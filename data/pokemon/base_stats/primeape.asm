@@ -1,6 +1,6 @@
 	db DEX_PRIMEAPE ; pokedex id
 
-	db  65, 105,  60,  95,  60
+	db  70, 110,  60, 100,  60
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/primeape.pic", 0, 1 ; sprite dimensions
 	dw PrimeapePicFront, PrimeapePicBack
 
-	db SCRATCH, LEER, KARATE_CHOP, FURY_SWIPES ; level 1 learnset
+	db FOCUS_ENERGY, LOW_KICK, SEISMIC_TOSS, MEDITATE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

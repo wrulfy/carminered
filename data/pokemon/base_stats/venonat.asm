@@ -1,9 +1,9 @@
 	db DEX_VENONAT ; pokedex id
 
-	db  60,  55,  50,  45,  40
+	db  60,  55,  50,  45,  70
 	;   hp  atk  def  spd  spc
 
-	db BUG, POISON ; type
+	db BUG, PSYCHIC ; type
 	db 190 ; catch rate
 	db 75 ; base exp
 

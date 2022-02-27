@@ -1,6 +1,6 @@
 	db DEX_GOLBAT ; pokedex id
 
-	db  75,  80,  70,  90,  75
+	db  75,  90,  70, 100,  80
 	;   hp  atk  def  spd  spc
 
 	db POISON, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golbat.pic", 0, 1 ; sprite dimensions
 	dw GolbatPicFront, GolbatPicBack
 
-	db LEECH_LIFE, SCREECH, BITE, NO_MOVE ; level 1 learnset
+	db LICK, WING_ATTACK, LEECH_LIFE, SUPERSONIC ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

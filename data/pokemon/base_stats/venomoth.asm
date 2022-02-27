@@ -1,16 +1,16 @@
 	db DEX_VENOMOTH ; pokedex id
 
-	db  70,  65,  60,  90,  90
+	db  70,  65,  60,  90, 115
 	;   hp  atk  def  spd  spc
 
-	db BUG, POISON ; type
+	db BUG, PSYCHIC ; type
 	db 75 ; catch rate
 	db 138 ; base exp
 
 	INCBIN "gfx/pokemon/front/venomoth.pic", 0, 1 ; sprite dimensions
 	dw VenomothPicFront, VenomothPicBack
 
-	db TACKLE, DISABLE, POISONPOWDER, LEECH_LIFE ; level 1 learnset
+	db POISONPOWDER, STUN_SPORE, PSYBEAM, LEECH_LIFE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

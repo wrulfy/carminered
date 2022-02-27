@@ -1,6 +1,6 @@
 	db DEX_VILEPLUME ; pokedex id
 
-	db  75,  80,  85,  50, 100
+	db  75,  80,  85,  50, 115
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/vileplume.pic", 0, 1 ; sprite dimensions
 	dw VileplumePicFront, VileplumePicBack
 
-	db STUN_SPORE, SLEEP_POWDER, ACID, PETAL_DANCE ; level 1 learnset
+	db STUN_SPORE, SLEEP_POWDER, SLUDGE, MEGA_DRAIN ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

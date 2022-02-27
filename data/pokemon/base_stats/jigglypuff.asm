@@ -1,6 +1,6 @@
 	db DEX_JIGGLYPUFF ; pokedex id
 
-	db 115,  45,  20,  20,  25
+	db 115,  35,  40,  20,  45
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/jigglypuff.pic", 0, 1 ; sprite dimensions
 	dw JigglypuffPicFront, JigglypuffPicBack
 
-	db SING, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db SING, POUND, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_GOLDUCK ; pokedex id
 
-	db  80,  82,  78,  85,  80
+	db  80,  85,  80,  85,  95
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golduck.pic", 0, 1 ; sprite dimensions
 	dw GolduckPicFront, GolduckPicBack
 
-	db SCRATCH, TAIL_WHIP, DISABLE, NO_MOVE ; level 1 learnset
+	db TAIL_WHIP, CONFUSION, DISABLE, BUBBLE_BEAM ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

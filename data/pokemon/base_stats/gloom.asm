@@ -1,6 +1,6 @@
 	db DEX_GLOOM ; pokedex id
 
-	db  60,  65,  70,  40,  85
+	db  60,  65,  70,  40,  95
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gloom.pic", 0, 1 ; sprite dimensions
 	dw GloomPicFront, GloomPicBack
 
-	db ABSORB, POISONPOWDER, STUN_SPORE, NO_MOVE ; level 1 learnset
+	db POISONPOWDER, ACID, STUN_SPORE, MEGA_DRAIN ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
