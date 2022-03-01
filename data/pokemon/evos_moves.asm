@@ -624,15 +624,15 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, ALAKAZAM
+		db EV_LEVEL, 35, ALAKAZAM
 	db 0
 ; Learnset
-	db 16, CONFUSION
-	db 20, DISABLE
+	db 18, KINESIS
+	db 22, DISABLE
 	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
-	db 42, REFLECT
+	db 32, GROWTH
+	db 36, RECOVER
+	db 40, PSYCHIC_M
 	db 0
 
 GravelerEvosMoves:
@@ -662,14 +662,14 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
+	db EV_LEVEL, 41, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 31, SEISMIC_TOSS
+	db 35, ROAR
+	db 39, KARATE_CHOP
+	db 43, MEGA_KICK
+	db 47, COUNTER
 	db 0
 
 MrMimeEvosMoves:
@@ -966,12 +966,12 @@ PoliwagEvosMoves:
 	db EV_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 25, DOUBLESLAP
-	db 31, BODY_SLAM
-	db 38, AMNESIA
-	db 45, HYDRO_PUMP
+	db 8, HYPNOSIS
+	db 12, WATER_GUN
+	db 16, DOUBLESLAP
+	db 21, BUBBLEBEAM
+	db 27, BODY_SLAM
+	db 30, AMNESIA
 	db 0
 
 JynxEvosMoves:
@@ -1341,11 +1341,11 @@ MachopEvosMoves:
 	db EV_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
-	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 14, ROCK_THROW
+	db 18, MEDITATE
+	db 22, MEGA_PUNCH
+	db 26, SUBMISSION
+	db 30, SEISMIC_TOSS
 	db 0
 
 ZubatEvosMoves:
@@ -1386,23 +1386,26 @@ ParasEvosMoves:
 
 PoliwhirlEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 40, POLIWRATH
 	db EV_ITEM, WATER_STONE, 1, POLIWRATH
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 26, DOUBLESLAP
-	db 33, BODY_SLAM
-	db 41, AMNESIA
-	db 49, HYDRO_PUMP
+	db 25, DOUBLE_KICK
+	db 29, BODY_SLAM
+	db 33, AMNESIA
+	db 38, SUBMISSION
+	db 43, HYDRO_PUMP
+	db 47, DIZZY_PUNCH
 	db 0
 
 PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 28, WATERFALL
+	db 37, MEDITATE
+	db 46, HYDROPUMP
+	db 55, DIZZY_PUNCH
 	db 0
 
 WeedleEvosMoves:
@@ -1548,11 +1551,9 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 43, MEGA_KICK
+	db 49, COUNTER
+	db 55, HI_JUMP_KICK
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1753,18 +1754,17 @@ AbraEvosMoves:
 	db EV_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
+	db 14, CONFUSION
 	db 0
 
 AlakazamEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, CONFUSION
-	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
-	db 42, REFLECT
+	db 37, RECOVER
+	db 42, PSYCHIC_M
+	db 47, REFLECT
+	db 52, PSYWAVE
 	db 0
 
 PidgeottoEvosMoves:
@@ -2125,8 +2125,8 @@ OddishEvosMoves:
 	db 0
 ; Learnset
 	db 8, GROWL
-	db 11, POISON_POWDER
-	db 14, ACID
+	db 11, ACID
+	db 14, POISON_POWDER
 	db 17, STUN_SPORE
 	db 20, MEGA_DRAIN
 	db 23, SLEEP_POWDER
@@ -2150,7 +2150,7 @@ VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, LEECH_SEED
+	db 25, SMOG
 	db 36, PETAL_DANCE
 	db 47, RECOVER
 	db 58, SOLAR_BEAM
@@ -2161,34 +2161,34 @@ BellsproutEvosMoves:
 	db EV_LEVEL, 21, WEEPINBELL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 21, STUN_SPORE
-	db 26, ACID
-	db 33, RAZOR_LEAF
-	db 42, SLAM
+	db 8, GROWTH
+	db 11, WRAP
+	db 14, POISONPOWDER
+	db 17, ACID
+	db 20, SLEEP_POWDER
+	db 23, STUN_SPORE
 	db 0
 
 WeepinbellEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 42, VICTREEBEL
 	db EV_ITEM, LEAF_STONE, 1, VICTREEBEL
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
-	db 23, STUN_SPORE
-	db 29, ACID
-	db 38, RAZOR_LEAF
-	db 49, SLAM
+	db 24, STUN_SPORE
+	db 29, HAZE
+	db 35, LEECH_LIFE
+	db 39, RAZOR_LEAF
+	db 43, POISON_GAS
+	db 47, TOXIC
 	db 0
 
 VictreebelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, WRAP
-	db 15, POISONPOWDER
-	db 18, SLEEP_POWDER
+	db 25, CUT
+	db 36, RAZOR_LEAF
+	db 47, POISON_GAS
+	db 58, TOXIC
 	db 0

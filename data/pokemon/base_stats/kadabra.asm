@@ -10,15 +10,15 @@
 	INCBIN "gfx/pokemon/front/kadabra.pic", 0, 1 ; sprite dimensions
 	dw KadabraPicFront, KadabraPicBack
 
-	db TELEPORT, CONFUSION, DISABLE, NO_MOVE ; level 1 learnset
+	db TELEPORT, POUND, CONFUSION, NO_MOVE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, DIG,          \
-	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         METRONOME,    SWIFT,        DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH         
+	     GROWTH,       SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, \
+	     DIG,          PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         METRONOME,    SWIFT,        DREAM_EATER,  \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   FLASH         
 	; end
 
 	db 0 ; padding

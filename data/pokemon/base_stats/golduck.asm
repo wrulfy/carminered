@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golduck.pic", 0, 1 ; sprite dimensions
 	dw GolduckPicFront, GolduckPicBack
 
-	db TAIL_WHIP, CONFUSION, DISABLE, BUBBLE_BEAM ; level 1 learnset
+	db TAIL_WHIP, CONFUSION, DISABLE, BUBBLEBEAM ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

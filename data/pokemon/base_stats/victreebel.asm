@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/victreebel.pic", 0, 1 ; sprite dimensions
 	dw VictreebelPicFront, VictreebelPicBack
 
-	db SLEEP_POWDER, STUN_SPORE, ACID, RAZOR_LEAF ; level 1 learnset
+	db VINE_WHIP, STUN_SPORE, LEECH_LIFE, HAZE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
