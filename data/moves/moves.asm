@@ -58,7 +58,7 @@ Moves:
 	move ROAR,         DEFENSE_DOWN2_EFFECT,         0, DRAGON,        85, 20
 	move SING,         SLEEP_EFFECT,                 0, NORMAL,        65, 25
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,        80, 20
-	move SONICBOOM,    PARALYZE_SIDE_EFFECT2,       60, ELECTRIC,     100, 20
+	move SONICBOOM,    SPECIAL_DOWN_SIDE_EFFECT,    65, ELECTRIC,     100, 20
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        90, 20
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    40, POISON,       100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 30
