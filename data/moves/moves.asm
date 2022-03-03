@@ -56,7 +56,7 @@ Moves:
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,       100, 40
 	move ROAR,         DEFENSE_DOWN2_EFFECT,         0, DRAGON,        85, 20
-	move SING,         SLEEP_EFFECT,                 0, NORMAL,        65, 25
+	move SING,         SLEEP_EFFECT,                 0, NORMAL,        70, 20
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,        80, 20
 	move SONICBOOM,    SPECIAL_DOWN_SIDE_EFFECT,    65, ELECTRIC,     100, 20
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        90, 20
@@ -88,7 +88,7 @@ Moves:
 	move SOLARBEAM,    NO_ADDITIONAL_EFFECT,       120, GRASS,         85,  5
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,       100, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         90, 30
-	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
+	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         80, 15
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   90, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN_SIDE_EFFECT,      20, BUG,          100, 40
 	move DRAGON_RAGE,  NO_ADDITIONAL_EFFECT,       100, DRAGON,       100, 10
@@ -104,7 +104,7 @@ Moves:
 	move TOXIC,        POISON_SIDE_EFFECT1,        120, POISON,        85,  5
 	move CONFUSION,    CONFUSION_SIDE_EFFECT,       40, PSYCHIC_TYPE, 100, 30
 	move PSYCHIC_M,    SPECIAL_DOWN_SIDE_EFFECT,    90, PSYCHIC_TYPE, 100, 10
-	move HYPNOSIS,     SLEEP_EFFECT,                 0, GHOST,         70, 20
+	move HYPNOSIS,     SLEEP_EFFECT,                 0, GHOST,         60, 25
 	move MEDITATE,     ATTACK_UP1_EFFECT,            0, FIGHTING,     100, 20
 	move AGILITY,      SPEED_UP2_EFFECT,             0, FLYING,       100, 10
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
@@ -151,7 +151,7 @@ Moves:
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        90, 10
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,          95, 20
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             60, BUG,          100, 20
-	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        85, 10
+	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        90, 10
 	move SKY_ATTACK,   FLINCH_SIDE_EFFECT1,        120, FLYING,        85,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 40
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 40

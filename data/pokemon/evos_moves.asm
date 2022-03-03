@@ -239,11 +239,11 @@ ClefairyEvosMoves:
 ; Learnset
 	db 13, METRONOME
 	db 17, DOUBLESLAP
-	db 21, MINIMIZE
-	db 24, WING_ATTACK
-	db 28, DEFENSE_CURL
-	db 31, SCREECH
-	db 33, LIGHT_SCREEN
+	db 21, WING_ATTACK
+	db 25, MINIMIZE
+	db 29, DEFENSE_CURL
+	db 32, SCREECH
+	db 36, RAZOR_WIND
 	db 0
 
 SpearowEvosMoves:
@@ -338,20 +338,23 @@ GrimerEvosMoves:
 	db EV_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 14, LICK
+	db 19, HARDEN
+	db 24, POISONPOWDER
+	db 28, SMOG
+	db 33, SCREECH
+	db 37, MINIMIZE
+	db 41, SLUDGE
 	db 0
 
 GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 43, MIST
+	db 48, SLUDGE
+	db 53, DISABLE
+	db 58, NIGHT_SHADE
 	db 0
 
 NidoranFEvosMoves:
@@ -448,14 +451,17 @@ GyaradosEvosMoves:
 
 ShellderEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 39, CLOYSTER
 	db EV_ITEM, WATER_STONE, 1, CLOYSTER
 	db 0
 ; Learnset
-	db 18, SUPERSONIC
-	db 23, CLAMP
-	db 30, AURORA_BEAM
-	db 39, LEER
-	db 50, ICE_BEAM
+	db 11, SUPERSONIC
+	db 16, AURORA_BEAM
+	db 20, WITHDRAW
+	db 24, LEER
+	db 28, BARRIER
+	db 33, SPIKE_CANNON
+	db 38, CLAM	
 	db 0
 
 TentacoolEvosMoves:
@@ -476,8 +482,11 @@ GastlyEvosMoves:
 	db EV_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
-	db 27, HYPNOSIS
-	db 35, DREAM_EATER
+	db 11, SUPERSONIC
+	db 16, HAZE
+	db 20, POISONPOWDER
+	db 24, DREAM_EATER
+	db 28, HYPNOSIS
 	db 0
 
 ScytherEvosMoves:
@@ -572,11 +581,16 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, BIND
-	db 19, ROCK_THROW
-	db 25, RAGE
-	db 33, SLAM
-	db 43, HARDEN
+	db 19, WRAP
+	db 23, BARRAGE
+	db 27, RAGE
+	db 31, SLAM
+	db 35, HARDEN
+	db 39, DIG
+	db 43, EGG_BOMB
+	db 47, ROAR
+	db 51, DRAGON_RAGE
+	db 55, HYPER_BEAM
 	db 0
 
 FearowEvosMoves:
@@ -587,7 +601,7 @@ FearowEvosMoves:
 	db 32, DRILL_PECK
 	db 37, FURY_SWIPES
 	db 41, AGILITY
-	db 48, MEGA_KICK
+	db 48, DOUBLE_EDGE
 	db 0
 
 PidgeyEvosMoves:
@@ -738,19 +752,18 @@ DrowzeeEvosMoves:
 	db EV_LEVEL, 26, HYPNO
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 29, POISON_GAS
-	db 32, PSYCHIC_M
-	db 37, MEDITATE
+	db 12, CONFUSION
+	db 15, DISABLE
+	db 19, HEADBUTT
+	db 22, POISONPOWDER
+	db 25, PSYBEAM
+	db 28, MEDITATE
 	db 0
 
 GolemEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
 	db 40, EARTHQUAKE
 	db 45, EXPLOSION
 	db 50, DOUBLE_EDGE
@@ -839,11 +852,12 @@ SeelEvosMoves:
 	db EV_LEVEL, 34, DEWGONG
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
-	db 40, REST
-	db 45, TAKE_DOWN
-	db 50, ICE_BEAM
+	db 10, LICK
+	db 15, MIST
+	db 20, BUBBLEBEAM
+	db 25, TAKE_DOWN
+	db 30, AURORA_BEAM
+	db 35, REST
 	db 0
 
 DiglettEvosMoves:
@@ -1492,11 +1506,11 @@ DewgongEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
-	db 44, REST
-	db 50, TAKE_DOWN
-	db 56, ICE_BEAM
+	db 34, HORN_DRILL
+	db 36, REST
+	db 42, WATERFALL
+	db 48, DOUBLE_EDGE
+	db 54, ICE_BEAM
 	db 0
 
 MissingNo79EvosMoves:
@@ -1573,12 +1587,12 @@ HypnoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 33, POISON_GAS
-	db 37, PSYCHIC_M
-	db 43, MEDITATE
+	db 29, MEDITATE
+	db 33, SKULL_BASH
+	db 38, DREAM_EATER
+	db 43, PSYCHIC
+	db 48, SLEEP_POWDER
+	db 54, DOUBLE_EDGE
 	db 0
 
 GolbatEvosMoves:
@@ -1637,12 +1651,12 @@ MukEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 45, HARDEN
-	db 53, SCREECH
-	db 60, ACID_ARMOR
+	db 39, SLUDGE
+	db 43, ACID_ARMOR
+	db 48, SLUDGE
+	db 52, CONFUSE_RAY
+	db 56, TOXIC
+	db 60, POISON_GAS
 	db 0
 
 MissingNo8AEvosMoves:
@@ -1666,7 +1680,11 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 50, SPIKE_CANNON
+	db 24, PIN_MISSILE
+	db 33, SPIKE_CANNON
+	db 42, BARAGE
+	db 51, FURY_ATTACK
+	db 60, HYDRO_PUMP
 	db 0
 
 MissingNo8CEvosMoves:
@@ -1738,11 +1756,15 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 39, GENGAR
 	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 34, SMOG
+	db 38, CONFUSE_RAY
+	db 42, MIST
+	db 46, SLUDGE
 	db 0
 
 AbraEvosMoves:
@@ -2119,7 +2141,7 @@ OddishEvosMoves:
 ; Learnset
 	db 8, GROWL
 	db 11, ACID
-	db 14, POISON_POWDER
+	db 14, POISONPOWDER
 	db 17, STUN_SPORE
 	db 20, MEGA_DRAIN
 	db 23, SLEEP_POWDER
