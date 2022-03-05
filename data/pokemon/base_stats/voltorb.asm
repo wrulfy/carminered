@@ -1,16 +1,16 @@
 	db DEX_VOLTORB ; pokedex id
 
-	db  40,  30,  50, 100,  55
+	db  40,  45,  35, 105,  55
 	;   hp  atk  def  spd  spc
 
-	db ELECTRIC, ELECTRIC ; type
+	db ELECTRIC, NORMAL ; type
 	db 190 ; catch rate
 	db 103 ; base exp
 
 	INCBIN "gfx/pokemon/front/voltorb.pic", 0, 1 ; sprite dimensions
 	dw VoltorbPicFront, VoltorbPicBack
 
-	db TACKLE, SCREECH, NO_MOVE, NO_MOVE ; level 1 learnset
+	db QUICK_ATTACK, DEFENSE_CURL, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

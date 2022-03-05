@@ -263,11 +263,13 @@ VoltorbEvosMoves:
 	db EV_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
+	db 13, SONICBOOM
+	db 16, SWIFT
+	db 19, LIGHT_SCREEN
 	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 36, SWIFT
-	db 43, EXPLOSION
+	db 26, THUNDERBOLT
+	db 30, HEADBUTT
+	db 34, SCREECH
 	db 0
 
 NidokingEvosMoves:
@@ -1047,11 +1049,11 @@ KrabbyEvosMoves:
 	db EV_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 30, STOMP
-	db 35, CRABHAMMER
-	db 40, HARDEN
+	db 15, VICEGRIP
+	db 18, HARDEN
+	db 22, BUBBLEBEAM
+	db 25, STOMP
+	db 29, CONSTRICT
 	db 0
 
 MissingNo4FEvosMoves:
@@ -1561,9 +1563,10 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 43, MEGA_KICK
-	db 49, COUNTER
-	db 55, HI_JUMP_KICK
+	db 41, STRENGTH
+	db 46, MEGA_KICK
+	db 51, COUNTER
+	db 56, HI_JUMP_KICK
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1669,11 +1672,11 @@ KinglerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 34, STOMP
-	db 42, CRABHAMMER
-	db 49, HARDEN
+	db 30, CONSTRICT
+	db 35, DIG
+	db 41, CRABHAMMER
+	db 47, SWORDS_DANCE
+	db 53, GUILLOTINE
 	db 0
 
 CloysterEvosMoves:
@@ -1697,11 +1700,11 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 40, SWIFT
-	db 50, EXPLOSION
+	db 30, SKULL_BASH
+	db 35, SCREECH
+	db 41, EXPLOSION
+	db 47, THUNDER
+	db 53, HYPER_BEAM
 	db 0
 
 ClefableEvosMoves:
