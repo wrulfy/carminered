@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golem.pic", 0, 1 ; sprite dimensions
 	dw GolemPicFront, GolemPicBack
 
-	db DIG, SELFDESTRUCT, BARRIER, EGG_BOMB ; level 1 learnset
+	db DIG, SELFDESTRUCT, EGG_BOMB, BARRIER ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
