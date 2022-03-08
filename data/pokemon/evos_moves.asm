@@ -300,7 +300,7 @@ IvysaurEvosMoves:
 	db 20, ACID
 	db 24, RAZOR_LEAF
 	db 28, GROWTH
-	db 32, TAKE_DOWN
+	db 32, THRASH
 	db 36, SLUDGE
 	db 40, BIND
 	db 0
@@ -490,7 +490,7 @@ TentacoolEvosMoves:
 	db 18, SUPERSONIC
 	db 22, ACID
 	db 27, BARRIER
-	db 33, WATERFALL
+	db 33, BUBBLEBEAM
 	db 38, SCREECH
 	db 0
 
@@ -539,9 +539,9 @@ BlastoiseEvosMoves:
 	db 37, BARRAGE
 	db 42, CLAMP
 	db 47, BARRIER 
-	db 52, MEGA_KICK
-	db 57, HYDRO_PUMP
-	db 62, ROCK_SLIDE
+	db 52, ICE_BEAM
+	db 57, ROCK_SLIDE
+	db 62, HYDRO_PUMP
 	db 0
 
 PinsirEvosMoves:
@@ -1220,22 +1220,23 @@ HorseaEvosMoves:
 	db EV_LEVEL, 32, SEADRA
 	db 0
 ; Learnset
+	db 11, WATER_GUN
+	db 14, GUST
 	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 37, AGILITY
-	db 45, HYDRO_PUMP
+	db 24, BUBBLEBEAM
+	db 29, LEER
+	db 33, WHIRLWIND
 	db 0
 
 SeadraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 41, AGILITY
-	db 52, HYDRO_PUMP
+	db 34, WHIRLWIND
+	db 38, AURORA_BEAM
+	db 43, HYDRO_PUMP
+	db 48, AGILITY
+	db 52, DRAGON_RAGE
 	db 0
 
 MissingNo5EEvosMoves:
@@ -1473,10 +1474,11 @@ BeedrillEvosMoves:
 	db 12, FOCUS_ENERGY
 	db 14, RAGE
 	db 16, PIN_MISSILE
-	db 18, SMOG
-	db 20, SWORDS_DANCE
-	db 25, TWINEEDLE
-	db 30, AGILITY
+	db 18, SWORDS_DANCE
+	db 20, SMOG
+	db 23, AGILITY
+	db 26, FURY_ATTACK
+	db 30, TWINEEDLE
 	db 35, TOXIC
 	db 40, HORN_DRILL
 	db 0
@@ -1581,10 +1583,11 @@ ButterfreeEvosMoves:
 	db 16, STUN_SPORE
 	db 18, SLEEP_POWDER
 	db 20, LEECH_LIFE
-	db 25, SUPERSONIC
-	db 30, AMNESIA
-	db 35, CONSTRICT
-	db 40, PSYCHIC_M
+	db 23, SUPERSONIC
+	db 26, AMNESIA
+	db 30, CONSTRICT
+	db 35, PSYCHIC_M
+	db 40, SKY_ATTACK
 	db 0
 
 MachampEvosMoves:
@@ -1865,16 +1868,16 @@ VenusaurEvosMoves:
 	db 37, SLUDGE
 	db 42, BIND
 	db 47, SLEEP_POWDER
-	db 52, DOUBLE_EDGE
-	db 57, SOLARBEAM
-	db 62, TOXIC
+	db 52, EARTHQUAKE
+	db 57, TOXIC
+	db 62, SOLARBEAM
 	db 0
 
 TentacruelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, WATERFALL
+	db 34, BUBBLEBEAM
 	db 40, SCREECH
 	db 46, SLUDGE
 	db 52, POISON_GAS
@@ -1889,27 +1892,25 @@ MissingNo9CEvosMoves:
 
 GoldeenEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 33, SEAKING
+	db EV_LEVEL, 25, SEAKING
 	db 0
 ; Learnset
-	db 19, SUPERSONIC
-	db 24, HORN_ATTACK
-	db 30, FURY_ATTACK
-	db 37, WATERFALL
-	db 45, HORN_DRILL
-	db 54, AGILITY
+	db 11, SUPERSONIC
+	db 15, BUBBLEBEAM
+	db 19, HORN_ATTACK
+	db 23, PSYBEAM
+	db 27, AGILITY
 	db 0
 
 SeakingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SUPERSONIC
-	db 24, HORN_ATTACK
-	db 30, FURY_ATTACK
-	db 39, WATERFALL
-	db 48, HORN_DRILL
-	db 54, AGILITY
+	db 28, AGILITY
+	db 31, WATERFALL
+	db 35, FURY_ATTACK
+	db 41, HORN_DRILL
+	db 45, TWINEEDLE
 	db 0
 
 MissingNo9FEvosMoves:
@@ -1966,20 +1967,21 @@ RattataEvosMoves:
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
-	db 10, FOCUS_ENERGY
-	db 15, BITE
-	db 21, HYPER_FANG
-	db 27, SUPER_FANG
+	db 12, FOCUS_ENERGY
+	db 16, BITE
+	db 21, SHARPEN
+	db 25, SCREECH
 	db 0
 
 RaticateEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, HYPER_FANG
-	db 26, SCREECH
-	db 32, SUPER_FANG
-	db 39, SHARPEN
+	db 22, SHARPEN
+	db 27, SCREECH
+	db 31, HYPER_FANG
+	db 35, FURY_SWIPES
+	db 39, SUPER_FANG
 	db 0
 
 NidorinoEvosMoves:
@@ -2084,7 +2086,7 @@ CharmanderEvosMoves:
 	db 10, EMBER
 	db 13, LEER
 	db 16, STOMP
-	db 19, GUST
+	db 19, PECK
 	db 22, FIRE_PUNCH
 	db 0
 
@@ -2106,11 +2108,11 @@ CharmeleonEvosMoves:
 	db EV_LEVEL, 32, CHARIZARD
 	db 0
 ; Learnset
-	db 20, GUST
-	db 24, SMOKESCREEN
-	db 28, SLASH
-	db 31, FIRE_PUNCH
-	db 36, SHARPEN
+	db 20, PECK
+	db 24, FIRE_PUNCH
+	db 28, SHARPEN
+	db 32, SLASH
+	db 36, RAZOR_WIND
 	db 40, FIRE_SPIN
 	db 0
 
@@ -2121,7 +2123,7 @@ WartortleEvosMoves:
 ; Learnset
 	db 20, ROCK_THOW
 	db 24, WITHDRAW
-	db 28, ROAR
+	db 28, BIDE
 	db 32, SKULL_BASH
 	db 36, BARRAGE
 	db 40, CLAMP
@@ -2131,13 +2133,12 @@ CharizardEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, WING_ATTACK
-	db 37, SHARPEN
+	db 37, FLY
 	db 42, FIRE_SPIN
-	db 47, FURY_ATTACK
-	db 52, FLAMETHROWER
-	db 57, FIRE_BLAST
-	db 62, SKY_ATTACK
+	db 47, AGILITY
+	db 52, DRAGON_RAGE
+	db 57, SKY_ATTACK
+	db 62, FIRE_BLAST
 	db 0
 
 MissingNoB5EvosMoves:

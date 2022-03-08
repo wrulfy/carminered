@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charizard.pic", 0, 1 ; sprite dimensions
 	dw CharizardPicFront, CharizardPicBack
 
-	db GUST, SMOKESCREEN, SLASH, FIRE_PUNCH ; level 1 learnset
+	db PECK, FIRE_PUNCH, SHARPEN, SLASH ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

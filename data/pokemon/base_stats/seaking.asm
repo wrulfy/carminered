@@ -1,6 +1,6 @@
 	db DEX_SEAKING ; pokedex id
 
-	db  80,  92,  65,  68,  80
+	db  80, 102,  65,  68,  80
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/seaking.pic", 0, 1 ; sprite dimensions
 	dw SeakingPicFront, SeakingPicBack
 
-	db PECK, TAIL_WHIP, SUPERSONIC, NO_MOVE ; level 1 learnset
+	db SUPERSONIC, BUBBLEBEAM, HORN_ATTACK, PSYBEAM ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

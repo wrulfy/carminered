@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/blastoise.pic", 0, 1 ; sprite dimensions
 	dw BlastoisePicFront, BlastoisePicBack
 
-	db ROCK_THROW, WITHDRAW, ROAR, SKULL_BASH ; level 1 learnset
+	db ROCK_THROW, WITHDRAW, BIDE, SKULL_BASH ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

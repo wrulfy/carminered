@@ -1,6 +1,6 @@
 	db DEX_WARTORTLE ; pokedex id
 
-	db  59,  63,  80,  58,  65
+	db  59,  63,  80,  58,  70
 	;   hp  atk  def  spd  spc
 
 	db WATER, ROCK ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/wartortle.pic", 0, 1 ; sprite dimensions
 	dw WartortlePicFront, WartortlePicBack
 
-	db BUBBLE, DEFENSE_CURL, WATER_GUN, BITE ; level 1 learnset
+	db BUBBLE, WATER_GUN, DEFENSE_CURL, BITE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ivysaur.pic", 0, 1 ; sprite dimensions
 	dw IvysaurPicFront, IvysaurPicBack
 
-	db LEECH_SEED, VINE_WHIP, POISON_POWDER, HEADBUTT ; level 1 learnset
+	db POISONPOWDER, VINE_WHIP, LEECH_SEED, HEADBUTT ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
