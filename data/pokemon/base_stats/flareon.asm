@@ -14,10 +14,10 @@
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
-	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       \
-	     HYPER_BEAM,   PAY_DAY,      SMOKESCREEN,  DIG,          TELEPORT,     \
+	tmhm SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     GROWTH,       HYPER_BEAM,   PAY_DAY,      SMOKESCREEN,  DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER, \
-	     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
+	     TELEPORT,     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

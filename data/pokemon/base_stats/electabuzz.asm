@@ -1,6 +1,6 @@
 	db DEX_ELECTABUZZ ; pokedex id
 
-	db  65,  83,  57, 105,  85
+	db  65,  90,  50, 115,  80
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ELECTRIC ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/electabuzz.pic", 0, 1 ; sprite dimensions
 	dw ElectabuzzPicFront, ElectabuzzPicBack
 
-	db QUICK_ATTACK, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db QUICK_ATTACK, THUNDERSHOCK, LEER, SWIFT ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

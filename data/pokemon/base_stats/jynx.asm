@@ -1,6 +1,6 @@
 	db DEX_JYNX ; pokedex id
 
-	db  65,  50,  35,  95,  95
+	db  65,  55,  40, 100, 140
 	;   hp  atk  def  spd  spc
 
 	db ICE, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/jynx.pic", 0, 1 ; sprite dimensions
 	dw JynxPicFront, JynxPicBack
 
-	db POUND, LOVELY_KISS, NO_MOVE, NO_MOVE ; level 1 learnset
+	db DOUBLESLAP, CONFUSION, LICK, MIST ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

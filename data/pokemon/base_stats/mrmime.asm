@@ -1,6 +1,6 @@
 	db DEX_MR_MIME ; pokedex id
 
-	db  40,  45,  65,  90, 100
+	db  70,  45,  85,  90, 110
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/mr.mime.pic", 0, 1 ; sprite dimensions
 	dw MrMimePicFront, MrMimePicBack
 
-	db CONFUSION, BARRIER, NO_MOVE, NO_MOVE ; level 1 learnset
+	db MEDITATE, DOUBLESLAP, HARDEN, CONFUSION ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
