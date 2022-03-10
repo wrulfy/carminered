@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/graveler.pic", 0, 1 ; sprite dimensions
 	dw GravelerPicFront, GravelerPicBack
 
-	db ROCK_THROW, MEGA_PUNCH, DIG, SELFDESTRUCT ; level 1 learnset
+	db ROCK_THROW, MEGA_PUNCH, BARRAGE, DIG ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

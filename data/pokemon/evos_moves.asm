@@ -613,16 +613,15 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, WRAP
+	db 19, RAGE
 	db 23, BARRAGE
-	db 27, RAGE
+	db 27, WRAP
 	db 31, SLAM
 	db 35, HARDEN
-	db 39, DIG
-	db 43, EGG_BOMB
-	db 47, ROAR
-	db 51, DRAGON_RAGE
-	db 55, HYPER_BEAM
+	db 39, EGG_BOMB
+	db 43, DIG
+	db 47, DRAGON_RAGE
+	db 51, ROAR
 	db 0
 
 FearowEvosMoves:
@@ -681,7 +680,7 @@ GravelerEvosMoves:
 	db EV_LEVEL, 37, GOLEM
 	db 0
 ; Learnset
-	db 27, BARRAGE
+	db 27, SELFDESTRUCT
 	db 31, BARRIER
 	db 35, EGG_BOMB
 	db 39, EARTHQUAKE
@@ -918,9 +917,9 @@ DiglettEvosMoves:
 ; Learnset
 	db 10, GROWL
 	db 15, DIG
-	db 19, SHARPEN
-	db 24, SLASH
-	db 29, FURY_SWIPES
+	db 19, HEADBUTT
+	db 24, SHARPEN
+	db 28, FURY_SWIPES
 	db 0
 
 TaurosEvosMoves:
@@ -1223,20 +1222,21 @@ KabutoEvosMoves:
 	db EV_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 22, VICE_GRIP
+	db 31, MEGA_DRAIN
+	db 35, DIG
+	db 39, BARRAGE
+	db 42, SWORDS_DANCE
 	db 0
 
 KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 46, LEER
-	db 53, HYDRO_PUMP
+	db 40, SLASH
+	db 44, SWORDS_DANCE
+	db 50, RAZOR_LEAF
+	db 56, ROCK_SLIDE
 	db 0
 
 HorseaEvosMoves:
@@ -1304,20 +1304,21 @@ OmanyteEvosMoves:
 	db EV_LEVEL, 40, OMASTAR
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 46, SPIKE_CANNON
-	db 53, HYDRO_PUMP
+	db 22, BITE
+	db 31, WITHDRAW
+	db 35, DIG
+	db 39, BARRAGE
+	db 42, BARRIER
 	db 0
 
 OmastarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 44, SPIKE_CANNON
-	db 49, HYDRO_PUMP
+	db 40, SPIKE_CANNON
+	db 44, BARRIER
+	db 50, EGG_BOMB
+	db 56, HYDRO_PUMP
 	db 0
 
 JigglypuffEvosMoves:
@@ -1365,42 +1366,42 @@ FlareonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, EMBER
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, LEER
-	db 44, FIRE_SPIN
-	db 48, RAGE
-	db 54, FLAMETHROWER
+	db 25, SMOKESCREEN
+	db 29, SWIFT
+	db 33, SMOG
+	db 37, GROWTH
+	db 41, FLAMETHROWER
+	db 45, JUMP_KICK
+	db 49, SWORDS_DANCE
+	db 53, FLAMETHROWER
 	db 0
 
 JolteonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, THUNDERSHOCK
-	db 37, TAIL_WHIP
-	db 40, THUNDER_WAVE
-	db 42, DOUBLE_KICK
-	db 44, AGILITY
-	db 48, PIN_MISSILE
-	db 54, THUNDER
+	db 25, SONICBOOM
+	db 29, SWIFT
+	db 33, DOUBLE_KICK
+	db 37, GROWTH
+	db 41, THUNDERBOLT
+	db 45, PIN_MISSILE
+	db 49, AGILITY
+	db 53, THUNDER
 	db 0
 
 VaporeonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 27, QUICK_ATTACK
-	db 31, WATER_GUN
-	db 37, TAIL_WHIP
-	db 40, BITE
-	db 42, ACID_ARMOR
-	db 44, HAZE
-	db 48, MIST
-	db 54, HYDRO_PUMP
+	db 25, QUICK_ATTACK
+	db 29, SWIFT
+	db 33, AURORA_BEAM
+	db 37, GROWTH
+	db 41, SURF
+	db 45, HAZE
+	db 49, ACID_ARMOR
+	db 53, HYDRO_PUMP
 	db 0
 
 MachopEvosMoves:
@@ -1541,9 +1542,10 @@ DugtrioEvosMoves:
 	db 0
 ; Learnset
 	db 26, TRI_ATTACK
-	db 32, FURY_SWIPES
-	db 38, BARRAGE
-	db 44, EARTHQUAKE
+	db 30, FURY_SWIPES
+	db 35, SLASH
+	db 40, EARTHQUAKE
+	db 44, BARRAGE
 	db 50, FISSURE
 	db 0
 
@@ -1680,10 +1682,13 @@ SnorlaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 35, BODY_SLAM
-	db 41, HARDEN
-	db 48, DOUBLE_EDGE
-	db 56, HYPER_BEAM
+	db 31, METRONOME
+	db 36, BODY_SLAM
+	db 40, SING
+	db 45, DOUBLE_EDGE
+	db 49, HARDEN
+	db 54, HYPER_BEAM
+	db 61, FISSURE
 	db 0
 
 MagikarpEvosMoves:
@@ -2048,29 +2053,35 @@ GeodudeEvosMoves:
 	db 13, ROCK_THROW
 	db 17, DIG
 	db 20, MEGA_PUNCH
-	db 23, SELFDESTRUCT
-	db 26, BARRAGE
-
+	db 23, BARRAGE
+	db 26, SELFESTRUCT
 	db 0
 
 PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, PSYBEAM
-	db 28, RECOVER
-	db 35, AGILITY
-	db 42, TRI_ATTACK
+	db 25, PSYBEAM
+	db 27, AGILITY
+	db 30, SONICBOOM
+	db 33, TRI_ATTACK
+	db 37, PSYCHIC
+	db 41, RECOVER
+	db 45, THUNDERBOLT
 	db 0
 
 AerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, SUPERSONIC
-	db 38, BITE
-	db 45, TAKE_DOWN
-	db 54, HYPER_BEAM
+	db 31, SUPERSONIC
+	db 35, EGG_BOMB
+	db 39, TAKE_DOWN
+	db 43, FLY
+	db 47, ROAR
+	db 51, ROCK_SLIDE
+	db 55, HYPER_BEAM
+	db 60, SKY_ATTACK
 	db 0
 
 MissingNoACEvosMoves:
