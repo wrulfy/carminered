@@ -35,7 +35,7 @@ Moves:
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 25
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        85, 10
-	move JUMP_KICK,    JUMP_KICK_EFFECT,            85, FIGHTING,      95, 20
+	move JUMP_KICK,    JUMP_KICK_EFFECT,            90, FIGHTING,      95, 15
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         65, FIGHTING,     100, 20
 	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,       30, GROUND,       100, 15
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,       100, 15
@@ -145,7 +145,7 @@ Moves:
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 10
 	move KINESIS,      ACCURACY_DOWN1_EFFECT,       50, PSYCHIC_TYPE,  90, 20
 	move SOFTBOILED,   HEAL_EFFECT,                  0, NORMAL,       100, 20
-	move HI_JUMP_KICK, JUMP_KICK_EFFECT,           120, FIGHTING,      90, 10
+	move HI_JUMP_KICK, RECOIL_EFFECT,              120, FIGHTING,      90, 10
 	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,       100, 30
 	move DREAM_EATER,  DRAIN_HP_EFFECT,             70, GHOST,        100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        90, 10
@@ -155,7 +155,7 @@ Moves:
 	move SKY_ATTACK,   FLINCH_SIDE_EFFECT1,        120, FLYING,        85,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 40
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 40
-	move DIZZY_PUNCH,  NO_ADDITIONAL_EFFECT,        95, FIGHTING,     100, 10
+	move DIZZY_PUNCH,  NO_ADDITIONAL_EFFECT,       100, FIGHTING,     100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 10
 	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, NORMAL,        70, 20
 	move PSYWAVE,      CONFUSION_SIDE_EFFECT,      120, PSYCHIC_TYPE,  85,  5

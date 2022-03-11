@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/golbat.pic", 0, 1 ; sprite dimensions
 	dw GolbatPicFront, GolbatPicBack
 
-	db LICK, WING_ATTACK, LEECH_LIFE, SUPERSONIC ; level 1 learnset
+	db LICK, BITE, WING_ATTACK, SUPERSONIC ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/moltres.pic", 0, 1 ; sprite dimensions
 	dw MoltresPicFront, MoltresPicBack
 
-	db PECK, FIRE_SPIN, NO_MOVE, NO_MOVE ; level 1 learnset
+	db PECK, EMBER, AGILITY, FURY_ATTACK ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     SOLARBEAM,    SMOKESCREEN,  TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY           
+	     REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        SOFTBOILED,   \
+	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding

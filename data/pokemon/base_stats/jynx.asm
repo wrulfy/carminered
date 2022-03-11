@@ -11,7 +11,7 @@
 	dw JynxPicFront, JynxPicBack
 
 	db DOUBLESLAP, CONFUSION, LICK, MIST ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
