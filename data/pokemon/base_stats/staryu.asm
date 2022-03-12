@@ -5,7 +5,7 @@
 
 	db ELECTRIC, ICE ; type
 	db 225 ; catch rate
-	db 106 ; base exp
+	db 94 ; base exp
 
 	INCBIN "gfx/pokemon/front/staryu.pic", 0, 1 ; sprite dimensions
 	dw StaryuPicFront, StaryuPicBack

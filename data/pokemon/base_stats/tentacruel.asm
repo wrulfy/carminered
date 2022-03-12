@@ -5,13 +5,13 @@
 
 	db WATER, POISON ; type
 	db 60 ; catch rate
-	db 205 ; base exp
+	db 198 ; base exp
 
 	INCBIN "gfx/pokemon/front/tentacruel.pic", 0, 1 ; sprite dimensions
 	dw TentacruelPicFront, TentacruelPicBack
 
 	db WATER_GUN, SUPERSONIC, ACID, BARRIER ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

@@ -226,7 +226,7 @@ FreezeBurnParalyzeEffect:
 	ld a, b ; what type of effect is this?
 	cp BURN_SIDE_EFFECT1
 	jr z, .burn1
-	cp FREEZE_SIDE_EFFECT
+	cp FREEZE_SIDE_EFFECT1
 	jr z, .freeze1
 ; .paralyze1
 	ld a, 1 << PAR
@@ -279,7 +279,7 @@ FreezeBurnParalyzeEffect:
 	ld a, b
 	cp BURN_SIDE_EFFECT1
 	jr z, .burn2
-	cp FREEZE_SIDE_EFFECT
+	cp FREEZE_SIDE_EFFECT1
 	jr z, .freeze2
 ; .paralyze2
 	ld a, 1 << PAR

@@ -5,7 +5,7 @@
 
 	db POISON, POISON ; type
 	db 190 ; catch rate
-	db 114 ; base exp
+	db 99 ; base exp
 
 	INCBIN "gfx/pokemon/front/koffing.pic", 0, 1 ; sprite dimensions
 	dw KoffingPicFront, KoffingPicBack

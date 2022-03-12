@@ -5,13 +5,13 @@
 
 	db ROCK, DRAGON ; type
 	db 45 ; catch rate
-	db 108 ; base exp
+	db 184 ; base exp
 
 	INCBIN "gfx/pokemon/front/onix.pic", 0, 1 ; sprite dimensions
 	dw OnixPicFront, OnixPicBack
 
 	db TACKLE, ROCK_THROW, TAIL_WHIP, GUST ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm WHIRLWIND,    POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

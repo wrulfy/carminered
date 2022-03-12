@@ -5,7 +5,7 @@
 
 	db ELECTRIC, NORMALL ; type
 	db 60 ; catch rate
-	db 150 ; base exp
+	db 166 ; base exp
 
 	INCBIN "gfx/pokemon/front/electrode.pic", 0, 1 ; sprite dimensions
 	dw ElectrodePicFront, ElectrodePicBack

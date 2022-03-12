@@ -5,7 +5,7 @@
 
 	db ELECTRIC, ELECTRIC ; type
 	db 75 ; catch rate
-	db 122 ; base exp
+	db 161 ; base exp
 
 	INCBIN "gfx/pokemon/front/raichu.pic", 0, 1 ; sprite dimensions
 	dw RaichuPicFront, RaichuPicBack

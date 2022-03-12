@@ -5,12 +5,12 @@
 
 	db NORMAL, NORMAL ; type
 	db 170 ; catch rate
-	db 76 ; base exp
+	db 68 ; base exp
 
 	INCBIN "gfx/pokemon/front/jigglypuff.pic", 0, 1 ; sprite dimensions
 	dw JigglypuffPicFront, JigglypuffPicBack
 
-	db SING, POUND, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWL, POUND, SING, NO_MOVE ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

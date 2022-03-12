@@ -5,7 +5,7 @@
 
 	db BUG, GRASS ; type
 	db 25 ; catch rate
-	db 189 ; base exp
+	db 206 ; base exp
 
 	INCBIN "gfx/pokemon/front/parasect.pic", 0, 1 ; sprite dimensions
 	dw ParasectPicFront, ParasectPicBack

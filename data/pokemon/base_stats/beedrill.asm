@@ -1,11 +1,11 @@
 	db DEX_BEEDRILL ; pokedex id
 
-	db  65,  90,  40,  90,  65
+	db  65,  90,  50,  90,  65
 	;   hp  atk  def  spd  spc
 
 	db BUG, POISON ; type
 	db 45 ; catch rate
-	db 159 ; base exp
+	db 141 ; base exp
 
 	INCBIN "gfx/pokemon/front/beedrill.pic", 0, 1 ; sprite dimensions
 	dw BeedrillPicFront, BeedrillPicBack

@@ -5,7 +5,7 @@
 
 	db NORMAL, FLYING ; type
 	db 90 ; catch rate
-	db 162 ; base exp
+	db 151 ; base exp
 
 	INCBIN "gfx/pokemon/front/fearow.pic", 0, 1 ; sprite dimensions
 	dw FearowPicFront, FearowPicBack

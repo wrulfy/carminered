@@ -5,7 +5,7 @@
 
 	db GHOST, POISON ; type
 	db 45 ; catch rate
-	db 190 ; base exp
+	db 196 ; base exp
 
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
 	dw GengarPicFront, GengarPicBack

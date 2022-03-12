@@ -5,7 +5,7 @@
 
 	db FIGHTING, FIGHTING ; type
 	db 190 ; catch rate
-	db 74 ; base exp
+	db 72 ; base exp
 
 	INCBIN "gfx/pokemon/front/mankey.pic", 0, 1 ; sprite dimensions
 	dw MankeyPicFront, MankeyPicBack

@@ -1,11 +1,11 @@
 	db DEX_GOLDUCK ; pokedex id
 
-	db  80,  85,  80,  85,  95
+	db  80,  85,  80,  85,  90
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
 	db 75 ; catch rate
-	db 174 ; base exp
+	db 172 ; base exp
 
 	INCBIN "gfx/pokemon/front/golduck.pic", 0, 1 ; sprite dimensions
 	dw GolduckPicFront, GolduckPicBack

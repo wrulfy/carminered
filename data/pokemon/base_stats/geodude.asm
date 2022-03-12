@@ -5,7 +5,7 @@
 
 	db ROCK, GROUND ; type
 	db 255 ; catch rate
-	db 86 ; base exp
+	db 80 ; base exp
 
 	INCBIN "gfx/pokemon/front/geodude.pic", 0, 1 ; sprite dimensions
 	dw GeodudePicFront, GeodudePicBack

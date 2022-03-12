@@ -1,17 +1,17 @@
 	db DEX_LICKITUNG ; pokedex id
 
-	db 100,  65,  85,  40,  85
+	db 110,  65,  85,  40,  85
 	;   hp  atk  def  spd  spc
 
 	db GHOST, NORMAL ; type
 	db 45 ; catch rate
-	db 127 ; base exp
+	db 147 ; base exp
 
 	INCBIN "gfx/pokemon/front/lickitung.pic", 0, 1 ; sprite dimensions
 	dw LickitungPicFront, LickitungPicBack
 
-	db WRAP, LICK, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db WRAP, LICK, DEFENSE_CURL, NO_MOVE ; level 1 learnset
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

@@ -5,13 +5,13 @@
 
 	db GHOST, FLYING ; type
 	db 25 ; catch rate
-	db 129 ; base exp
+	db 173 ; base exp
 
 	INCBIN "gfx/pokemon/front/clefable.pic", 0, 1 ; sprite dimensions
 	dw ClefablePicFront, ClefablePicBack
 
 	db LICK, DOUBLE_SLAP, SING, METRONOME ; level 1 learnset
-	db GROWTH_FAST ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   RAZOR_WIND,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

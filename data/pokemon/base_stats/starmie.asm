@@ -5,7 +5,7 @@
 
 	db ELECTRIC, ICE ; type
 	db 60 ; catch rate
-	db 207 ; base exp
+	db 199 ; base exp
 
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack

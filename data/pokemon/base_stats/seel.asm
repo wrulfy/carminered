@@ -1,11 +1,11 @@
 	db DEX_SEEL ; pokedex id
 
-	db  70,  50,  60,  45,  75
+	db  65,  50,  55,  45,  75
 	;   hp  atk  def  spd  spc
 
 	db ICE, NORMAL ; type
 	db 190 ; catch rate
-	db 100 ; base exp
+	db 97 ; base exp
 
 	INCBIN "gfx/pokemon/front/seel.pic", 0, 1 ; sprite dimensions
 	dw SeelPicFront, SeelPicBack

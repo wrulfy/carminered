@@ -5,13 +5,13 @@
 
 	db FIRE, FIRE ; type
 	db 45 ; catch rate
-	db 167 ; base exp
+	db 160 ; base exp
 
 	INCBIN "gfx/pokemon/front/magmar.pic", 0, 1 ; sprite dimensions
 	dw MagmarPicFront, MagmarPicBack
 
 	db TACKLE, EMBER, LEER, POISONPOWDER ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

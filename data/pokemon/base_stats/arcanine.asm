@@ -5,7 +5,7 @@
 
 	db FIRE, DRAGON ; type
 	db 75 ; catch rate
-	db 213 ; base exp
+	db 212 ; base exp
 
 	INCBIN "gfx/pokemon/front/arcanine.pic", 0, 1 ; sprite dimensions
 	dw ArcaninePicFront, ArcaninePicBack

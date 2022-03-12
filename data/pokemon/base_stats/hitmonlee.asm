@@ -5,7 +5,7 @@
 
 	db FIGHTING, FIGHTING ; type
 	db 45 ; catch rate
-	db 139 ; base exp
+	db 162 ; base exp
 
 	INCBIN "gfx/pokemon/front/hitmonlee.pic", 0, 1 ; sprite dimensions
 	dw HitmonleePicFront, HitmonleePicBack

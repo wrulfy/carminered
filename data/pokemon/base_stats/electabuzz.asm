@@ -5,13 +5,13 @@
 
 	db ELECTRIC, ELECTRIC ; type
 	db 45 ; catch rate
-	db 156 ; base exp
+	db 159 ; base exp
 
 	INCBIN "gfx/pokemon/front/electabuzz.pic", 0, 1 ; sprite dimensions
 	dw ElectabuzzPicFront, ElectabuzzPicBack
 
 	db QUICK_ATTACK, THUNDERSHOCK, LEER, SWIFT ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

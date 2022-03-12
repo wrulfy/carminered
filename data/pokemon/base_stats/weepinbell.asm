@@ -5,7 +5,7 @@
 
 	db GRASS, POISON ; type
 	db 120 ; catch rate
-	db 151 ; base exp
+	db 124 ; base exp
 
 	INCBIN "gfx/pokemon/front/weepinbell.pic", 0, 1 ; sprite dimensions
 	dw WeepinbellPicFront, WeepinbellPicBack

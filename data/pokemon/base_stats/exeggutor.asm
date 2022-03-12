@@ -5,7 +5,7 @@
 
 	db GRASS, PSYCHIC_TYPE ; type
 	db 45 ; catch rate
-	db 212 ; base exp
+	db 211 ; base exp
 
 	INCBIN "gfx/pokemon/front/exeggutor.pic", 0, 1 ; sprite dimensions
 	dw ExeggutorPicFront, ExeggutorPicBack

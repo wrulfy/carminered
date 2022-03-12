@@ -5,13 +5,13 @@
 
 	db BUG, FLYING ; type
 	db 45 ; catch rate
-	db 187 ; base exp
+	db 185 ; base exp
 
 	INCBIN "gfx/pokemon/front/scyther.pic", 0, 1 ; sprite dimensions
 	dw ScytherPicFront, ScytherPicBack
 
 	db QUICK_ATTACK, LEER, LEECH_LIFE, NO_MOVE ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

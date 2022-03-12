@@ -5,7 +5,7 @@
 
 	db POISON, GROUND ; type
 	db 45 ; catch rate
-	db 194 ; base exp
+	db 207 ; base exp
 
 	INCBIN "gfx/pokemon/front/nidoqueen.pic", 0, 1 ; sprite dimensions
 	dw NidoqueenPicFront, NidoqueenPicBack

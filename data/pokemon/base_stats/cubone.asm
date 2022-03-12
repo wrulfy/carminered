@@ -1,17 +1,17 @@
 	db DEX_CUBONE ; pokedex id
 
-	db  50,  50,  95,  35,  50
+	db  40,  50,  90,  25,  50
 	;   hp  atk  def  spd  spc
 
 	db GROUND, ICE ; type
 	db 190 ; catch rate
-	db 87 ; base exp
+	db 69 ; base exp
 
 	INCBIN "gfx/pokemon/front/cubone.pic", 0, 1 ; sprite dimensions
 	dw CubonePicFront, CubonePicBack
 
-	db GROWL, SAND_ATTACK, FOCUS_ENERGY, NO_MOVE ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWL, RAGE, SAND_ATTACK, NO_MOVE ; level 1 learnset
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

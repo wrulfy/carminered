@@ -5,13 +5,13 @@
 
 	db WATER, POISON ; type
 	db 190 ; catch rate
-	db 105 ; base exp
+	db 93 ; base exp
 
 	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1 ; sprite dimensions
 	dw TentacoolPicFront, TentacoolPicBack
 
 	db POISON_STING, WRAP, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \

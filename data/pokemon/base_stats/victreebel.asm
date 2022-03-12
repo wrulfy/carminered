@@ -5,7 +5,7 @@
 
 	db GRASS, POISON ; type
 	db 45 ; catch rate
-	db 191 ; base exp
+	db 178 ; base exp
 
 	INCBIN "gfx/pokemon/front/victreebel.pic", 0, 1 ; sprite dimensions
 	dw VictreebelPicFront, VictreebelPicBack

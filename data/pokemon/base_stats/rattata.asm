@@ -5,13 +5,13 @@
 
 	db NORMAL, NORMAL ; type
 	db 255 ; catch rate
-	db 57 ; base exp
+	db 56 ; base exp
 
 	INCBIN "gfx/pokemon/front/rattata.pic", 0, 1 ; sprite dimensions
 	dw RattataPicFront, RattataPicBack
 
 	db TACKLE, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \

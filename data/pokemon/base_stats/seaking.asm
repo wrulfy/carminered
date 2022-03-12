@@ -5,13 +5,13 @@
 
 	db WATER, WATER ; type
 	db 60 ; catch rate
-	db 170 ; base exp
+	db 150 ; base exp
 
 	INCBIN "gfx/pokemon/front/seaking.pic", 0, 1 ; sprite dimensions
 	dw SeakingPicFront, SeakingPicBack
 
 	db SUPERSONIC, BUBBLEBEAM, HORN_ATTACK, PSYBEAM ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \

@@ -5,7 +5,7 @@
 
 	db GROUND, GROUND ; type
 	db 255 ; catch rate
-	db 93 ; base exp
+	db 87 ; base exp
 
 	INCBIN "gfx/pokemon/front/sandshrew.pic", 0, 1 ; sprite dimensions
 	dw SandshrewPicFront, SandshrewPicBack

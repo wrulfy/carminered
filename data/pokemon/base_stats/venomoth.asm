@@ -5,7 +5,7 @@
 
 	db BUG, PSYCHIC ; type
 	db 75 ; catch rate
-	db 138 ; base exp
+	db 152 ; base exp
 
 	INCBIN "gfx/pokemon/front/venomoth.pic", 0, 1 ; sprite dimensions
 	dw VenomothPicFront, VenomothPicBack

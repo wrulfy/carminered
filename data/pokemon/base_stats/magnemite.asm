@@ -5,7 +5,7 @@
 
 	db ELECTRIC, ROCK ; type
 	db 190 ; catch rate
-	db 89 ; base exp
+	db 91 ; base exp
 
 	INCBIN "gfx/pokemon/front/magnemite.pic", 0, 1 ; sprite dimensions
 	dw MagnemitePicFront, MagnemitePicBack

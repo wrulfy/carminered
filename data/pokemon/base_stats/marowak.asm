@@ -5,13 +5,13 @@
 
 	db GROUND, ICE ; type
 	db 75 ; catch rate
-	db 124 ; base exp
+	db 146 ; base exp
 
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions
 	dw MarowakPicFront, MarowakPicBack
 
-	db FOCUS_ENERGY, BONE_CLUB, TAIL_WHIP, AURORA_BEAM ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db TAIL_WHIP, BONE_CLUB, FOCUS_ENERGY, AURORA_BEAM ; level 1 learnset
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

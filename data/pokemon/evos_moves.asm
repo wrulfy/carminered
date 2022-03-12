@@ -321,7 +321,6 @@ LickitungEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 8, DEFENSE_CURL
 	db 14, SUPERSONIC
 	db 20, STOMP
 	db 26, SCREECH
@@ -399,13 +398,14 @@ CuboneEvosMoves:
 	db EV_ITEM, MOON_STONE, 1, MAROWAK
 	db 0
 ; Learnset
-	db 10, BONE_CLUB
-	db 14, RAGE
-	db 18, AURORA_BEAM
-	db 23, TAIL_WHIP
-	db 28, BONEMERANG
-	db 32, HEADBUTT
-	db 35, ICE_PUNCH
+	db 9, TAIL_WHIP
+	db 13, BONE_CLUB 
+	db 17, AURORA_BEAM 
+	db 21, FOCUS_ENERGY
+	db 24, HEADBUTT
+	db 27, BONEMERANG
+	db 30, ICE_PUNCH
+	db 33, THRASH
 	db 0
 
 RhyhornEvosMoves:
@@ -550,7 +550,7 @@ BlastoiseEvosMoves:
 	db 37, BARRAGE
 	db 42, CLAMP
 	db 47, BARRIER 
-	db 52, ICE_BEAM
+	db 52, JUMP_KICK
 	db 57, ROCK_SLIDE
 	db 62, HYDRO_PUMP
 	db 0
@@ -894,7 +894,7 @@ MankeyEvosMoves:
 	db 12, LOW_KICK
 	db 16, FOCUS_ENERGY
 	db 20, SEISMIC_TOSS
-	db 25, MEDITATE
+	db 25, SHARPEN
 	db 30, KARATE_CHOP
 	db 0
 
@@ -1067,7 +1067,7 @@ ArticunoEvosMoves:
 	db 0
 ; Learnset
 	db 51, RAZOR_WIND
-	db 55, PSYWAVE
+	db 55, REFLECT
 	db 60, SOFTBOILED
 	db 66, BLIZZARD
 	db 0
@@ -1077,7 +1077,7 @@ ZapdosEvosMoves:
 	db 0
 ; Learnset
 	db 51, DRILL_PECK
-	db 55, HYDRO_PUMP
+	db 55, LIGHTSCREEN
 	db 60, SOFTBOILED
 	db 66, THUNDER
 	db 0
@@ -1539,9 +1539,10 @@ PrimeapeEvosMoves:
 ; Learnset
 	db 28, RAGE
 	db 33, KARATE_CHOP
-	db 38, ROAR
-	db 42, THRASH
-	db 51, DIZZY_PUNCH
+	db 37, FURY_SWIPES
+	db 41, ROAR
+	db 45, THRASH
+	db 52, DIZZY_PUNCH
 	db 0
 
 DugtrioEvosMoves:
@@ -1814,11 +1815,11 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 22, HEADBUTT
-	db 29, BONEMERANG
-	db 36, ICE_PUNCH
-	db 43, TRASH
-	db 50, ICE_BEAM
+	db 16, HEADBUTT
+	db 24, BONEMERANG
+	db 32, ICE_PUNCH
+	db 40, TRASH
+	db 48, ICE_BEAM
 	db 0
 
 MissingNo92EvosMoves:
@@ -2027,7 +2028,7 @@ RaticateEvosMoves:
 	db 27, SCREECH
 	db 31, HYPER_FANG
 	db 35, FURY_SWIPES
-	db 39, SUPER_FANG
+	db 42, SUPER_FANG
 	db 0
 
 NidorinoEvosMoves:

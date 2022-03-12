@@ -5,19 +5,20 @@
 
 	db FIRE, FIRE ; type
 	db 45 ; catch rate
-	db 198 ; base exp
+	db 189 ; base exp
 
 	INCBIN "gfx/pokemon/front/flareon.pic", 0, 1 ; sprite dimensions
 	dw FlareonPicFront, FlareonPicBack
 
 	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     GROWTH,       HYPER_BEAM,   PAY_DAY,      SMOKESCREEN,  DIG,          \
 	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER, \
-	     TELEPORT,     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
+	     TELEPORT,     SWIFT,        REST,         CONFUSE_RAY,  SUBSTITUTE,   \
+	     STRENGTH      
 	; end
 
 	db 0 ; padding

@@ -5,12 +5,12 @@
 
 	db FIGHTING, FIGHTING ; type
 	db 75 ; catch rate
-	db 149 ; base exp
+	db 154 ; base exp
 
 	INCBIN "gfx/pokemon/front/primeape.pic", 0, 1 ; sprite dimensions
 	dw PrimeapePicFront, PrimeapePicBack
 
-	db FOCUS_ENERGY, LOW_KICK, SEISMIC_TOSS, MEDITATE ; level 1 learnset
+	db FOCUS_ENERGY, LOW_KICK, SEISMIC_TOSS, SHARPEN ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

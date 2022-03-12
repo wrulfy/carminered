@@ -5,7 +5,7 @@
 
 	db PSYCHIC_TYPE, NORMAL ; type
 	db 75 ; catch rate
-	db 165 ; base exp
+	db 175 ; base exp
 
 	INCBIN "gfx/pokemon/front/hypno.pic", 0, 1 ; sprite dimensions
 	dw HypnoPicFront, HypnoPicBack

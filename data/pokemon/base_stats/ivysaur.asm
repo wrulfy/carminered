@@ -5,7 +5,7 @@
 
 	db GRASS, POISON ; type
 	db 45 ; catch rate
-	db 141 ; base exp
+	db 120 ; base exp
 
 	INCBIN "gfx/pokemon/front/ivysaur.pic", 0, 1 ; sprite dimensions
 	dw IvysaurPicFront, IvysaurPicBack

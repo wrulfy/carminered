@@ -5,7 +5,7 @@
 
 	db WATER, DRAGON ; type
 	db 75 ; catch rate
-	db 155 ; base exp
+	db 169 ; base exp
 
 	INCBIN "gfx/pokemon/front/seadra.pic", 0, 1 ; sprite dimensions
 	dw SeadraPicFront, SeadraPicBack

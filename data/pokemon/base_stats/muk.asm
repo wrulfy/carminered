@@ -5,7 +5,7 @@
 
 	db POISON, GHOST ; type
 	db 75 ; catch rate
-	db 157 ; base exp
+	db 194 ; base exp
 
 	INCBIN "gfx/pokemon/front/muk.pic", 0, 1 ; sprite dimensions
 	dw MukPicFront, MukPicBack
