@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/bellsprout.pic", 0, 1 ; sprite dimensions
 	dw BellsproutPicFront, BellsproutPicBack
 
-	db VINE_WHIP, NO MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db VINE_WHIP, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack
 
-	db LIGHTSCREEN, AURORA_BEAM, MINIMIZE, SONIC_BOOM ; level 1 learnset
+	db LIGHT_SCREEN, AURORA_BEAM, MINIMIZE, SONICBOOM ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

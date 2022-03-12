@@ -11,7 +11,7 @@ TypeNames:
 	dw .Bug
 	dw .Dragon
 
-REPT FIRE - Dragon - 1
+REPT FIRE - DRAGON - 1
 	dw .Normal
 ENDR
 

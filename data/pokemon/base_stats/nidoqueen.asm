@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/nidoqueen.pic", 0, 1 ; sprite dimensions
 	dw NidoqueenPicFront, NidoqueenPicBack
 
-	db POISON_STING, BITE, TAIL_WHIP DOUBLE_KICK ; level 1 learnset
+	db POISON_STING, BITE, TAIL_WHIP, DOUBLE_KICK ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
