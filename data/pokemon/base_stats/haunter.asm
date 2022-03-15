@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/haunter.pic", 0, 1 ; sprite dimensions
 	dw HaunterPicFront, HaunterPicBack
 
-	db POISONPOWDER, HAZE, DREAM_EATER, SUPERSONIC ; level 1 learnset
+	db SUPERSONIC, HAZE, DREAM_EATER, HYPNOSIS ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

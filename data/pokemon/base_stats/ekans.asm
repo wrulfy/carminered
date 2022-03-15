@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/ekans.pic", 0, 1 ; sprite dimensions
 	dw EkansPicFront, EkansPicBack
 
-	db TAIL_WHIP, WRAP, NO_MOVE, NO_MOVE ; level 1 learnset
+	db POISON_STING, TAIL_WHIP, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

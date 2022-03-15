@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
 	dw GengarPicFront, GengarPicBack
 
-	db SUPERSONIC, SMOG, HYPNOSIS, CONFUSE_RAY ; level 1 learnset
+	db SMOG, HYPNOSIS, CONFUSE_RAY, MIST ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
