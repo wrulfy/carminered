@@ -74,7 +74,7 @@ Moves:
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
 	move PECK,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 30
-	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        80, FLYING,       100, 20
+	move DRILL_PECK,   NO_ADDITIONAL_EFFECT,        90, FLYING,       100, 15
 	move SUBMISSION,   RECOIL_EFFECT,               80, FIGHTING,     100, 20
 	move LOW_KICK,     FLINCH_SIDE_EFFECT1,         40, FIGHTING,     100, 30
 	move COUNTER,      NO_ADDITIONAL_EFFECT,         1, FIGHTING,     100, 20
@@ -170,9 +170,9 @@ Moves:
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,        100, NORMAL,        90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,       100, 20
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,       100, 30
-	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        80, NORMAL,       100, 20
+	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        95, NORMAL,       100, 15
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,       100, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 15
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
-	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,       100, 10
+	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS

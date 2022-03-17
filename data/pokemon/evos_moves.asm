@@ -256,7 +256,7 @@ SpearowEvosMoves:
 	db 11, LEER
 	db 15, MIRROR_MOVE
 	db 20, FURY_ATTACK
-	db 26, TAKE_DOWN
+	db 24, TAKE_DOWN
 	db 0
 
 VoltorbEvosMoves:
@@ -288,9 +288,10 @@ SlowbroEvosMoves:
 	db 0
 ; Learnset
 	db 37, WITHDRAW
-	db 43, PSYCHIC_M
-	db 49, AMNESIA
-	db 55, HYDRO_PUMP
+	db 42, PSYCHIC_M
+	db 48, AMNESIA
+	db 52, HYDRO_PUMP
+	db 60, RECOVER
 	db 0
 
 IvysaurEvosMoves:
@@ -578,7 +579,7 @@ TangelaEvosMoves:
 	db 22, VINE_WHIP
 	db 27, POISONPOWDER
 	db 30, BIND
-	db 35, BARRAGE
+	db 35, EGG_BOMB
 	db 40, MEGA_DRAIN
 	db 44, SLEEP_POWDER
 	db 49, GROWTH
@@ -631,8 +632,8 @@ FearowEvosMoves:
 	db 0
 ; Learnset
 	db 26, TAKE_DOWN
-	db 32, DRILL_PECK
-	db 37, FURY_SWIPES
+	db 31, FURY_SWIPES
+	db 36, DRILL_PECK
 	db 41, AGILITY
 	db 48, DOUBLE_EDGE
 	db 0
@@ -660,7 +661,7 @@ SlowpokeEvosMoves:
 	db 23, PSYBEAM
 	db 27, HEADBUTT
 	db 32, BUBBLEBEAM
-	db 36, RECOVER
+	db 36, REST
 	db 40, PSYCHIC_M
 	db 0
 
@@ -863,7 +864,7 @@ MagnetonEvosMoves:
 ; Learnset
 	db 30, TRI_ATTACK
 	db 33, THUNDERBOLT
-	db 38, BARRAGE
+	db 38, EGG_BOMB
 	db 43, THUNDER_WAVE
 	db 49, SCREECH
 	db 54, THUNDER
@@ -1270,7 +1271,7 @@ SeadraEvosMoves:
 	db 38, AURORA_BEAM
 	db 43, HYDRO_PUMP
 	db 48, AGILITY
-	db 52, DRAGON_RAGE
+	db 54, DRAGON_RAGE
 	db 0
 
 MissingNo5EEvosMoves:
@@ -1558,7 +1559,7 @@ DugtrioEvosMoves:
 ; Learnset
 	db 26, TRI_ATTACK
 	db 30, FURY_SWIPES
-	db 35, SLASH
+	db 34, SLASH
 	db 40, EARTHQUAKE
 	db 44, BARRAGE
 	db 50, FISSURE

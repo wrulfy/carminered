@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1 ; sprite dimensions
 	dw SlowbroPicFront, SlowbroPicBack
 
-	db PSYBEAM, HEADBUTT, BUBBLEBEAM, RECOVER ; level 1 learnset
+	db BUBBLEBEAM, PSYBEAM, HEADBUTT, REST ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
