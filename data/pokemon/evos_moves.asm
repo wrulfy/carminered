@@ -813,8 +813,8 @@ GolemEvosMoves:
 	db 0
 ; Learnset
 	db 40, EARTHQUAKE
-	db 45, EXPLOSION
-	db 50, ROCK_SLIDE
+	db 45, ROCK_SLIDE
+	db 50, EXPLOSION
 	db 55, DOUBLE_EDGE
 	db 0
 
@@ -1039,7 +1039,7 @@ PoliwagEvosMoves:
 	db 12, WATER_GUN
 	db 16, DOUBLESLAP
 	db 21, BUBBLEBEAM
-	db 27, BODY_SLAM
+	db 26, BODY_SLAM
 	db 30, AMNESIA
 	db 0
 
@@ -1153,11 +1153,12 @@ NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, DISABLE
-	db 24, HYPNOSIS
-	db 32, DREAM_EATER
-	db 40, FLAMETHROWER
-	db 48, NIGHT_SHADE
+	db 18, FIRE_SPIN
+	db 25, DREAM_EATER
+	db 32, PSYCHIC
+	db 39, HYPNOSIS
+	db 46, FLAMETHROWER
+	db 53, NIGHT_SHADE
 	db 0
 
 PikachuEvosMoves:
@@ -1484,8 +1485,8 @@ PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, WATERFALL
-	db 36, MEDITATE
+	db 26, WATERFALL
+	db 34, MEDITATE
 	db 42, SUBMISSION
 	db 50, HYDRO_PUMP
 	db 58, DIZZY_PUNCH
@@ -2245,10 +2246,10 @@ GloomEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 24, SLEEP_POWDER
-	db 29, LEECH_SEED
-	db 35, SLUDGE
-	db 39, PETAL_DANCE
+	db 25, SLEEP_POWDER
+	db 30, SCREECH
+	db 35, PETAL_DANCE
+	db 39, SLUDGE
 	db 43, RECOVER
 	db 47, SOLARBEAM
 	db 0
@@ -2257,10 +2258,11 @@ VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, SMOG
-	db 36, PETAL_DANCE
-	db 47, RECOVER
-	db 58, SOLARBEAM
+	db 24, SMOG
+	db 32, PSYCHIC
+	db 40, SLUDGE
+	db 48, SOLAR_BEAM
+	db 56, RECOVER
 	db 0
 
 BellsproutEvosMoves:
@@ -2269,7 +2271,7 @@ BellsproutEvosMoves:
 	db 0
 ; Learnset
 	db 8, GROWTH
-	db 11, WRAP
+	db 11, VINE_WHIP
 	db 14, POISONPOWDER
 	db 17, ACID
 	db 20, SLEEP_POWDER
@@ -2282,10 +2284,10 @@ WeepinbellEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, VICTREEBEL
 	db 0
 ; Learnset
-	db 24, STUN_SPORE
-	db 29, HAZE
-	db 35, LEECH_LIFE
-	db 39, RAZOR_LEAF
+	db 25, STUN_SPORE
+	db 30, HAZE
+	db 35, RAZOR_LEAF
+	db 39, LEECH_LIFE
 	db 43, POISON_GAS
 	db 47, TOXIC
 	db 0
@@ -2294,8 +2296,9 @@ VictreebelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, CUT
-	db 36, RAZOR_LEAF
-	db 47, POISON_GAS
-	db 58, TOXIC
+	db 24, CUT
+	db 32, CONSTRICT
+	db 40, RAZOR_LEAF
+	db 48, TOXIC
+	db 56, POISON_GAS
 	db 0

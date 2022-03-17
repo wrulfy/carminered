@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/victreebel.pic", 0, 1 ; sprite dimensions
 	dw VictreebelPicFront, VictreebelPicBack
 
-	db VINE_WHIP, STUN_SPORE, LEECH_LIFE, HAZE ; level 1 learnset
+	db VINE_WHIP, LEECH_LIFE, STUN_SPORE, HAZE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     GROWTH,       HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    SMOKESCREEN,  MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         CONSTRICT,    SUBSTITUTE,   \
-	     CUT,          FLASH
+	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
+	     DOUBLE_EDGE,  GROWTH,       HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    \
+	     SMOKESCREEN,  MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     REST,         CONSTRICT,    SUBSTITUTE,   CUT,          FLASH
 	; end
 
 	db 0 ; padding

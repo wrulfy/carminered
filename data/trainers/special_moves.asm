@@ -18,8 +18,8 @@ LoneMoves:
 ; (unrelated to LoneMoves)
 TeamMoves:
 	; trainer, move
-	db LORELEI, BLIZZARD
-	db BRUNO,   FISSURE
-	db AGATHA,  TOXIC
-	db LANCE,   BARRIER
+	db LORELEI, HYDRO_PUMP
+	db BRUNO,   FLAMETHROWER
+	db AGATHA,  SOFTBOILED
+	db LANCE,   HORN_DRILL
 	db -1 ; end

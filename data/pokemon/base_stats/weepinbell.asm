@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/weepinbell.pic", 0, 1 ; sprite dimensions
 	dw WeepinbellPicFront, WeepinbellPicBack
 
-	db WRAP, ACID, SLEEP_POWDER, VINE_WHIP; level 1 learnset
+	db WRAP, ACID, VINE_WHIP, SLEEP_POWDER; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       \
-	     MEGA_DRAIN,   SOLARBEAM,    SMOKESCREEN,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         REST,         CONSTRICT,    SUBSTITUTE,   \
-	     CUT,          FLASH         
+	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
+	     GROWTH,       MEGA_DRAIN,   SOLARBEAM,    SMOKESCREEN,  MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         CONSTRICT,    \
+	     SUBSTITUTE,   CUT,          FLASH         
 	; end
 
 	db 0 ; padding
