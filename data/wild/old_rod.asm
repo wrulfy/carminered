@@ -1,5 +1,5 @@
-; good rod encounters
-GoodRodData:
+; old rod encounters
+OldRodData:
 	; map, fishing group
 	dbw PALLET_TOWN,         .Group7
 	dbw VIRIDIAN_CITY,       .Group1
@@ -41,70 +41,70 @@ GoodRodData:
 
 .Group1:
 	db 4
-	db 15, POLIWAG
-	db 15, POLIWAG
-	db 15, PSYDUCK
-	db 15, GOLDEEN
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, POLIWAG
 
 .Group2:
 	db 4
-	db 15, GOLDEEN
-	db 15, GOLDEEN
-	db 15, POLIWAG
-	db 15, HORSEA
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, GOLDEEN
 
 .Group3:
 	db 4
-	db 15, PSYDUCK
-	db 15, PSYDUCK
-	db 15, GOLDEEN
-	db 15, KRABBY
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, PSYDUCK
 
 .Group4:
 	db 4
-	db 15, KRABBY
-	db 15, KRABBY
-	db 15, SHELLDER
-	db 15, STARYU
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, KRABBY
 
 .Group5:
 	db 4
-	db 15, SLOWPOKE
-	db 15, SLOWPOKE
-	db 15, POLIWAG
-	db 15, STARYU
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, SLOWPOKE
 
 .Group6:
 	db 4
-	db 15, DRATINI
-	db 15, DRATINI
-	db 15, MAGIKARP
-	db 15, HORSEA
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, DRATINI
 
 .Group7:
 	db 4
-	db 15, TENTACOOL
-	db 15, TENTACOOL
-	db 15, SHELLDER
-	db 15, SEEL
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, TENTACOOL
 
 .Group8:
 	db 4
-	db 15, HORSEA
-	db 15, HORSEA
-	db 15, TENTACOOL
-	db 15, SEEL
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, HORSEA
 
 .Group9:
 	db 4
-	db 15, SHELLDER
-	db 15, SHELLDER
-	db 15, KRABBY
-	db 15, SEEL
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, SHELLDER
 
 .Group10:
 	db 4
-	db 15, STARYU
-	db 15, STARYU
-	db 15, SLOWPOKE
-	db 15, PSYDUCK
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, MAGIKARP
+	db 5, STARYU
