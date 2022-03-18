@@ -121,13 +121,13 @@ ReadTrainer:
 	jr .FinishUp ; nope
 .GiveTeamMoves
 	ld a, [hl]
-	ld [wEnemyMon5Moves + 2], a
+	ld [wEnemyMon6Moves + 2], a
 	jr .FinishUp
 .ChampionRival ; give moves to his team
 
 ; pidgeot
-	ld a, SKY_ATTACK
-	ld [wEnemyMon1Moves + 2], a
+	ld a, DOUBLE_TEAM
+	ld [wEnemyMon1Moves + 1], a
 
 ; starter
 	ld a, [wRivalStarter]
@@ -135,12 +135,12 @@ ReadTrainer:
 	ld b, MEGA_DRAIN
 	jr z, .GiveStarterMove
 	cp STARTER1
-	ld b, FIRE_BLAST
+	ld b, FLAMETHROWER
 	jr z, .GiveStarterMove
-	ld b, BLIZZARD ; must be squirtle
+	ld b, SURF ; must be squirtle
 .GiveStarterMove
 	ld a, b
-	ld [wEnemyMon6Moves + 2], a
+	ld [wEnemyMon6Moves + 0], a
 .FinishUp
 ; clear wAmountMoneyWon addresses
 	xor a

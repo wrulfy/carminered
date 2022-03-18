@@ -20,6 +20,6 @@ TeamMoves:
 	; trainer, move
 	db LORELEI, HYDRO_PUMP
 	db BRUNO,   FLAMETHROWER
-	db AGATHA,  SOFTBOILED
-	db LANCE,   HORN_DRILL
+	db AGATHA,  EGG_BOMB
+	db LANCE,   THUNDERBOLT
 	db -1 ; end
