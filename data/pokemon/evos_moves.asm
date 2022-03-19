@@ -234,8 +234,8 @@ NidoranMEvosMoves:
 
 ClefairyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 34, CLEFABLE
 	db EV_ITEM, MOON_STONE, 1, CLEFABLE
+	db EV_LEVEL, 34, CLEFABLE
 	db 0
 ; Learnset
 	db 13, METRONOME
@@ -334,8 +334,8 @@ LickitungEvosMoves:
 
 ExeggcuteEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, EXEGGUTOR
 	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
+	db EV_LEVEL, 36, EXEGGUTOR
 	db 0
 ; Learnset
 	db 14, CONFUSION
@@ -396,8 +396,8 @@ NidoqueenEvosMoves:
 
 CuboneEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, MAROWAK
 	db EV_ITEM, MOON_STONE, 1, MAROWAK
+	db EV_LEVEL, 31, MAROWAK
 	db 0
 ; Learnset
 	db 9, TAIL_WHIP
@@ -477,8 +477,8 @@ GyaradosEvosMoves:
 
 ShellderEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 37, CLOYSTER
 	db EV_ITEM, WATER_STONE, 1, CLOYSTER
+	db EV_LEVEL, 37, CLOYSTER
 	db 0
 ; Learnset
 	db 11, SUPERSONIC
@@ -531,8 +531,8 @@ ScytherEvosMoves:
 
 StaryuEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 35, STARMIE
 	db EV_ITEM, THUNDER_STONE, 1, STARMIE
+	db EV_LEVEL, 35, STARMIE
 	db 0
 ; Learnset
 	db 15, MIST
@@ -599,8 +599,8 @@ MissingNo20EvosMoves:
 
 GrowlitheEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 43, ARCANINE
 	db EV_ITEM, FIRE_STONE, 1, ARCANINE
+	db EV_LEVEL, 43, ARCANINE
 	db 0
 ; Learnset
 	db 16, GUST
@@ -1137,8 +1137,8 @@ MissingNo51EvosMoves:
 
 VulpixEvosMoves:
 ; Evolutions
-    db EV_LEVEL, 33, NINETALES
 	db EV_ITEM, FIRE_STONE, 1, NINETALES
+	db EV_LEVEL, 33, NINETALES
 	db 0
 ; Learnset
 	db 14, LICK
@@ -1155,7 +1155,7 @@ NinetalesEvosMoves:
 ; Learnset
 	db 18, FIRE_SPIN
 	db 25, DREAM_EATER
-	db 32, PSYCHIC
+	db 32, PSYCHIC_M
 	db 39, HYPNOSIS
 	db 46, FLAMETHROWER
 	db 53, NIGHT_SHADE
@@ -1163,8 +1163,8 @@ NinetalesEvosMoves:
 
 PikachuEvosMoves:
 ; Evolutions
-    db EV_LEVEL, 32, RAICHU
     db EV_ITEM, THUNDER_STONE, 1, RAICHU
+	db EV_LEVEL, 32, RAICHU
 	db 0
 ; Learnset
 	db 7, TAIL_WHIP
@@ -1336,8 +1336,8 @@ OmastarEvosMoves:
 
 JigglypuffEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, WIGGLYTUFF
 	db EV_ITEM, MOON_STONE, 1, WIGGLYTUFF
+	db EV_LEVEL, 30, WIGGLYTUFF
 	db 0
 ; Learnset
 	db 9, DISABLE
@@ -1469,8 +1469,8 @@ ParasEvosMoves:
 
 PoliwhirlEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 40, POLIWRATH
 	db EV_ITEM, WATER_STONE, 1, POLIWRATH
+	db EV_LEVEL, 40, POLIWRATH
 	db 0
 ; Learnset
 	db 25, DOUBLE_KICK
@@ -2042,8 +2042,8 @@ RaticateEvosMoves:
 
 NidorinoEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 39, NIDOKING
 	db EV_ITEM, MOON_STONE, 1, NIDOKING
+	db EV_LEVEL, 39, NIDOKING
 	db 0
 ; Learnset
 	db 20, SMOG
@@ -2056,8 +2056,8 @@ NidorinoEvosMoves:
 
 NidorinaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 38, NIDOQUEEN
 	db EV_ITEM, MOON_STONE, 1, NIDOQUEEN
+	db EV_LEVEL, 38, NIDOQUEEN
 	db 0
 ; Learnset
 	db 20, SMOG
@@ -2242,8 +2242,8 @@ OddishEvosMoves:
 
 GloomEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 42, VILEPLUME
 	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
+	db EV_LEVEL, 42, VILEPLUME
 	db 0
 ; Learnset
 	db 25, SLEEP_POWDER
@@ -2259,9 +2259,9 @@ VileplumeEvosMoves:
 	db 0
 ; Learnset
 	db 24, SMOG
-	db 32, PSYCHIC
+	db 32, PSYCHIC_M
 	db 40, SLUDGE
-	db 48, SOLAR_BEAM
+	db 48, SOLARBEAM
 	db 56, RECOVER
 	db 0
 
@@ -2280,8 +2280,8 @@ BellsproutEvosMoves:
 
 WeepinbellEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 41, VICTREEBEL
 	db EV_ITEM, LEAF_STONE, 1, VICTREEBEL
+	db EV_LEVEL, 41, VICTREEBEL
 	db 0
 ; Learnset
 	db 25, STUN_SPORE

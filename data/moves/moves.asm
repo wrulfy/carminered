@@ -20,7 +20,7 @@ Moves:
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT2,         75, ICE,          100, 15
 	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       75, ELECTRIC,     100, 15
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,           95, 30
+	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,           95, 25
 	move GUILLOTINE,   RECOIL_EFFECT,              130, BUG,           90,  5
 	move RAZOR_WIND,   FLINCH_SIDE_EFFECT1,         70, FLYING,        95, 20
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 10
@@ -37,7 +37,7 @@ Moves:
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        85, 10
 	move JUMP_KICK,    SWIFT_EFFECT,                90, FIGHTING,     100, 15
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         65, FIGHTING,     100, 20
-	move SAND_ATTACK,  ACCURACY_DOWN1_EFFECT,       30, GROUND,       100, 15
+	move SAND_ATTACK,  ACCURACY_DOWN_SIDE_EFFECT,   20, GROUND,       100, 35
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,       100, 15
 	move HORN_ATTACK,  NO_ADDITIONAL_EFFECT,        65, NORMAL,       100, 25
 	move FURY_ATTACK,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, FLYING,        95, 20
@@ -63,12 +63,12 @@ Moves:
 	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    40, POISON,       100, 30
 	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 30
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
-	move MIST,         SPEED_DOWN1_EFFECT,          50, ICE,          100, 20
+	move MIST,         SPEED_DOWN_SIDE_EFFECT,      50, ICE,          100, 25
 	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 30
 	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         85,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
-	move ICE_BEAM,     FREEZE_SIDE_EFFECT1,          95, ICE,          100, 10
-	move BLIZZARD,     FREEZE_SIDE_EFFECT1,         120, ICE,           85,  5
+	move ICE_BEAM,     FREEZE_SIDE_EFFECT1,         95, ICE,          100, 10
+	move BLIZZARD,     FREEZE_SIDE_EFFECT1,        120, ICE,           85,  5
 	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC_TYPE, 100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
@@ -119,11 +119,11 @@ Moves:
 	move MINIMIZE,     EVASION_UP1_EFFECT,           0, NORMAL,       100, 15
 	move SMOKESCREEN,  POISON_SIDE_EFFECT1,         65, FIRE,         100, 20
 	move CONFUSE_RAY,  CONFUSION_SIDE_EFFECT,       95, GHOST,        100, 10
-	move WITHDRAW,     CHARGE_EFFECT,               80, WATER,        100, 15
+	move WITHDRAW,     FLY_EFFECT,                  85, WATER,        100, 15
 	move DEFENSE_CURL, DEFENSE_UP1_EFFECT,           0, NORMAL,       100, 25
 	move BARRIER,      DEFENSE_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 15
 	move LIGHT_SCREEN, LIGHT_SCREEN_EFFECT,          0, PSYCHIC_TYPE, 100, 30
-	move HAZE,         HAZE_EFFECT,                 50, POISON,       100, 20
+	move HAZE,         EVASION_DOWN_SIDE_EFFECT,    50, POISON,       100, 25
 	move REFLECT,      REFLECT_EFFECT,               0, PSYCHIC_TYPE, 100, 20
 	move FOCUS_ENERGY, SPEED_UP1_EFFECT,             0, NORMAL,       100, 20
 	move BIDE,         BIDE_EFFECT,                  0, ROCK,         100, 20
@@ -143,7 +143,7 @@ Moves:
 	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,           95, 20
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      90, BUG,          100, 15
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 10
-	move KINESIS,      ACCURACY_DOWN1_EFFECT,       50, PSYCHIC_TYPE,  90, 20
+	move KINESIS,      ACCURACY_DOWN_SIDE_EFFECT,   50, PSYCHIC_TYPE, 100, 25
 	move SOFTBOILED,   HEAL_EFFECT,                  0, NORMAL,       100, 20
 	move HI_JUMP_KICK, RECOIL_EFFECT,              120, FIGHTING,      90, 10
 	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,       100, 30

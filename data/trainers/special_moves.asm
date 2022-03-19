@@ -4,14 +4,14 @@
 ; the fourth entry in the list.
 LoneMoves:
 	; pokemon index, move to give nth pokemon
-	db 1, SWIFT
-	db 1, MIST
-	db 2, EMBER
-	db 2, CONSTRICT
-	db 3, POISON_GAS
-	db 3, CONFUSE_RAY
-	db 3, THUNDERWAVE
-	db 4, EARTHQUAKE
+	db 2, SWIFT
+	db 2, MIST
+	db 3, SMOKESCREEN
+	db 3, CONSTRICT
+	db 4, POISON_GAS
+	db 4, CONFUSE_RAY
+	db 5, THUNDER_WAVE
+	db 5, EARTHQUAKE
 
 ; unique moves for elite 4
 ; all trainers in this class are given this move automatically

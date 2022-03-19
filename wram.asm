@@ -1937,6 +1937,7 @@ wPalletTownCurScript:: db
 wBluesHouseCurScript:: db
 wViridianCityCurScript:: db
 	ds 2
+wRoute2CurScript:: db
 wPewterCityCurScript:: db
 wRoute3CurScript:: db
 wRoute4CurScript:: db

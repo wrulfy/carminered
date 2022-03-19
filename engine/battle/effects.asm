@@ -1017,12 +1017,6 @@ ChargeEffect:
 	jr nz, .notDigOrFly
 	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
 	ld b, ANIM_C0
-.notFly2
-	ld a, [de]
-	cp WITHDRAW
-	jr nz, .notDigOrFly
-	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
-	ld b, ANIM_C0
 .notDigOrFly
 	xor a
 	ld [wAnimationType], a
@@ -1054,6 +1048,7 @@ ChargeMoveEffectText:
 	jr z, .gotText
 	cp DIG
 	ld hl, DugAHoleText
+	jr z, .gotText
 	cp WITHDRAW
 	ld hl, HidInShellText
 	jr z, .gotText

@@ -1852,7 +1852,7 @@ ItemUseGoodRod:
 	jp c, ItemUseNotTime
 	call ReadGoodRodData
 	ld a, e
-RodResponse:
+RodResponse2:
 	ld [wRodResponse], a
 
 	dec a ; is there a bite?
@@ -1882,7 +1882,7 @@ ItemUseSuperRod:
 	jp c, ItemUseNotTime
 	call ReadSuperRodData
 	ld a, e
-RodResponse:
+RodResponse3:
 	ld [wRodResponse], a
 
 	dec a ; is there a bite?
