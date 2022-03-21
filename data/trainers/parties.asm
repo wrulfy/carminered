@@ -129,8 +129,8 @@ LassData:
 ; Celadon Gym
 	db 23, BELLSPROUT, WEEPINBELL, 0
 	db 23, ODDISH, GLOOM, 0
-; test
-	db 6, POLIWAG, BELLSPROUT, 0	
+; Route 2 test
+	db 6, POLIWAG, ODDISH, 0	
 
 SailorData:
 ; SS Anne Stern

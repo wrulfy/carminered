@@ -895,7 +895,7 @@ MankeyEvosMoves:
 	db EV_LEVEL, 28, PRIMEAPE
 	db 0
 ; Learnset
-	db 12, LOW_KICK
+	db 11, LOW_KICK
 	db 16, FOCUS_ENERGY
 	db 20, SEISMIC_TOSS
 	db 25, SHARPEN
@@ -1098,7 +1098,7 @@ MeowthEvosMoves:
 	db EV_LEVEL, 28, PERSIAN
 	db 0
 ; Learnset
-	db 12, BITE
+	db 11, BITE
 	db 16, PAY_DAY
 	db 20, ROAR
 	db 25, SHARPEN
