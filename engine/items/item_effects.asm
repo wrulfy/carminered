@@ -2885,8 +2885,8 @@ ReadOldRodData:
 
 .RandomLoop
 	call Random
-	srl a
-	ret c ; 50% chance of no battle
+	cp 102 ; 40% chance
+	ret nc
 
 	and %11 ; 2-bit random number
 	cp b
@@ -2932,8 +2932,8 @@ ReadGoodRodData:
 
 .RandomLoop
 	call Random
-	srl a
-	ret c ; 50% chance of no battle
+	cp 154 ; 60% chance
+	ret nc
 
 	and %11 ; 2-bit random number
 	cp b
@@ -2979,8 +2979,8 @@ ReadSuperRodData:
 
 .RandomLoop
 	call Random
-	srl a
-	ret c ; 50% chance of no battle
+	cp 205 ; 80% chance
+	ret nc
 
 	and %11 ; 2-bit random number
 	cp b
