@@ -671,17 +671,17 @@ DoBallTossSpecialEffects:
 	cp 2 ; is it a trainer battle?
 	jr z, .isTrainerBattle
 	ld a, [wd11e]
-	cp $10 ; is the enemy pokemon the Ghost Marowak?
+	cp $10 ; is the enemy pokemon the Ghost Clefable?
 	ret nz
-; if the enemy pokemon is the Ghost Marowak, make it dodge during the last 3 frames
+; if the enemy pokemon is the Ghost Clefable, make it dodge during the last 3 frames
 	ld a, [wSubAnimCounter]
 	cp 3
-	jr z, .moveGhostMarowakLeft
+	jr z, .moveGhostClefableLeft
 	cp 2
-	jr z, .moveGhostMarowakLeft
+	jr z, .moveGhostClefableLeft
 	cp 1
 	ret nz
-.moveGhostMarowakLeft
+.moveGhostClefableLeft
 	hlcoord 17, 0
 	ld de, 20
 	lb bc, 7, 7

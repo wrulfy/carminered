@@ -3960,14 +3960,26 @@ CheckForDisobedience:
 	bit BIT_EARTHBADGE, [hl]
 	ld a, 101
 	jr nz, .next
+	bit BIT_VOLCANOBADGE, [hl]
+	ld a, 80
+	jr nz, .next
 	bit BIT_MARSHBADGE, [hl]
 	ld a, 70
+	jr nz, .next
+	bit BIT_SOULBADGE, [hl]
+	ld a, 60
 	jr nz, .next
 	bit BIT_RAINBOWBADGE, [hl]
 	ld a, 50
 	jr nz, .next
+	bit BIT_THUNDERBADGE, [hl]
+	ld a, 40
+	jr nz, .next
 	bit BIT_CASCADEBADGE, [hl]
 	ld a, 30
+	jr nz, .next
+	bit BIT_BOULDERBADGE, [hl]
+	ld a, 20
 	jr nz, .next
 	ld a, 10
 .next

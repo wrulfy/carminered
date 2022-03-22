@@ -6,7 +6,7 @@ CeruleanCity_Object:
 	warp_event 13, 15, CERULEAN_TRADE_HOUSE, 1
 	warp_event 19, 17, CERULEAN_POKECENTER, 1
 	warp_event 30, 19, CERULEAN_GYM, 1
-	warp_event 13, 25, BIKE_SHOP, 1
+	warp_event 11, 25, BIKE_SHOP, 1
 	warp_event 25, 25, CERULEAN_MART, 1
 	warp_event  4, 11, CERULEAN_CAVE_1F, 1
 	warp_event 27,  9, CERULEAN_TRASHED_HOUSE, 3
@@ -15,10 +15,10 @@ CeruleanCity_Object:
 
 	def_bg_events
 	bg_event 23, 19, 12 ; CeruleanCityText12
-	bg_event 17, 29, 13 ; CeruleanCityText13
+	bg_event 25, 29, 13 ; CeruleanCityText13
 	bg_event 26, 25, 14 ; MartSignText
 	bg_event 20, 17, 15 ; PokeCenterSignText
-	bg_event 11, 25, 16 ; CeruleanCityText16
+	bg_event  9, 25, 16 ; CeruleanCityText16
 	bg_event 27, 21, 17 ; CeruleanCityText17
 
 	def_object_events

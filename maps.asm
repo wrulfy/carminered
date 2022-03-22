@@ -95,7 +95,7 @@ Route16FlyHouse_Blocks:
 Route2TradeHouse_Blocks:
 SaffronPidgeyHouse_Blocks:
 VermilionPidgeyHouse_Blocks:
-LavenderCuboneHouse_Blocks:
+LavenderClefairyHouse_Blocks:
 CeruleanTradeHouse_Blocks:
 PewterNidoranHouse_Blocks:
 PewterSpeechHouse_Blocks:
@@ -159,9 +159,9 @@ INCLUDE "data/maps/headers/MrFujisHouse.asm"
 INCLUDE "scripts/MrFujisHouse.asm"
 INCLUDE "data/maps/objects/MrFujisHouse.asm"
 
-INCLUDE "data/maps/headers/LavenderCuboneHouse.asm"
-INCLUDE "scripts/LavenderCuboneHouse.asm"
-INCLUDE "data/maps/objects/LavenderCuboneHouse.asm"
+INCLUDE "data/maps/headers/LavenderClefairyHouse.asm"
+INCLUDE "scripts/LavenderClefairyHouse.asm"
+INCLUDE "data/maps/objects/LavenderClefairyHouse.asm"
 
 INCLUDE "data/maps/headers/NameRatersHouse.asm"
 INCLUDE "scripts/NameRatersHouse.asm"

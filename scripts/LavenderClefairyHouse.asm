@@ -1,15 +1,15 @@
-LavenderCuboneHouse_Script:
+LavenderClefairyHouse_Script:
 	call EnableAutoTextBoxDrawing
 	ret
 
-LavenderCuboneHouse_TextPointers:
+LavenderClefairyHouse_TextPointers:
 	dw LavenderHouse2Text1
 	dw LavenderHouse2Text2
 
 LavenderHouse2Text1:
 	text_far _LavenderHouse2Text1
 	text_asm
-	ld a, CUBONE
+	ld a, CLEFAIRY
 	call PlayCry
 	jp TextScriptEnd
 

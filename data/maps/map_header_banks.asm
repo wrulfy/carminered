@@ -152,7 +152,7 @@ MapHeaderBanks::
 	db BANK(PokemonTower7F_h)
 	db BANK(MrFujisHouse_h)
 	db BANK(LavenderMart_h)
-	db BANK(LavenderCuboneHouse_h)
+	db BANK(LavenderClefairyHouse_h)
 	db BANK(FuchsiaMart_h)
 	db BANK(FuchsiaBillsGrandpasHouse_h)
 	db BANK(FuchsiaPokecenter_h)

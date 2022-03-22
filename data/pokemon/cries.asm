@@ -22,7 +22,7 @@ CryData::
 	mon_cry SFX_CRY_07, $00, $FF ; Gengar
 	mon_cry SFX_CRY_01, $00, $80 ; Nidoran♀
 	mon_cry SFX_CRY_0A, $00, $80 ; Nidoqueen
-	mon_cry SFX_CRY_19, $00, $80 ; Cubone
+	mon_cry SFX_CRY_19, $00, $80 ; Clefairy
 	mon_cry SFX_CRY_04, $00, $80 ; Rhyhorn
 	mon_cry SFX_CRY_1B, $00, $80 ; Lapras
 	mon_cry SFX_CRY_15, $00, $80 ; Arcanine

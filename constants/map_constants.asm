@@ -169,7 +169,7 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst POKEMON_TOWER_7F,               9, 10 ; $94
 	mapconst MR_FUJIS_HOUSE,                 4,  4 ; $95
 	mapconst LAVENDER_MART,                  4,  4 ; $96
-	mapconst LAVENDER_CUBONE_HOUSE,          4,  4 ; $97
+	mapconst LAVENDER_CLEFAIRY_HOUSE,          4,  4 ; $97
 	mapconst FUCHSIA_MART,                   4,  4 ; $98
 	mapconst FUCHSIA_BILLS_GRANDPAS_HOUSE,   4,  4 ; $99
 	mapconst FUCHSIA_POKECENTER,             4,  7 ; $9A

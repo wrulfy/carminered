@@ -2,56 +2,69 @@ VermilionOldRodHouse_Script:
 	jp EnableAutoTextBoxDrawing
 
 VermilionOldRodHouse_TextPointers:
-	dw VermilionHouse2Text1
+	dw MagikarpSalesmanText
 
-VermilionHouse2Text1:
+	MagikarpSalesmanText:
 	text_asm
-	ld a, [wd728]
-	bit 3, a ; got old rod?
-	jr nz, .got_item
-	ld hl, VermilionHouse2Text_560b1
+	CheckEvent EVENT_BOUGHT_MAGIKARP, 1
+	jp c, .alreadyBoughtMagikarp
+	ld hl, .Text1
 	call PrintText
+	ld a, MONEY_BOX
+	ld [wTextBoxID], a
+	call DisplayTextBoxID
 	call YesNoChoice
 	ld a, [wCurrentMenuItem]
 	and a
-	jr nz, .refused
-	lb bc, OLD_ROD, 1
-	call GiveItem
-	jr nc, .bag_full
-	ld hl, wd728
-	set 3, [hl] ; got old rod
-	ld hl, VermilionHouse2Text_560b6
+	jp nz, .choseNo
+	ldh [hMoney], a
+	ldh [hMoney + 2], a
+	ld a, $5
+	ldh [hMoney + 1], a
+	call HasEnoughMoney
+	jr nc, .enoughMoney
+	ld hl, .NoMoneyText
+	jr .printText
+.enoughMoney
+	lb bc, MAGIKARP, 5
+	call GivePokemon
+	jr nc, .done
+	xor a
+	ld [wPriceTemp], a
+	ld [wPriceTemp + 2], a
+	ld a, $5
+	ld [wPriceTemp + 1], a
+	ld hl, wPriceTemp + 2
+	ld de, wPlayerMoney + 2
+	ld c, $3
+	predef SubBCDPredef
+	ld a, MONEY_BOX
+	ld [wTextBoxID], a
+	call DisplayTextBoxID
+	SetEvent EVENT_BOUGHT_MAGIKARP
 	jr .done
-.bag_full
-	ld hl, VermilionHouse2Text_560ca
-	jr .done
-.refused
-	ld hl, VermilionHouse2Text_560c0
-	jr .done
-.got_item
-	ld hl, VermilionHouse2Text_560c5
-.done
+.choseNo
+	ld hl, .RefuseText
+	jr .printText
+.alreadyBoughtMagikarp
+	ld hl, .Text2
+.printText
 	call PrintText
+.done
 	jp TextScriptEnd
 
-VermilionHouse2Text_560b1:
-	text_far _VermilionHouse2Text_560b1
+.Text1
+	text_far _MagikarpSalesmanText1
 	text_end
 
-VermilionHouse2Text_560b6:
-	text_far _VermilionHouse2Text_560b6
-	sound_get_item_1
-	text_far _VermilionHouse2Text_560bb
+.RefuseText
+	text_far _MagikarpSalesmanNoText
 	text_end
 
-VermilionHouse2Text_560c0:
-	text_far _VermilionHouse2Text_560c0
+.NoMoneyText
+	text_far _MagikarpSalesmanNoMoneyText
 	text_end
 
-VermilionHouse2Text_560c5:
-	text_far _VermilionHouse2Text_560c5
-	text_end
-
-VermilionHouse2Text_560ca:
-	text_far _VermilionHouse2Text_560ca
+.Text2
+	text_far _MagikarpSalesmanText2
 	text_end

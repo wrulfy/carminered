@@ -34,7 +34,7 @@ PrintBeginningBattleText:
 	ld a, [wEnemyMonSpecies2]
 	ld [wcf91], a
 	cp RESTLESS_SOUL
-	jr z, .isMarowak
+	jr z, .isClefable
 	ld a, b
 	and a
 	jr z, .noSilphScope
@@ -46,7 +46,7 @@ PrintBeginningBattleText:
 	ld hl, GhostCantBeIDdText
 	call PrintText
 	jr .done
-.isMarowak
+.isClefable
 	ld a, b
 	and a
 	jr z, .noSilphScope
@@ -55,7 +55,7 @@ PrintBeginningBattleText:
 	ld hl, UnveiledGhostText
 	call PrintText
 	callfar LoadEnemyMonData
-	callfar MarowakAnim
+	callfar ClefableAnim
 	ld hl, WildMonAppearedText
 	call PrintText
 

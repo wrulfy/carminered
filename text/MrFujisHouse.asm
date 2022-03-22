@@ -7,7 +7,7 @@ _LavenderHouse1Text_1d8d1::
 _LavenderHouse1Text_1d8d6::
 	text "MR.FUJI had been"
 	line "praying alone for"
-	cont "CUBONE's mother."
+	cont "CLEFAIRY's mother."
 	done
 
 _LavenderHouse1Text_1d8f4::

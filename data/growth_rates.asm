@@ -19,7 +19,7 @@ GrowthRateTable:
 	table_width 4, GrowthRateTable
 	growth_rate 1, 1,   0,   0,   0 ; Normal
 	growth_rate 3, 4,  10,   0,  30 ; Unused
-	growth_rate 8, 9,  15,  34, 219 ; Special
+	growth_rate 8, 9,  15,  33, 119 ; Special
 	growth_rate 6, 5, -15, 100, 140 ; Medium Slow
 	growth_rate 4, 5,   0,   0,   0 ; Fast
 	growth_rate 5, 4,   0,   0,   0 ; Slow

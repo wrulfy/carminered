@@ -1,55 +1,26 @@
-_VermilionHouse2Text_560b1::
-	text "I'm the FISHING"
-	line "GURU!"
+_MagikarpSalesmanText1::
+	text "MAN: Hello, there!"
+	line "Have I got a deal"
+	cont "just for you!"
 
-	para "I simply Looove"
-	line "fishing!"
-
-	para "Do you like to"
-	line "fish?"
+	para "I'll let you have"
+	line "a swell MAGIKARP"
+	cont "for just ¥500!"
+	cont "What do you say?"
 	done
 
-_VermilionHouse2Text_560b6::
-	text "Grand! I like"
-	line "your style!"
-
-	para "Take this and"
-	line "fish, young one!"
-
-	para "<PLAYER> received"
-	line "an @"
-	text_ram wStringBuffer
-	text "!@"
-	text_end
-
-_VermilionHouse2Text_560bb::
-	text_start
-
-	para "Fishing is a way"
-	line "of life!"
-
-	para "From the seas to"
-	line "rivers, go out"
-	cont "and land the big"
-	cont "one, young one!"
+_MagikarpSalesmanNoText::
+	text "No? I'm only"
+	line "doing this as a"
+	cont "favor to you!"
 	done
 
-_VermilionHouse2Text_560c0::
-	text "Oh... That's so"
-	line "disappointing..."
+_MagikarpSalesmanNoMoneyText::
+	text "You'll need more"
+	line "money than that!"
 	done
 
-_VermilionHouse2Text_560c5::
-	text "Hello there,"
-	line "<PLAYER>!"
-
-	para "How are the fish"
-	line "biting?"
-	done
-
-_VermilionHouse2Text_560ca::
-	text "Oh no!"
-
-	para "You have no room"
-	line "for my gift!"
+_MagikarpSalesmanText2::
+	text "MAN: Well, I don't"
+	line "give refunds!"
 	done

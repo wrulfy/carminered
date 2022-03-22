@@ -1791,11 +1791,11 @@ ClefableEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, SCREECH
-	db 32, WING_ATTACK
-	db 40, LIGHT_SCREEN
-	db 48, SOFTBOILED
-	db 56, NIGHT_SHADE
+	db 20, SCREECH
+	db 28, WING_ATTACK
+	db 36, LIGHT_SCREEN
+	db 44, SOFTBOILED
+	db 52, NIGHT_SHADE
 	db 0
 
 WeezingEvosMoves:
@@ -1855,7 +1855,7 @@ AbraEvosMoves:
 	db EV_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
-	db 14, CONFUSION
+	db 13, CONFUSION
 	db 0
 
 AlakazamEvosMoves:

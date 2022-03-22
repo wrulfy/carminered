@@ -31,10 +31,10 @@ _PokemonTower2Text_6063c::
 	text "How's your #DEX"
 	line "coming, pal?"
 	cont "I just caught a"
-	cont "CUBONE!"
+	cont "CLEFAIRY!"
 
 	para "I can't find the"
-	line "grown-up MAROWAK"
+	line "grown-up CLEFABLE"
 	cont "yet!"
 
 	para "I doubt there are"

@@ -22,7 +22,7 @@ PokemonTower6F_ScriptPointers:
 	dw PokemonTower6Script4
 
 PokemonTower6Script0:
-	CheckEvent EVENT_BEAT_GHOST_MAROWAK
+	CheckEvent EVENT_BEAT_GHOST_CLEFABLE
 	jp nz, CheckFightingMapTrainers
 	ld hl, CoordsData_60b45
 	call ArePlayerCoordsInArray
@@ -60,7 +60,7 @@ PokemonTower6Script4:
 	ld a, [wBattleResult]
 	and a
 	jr nz, .asm_60b82
-	SetEvent EVENT_BEAT_GHOST_MAROWAK
+	SetEvent EVENT_BEAT_GHOST_CLEFABLE
 	ld a, $7
 	ldh [hSpriteIndexOrTextID], a
 	call DisplayTextID

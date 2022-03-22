@@ -15,7 +15,7 @@ Route25_Object:
 	object_event 32,  3, SPRITE_YOUNGSTER, STAY, LEFT, 5, OPP_YOUNGSTER, 7
 	object_event 37,  4, SPRITE_COOLTRAINER_F, STAY, DOWN, 6, OPP_LASS, 10
 	object_event  8,  4, SPRITE_HIKER, STAY, RIGHT, 7, OPP_HIKER, 2
-	object_event 23,  9, SPRITE_HIKER, STAY, UP, 8, OPP_HIKER, 3
+	object_event 29, 10, SPRITE_HIKER, STAY, DOWN, 8, OPP_HIKER, 3
 	object_event 13,  7, SPRITE_HIKER, STAY, RIGHT, 9, OPP_HIKER, 4
 	object_event 22,  2, SPRITE_POKE_BALL, STAY, NONE, 10, TM_SEISMIC_TOSS
 

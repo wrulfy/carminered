@@ -164,7 +164,7 @@ ItemUseBall:
 	jp .captured
 
 .notOldManBattle
-; If the player is fighting the ghost Marowak, set the value that indicates the
+; If the player is fighting the ghost Clefable, set the value that indicates the
 ; Pokémon can't be caught and skip the capture calculations.
 	ld a, [wCurMap]
 	cp POKEMON_TOWER_6F

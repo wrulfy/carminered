@@ -7,7 +7,7 @@ Route2WildMons:
 	db  2, CATERPIE
 	db  2, WEEDLE
 	db  5, RATTATA
-	db  3, PILIWAG
+	db  3, POLIWAG
 	db  4, POLIWAG
 	db  5, POLIWAG
 	end_grass_wildmons

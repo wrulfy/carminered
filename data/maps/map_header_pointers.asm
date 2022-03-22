@@ -152,7 +152,7 @@ MapHeaderPointers::
 	dw PokemonTower7F_h
 	dw MrFujisHouse_h
 	dw LavenderMart_h
-	dw LavenderCuboneHouse_h
+	dw LavenderClefairyHouse_h
 	dw FuchsiaMart_h
 	dw FuchsiaBillsGrandpasHouse_h
 	dw FuchsiaPokecenter_h

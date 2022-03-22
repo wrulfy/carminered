@@ -1,5 +1,5 @@
-MarowakAnim:
-; animate the ghost being unveiled as a Marowak
+ClefableAnim:
+; animate the ghost being unveiled as a Clefable
 	ld a, $e4
 	ldh [rOBP1], a
 	call CopyMonPicFromBGToSpriteVRAM ; cover the BG ghost pic with a sprite ghost pic that looks the same
@@ -9,8 +9,8 @@ MarowakAnim:
 	call ClearScreenArea
 	call Delay3
 	xor a
-	ldh [hAutoBGTransferEnabled], a ; disable BG transfer so we don't see the Marowak too soon
-; replace ghost pic with Marowak in BG
+	ldh [hAutoBGTransferEnabled], a ; disable BG transfer so we don't see the Clefable too soon
+; replace ghost pic with Clefable in BG
 	ld a, RESTLESS_SOUL
 	ld [wChangeMonPicEnemyTurnSpecies], a
 	ld a, $1
@@ -29,9 +29,9 @@ MarowakAnim:
 	ldh [rOBP1], a
 	jr nz, .fadeOutGhostLoop
 	call ClearSprites
-	call CopyMonPicFromBGToSpriteVRAM ; copy Marowak pic from BG to sprite VRAM
+	call CopyMonPicFromBGToSpriteVRAM ; copy Clefable pic from BG to sprite VRAM
 	ld b, $e4
-.fadeInMarowakLoop
+.fadeInClefableLoop
 	ld c, 10
 	call DelayFrames
 	ldh a, [rOBP1]
@@ -42,9 +42,9 @@ MarowakAnim:
 	ldh [rOBP1], a
 	ld a, b
 	and a
-	jr nz, .fadeInMarowakLoop
+	jr nz, .fadeInClefableLoop
 	ld a, $1
-	ldh [hAutoBGTransferEnabled], a ; enable BG transfer so the BG Marowak pic will be visible after the sprite one is cleared
+	ldh [hAutoBGTransferEnabled], a ; enable BG transfer so the BG Clefable pic will be visible after the sprite one is cleared
 	call Delay3
 	jp ClearSprites
 

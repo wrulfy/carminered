@@ -1,13 +1,13 @@
 _LavenderHouse2Text1::
-	text "CUBONE: Kyarugoo!@"
+	text "CLEFAIRY: CLIIFY!@"
 	text_end
 
 _LavenderHouse2Text_1d9dc::
 	text "I hate those"
 	line "horrible ROCKETs!"
 
-	para "That poor CUBONE's"
-	line "mother..."
+	para "That poor mother"
+	line "of CLEFAIY..."
 
 	para "It was killed"
 	line "trying to escape"
