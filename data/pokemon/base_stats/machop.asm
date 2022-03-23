@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/machop.pic", 0, 1 ; sprite dimensions
 	dw MachopPicFront, MachopPicBack
 
-	db LOW_KICK, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db LOW_KICK, FOCUS_ENERGY, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

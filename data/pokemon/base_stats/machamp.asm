@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/machamp.pic", 0, 1 ; sprite dimensions
 	dw MachampPicFront, MachampPicBack
 
-	db MEGA_PUNCH, SEISMIC_TOSS, ROAR, KARATE_CHOP ; level 1 learnset
+	db MEDITATE, SEISMIC_TOSS, ROAR, KARATE_CHOP ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

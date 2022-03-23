@@ -368,7 +368,7 @@ GengarEvosMoves:
 	db 44, SLUDGE
 	db 49, DISABLE
 	db 54, NIGHT_SHADE
-	db 59, SLEEP_POWDER
+	db 59, SING
 	db 0
 
 NidoranFEvosMoves:
@@ -721,10 +721,10 @@ MrMimeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, MIMIC
-	db 20, REFLECT
-	db 21, LIGHT_SCREEN
-	db 26, PSYBEAM
+	db 20, MIMIC
+	db 23, REFLECT
+	db 24, LIGHT_SCREEN
+	db 28, PSYBEAM
 	db 32, RAZOR_LEAF
 	db 38, BARRIER
 	db 44, SUBSTITUTE
@@ -1423,10 +1423,11 @@ MachopEvosMoves:
 	db 0
 ; Learnset
 	db 14, MEDITATE
-	db 18, ROCK_THROW
-	db 22, MEGA_PUNCH
-	db 26, SUBMISSION
-	db 30, SEISMIC_TOSS
+	db 17, ROLLING_KICK
+	db 20, ROCK_THROW
+	db 23, SEISMIC_TOSS
+	db 26, MEGA_PUNCH
+	db 29, SUBMISSION
 	db 0
 
 ZubatEvosMoves:
@@ -1843,7 +1844,7 @@ HaunterEvosMoves:
 	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
-	db 27, HYPNOSIS
+	db 27, POISONPOWDER
 	db 31, SMOG
 	db 35, CONFUSE_RAY
 	db 39, MIST
@@ -2073,8 +2074,8 @@ GeodudeEvosMoves:
 	db EV_LEVEL, 25, GRAVELER
 	db 0
 ; Learnset
-	db 9, DEFENSE_CURL
-	db 13, ROCK_THROW
+	db 11, SAND_ATTACK
+	db 14, ROCK_THROW
 	db 17, DIG
 	db 20, MEGA_PUNCH
 	db 23, BARRAGE
