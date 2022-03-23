@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pidgeot.pic", 0, 1 ; sprite dimensions
 	dw PidgeotPicFront, PidgeotPicBack
 
-	db WHIRLWIND, WING_ATTACK, SWIFT, AGILITY ; level 1 learnset
+	db AGILITY, SWIFT, WHIRLWIND, FLY ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

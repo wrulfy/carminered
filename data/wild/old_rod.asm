@@ -6,12 +6,12 @@ OldRodData:
 	dbw CERULEAN_CITY,       .Group2
 	dbw VERMILION_CITY,      .Group4
 	dbw CELADON_CITY,        .Group5
-	dbw FUCHSIA_CITY,        .Group8
+	dbw FUCHSIA_CITY,        .Group5
 	dbw CINNABAR_ISLAND,     .Group7
 	dbw ROUTE_4,             .Group3
 	dbw ROUTE_6,             .Group3
 	dbw ROUTE_10,            .Group5
-	dbw ROUTE_11,            .Group5
+	dbw ROUTE_11,            .Group8
 	dbw ROUTE_12,            .Group8
 	dbw ROUTE_13,            .Group8
 	dbw ROUTE_17,            .Group9

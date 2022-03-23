@@ -1270,9 +1270,9 @@ SeadraEvosMoves:
 ; Learnset
 	db 34, WHIRLWIND
 	db 38, AURORA_BEAM
-	db 43, HYDRO_PUMP
-	db 48, AGILITY
-	db 54, DRAGON_RAGE
+	db 42, SURF
+	db 47, AGILITY
+	db 51, DRAGON_RAGE
 	db 0
 
 MissingNo5EEvosMoves:
@@ -1629,10 +1629,10 @@ ButterfreeEvosMoves:
 	db 18, SLEEP_POWDER
 	db 20, LEECH_LIFE
 	db 23, SUPERSONIC
-	db 26, AMNESIA
-	db 30, CONSTRICT
-	db 35, PSYCHIC_M
-	db 40, SKY_ATTACK
+	db 26, RAZOR_WIND
+	db 30, PSYCHIC_M
+	db 35, CONSTRICT
+	db 40, AMNESIA
 	db 0
 
 MachampEvosMoves:
@@ -1876,21 +1876,20 @@ PidgeottoEvosMoves:
 ; Learnset
 	db 20, WHIRLWIND
 	db 24, WING_ATTACK
-	db 29, SWIFT
-	db 33, AGILITY
-	db 37, SOFTBOILED
-	db 41, FLY
+	db 28, SWIFT
+	db 32, AGILITY
+	db 36, FLY
+	db 40, SOFTBOILED
 	db 0
 
 PidgeotEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 39, SOFTBOILED
-	db 43, FLY
-	db 47, MIRROR_MOVE
-	db 52, DOUBLE_EDGE
-	db 58, SKY_ATTACK
+	db 41, SOFTBOILED
+	db 46, TAKE_DOWN
+	db 51, MIRROR_MOVE
+	db 56, SKY_ATTACK
 	db 0
 
 StarmieEvosMoves:
@@ -1966,8 +1965,8 @@ SeakingEvosMoves:
 	db 28, AGILITY
 	db 31, WATERFALL
 	db 35, FURY_ATTACK
-	db 41, HORN_DRILL
-	db 45, TWINEEDLE
+	db 41, TWINEDDLE
+	db 45, HORN_DRILL
 	db 0
 
 MissingNo9FEvosMoves:
