@@ -1,15 +1,15 @@
 PokemonTower6FWildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 21, GASTLY
-	db 22, GASTLY
-	db 23, GASTLY
-	db 24, GASTLY
-	db 20, GASTLY
-	db 19, GASTLY
-	db 26, HAUNTER
-	db 22, CUBONE
-	db 24, CUBONE
+	db 26, GASTLY
+	db 25, CLEFAIRY
+	db 26, LICKITUNG
 	db 28, HAUNTER
+	db 26, VULPIX
+	db 25, GRIMER
+	db 27, CLEFAIRY
+	db 27, CLEFAIRY
+	db 27, CLEFAIRY
+	db 27, CLEFAIRY
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
