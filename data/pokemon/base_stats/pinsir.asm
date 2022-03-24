@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/pinsir.pic", 0, 1 ; sprite dimensions
 	dw PinsirPicFront, PinsirPicBack
 
-	db VICEGRIP, HARDEN, FOCUS_ENERGY, NO_MOVE ; level 1 learnset
+	db VICEGRIP, HARDEN, FOCUS_ENERGY, ROLLING_KICK ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

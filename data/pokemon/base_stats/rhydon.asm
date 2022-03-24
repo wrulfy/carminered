@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/rhydon.pic", 0, 1 ; sprite dimensions
 	dw RhydonPicFront, RhydonPicBack
 
-	db TAKE_DOWN, AGILITY, EARTHQUAKE, BARRAGE ; level 1 learnset
+	db TAKE_DOWN, AGILITY, EARTHQUAKE, STRENGTH ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset

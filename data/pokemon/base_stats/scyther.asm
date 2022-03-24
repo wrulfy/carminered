@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/scyther.pic", 0, 1 ; sprite dimensions
 	dw ScytherPicFront, ScytherPicBack
 
-	db QUICK_ATTACK, LEER, LEECH_LIFE, NO_MOVE ; level 1 learnset
+	db QUICK_ATTACK, LEER, LEECH_LIFE, AGILITY ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

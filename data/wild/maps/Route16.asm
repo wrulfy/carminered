@@ -5,10 +5,10 @@ Route16WildMons:
 	db 26, DODUO
 	db 25, FEAROW
 	db 25, RATICATE
-	db 25, FARFETCHD
 	db 27, DODUO
-	db 26, PONYTA 
+	db 25, FARFETCH
 	db 21, TANGELA 
+	db 26, PONYTA 
 	db 23, ELECTABUZZ
 	end_grass_wildmons
 

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/parasect.pic", 0, 1 ; sprite dimensions
 	dw ParasectPicFront, ParasectPicBack
 
-	db ABSORB, LEECH_LIFE, SLASH, SPORE ; level 1 learnset
+	db SLEEP_POWDER, LEECH_LIFE, STUN_SPORE, CUT ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset

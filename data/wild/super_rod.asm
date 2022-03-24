@@ -3,6 +3,7 @@ SuperRodData:
 	; map, fishing group
 	dbw PALLET_TOWN,         .Group1
 	dbw VIRIDIAN_CITY,       .Group1
+	dbw PEWTER_CITY,         .Group1
 	dbw CERULEAN_CITY,       .Group3
 	dbw VERMILION_CITY,      .Group4
 	dbw CELADON_CITY,        .Group5

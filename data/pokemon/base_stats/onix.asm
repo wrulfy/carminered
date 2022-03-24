@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/onix.pic", 0, 1 ; sprite dimensions
 	dw OnixPicFront, OnixPicBack
 
-	db TACKLE, ROCK_THROW, TAIL_WHIP, GUST ; level 1 learnset
+	db TACKLE, TAIL_WHIP, WRAP, ROCK_THROW ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset

@@ -3,6 +3,7 @@ OldRodData:
 	; map, fishing group
 	dbw PALLET_TOWN,         .Group7
 	dbw VIRIDIAN_CITY,       .Group1
+	dbw PEWTER_CITY,         .Group6
 	dbw CERULEAN_CITY,       .Group2
 	dbw VERMILION_CITY,      .Group4
 	dbw CELADON_CITY,        .Group5
