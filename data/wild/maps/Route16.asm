@@ -6,7 +6,7 @@ Route16WildMons:
 	db 25, FEAROW
 	db 25, RATICATE
 	db 27, DODUO
-	db 25, FARFETCH
+	db 25, FARFETCHD
 	db 21, TANGELA 
 	db 26, PONYTA 
 	db 23, ELECTABUZZ

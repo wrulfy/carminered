@@ -29,7 +29,7 @@ SLOTS_SOMEONESKEYS EQU $ff
 	const TRADE_FOR_VALKYRIE
 	const TRADE_FOR_BRAVO
 	const TRADE_FOR_NOODLES
-	const TRADE_FOR_MR.FISH
+	const TRADE_FOR_MR_FISH
 NUM_NPC_TRADES EQU const_value
 
 ; in game trade dialog sets

@@ -1963,7 +1963,7 @@ SeakingEvosMoves:
 	db 27, AGILITY
 	db 31, WATERFALL
 	db 35, FURY_ATTACK
-	db 40, TWINEDDLE
+	db 40, TWINEEDLE
 	db 45, HORN_DRILL
 	db 0
 
@@ -2283,7 +2283,7 @@ WeepinbellEvosMoves:
 	db 0
 ; Learnset
 	db 25, STUN_SPORE
-	db 30, HAZE
+	db 30, SMOG
 	db 35, RAZOR_LEAF
 	db 39, LEECH_LIFE
 	db 43, POISON_GAS

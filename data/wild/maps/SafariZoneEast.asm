@@ -6,7 +6,7 @@ SafariZoneEastWildMons:
 	db 30, TANGELA
 	db 30, TANGELA
 	db 30, DITTO
-	db 35, KANGHASKAN
+	db 35, KANGASKHAN
 	db 10, BULBASAUR
 	db 35, ELECTABUZZ
 	db 35, ELECTABUZZ

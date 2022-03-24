@@ -3,8 +3,8 @@ Route11WildMons:
 	db 17, DROWZEE
 	db 17, RATTATA
 	db 17, SPEAROW
-	db 15, NIDORANM
-	db 15, NIDORANF
+	db 15, NIDORAN_M
+	db 15, NIDORAN_F
 	db 14, DROWZEE
 	db 18, NIDORINO
 	db 18, NIDORINA
