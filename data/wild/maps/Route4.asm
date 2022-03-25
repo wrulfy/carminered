@@ -12,5 +12,15 @@ Route4WildMons:
 	db 13, MANKEY
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 30 ; encounter rate
+	db 30, GOLDEEN
+	db 25, PSYDUCK
+	db 15, MAGIKARP
+	db 30, POLIWAG
+	db 35, GOLDUCK
+	db 25, GOLDEEN
+	db 35, SEAKING
+	db 35, SEAKING
+	db 40, SEAKING
+	db 45, SEAKING
 	end_water_wildmons

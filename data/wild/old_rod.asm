@@ -24,7 +24,6 @@ OldRodData:
 	dbw ROUTE_23,            .Group10
 	dbw ROUTE_24,            .Group2
 	dbw ROUTE_25,            .Group2
-	dbw CERULEAN_GYM,        .Group3
 	dbw VERMILION_DOCK,      .Group9
 	dbw SEAFOAM_ISLANDS_B3F, .Group10
 	dbw SEAFOAM_ISLANDS_B4F, .Group10

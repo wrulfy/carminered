@@ -13,14 +13,14 @@ Route11WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 15 ; encounter rate
-	db  6, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	db 30, STARYU
+	db 30, KRABBY
+	db 15, MAGIKARP
+	db 25, HORSEA
+	db 30, HORSEA
+	db 35, SEADRA
+	db 35, KINGLER
+	db 35, STARMIE
+	db 40, STARMIE
+	db 40, STARMIE
 	end_water_wildmons

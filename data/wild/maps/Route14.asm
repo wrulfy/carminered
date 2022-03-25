@@ -3,7 +3,7 @@ Route14WildMons:
 	db 32, NIDORINO
 	db 31, PARAS
 	db 32, SLOWPOKE
-	db 33, PIDGEOTTO
+	db 32, BEEDRILL
 	db 32, PIDGEOTTO
 	db 33, RHYHORN
 	db 34, RHYHORN

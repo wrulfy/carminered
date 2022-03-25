@@ -13,14 +13,14 @@ Route25WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 25 ; encounter rate
-	db  6, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	db 30, PSYDUCK
+	db 25, GOLDEEN
+	db 15, MAGIKARP
+	db 30, POLIWAG
+	db 30, SEAKING
+	db 25, PSYDUCK
+	db 35, GOLDUCK
+	db 35, GOLDUCK
+	db 40, GOLDUCK
+	db 40, GOLDUCK
 	end_water_wildmons

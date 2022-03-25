@@ -1,6 +1,6 @@
 _SaffronGateText_1dfe7::
 	text "I'm on guard duty."
-	line "Gee, I'm thirsty,"
+	line "Gee, I'm tired,"
 	cont "though!"
 
 	para "Oh wait there,"
@@ -9,10 +9,10 @@ _SaffronGateText_1dfe7::
 
 _SaffronGateText_8aaa9::
 	text "Whoa, boy!"
-	line "I'm parched!"
+	line "I'm sooo tired..."
 	cont "..."
 	cont "Huh? I can have"
-	cont "this drink?"
+	cont "these coffees?"
 	cont "Gee, thanks!@"
 	text_end
 
@@ -20,9 +20,9 @@ _SaffronGateText_1dff1::
 	text_start
 
 	para "..."
-	line "Glug glug..."
+	line "Slurp slurp..."
 	cont "..."
-	cont "Gulp..."
+	cont "Slurp..."
 	cont "If you want to go"
 	cont "to SAFFRON CITY..."
 	cont "..."
@@ -34,5 +34,5 @@ _SaffronGateText_1dff1::
 
 _SaffronGateText_1dff6::
 	text "Hi, thanks for"
-	line "the cool drinks!"
+	line "those coffees!"
 	done

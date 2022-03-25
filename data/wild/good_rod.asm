@@ -7,12 +7,12 @@ GoodRodData:
 	dbw CERULEAN_CITY,       .Group2
 	dbw VERMILION_CITY,      .Group4
 	dbw CELADON_CITY,        .Group5
-	dbw FUCHSIA_CITY,        .Group8
+	dbw FUCHSIA_CITY,        .Group5
 	dbw CINNABAR_ISLAND,     .Group7
 	dbw ROUTE_4,             .Group3
 	dbw ROUTE_6,             .Group3
 	dbw ROUTE_10,            .Group5
-	dbw ROUTE_11,            .Group5
+	dbw ROUTE_11,            .Group8
 	dbw ROUTE_12,            .Group8
 	dbw ROUTE_13,            .Group8
 	dbw ROUTE_17,            .Group9
@@ -24,7 +24,6 @@ GoodRodData:
 	dbw ROUTE_23,            .Group10
 	dbw ROUTE_24,            .Group2
 	dbw ROUTE_25,            .Group2
-	dbw CERULEAN_GYM,        .Group3
 	dbw VERMILION_DOCK,      .Group9
 	dbw SEAFOAM_ISLANDS_B3F, .Group10
 	dbw SEAFOAM_ISLANDS_B4F, .Group10
@@ -52,7 +51,7 @@ GoodRodData:
 	db 15, GOLDEEN
 	db 15, GOLDEEN
 	db 15, POLIWAG
-	db 15, HORSEA
+	db 15, SLOWPOKE
 
 .Group3:
 	db 4
@@ -86,7 +85,7 @@ GoodRodData:
 	db 4
 	db 15, TENTACOOL
 	db 15, TENTACOOL
-	db 15, SHELLDER
+	db 15, HORSEA
 	db 15, SEEL
 
 .Group8:

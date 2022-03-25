@@ -13,14 +13,14 @@ Route22WildMons:
 	end_grass_wildmons
 	
 	def_water_wildmons 25 ; encounter rate
-	db  6, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	db 35, POLIWHIRL
+	db 30, POLIWAG
+	db 25, GOLDEEN
+	db 15, MAGIKARP
+	db 25, POLIWAG
+	db 20, POLIWAG
+	db 25, POLIWAG
+	db 35, SEAKING
+	db 40, POLIWRATH
+	db 40, POLIWRATH
 	end_water_wildmons

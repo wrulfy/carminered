@@ -13,14 +13,14 @@ Route10WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 15 ; encounter rate
-	db  6, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	db 30, SLOWPOKE
+	db 30, POLIWAG
+	db 15, MAGIKARP
+	db 30, HORSEA
+	db 30, POLIWHIRL
+	db 35, SLOWPOKE
+	db 35, SLOWBRO
+	db 35, SLOWBRO
+	db 40, SLOWBRO
+	db 40, SLOWBRO
 	end_water_wildmons

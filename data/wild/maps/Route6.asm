@@ -12,15 +12,15 @@ Route6WildMons:
 	db 18, PIDGEOTTO
 	end_grass_wildmons
 
-	def_water_wildmons 30 ; encounter rate
-	db  6, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db  5, TENTACOOL
-	db 10, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACOOL
-	db 30, TENTACOOL
-	db 35, TENTACOOL
-	db 40, TENTACOOL
+	def_water_wildmons 25 ; encounter rate
+	db 30, KRABBY
+	db 30, PSYDUCK
+	db 15, MAGIKARP
+	db 25, GOLDEEN
+	db 30, KINGLER
+	db 35, KINGLER
+	db 25, KRABBY
+	db 35, GOLDUCK
+	db 40, GOLDUCK
+	db 40, KINGLER
 	end_water_wildmons
