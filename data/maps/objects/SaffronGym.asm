@@ -1,5 +1,5 @@
 SaffronGym_Object:
-	db $2e ; border block
+	db $0 ; border block
 
 	def_warp_events
 	warp_event  8, 17, LAST_MAP, 3

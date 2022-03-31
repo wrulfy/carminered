@@ -7,7 +7,7 @@ SeafoamIslandsB4FWildMons:
 	db 40, SLOWBRO
 	db 41, KINGLER
 	db 30, KABUTO
-	db 39, POLIWHIRL 
+	db 41, VAPOREON 
 	db 42, POLIWRATH
 	db 43, GOLEM
 	end_grass_wildmons

@@ -1,4 +1,4 @@
-SeaRoutesWildMons:
+CityPondWildMons:
 	def_grass_wildmons 0 ; encounter rate
 	end_grass_wildmons
 

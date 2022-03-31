@@ -1,5 +1,5 @@
 PewterGym_Object:
-	db $3 ; border block
+	db $2e ; border block
 
 	def_warp_events
 	warp_event  4, 13, LAST_MAP, 3

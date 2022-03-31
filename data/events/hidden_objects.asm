@@ -245,8 +245,8 @@ Museum1FHiddenObjects:
 	db -1 ; end
 
 PewterGymHiddenObjects:
-	hidden_object  3, 10, SPRITE_FACING_UP, GymStatues
-	hidden_object  6, 10, SPRITE_FACING_UP, GymStatues
+	hidden_object  3, 11, SPRITE_FACING_UP, GymStatues
+	hidden_object  6, 11, SPRITE_FACING_UP, GymStatues
 	db -1 ; end
 
 PewterMartHiddenObjects:
