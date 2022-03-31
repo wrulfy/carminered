@@ -262,7 +262,7 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst UNUSED_MAP_F1,                  0,  0 ; $F1
 	mapconst UNUSED_MAP_F2,                  0,  0 ; $F2
 	mapconst UNUSED_MAP_F3,                  0,  0 ; $F3
-	mapconst UNUSED_MAP_F4,                  0,  0 ; $F4
+	mapconst CINNABAR_LAB_STORAGE_ROOM,      4,  4 ; $F4
 	mapconst LORELEIS_ROOM,                  6,  5 ; $F5
 	mapconst BRUNOS_ROOM,                    6,  5 ; $F6
 	mapconst AGATHAS_ROOM,                   6,  5 ; $F7

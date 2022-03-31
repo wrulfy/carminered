@@ -22,5 +22,5 @@ SeafoamIslandsB3FWildMons:
 	db 35, MAGIKARP
 	db 35, LAPRAS
 	db 40, MAGIKARP
-	db 45, OMANYTE
+	db 30, OMANYTE
 	end_water_wildmons

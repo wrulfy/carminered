@@ -85,6 +85,7 @@ Mansion3Script_Switches::
 PokemonMansion3F_TextPointers:
 	dw Mansion3Text1
 	dw Mansion3Text2
+	dw MoltresText
 	dw PickUpItemText
 	dw PickUpItemText
 	dw Mansion3Text5
@@ -96,6 +97,8 @@ Mansion3TrainerHeader0:
 	trainer EVENT_BEAT_MANSION_3_TRAINER_0, 0, Mansion3BattleText1, Mansion3EndBattleText1, Mansion3AfterBattleText1
 Mansion3TrainerHeader1:
 	trainer EVENT_BEAT_MANSION_3_TRAINER_1, 2, Mansion3BattleText2, Mansion3EndBattleText2, Mansion3AfterBattleText2
+MoltresTrainerHeader:
+	trainer EVENT_BEAT_MOLTRES, 0, MoltresBattleText, MoltresBattleText, MoltresBattleText
 	db -1 ; end
 
 Mansion3Text1:
@@ -110,6 +113,20 @@ Mansion3Text2:
 	call TalkToTrainer
 	jp TextScriptEnd
 
+MoltresText:
+	text_asm
+	ld hl, MoltresTrainerHeader
+	call TalkToTrainer
+	jp TextScriptEnd
+
+MoltresBattleText:
+	text_far _MoltresBattleText
+	text_asm
+	ld a, MOLTRES
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+	
 Mansion3BattleText1:
 	text_far _Mansion3BattleText1
 	text_end
