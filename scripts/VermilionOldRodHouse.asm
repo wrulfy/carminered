@@ -19,14 +19,14 @@ VermilionOldRodHouse_TextPointers:
 	jp nz, .choseNo
 	ldh [hMoney], a
 	ldh [hMoney + 2], a
-	ld a, $500
+	ld a, $5
 	ldh [hMoney + 1], a
 	call HasEnoughMoney
 	jr nc, .enoughMoney
 	ld hl, .NoMoneyText
 	jr .printText
 .enoughMoney
-	lb bc, DITTO, 25
+	lb bc, MAGIKARP, 5
 	call GivePokemon
 	jr nc, .done
 	xor a

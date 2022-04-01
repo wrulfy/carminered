@@ -151,6 +151,6 @@ _Route25AfterBattleText9::
 	done
 
 _Route25Text11::
-	text "CERULEAN CAPE"
+	text "SEA COTTAGE"
 	line "BILL lives here!"
 	done

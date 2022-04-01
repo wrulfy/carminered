@@ -8,49 +8,9 @@ Route10_Script:
 	ret
 
 Route10_ScriptPointers:
-	dw CinnabarIslandScript0
-	dw CinnabarIslandScript1
 	dw CheckFightingMapTrainers
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
-
-CinnabarIslandScript0:
-	ld b, SECRET_KEY
-	call IsItemInBag
-	ret nz
-	ld a, [wYCoord]
-	cp 40
-	ret nz
-	ld a, [wXCoord]
-	cp 6
-	ret nz
-	ld a, PLAYER_DIR_UP
-	ld [wPlayerMovingDirection], a
-	ld a, $11
-	ldh [hSpriteIndexOrTextID], a
-	call DisplayTextID
-	xor a
-	ldh [hJoyHeld], a
-	ld a, $1
-	ld [wSimulatedJoypadStatesIndex], a
-	ld a, D_DOWN
-	ld [wSimulatedJoypadStatesEnd], a
-	call StartSimulatingJoypadStates
-	xor a
-	ld [wSpritePlayerStateData1FacingDirection], a
-	ld [wJoyIgnore], a
-	ld a, $1
-	ld [wCinnabarIslandCurScript], a
-	ret
-
-CinnabarIslandScript1:
-	ld a, [wSimulatedJoypadStatesIndex]
-	and a
-	ret nz
-	call Delay3
-	ld a, $0
-	ld [wCinnabarIslandCurScript], a
-	ret
 
 Route10_TextPointers:
 	dw Route10Text1
@@ -63,7 +23,6 @@ Route10_TextPointers:
 	dw PokeCenterSignText
 	dw Route10Text9
 	dw Route10Text10
-	dw CinnabarIslandText11
 
 Route10TrainerHeaders:
 	def_trainers

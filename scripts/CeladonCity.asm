@@ -23,7 +23,6 @@ CeladonCity_TextPointers:
 	dw CeladonCityText16
 	dw CeladonCityText17
 	dw CeladonCityText18
-	dw CeladonCityText19
 
 CeladonCityText1:
 	text_far _CeladonCityText1
@@ -130,8 +129,4 @@ CeladonCityText17:
 
 CeladonCityText18:
 	text_far _CeladonCityText18
-	text_end
-
-CeladonCityText19:
-	text_far _CeladonCityText19
 	text_end

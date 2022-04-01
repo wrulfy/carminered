@@ -1,8 +1,3 @@
-_CinnabarIslandText11::
-	text "The door is"
-	line "locked..."
-	done
-
 _Route10BattleText1::
 	text "Wow, are you a"
 	line "#MANIAC too?"

@@ -19,7 +19,7 @@ _Lab4Text_75dd0::
 	text "I take a little"
 	line "time!"
 
-	para "Go shopping for a"
+	para "You go for walk a"
 	line "little while!"
 	done
 
@@ -68,7 +68,7 @@ _Lab4Text_610b8::
 	text "I take a little"
 	line "time!"
 
-	para "Go shopping for a"
+	para "You go for walk a"
 	line "little while!"
 	done
 
