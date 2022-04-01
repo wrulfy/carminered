@@ -2,9 +2,9 @@ CinnabarLabStorageRoom_Script:
 	call EnableAutoTextBoxDrawing
 	ret
 
-CinnabarLabstorageRoom_TextPointers:
-	dw CinnabarLabstorageRoomtext1
+CinnabarLabStorageRoom_TextPointers:
+	dw CinnabarLabStorageRoomText1
 
-CinnabarLabstorageRoomtext1:
-	text_far _CinnabarLabstorageRoomtext1
+CinnabarLabStorageRoomText1:
+	text_far _CinnabarLabStorageRoomText1
 	text_end

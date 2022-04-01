@@ -1,3 +1,3 @@
-_CinnabarLabstorageRoomText1::
+_CinnabarLabStorageRoomText1::
 	text_start
 	done
