@@ -1,5 +1,6 @@
 Route10_Script:
 	call EnableAutoTextBoxDrawing
+	ResetEvent EVENT_MANSION_SWITCH_ON
 	ld hl, Route10TrainerHeaders
 	ld de, Route10_ScriptPointers
 	ld a, [wRoute10CurScript]

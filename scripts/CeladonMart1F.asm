@@ -1,5 +1,7 @@
 CeladonMart1F_Script:
-	jp EnableAutoTextBoxDrawing
+	call EnableAutoTextBoxDrawing
+	ResetEvent EVENT_LAB_STILL_REVIVING_FOSSIL
+	ret
 
 CeladonMart1F_TextPointers:
 	dw CeladonMart1Text1
