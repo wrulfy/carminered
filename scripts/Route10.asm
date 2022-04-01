@@ -81,6 +81,10 @@ Route10TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_10_TRAINER_5, 2, Route10BattleText6, Route10EndBattleText6, Route10AfterBattleText6
 	db -1 ; end
 
+CinnabarIslandText8:
+	text_far _CinnabarIslandText8
+	text_end
+
 Route10Text1:
 	text_asm
 	ld hl, Route10TrainerHeader0

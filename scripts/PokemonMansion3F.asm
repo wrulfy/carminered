@@ -51,7 +51,7 @@ Mansion3Script0:
 	ret
 
 CoordsData_52254:
-	dbmapcoord 16, 14
+	dbmapcoord  8, 16
 	dbmapcoord 17, 14
 	dbmapcoord 19, 14
 	db -1 ; end
