@@ -14,6 +14,6 @@ PokemonMansion3F_Object:
 	object_event  5, 11, SPRITE_BIRD, STAY, UP, 3, MOLTRES, 50
 	object_event  1, 16, SPRITE_POKE_BALL, STAY, NONE, 4, MAX_POTION
 	object_event 25,  5, SPRITE_POKE_BALL, STAY, NONE, 5, IRON
-	object_event 18,  4, SPRITE_POKEDEX, STAY, NONE, 6 ; person
+	object_event 18,  4, SPRITE_POKEDEX, STAY, NONE, 7 ; person
 
 	def_warps_to POKEMON_MANSION_3F

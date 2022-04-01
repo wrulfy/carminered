@@ -88,8 +88,8 @@ PokemonMansion3F_TextPointers:
 	dw MoltresText
 	dw PickUpItemText
 	dw PickUpItemText
-	dw Mansion3Text5
 	dw Mansion3Text6
+	dw Mansion3Text5
 
 Mansion3TrainerHeaders:
 	def_trainers
