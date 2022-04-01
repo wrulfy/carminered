@@ -9,7 +9,7 @@ PowerPlantWildMons:
 	db 39, RAICHU
 	db 42, JOLTEON
 	db 37, VOLTORB
-	db 44, MAGETON
+	db 44, MAGNETON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

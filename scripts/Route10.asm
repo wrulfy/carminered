@@ -63,7 +63,7 @@ Route10_TextPointers:
 	dw PokeCenterSignText
 	dw Route10Text9
 	dw Route10Text10
-	dw CinnabarIslandText11
+	dw CinnabarIslandText8
 
 Route10TrainerHeaders:
 	def_trainers

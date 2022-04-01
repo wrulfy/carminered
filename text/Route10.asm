@@ -1,4 +1,4 @@
-_CinnabarIslandText11::
+_CinnabarIslandText8::
 	text "The door is"
 	line "locked..."
 	done

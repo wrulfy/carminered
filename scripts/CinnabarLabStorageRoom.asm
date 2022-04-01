@@ -1,6 +1,10 @@
 CinnabarLabStorageRoom_Script:
-	jp EnableAutoTextBoxDrawing
+	call EnableAutoTextBoxDrawing
+	ret
 
 CinnabarLabstorageRoom_TextPointers:
+	dw CinnabarLabstorageRoomtext1
 
-	text_end ; unused
+CinnabarLabstorageRoomtext1:
+	text_far _CinnabarLabstorageRoomtext1
+	text_end
