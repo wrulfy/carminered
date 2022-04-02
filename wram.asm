@@ -1998,7 +1998,7 @@ wRocketHideoutB4FCurScript:: db
 wRoute6GateCurScript:: db
 wRoute8GateCurScript:: db
 	ds 1
-wCinnabarIslandCurScript:: db
+wPokemonMansion0FCurScript:: db
 wPokemonMansion1FCurScript:: db
 	ds 1
 wPokemonMansion2FCurScript:: db

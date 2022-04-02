@@ -261,6 +261,7 @@ INCLUDE "text/VermilionCity.asm"
 INCLUDE "text/CeladonCity.asm"
 INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
+INCLUDE "text/PokemonMansion0F.asm"
 INCLUDE "text/SaffronCity.asm"
 
 INCLUDE "data/text/text_6.asm"

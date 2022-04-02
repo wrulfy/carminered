@@ -32,7 +32,7 @@ VermilionOldRodHouse_TextPointers:
 	xor a
 	ld [wPriceTemp], a
 	ld [wPriceTemp + 2], a
-	ld a, $5
+	ld a, $50
 	ld [wPriceTemp + 1], a
 	ld hl, wPriceTemp + 2
 	ld de, wPlayerMoney + 2
