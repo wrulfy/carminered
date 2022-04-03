@@ -51,7 +51,7 @@ Mansion3Script0:
 	ret
 
 CoordsData_52254:
-	dbmapcoord 16, 14
+	dbmapcoord  8, 16
 	dbmapcoord 17, 14
 	dbmapcoord 19, 14
 	db -1 ; end
@@ -85,7 +85,6 @@ Mansion3Script_Switches::
 PokemonMansion3F_TextPointers:
 	dw Mansion3Text1
 	dw Mansion3Text2
-	dw PickUpItemText
 	dw PickUpItemText
 	dw Mansion3Text5
 	dw Mansion3Text6

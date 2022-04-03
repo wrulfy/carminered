@@ -697,7 +697,7 @@ INCLUDE "data/maps/headers/Route21.asm"
 INCLUDE "data/maps/objects/Route21.asm"
 Route21_Blocks: INCBIN "maps/Route21.blk"
 
-VermilionOldRodHouse_Blocks:
+VermilionOldRodHouse_Blocks: INCBIN "maps/VermilionOldRodHouse.blk"
 Route12SuperRodHouse_Blocks:
 Daycare_Blocks: INCBIN "maps/Daycare.blk"
 
@@ -1222,3 +1222,13 @@ INCLUDE "data/maps/headers/AgathasRoom.asm"
 INCLUDE "scripts/AgathasRoom.asm"
 INCLUDE "data/maps/objects/AgathasRoom.asm"
 AgathasRoom_Blocks: INCBIN "maps/AgathasRoom.blk"
+
+INCLUDE "data/maps/headers/CinnabarLabStorageRoom.asm"
+INCLUDE "scripts/CinnabarLabStorageRoom.asm"
+INCLUDE "data/maps/objects/CinnabarLabStorageRoom.asm"
+CinnabarLabStorageRoom_Blocks: INCBIN "maps/CinnabarLabStorageRoom.blk"
+
+INCLUDE "data/maps/headers/PokemonMansion0F.asm"
+INCLUDE "scripts/PokemonMansion0F.asm"
+INCLUDE "data/maps/objects/PokemonMansion0F.asm"
+PokemonMansion0F_Blocks: INCBIN "maps/PokemonMansion0F.blk"	

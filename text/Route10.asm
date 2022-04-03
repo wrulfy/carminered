@@ -99,11 +99,30 @@ _Route10AfterBattleText6::
 	cont "floral pattern!"
 	done
 
-_Route10Text9::
-_Route10Text7::
-	text "ROCK TUNNEL"
+	_Route10BattleText7::
+	text "STOP THERE!"
+	line "This outpost is a"
+	cont "restricted area."
+	done
+
+_Route10EndBattleText7::
+	text "Well, I"
+	line "just did my job!"
+	prompt
+
+_Route10AfterBattleText7::
+	text "Even if you get"
+	line "inside you need "
+	cont "authorization to"
+	cont "continue into the"
+	cont "locked basement!"
 	done
 
 _Route10Text10::
-	text "POWER PLANT"
+_Route10Text8::
+	text "ROCK TUNNEL"
+	done
+
+_Route10Text11::
+	text "#MON MANSION"
 	done

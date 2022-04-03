@@ -1,5 +1,6 @@
 Route10_Script:
 	call EnableAutoTextBoxDrawing
+	ResetEvent EVENT_MANSION_SWITCH_ON
 	ld hl, Route10TrainerHeaders
 	ld de, Route10_ScriptPointers
 	ld a, [wRoute10CurScript]
@@ -20,9 +21,10 @@ Route10_TextPointers:
 	dw Route10Text5
 	dw Route10Text6
 	dw Route10Text7
+	dw Route10Text8
 	dw PokeCenterSignText
-	dw Route10Text9
 	dw Route10Text10
+	dw Route10Text11
 
 Route10TrainerHeaders:
 	def_trainers
@@ -38,6 +40,8 @@ Route10TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_10_TRAINER_4, 2, Route10BattleText5, Route10EndBattleText5, Route10AfterBattleText5
 Route10TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_10_TRAINER_5, 2, Route10BattleText6, Route10EndBattleText6, Route10AfterBattleText6
+Route10TrainerHeader6:
+	trainer EVENT_BEAT_ROUTE_10_TRAINER_6, 1, Route10BattleText7, Route10EndBattleText7, Route10AfterBattleText7
 	db -1 ; end
 
 Route10Text1:
@@ -148,11 +152,29 @@ Route10AfterBattleText6:
 	text_far _Route10AfterBattleText6
 	text_end
 
-Route10Text9:
 Route10Text7:
-	text_far _Route10Text7 ; _Route10Text9
+	text_asm
+	ld hl, Route10TrainerHeader6
+	call TalkToTrainer
+	jp TextScriptEnd
+
+Route10BattleText7:
+	text_far _Route10BattleText7
+	text_end
+
+Route10EndBattleText7:
+	text_far _Route10EndBattleText7
+	text_end
+
+Route10AfterBattleText7:
+	text_far _Route10AfterBattleText7
 	text_end
 
 Route10Text10:
-	text_far _Route10Text10
+Route10Text8:
+	text_far _Route10Text8 ; _Route10Text10
+	text_end
+
+Route10Text11:
+	text_far _Route10Text11
 	text_end
