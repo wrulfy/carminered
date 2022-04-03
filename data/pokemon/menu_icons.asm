@@ -28,11 +28,11 @@ MonPartyData:
 	nybble ICON_FAIRY     ; Raichu
 	nybble ICON_MON       ; Sandshrew
 	nybble ICON_MON       ; Sandslash
-	nybble ICON_QUADRUPED ; NidoranF
-	nybble ICON_QUADRUPED ; Nidorina
+	nybble ICON_MON       ; NidoranF
+	nybble ICON_MON       ; Nidorina
 	nybble ICON_MON       ; Nidoqueen
-	nybble ICON_QUADRUPED ; NidoranM
-	nybble ICON_QUADRUPED ; Nidorino
+	nybble ICON_MON       ; NidoranM
+	nybble ICON_MON       ; Nidorino
 	nybble ICON_MON       ; Nidoking
 	nybble ICON_FAIRY     ; Clefairy
 	nybble ICON_FAIRY     ; Clefable
@@ -40,8 +40,8 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Ninetales
 	nybble ICON_FAIRY     ; Jigglypuff
 	nybble ICON_FAIRY     ; Wigglytuff
-	nybble ICON_BIRD      ; Zubat
-	nybble ICON_BIRD      ; Golbat
+	nybble ICON_MON       ; Zubat
+	nybble ICON_MON       ; Golbat
 	nybble ICON_GRASS     ; Oddish
 	nybble ICON_GRASS     ; Gloom
 	nybble ICON_GRASS     ; Vileplume
@@ -52,16 +52,16 @@ MonPartyData:
 	nybble ICON_MON       ; Diglett
 	nybble ICON_MON       ; Dugtrio
 	nybble ICON_MON       ; Meowth
-	nybble ICON_QUADRUPED ; Persian
+	nybble ICON_MON       ; Persian
 	nybble ICON_MON       ; Psyduck
 	nybble ICON_MON       ; Golduck
 	nybble ICON_MON       ; Mankey
 	nybble ICON_MON       ; Primeape
 	nybble ICON_QUADRUPED ; Growlithe
 	nybble ICON_QUADRUPED ; Arcanine
-	nybble ICON_WATER     ; Poliwag
-	nybble ICON_WATER     ; Poliwhirl
-	nybble ICON_WATER     ; Poliwrath
+	nybble ICON_MON       ; Poliwag
+	nybble ICON_MON       ; Poliwhirl
+	nybble ICON_MON       ; Poliwrath
 	nybble ICON_MON       ; Abra
 	nybble ICON_MON       ; Kadabra
 	nybble ICON_MON       ; Alakazam
@@ -73,9 +73,9 @@ MonPartyData:
 	nybble ICON_GRASS     ; Victreebel
 	nybble ICON_WATER     ; Tentacool
 	nybble ICON_WATER     ; Tentacruel
-	nybble ICON_BALL      ; Geodude
-	nybble ICON_BALL      ; Graveler
-	nybble ICON_BALL      ; Golem
+	nybble ICON_MON       ; Geodude
+	nybble ICON_MON       ; Graveler
+	nybble ICON_MON       ; Golem
 	nybble ICON_QUADRUPED ; Ponyta
 	nybble ICON_QUADRUPED ; Rapidash
 	nybble ICON_QUADRUPED ; Slowpoke
@@ -91,14 +91,14 @@ MonPartyData:
 	nybble ICON_MON       ; Muk
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
-	nybble ICON_BALL      ; Gastly
-	nybble ICON_BALL      ; Haunter
+	nybble ICON_MON       ; Gastly
+	nybble ICON_MON       ; Haunter
 	nybble ICON_MON       ; Gengar
 	nybble ICON_SNAKE     ; Onix
 	nybble ICON_MON       ; Drowzee
 	nybble ICON_MON       ; Hypno
-	nybble ICON_HELIX     ; Krabby
-	nybble ICON_HELIX     ; Kingler
+	nybble ICON_WATER     ; Krabby
+	nybble ICON_WATER     ; Kingler
 	nybble ICON_BALL      ; Voltorb
 	nybble ICON_BALL      ; Electrode
 	nybble ICON_GRASS     ; Exeggcute
@@ -108,8 +108,8 @@ MonPartyData:
 	nybble ICON_MON       ; Hitmonlee
 	nybble ICON_MON       ; Hitmonchan
 	nybble ICON_MON       ; Lickitung
-	nybble ICON_BALL      ; Koffing
-	nybble ICON_BALL      ; Weezing
+	nybble ICON_MON       ; Koffing
+	nybble ICON_MON       ; Weezing
 	nybble ICON_QUADRUPED ; Rhyhorn
 	nybble ICON_MON       ; Rhydon
 	nybble ICON_FAIRY     ; Chansey
@@ -131,12 +131,12 @@ MonPartyData:
 	nybble ICON_WATER     ; Magikarp
 	nybble ICON_SNAKE     ; Gyarados
 	nybble ICON_WATER     ; Lapras
-	nybble ICON_BALL      ; Ditto
+	nybble ICON_MON       ; Ditto
 	nybble ICON_QUADRUPED ; Eevee
 	nybble ICON_QUADRUPED ; Vaporeon
 	nybble ICON_QUADRUPED ; Jolteon
 	nybble ICON_QUADRUPED ; Flareon
-	nybble ICON_BALL      ; Porygon
+	nybble ICON_MON       ; Porygon
 	nybble ICON_HELIX     ; Omanyte
 	nybble ICON_HELIX     ; Omastar
 	nybble ICON_HELIX     ; Kabuto

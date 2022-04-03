@@ -152,11 +152,3 @@ _CeladonCityText18::
 	line "The playground"
 	cont "for grown-ups!"
 	done
-
-_CeladonCityText19::
-	text "CELADON FOSSIL"
-	line "RESTORATION CENTER"
-	
-	para "We bring fossils"
-	line "back to life"
-	done
