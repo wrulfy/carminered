@@ -15,6 +15,7 @@ CeladonCity_Object:
 	warp_event 31, 27, CELADON_DINER, 1
 	warp_event 35, 27, CELADON_CHIEF_HOUSE, 1
 	warp_event 43, 27, CELADON_HOTEL, 1
+	warp_event 33,  9, CINNABAR_LAB_FOSSIL_ROOM, 1
 
 	def_bg_events
 	bg_event 27, 15, 10 ; CeladonCityText10
@@ -26,6 +27,8 @@ CeladonCity_Object:
 	bg_event 39, 21, 16 ; CeladonCityText16
 	bg_event 33, 21, 17 ; CeladonCityText17
 	bg_event 27, 21, 18 ; CeladonCityText18
+	bg_event 35, 11, 19 ; CeladonCityText19
+
 
 	def_object_events
 	object_event  8, 17, SPRITE_LITTLE_GIRL, WALK, ANY_DIR, 1 ; person
