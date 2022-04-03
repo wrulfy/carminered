@@ -16,3 +16,4 @@ PokemonMansion0F_Object:
 
 
 	def_warps_to POKEMON_MANSION_0F
+	

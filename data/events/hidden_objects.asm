@@ -528,7 +528,7 @@ Mansion2HiddenObjects:
 	db -1 ; end
 
 Mansion3HiddenObjects:
-	hidden_object  7,  7, MAX_REVIVE, HiddenItems
+	hidden_object  1,  9, MAX_REVIVE, HiddenItems
 	hidden_object 10,  5, SPRITE_FACING_UP, Mansion3Script_Switches
 	db -1 ; end
 
