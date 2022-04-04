@@ -14,31 +14,28 @@ _SecretHouseText_4a350::
 	line "You have won!"
 	prompt
 
-_ReceivedHM03Text::
+_ReceivedSRODText::
 	text "<PLAYER> received"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
-	text_end
+	line "a SUPER ROD!@"
+	done
 
-_HM03ExplanationText::
-	text "HM03 is SURF!"
+_SRODExplanationText::
+	text "with this ROD you"
+	line "can fish strong"
+	cont "#MON in any "
+	cont "body of water"
 
-	para "#MON will be"
-	line "able to ferry you"
-	cont "across water!"
-
-	para "And, this HM isn't"
-	line "disposable! You"
-	cont "can use it over"
-	cont "and over!"
+	para "The SUPER ROD is"
+	line "more effective"
+	cont "than the other"
+	cont "two RODS"
 
 	para "You're super lucky"
 	line "for winning this"
 	cont "fabulous prize!"
 	done
 
-_HM03NoRoomText::
+_SRODNoRoomText::
 	text "You don't have"
 	line "room for this"
 	cont "fabulous prize!"

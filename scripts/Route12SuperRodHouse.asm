@@ -6,8 +6,7 @@ Route12SuperRodHouse_TextPointers:
 
 Route12HouseText1:
 	text_asm
-	ld a, [wd728]
-	bit 5, a ; received super rod?
+	CheckEvent EVENT_GOT_HM03
 	jr nz, .got_item
 	ld hl, Route12HouseText_564c0
 	call PrintText
@@ -15,11 +14,10 @@ Route12HouseText1:
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused
-	lb bc, SUPER_ROD, 1
+	lb bc, HM_SURF, 1
 	call GiveItem
 	jr nc, .bag_full
-	ld hl, wd728
-	set 5, [hl] ; received super rod
+	SetEvent EVENT_GOT_HM03
 	ld hl, Route12HouseText_564c5
 	jr .done
 .bag_full
