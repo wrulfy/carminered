@@ -8,8 +8,8 @@ Route4WildMons:
 	db 13, EKANS
 	db 11, VOLTORB
 	db 10, MANKEY
-	db 11, MANKEY
-	db 13, MANKEY
+	db 11, MEOWTH
+	db 13, MEOWTH
 	end_grass_wildmons
 
 	def_water_wildmons 30 ; encounter rate

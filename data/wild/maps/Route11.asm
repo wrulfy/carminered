@@ -5,10 +5,10 @@ Route11WildMons:
 	db 17, SPEAROW
 	db 15, NIDORAN_M
 	db 15, NIDORAN_F
-	db 14, DROWZEE
+	db 15, POLIWAG
 	db 18, NIDORINO
 	db 18, NIDORINA
-	db 19, RATTATA
+	db 15, DROWZEE
 	db 13, FARFETCHD
 	end_grass_wildmons
 

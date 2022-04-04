@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, ICE ; type
-	db 60 ; catch rate
+	db 45 ; catch rate
 	db 213 ; base exp
 
 	INCBIN "gfx/pokemon/front/cloyster.pic", 0, 1 ; sprite dimensions

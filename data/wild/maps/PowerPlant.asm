@@ -1,15 +1,15 @@
 PowerPlantWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 40, ELECTRODE
-	db 40, MAGNETON
-	db 41, ELECTABUZZ
-	db 39, RAICHU
-	db 42, MAGNETON
-	db 42, ELECTRODE
+	db 41, ELECTRODE
+	db 41, MAGNETON
+	db 42, ELECTABUZZ
+	db 40, RAICHU
+	db 43, MAGNETON
+	db 43, ELECTRODE
 	db 39, RAICHU
 	db 42, JOLTEON
-	db 37, VOLTORB
-	db 44, MAGNETON
+	db 38, VOLTORB
+	db 37, MAGNEMITE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
