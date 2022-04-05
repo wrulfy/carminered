@@ -10,7 +10,7 @@ CityCoastWildMons:
 	db 30, KRABBY
 	db 35, STARMIE
 	db 35, SHELLDER
-	db 35, CLOYSTER
 	db 35, STARYU
 	db 40, CLOYSTER
+	db 45, CLOYSTER
 	end_water_wildmons

@@ -18,9 +18,9 @@ Route11WildMons:
 	db 15, MAGIKARP
 	db 25, HORSEA
 	db 30, HORSEA
+	db 35, STARMIE
 	db 35, SEADRA
 	db 35, KINGLER
-	db 35, STARMIE
-	db 40, STARMIE
-	db 40, STARMIE
+	db 40, KINGLER
+	db 45, KINGLER
 	end_water_wildmons

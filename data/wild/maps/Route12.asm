@@ -9,7 +9,7 @@ Route12WildMons:
 	db 28, SEEL
 	db 29, VENONAT
 	db 31, VENOMOTH
-	db 15, CHANSEY
+	db 23, CHANSEY
 	end_grass_wildmons
 
 	def_water_wildmons 15 ; encounter rate
@@ -22,5 +22,5 @@ Route12WildMons:
 	db 35, TENTACRUEL
 	db 35, SEADRA
 	db 40, DEWGONG
-	db 40, DEWGONG
+	db 45, DEWGONG
 	end_water_wildmons

@@ -12,5 +12,15 @@ SafariZoneEastWildMons:
 	db 35, ELECTABUZZ
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 20 ; encounter rate
+	db 30, DRATINI
+	db 30, MAGIKARP
+	db 30, HORSEA
+	db 25, DRATINI
+	db 20, DRATINI
+	db 30, GOLDEEN
+	db 35, SEADRA
+	db 35, DRAGONAIR
+	db 35, GYARADOS
+	db 40, GYARADOS
 	end_water_wildmons

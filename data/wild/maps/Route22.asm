@@ -22,5 +22,5 @@ Route22WildMons:
 	db 25, POLIWAG
 	db 35, SEAKING
 	db 40, POLIWRATH
-	db 40, POLIWRATH
+	db 45, POLIWRATH
 	end_water_wildmons

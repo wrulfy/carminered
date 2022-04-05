@@ -2,7 +2,7 @@ Route21WildMons:
 	def_grass_wildmons 25 ; encounter rate
 	db 43, TANGELA
 	db 43, RATICATE
-	db 44, MR.MIME
+	db 44, MR_MIME
 	db 41, PIDGEOTTO
 	db 42, NIDORINA
 	db 42, NIDORINO

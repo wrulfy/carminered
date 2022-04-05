@@ -22,5 +22,5 @@ Route10WildMons:
 	db 35, SLOWBRO
 	db 35, SLOWBRO
 	db 40, SLOWBRO
-	db 40, SLOWBRO
+	db 45, SLOWBRO
 	end_water_wildmons

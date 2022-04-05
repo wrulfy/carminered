@@ -19,7 +19,7 @@ Route24WildMons:
 	db 30, POLIWAG
 	db 35, GOLDUCK
 	db 25, GOLDEEN
-	db 35, SEAKING
+	db 30, SEAKING
 	db 35, SEAKING
 	db 40, SEAKING
 	db 40, SEAKING

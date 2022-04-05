@@ -22,5 +22,5 @@ Route13WildMons:
 	db 35, TENTACRUEL
 	db 40, DEWGONG
 	db 40, SEADRA
-	db 40, SEADRA
+	db 45, SEADRA
 	end_water_wildmons

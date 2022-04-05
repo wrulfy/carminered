@@ -22,5 +22,5 @@ Route25WildMons:
 	db 35, GOLDUCK
 	db 35, GOLDUCK
 	db 40, GOLDUCK
-	db 40, GOLDUCK
+	db 45, GOLDUCK
 	end_water_wildmons

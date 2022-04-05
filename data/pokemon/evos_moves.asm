@@ -700,8 +700,8 @@ ChanseyEvosMoves:
 	db 24, METRONOME
 	db 29, MINIMIZE
 	db 34, TAKE_DOWN
-	db 39, SING
-	db 44, SOFTBOILED
+	db 39, SOFTBOILED
+	db 44, SING
 	db 49, LIGHT_SCREEN
 	db 54, DOUBLE_EDGE
 	db 0

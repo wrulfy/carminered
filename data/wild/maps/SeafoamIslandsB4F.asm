@@ -1,7 +1,7 @@
 SeafoamIslandsB4FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 40, JYNX
-	db 41, GOLBAT
+	db 40, GOLBAT
 	db 40, GRAVELER
 	db 40, GOLDUCK
 	db 40, SLOWBRO
