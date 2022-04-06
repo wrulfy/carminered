@@ -1,15 +1,15 @@
 PokemonMansionB1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 45, ARCANINE
-	db 45, WEEZING
-	db 45, MUK
-	db 43, KADABRA 
-	db 44, NINETALES
+	db 46, ARCANINE
+	db 46, MUK
+	db 46, WEEZING
+	db 46, KADABRA 
 	db 46, NINETALES
-	db 43, HAUNTER
+	db 46, NINETALES
+	db 46, HAUNTER
 	db 46, ALAKAZAM
-	db 47, GENGAR 
-	db 45, PORYGON
+	db 45, PORYGON 
+	db 40, DITTO
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

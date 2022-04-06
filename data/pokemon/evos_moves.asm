@@ -454,10 +454,14 @@ MewEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, TRANSFORM
-	db 20, MEGA_PUNCH
+	db 10, TELEPORT
+	db 20, TRANSFORM
 	db 30, METRONOME
 	db 40, PSYCHIC_M
+	db 50, TRI_ATTACK
+	db 60, CONVERSION
+	db 70, TRANSFORM
+	db 80, PSYWAVE
 	db 0
 
 GyaradosEvosMoves:
@@ -671,10 +675,11 @@ KadabraEvosMoves:
 	db EV_LEVEL, 35, ALAKAZAM
 	db 0
 ; Learnset
-	db 18, KINESIS
-	db 22, DISABLE
-	db 27, PSYBEAM
-	db 32, GROWTH
+	db 16, KINESIS
+	db 20, DOUBLESLAP
+	db 24, DISABLE
+	db 28, PSYBEAM
+	db 32, SONICBOOM
 	db 36, RECOVER
 	db 40, PSYCHIC_M
 	db 0
@@ -776,11 +781,11 @@ ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 37, MEGA_DRAIN
-	db 42, GROWTH
-	db 47, CONSTRICT
-	db 51, SOLARBEAM	
-	db 56, LEECH_SEED
+	db 35, SLASH
+	db 40, CONSTRICT
+	db 45, SPORE
+	db 51, MEGA_DRAIN
+	db 56, GROWTH
 	db 61, GUILLOTINE
 	db 0
 
@@ -986,7 +991,7 @@ VenonatEvosMoves:
 	db 19, LEECH_LIFE
 	db 24, STUN_SPORE
 	db 27, PSYBEAM
-	db 32, SLEEP_POWDER
+	db 32, HYPNOSIS
 	db 0
 
 DragoniteEvosMoves:
@@ -1458,14 +1463,14 @@ EkansEvosMoves:
 
 ParasEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, PARASECT
+	db EV_LEVEL, 35, PARASECT
 	db 0
 ; Learnset
 	db 11, ABSORB
 	db 16, SLEEP_POWDER
 	db 21, LEECH_LIFE
 	db 26, CUT
-	db 31, STUN_SPORE
+	db 31, LEECH_SEED
 	db 0
 
 PoliwhirlEvosMoves:
@@ -1522,7 +1527,7 @@ BeedrillEvosMoves:
 	db 23, AGILITY
 	db 26, FURY_ATTACK
 	db 30, TWINEEDLE
-	db 34, TOXIC
+	db 34, SLUDGE
 	db 40, HORN_DRILL
 	db 0
 
@@ -1572,7 +1577,7 @@ VenomothEvosMoves:
 	db 0
 ; Learnset
 	db 31, WING_ATTACK
-	db 34, SLEEP_POWDER
+	db 34, HYPNOSIS
 	db 40, PSYCHIC_M
 	db 44, CONSTRICT
 	db 49, AMNESIA
@@ -1713,7 +1718,7 @@ MagikarpEvosMoves:
 	db EV_LEVEL, 20, GYARADOS
 	db 0
 ; Learnset
-	db 12, TACKLE
+	db 14, TACKLE
 	db 36, HYDRO_PUMP
 	db 0
 
@@ -1854,7 +1859,7 @@ AbraEvosMoves:
 	db EV_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
-	db 13, CONFUSION
+	db 12, POUND
 	db 0
 
 AlakazamEvosMoves:
@@ -1862,9 +1867,10 @@ AlakazamEvosMoves:
 	db 0
 ; Learnset
 	db 37, RECOVER
-	db 42, PSYCHIC_M
-	db 47, REFLECT
-	db 52, PSYWAVE
+	db 41, PSYCHIC_M
+	db 47, GROWTH
+	db 51, REFLECT
+	db 57, PSYWAVE
 	db 0
 
 PidgeottoEvosMoves:
@@ -2235,7 +2241,7 @@ OddishEvosMoves:
 	db 14, POISONPOWDER
 	db 17, STUN_SPORE
 	db 20, MEGA_DRAIN
-	db 23, SLEEP_POWDER
+	db 23, SCREECH
 	db 0
 
 GloomEvosMoves:
@@ -2244,8 +2250,8 @@ GloomEvosMoves:
 	db EV_LEVEL, 42, VILEPLUME
 	db 0
 ; Learnset
-	db 25, SLEEP_POWDER
-	db 30, SCREECH
+	db 25, SCREECH
+	db 30, SING
 	db 35, PETAL_DANCE
 	db 39, SLUDGE
 	db 43, RECOVER

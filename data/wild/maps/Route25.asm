@@ -3,10 +3,10 @@ Route25WildMons:
 	db 13, ODDISH
 	db 13, VENONAT
 	db 15, ODDISH
-	db 12, ABRA
+	db 11, ABRA
 	db 13, PIDGEY
 	db 15, PIDGEY
-	db 14, ABRA
+	db 13, ABRA
 	db  9, WEEDLE
 	db 10, KAKUNA
 	db 11, BEEDRILL

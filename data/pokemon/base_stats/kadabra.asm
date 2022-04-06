@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kadabra.pic", 0, 1 ; sprite dimensions
 	dw KadabraPicFront, KadabraPicBack
 
-	db TELEPORT, POUND, CONFUSION, NO_MOVE ; level 1 learnset
+	db TELEPORT, POUND, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

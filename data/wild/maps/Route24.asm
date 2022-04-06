@@ -3,10 +3,10 @@ Route24WildMons:
 	db 12, BELLSPROUT
 	db 12, VENONAT
 	db 14, BELLSPROUT
-	db 11, ABRA
+	db 10, ABRA
 	db 12, PIDGEY
 	db 14, PIDGEY
-	db 13, ABRA
+	db 12, ABRA
 	db  9, CATERPIE
 	db 10, METAPOD
 	db 11, BUTTERFREE

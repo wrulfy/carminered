@@ -12,7 +12,7 @@ Moves:
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,      95, 20
-	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  15, NORMAL,       100, 25
+	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 25
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, FIGHTING,      95, 20
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        90, 20
 	move PAY_DAY,      PAY_DAY_EFFECT,              60, NORMAL,       100, 20
@@ -56,7 +56,7 @@ Moves:
 	move BITE,         FLINCH_SIDE_EFFECT1,         60, NORMAL,       100, 25
 	move GROWL,        ATTACK_DOWN1_EFFECT,          0, NORMAL,       100, 40
 	move ROAR,         DEFENSE_DOWN2_EFFECT,         0, DRAGON,        85, 20
-	move SING,         SLEEP_EFFECT,                 0, NORMAL,        70, 20
+	move SING,         SLEEP_EFFECT,                 0, NORMAL,        80, 15
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,        80, 20
 	move SONICBOOM,    SPECIAL_DOWN_SIDE_EFFECT,    65, ELECTRIC,     100, 20
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        90, 20
@@ -88,7 +88,7 @@ Moves:
 	move SOLARBEAM,    NO_ADDITIONAL_EFFECT,       120, GRASS,         85,  5
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,       100, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         90, 30
-	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         80, 15
+	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         70, 20
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   90, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN_SIDE_EFFECT,      20, BUG,          100, 40
 	move DRAGON_RAGE,  NO_ADDITIONAL_EFFECT,       100, DRAGON,       100, 10
@@ -170,7 +170,7 @@ Moves:
 	move HYPER_FANG,   FLINCH_SIDE_EFFECT1,        100, NORMAL,        90, 15
 	move SHARPEN,      ATTACK_UP1_EFFECT,            0, NORMAL,       100, 20
 	move CONVERSION,   CONVERSION_EFFECT,            0, NORMAL,       100, 30
-	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,        95, NORMAL,       100, 15
+	move TRI_ATTACK,   NO_ADDITIONAL_EFFECT,       100, NORMAL,       100, 15
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,       100, 10
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 15
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10

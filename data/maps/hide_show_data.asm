@@ -252,6 +252,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
+	dw NoHS
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -563,5 +564,10 @@ SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $01, HIDE
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
+PokemonMansionB1FHS:
+	db POKEMON_MANSION_B2F, $04, SHOW
+	db POKEMON_MANSION_B2F, $05, SHOW
+	db POKEMON_MANSION_B2F, $06, SHOW
+	db POKEMON_MANSION_B2F, $07, SHOW
 	db $FF, $01, SHOW ; end
 	assert_table_length NUM_HS_OBJECTS + 1

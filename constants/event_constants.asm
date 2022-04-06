@@ -707,6 +707,10 @@
 	const_skip 13
 	const EVENT_BEAT_MANSION_4_TRAINER_0
 	const EVENT_BEAT_MANSION_4_TRAINER_1
+	const_skip 
+	const EVENT_BEAT_MANSION_5_TRAINER_0
+	const EVENT_BEAT_MANSION_5_TRAINER_1
+	const EVENT_BEAT_MEW
 
 ; Safari Zone events
 	const_next $880
