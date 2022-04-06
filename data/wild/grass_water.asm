@@ -6,7 +6,7 @@ WildDataPointers:
 	dw CityPondWildMons        ; CERULEAN_CITY
 	dw NothingWildMons         ; LAVENDER_TOWN
 	dw CityCoastWildMons       ; VERMILION_CITY
-	dw CitySludgeWildMons      ; CELADON_CITY
+	dw CityPondWildMons        ; CELADON_CITY
 	dw CityPondWildMons        ; FUCHSIA_CITY
 	dw CityCoastWildMons       ; CINNABAR_ISLAND
 	dw NothingWildMons         ; INDIGO_PLATEAU
@@ -249,6 +249,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
+	dw PokemonMansionB2FWildMons
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -304,7 +305,6 @@ INCLUDE "data/wild/maps/SafariZoneNorth.asm"
 INCLUDE "data/wild/maps/SafariZoneWest.asm"
 INCLUDE "data/wild/maps/CityCoast.asm"
 INCLUDE "data/wild/maps/CityPond.asm"
-INCLUDE "data/wild/maps/CitySludge.asm"
 INCLUDE "data/wild/maps/SeaRoutes.asm"
 INCLUDE "data/wild/maps/SeafoamIslands1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB1F.asm"
@@ -325,3 +325,4 @@ INCLUDE "data/wild/maps/VictoryRoad2F.asm"
 INCLUDE "data/wild/maps/VictoryRoad3F.asm"
 INCLUDE "data/wild/maps/VictoryRoad1F.asm"
 INCLUDE "data/wild/maps/DiglettsCave.asm"
+INCLUDE "data/wild/maps/PokemonMansionB2F.asm"

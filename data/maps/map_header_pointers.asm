@@ -250,4 +250,5 @@ MapHeaderPointers::
 	dw BrunosRoom_h
 	dw AgathasRoom_h
 	dw PokemonMansion0F_h
+	dw PokemonMansionB2F_h
 	assert_table_length NUM_MAPS

@@ -9,10 +9,10 @@ Route23WildMons:
 	db 46, EXEGGUTOR
 	db 42, EXEGGCUTE
 	db 41, RHYHORN
-	db 40, JIGGLPUFF 
+	db 40, JIGGLYPUFF 
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 5 ; encounter rate
 	db 45, GOLDUCK
 	db 45, SLOWBRO
 	db 45, STARMIE

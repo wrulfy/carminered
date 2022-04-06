@@ -1,6 +1,6 @@
 PokemonMansionB2F_Script:
 	call EnableAutoTextBoxDrawing
-	ld hl, PokemonMansionB2FTrainerHeaders
+	ld hl, Mansion5TrainerHeaders
 	ld de, PokemonMansionB2F_ScriptPointers
 	ld a, [wPokemonMansionB2FCurScript]
 	call ExecuteCurMapScriptInTable
@@ -12,7 +12,7 @@ PokemonMansionB2F_ScriptPointers:
 	dw DisplayEnemyTrainerTextAndStartBattle
 	dw EndTrainerBattle
 
-PokemonMansionB1F_TextPointers:
+PokemonMansionB2F_TextPointers:
 	dw Mansion5Text1
 	dw Mansion5Text2
 	dw MewText

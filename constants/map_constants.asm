@@ -267,6 +267,7 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst BRUNOS_ROOM,                    6,  5 ; $F6
 	mapconst AGATHAS_ROOM,                   6,  5 ; $F7
 	mapconst POKEMON_MANSION_0F,             4,  4 ; $F8
+	mapconst POKEMON_MANSION_B2F,           18, 20 ; $F9
 NUM_MAPS EQU const_value
 
 ; Indoor maps, such as houses, use this as the Map ID in their exit warps

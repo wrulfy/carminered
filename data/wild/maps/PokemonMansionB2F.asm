@@ -1,4 +1,4 @@
-PokemonMansionB1FWildMons:
+PokemonMansionB2FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 46, ARCANINE
 	db 46, MUK

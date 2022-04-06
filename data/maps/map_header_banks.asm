@@ -250,4 +250,5 @@ MapHeaderBanks::
 	db BANK(BrunosRoom_h)
 	db BANK(AgathasRoom_h)
 	db BANK(PokemonMansion0F_h)
+	db BANK(PokemonMansionB2F_h)
 	assert_table_length NUM_MAPS
