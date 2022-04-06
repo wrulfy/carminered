@@ -906,6 +906,7 @@ MankeyEvosMoves:
 	db 20, SEISMIC_TOSS
 	db 25, SHARPEN
 	db 30, KARATE_CHOP
+	db 40, THRASH
 	db 0
 
 SeelEvosMoves:
@@ -970,13 +971,13 @@ FarfetchdEvosMoves:
 	db 0
 ; Learnset
 	db 14, AGILITY
-	db 18, ROAR
-	db 22, WING_ATTACK
-	db 26, SWORDS_DANCE
-	db 30, SLASH
+	db 18, BONE_CLUB
+	db 22, CUT
+	db 26, WING_ATTACK
+	db 30, SWORDS_DANCE
 	db 34, FURY_SWIPES
-	db 39, FURY_ATTACK
-	db 43, RAZOR_LEAF
+	db 39, SLASH
+	db 43, FURY_ATTACK
 	db 47, SOFTBOILED
 	db 53, EARTHQUAKE
 	db 0
@@ -1105,9 +1106,10 @@ MeowthEvosMoves:
 ; Learnset
 	db 11, BITE
 	db 16, PAY_DAY
-	db 20, ROAR
+	db 20, LEER
 	db 25, SHARPEN
 	db 30, FURY_SWIPES
+	db 40, SLASH
 	db 0
 
 KrabbyEvosMoves:
@@ -1468,8 +1470,8 @@ ParasEvosMoves:
 ; Learnset
 	db 11, ABSORB
 	db 16, SLEEP_POWDER
-	db 21, LEECH_LIFE
-	db 26, CUT
+	db 20, LEECH_LIFE
+	db 25, CUT
 	db 31, LEECH_SEED
 	db 0
 
@@ -1555,8 +1557,8 @@ PrimeapeEvosMoves:
 	db 28, RAGE
 	db 33, KARATE_CHOP
 	db 37, FURY_SWIPES
-	db 41, ROAR
-	db 45, THRASH
+	db 41, THRASH
+	db 45, ROAR
 	db 52, DIZZY_PUNCH
 	db 0
 
@@ -1819,9 +1821,10 @@ PersianEvosMoves:
 ; Learnset
 	db 28, SWIFT
 	db 33, FURY_SWIPES
-	db 38, SCREECH
-	db 42, SLASH
-	db 51, HYPNOSIS
+	db 37, SCREECH
+	db 41, SLASH
+	db 46, ROAR
+	db 52, HYPNOSIS
 	db 0
 
 MarowakEvosMoves:
@@ -2051,8 +2054,8 @@ NidorinoEvosMoves:
 	db 0
 ; Learnset
 	db 20, SMOG
-	db 25, FURY_ATTACK
-	db 29, BONE_CLUB
+	db 25, DIG
+	db 29, FURY_ATTACK
 	db 34, THRASH
 	db 38, TOXIC
 	db 43, HORN_DRILL

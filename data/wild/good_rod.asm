@@ -23,7 +23,6 @@ GoodRodData:
 	dbw ROUTE_22,            .Group1
 	dbw ROUTE_23,            .Group10
 	dbw ROUTE_24,            .Group2
-	dbw ROUTE_25,            .Group2
 	dbw VERMILION_DOCK,      .Group9
 	dbw SEAFOAM_ISLANDS_B3F, .Group10
 	dbw SEAFOAM_ISLANDS_B4F, .Group10
@@ -34,6 +33,7 @@ GoodRodData:
 	dbw CERULEAN_CAVE_2F,    .Group1
 	dbw CERULEAN_CAVE_B1F,   .Group1
 	dbw CERULEAN_CAVE_1F,    .Group1
+	dbw POKEMON_MANSION_B2F, .Group1
 	db -1 ; end
 
 ; fishing groups

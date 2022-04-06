@@ -603,6 +603,9 @@ RocketData:
 ; Silph Co. 11F
 	db 25, RATTATA, RATTATA, ZUBAT, RATTATA, EKANS, 0
 	db 32, CUBONE, DROWZEE, MAROWAK, 0
+; Pokemon Mansion B2F
+	db 62, LICKITUNG, ARBOK, MEOWTH, 0
+	db 62, VICTREEBEL, WEEZING, 0
 
 CooltrainerMData:
 ; Viridian Gym

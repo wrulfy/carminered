@@ -12,15 +12,5 @@ Route25WildMons:
 	db 11, BEEDRILL
 	end_grass_wildmons
 
-	def_water_wildmons 25 ; encounter rate
-	db 30, PSYDUCK
-	db 25, GOLDEEN
-	db 15, MAGIKARP
-	db 30, POLIWAG
-	db 30, SEAKING
-	db 25, PSYDUCK
-	db 35, GOLDUCK
-	db 35, GOLDUCK
-	db 40, GOLDUCK
-	db 45, GOLDUCK
+	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons

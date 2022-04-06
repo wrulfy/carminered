@@ -23,7 +23,6 @@ SuperRodData:
 	dbw ROUTE_22,            .Group1
 	dbw ROUTE_23,            .Group8
 	dbw ROUTE_24,            .Group2
-	dbw ROUTE_25,            .Group2
 	dbw VERMILION_DOCK,      .Group3
 	dbw SEAFOAM_ISLANDS_B3F, .Group7
 	dbw SEAFOAM_ISLANDS_B4F, .Group7
@@ -34,6 +33,7 @@ SuperRodData:
 	dbw CERULEAN_CAVE_2F,    .Group9
 	dbw CERULEAN_CAVE_B1F,   .Group10
 	dbw CERULEAN_CAVE_1F,    .Group9
+	dbw POKEMON_MANSION_B2F, .Group8
 	db -1 ; end
 
 ; fishing groups

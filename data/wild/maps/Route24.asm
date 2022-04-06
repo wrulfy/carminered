@@ -13,14 +13,14 @@ Route24WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 10 ; encounter rate
-	db 30, GOLDEEN
-	db 25, PSYDUCK
+	db 30, PSYDUCK
+	db 25, GOLDEEN
 	db 15, MAGIKARP
 	db 30, POLIWAG
-	db 35, GOLDUCK
-	db 25, GOLDEEN
 	db 30, SEAKING
-	db 35, SEAKING
-	db 40, SEAKING
-	db 40, SEAKING
+	db 25, PSYDUCK
+	db 35, GOLDUCK
+	db 35, GOLDUCK
+	db 40, GOLDUCK
+	db 45, GOLDUCK
 	end_water_wildmons
