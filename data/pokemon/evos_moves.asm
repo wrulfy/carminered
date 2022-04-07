@@ -1116,7 +1116,7 @@ KrabbyEvosMoves:
 	db EV_LEVEL, 29, KINGLER
 	db 0
 ; Learnset
-	db 15, VICEGRIP
+	db 14, VICEGRIP
 	db 19, HARDEN
 	db 23, BUBBLEBEAM
 	db 27, STOMP
@@ -1467,8 +1467,8 @@ ParasEvosMoves:
 	db EV_LEVEL, 35, PARASECT
 	db 0
 ; Learnset
-	db 11, ABSORB
-	db 16, SLEEP_POWDER
+	db 10, ABSORB
+	db 15, SLEEP_POWDER
 	db 20, LEECH_LIFE
 	db 25, CUT
 	db 31, LEECH_SEED
