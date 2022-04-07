@@ -20,7 +20,7 @@ Moves:
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT2,         75, ICE,          100, 15
 	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       75, ELECTRIC,     100, 15
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,           95, 25
+	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,          100, 25
 	move GUILLOTINE,   RECOIL_EFFECT,              130, BUG,           90,  5
 	move RAZOR_WIND,   FLINCH_SIDE_EFFECT1,         75, FLYING,        95, 20
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 10

@@ -30,7 +30,6 @@ SuperRodData:
 	dbw SAFARI_ZONE_NORTH,   .Group6
 	dbw SAFARI_ZONE_WEST,    .Group6
 	dbw SAFARI_ZONE_CENTER,  .Group6
-	dbw CERULEAN_CAVE_2F,    .Group9
 	dbw CERULEAN_CAVE_B1F,   .Group10
 	dbw CERULEAN_CAVE_1F,    .Group9
 	dbw POKEMON_MANSION_B2F, .Group8

@@ -30,7 +30,6 @@ GoodRodData:
 	dbw SAFARI_ZONE_NORTH,   .Group6
 	dbw SAFARI_ZONE_WEST,    .Group6
 	dbw SAFARI_ZONE_CENTER,  .Group6
-	dbw CERULEAN_CAVE_2F,    .Group1
 	dbw CERULEAN_CAVE_B1F,   .Group1
 	dbw CERULEAN_CAVE_1F,    .Group1
 	dbw POKEMON_MANSION_B2F, .Group1
@@ -41,70 +40,70 @@ GoodRodData:
 
 .Group1:
 	db 4
-	db 15, POLIWAG
-	db 15, POLIWAG
-	db 15, PSYDUCK
-	db 15, GOLDEEN
+	db 20, POLIWAG
+	db 20, POLIWAG
+	db 20, PSYDUCK
+	db 20, GOLDEEN
 
 .Group2:
 	db 4
-	db 15, GOLDEEN
-	db 15, GOLDEEN
-	db 15, POLIWAG
-	db 15, SLOWPOKE
+	db 20, GOLDEEN
+	db 20, GOLDEEN
+	db 20, POLIWAG
+	db 20, SLOWPOKE
 
 .Group3:
 	db 4
-	db 15, PSYDUCK
-	db 15, PSYDUCK
-	db 15, GOLDEEN
-	db 15, KRABBY
+	db 20, PSYDUCK
+	db 20, PSYDUCK
+	db 20, GOLDEEN
+	db 20, KRABBY
 
 .Group4:
 	db 4
-	db 15, KRABBY
-	db 15, KRABBY
-	db 15, SHELLDER
-	db 15, STARYU
+	db 20, KRABBY
+	db 20, KRABBY
+	db 20, SHELLDER
+	db 20, STARYU
 
 .Group5:
 	db 4
-	db 15, SLOWPOKE
-	db 15, SLOWPOKE
-	db 15, POLIWAG
-	db 15, STARYU
+	db 20, SLOWPOKE
+	db 20, SLOWPOKE
+	db 20, POLIWAG
+	db 20, STARYU
 
 .Group6:
 	db 4
-	db 15, DRATINI
-	db 15, DRATINI
+	db 20, DRATINI
+	db 20, DRATINI
 	db 15, MAGIKARP
-	db 15, HORSEA
+	db 20, HORSEA
 
 .Group7:
 	db 4
-	db 15, TENTACOOL
-	db 15, TENTACOOL
-	db 15, HORSEA
-	db 15, SEEL
+	db 20, TENTACOOL
+	db 20, TENTACOOL
+	db 20, HORSEA
+	db 20, SEEL
 
 .Group8:
 	db 4
-	db 15, HORSEA
-	db 15, HORSEA
-	db 15, TENTACOOL
-	db 15, SEEL
+	db 20, HORSEA
+	db 20, HORSEA
+	db 20, TENTACOOL
+	db 20, SEEL
 
 .Group9:
 	db 4
-	db 15, SHELLDER
-	db 15, SHELLDER
-	db 15, KRABBY
-	db 15, SEEL
+	db 20, SHELLDER
+	db 20, SHELLDER
+	db 20, KRABBY
+	db 20, SEEL
 
 .Group10:
 	db 4
-	db 15, STARYU
-	db 15, STARYU
-	db 15, SLOWPOKE
-	db 15, PSYDUCK
+	db 20, STARYU
+	db 20, STARYU
+	db 20, SLOWPOKE
+	db 20, PSYDUCK

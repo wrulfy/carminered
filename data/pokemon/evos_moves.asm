@@ -720,7 +720,6 @@ MachokeEvosMoves:
 	db 35, ROAR
 	db 39, KARATE_CHOP
 	db 43, MEGA_KICK
-	db 47, COUNTER
 	db 0
 
 MrMimeEvosMoves:
@@ -1959,7 +1958,7 @@ GoldeenEvosMoves:
 	db 0
 ; Learnset
 	db 11, SUPERSONIC
-	db 15, BUBBLEBEAM
+	db 15, WATER_GUN
 	db 19, HORN_ATTACK
 	db 23, PSYBEAM
 	db 26, AGILITY

@@ -5,8 +5,8 @@ MtMoonB2FWildMons:
 	db 10, CUBONE
 	db 11, SANDSHREW
 	db 12, GEODUDE
+	db  9, MAGNEMITE
 	db 13, ZUBAT
-	db  9, RHYHORN
 	db 10, CLEFAIRY
 	db 10, MACHOP
 	db 11, MACHOP

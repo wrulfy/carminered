@@ -30,7 +30,6 @@ OldRodData:
 	dbw SAFARI_ZONE_NORTH,   .Group6
 	dbw SAFARI_ZONE_WEST,    .Group6
 	dbw SAFARI_ZONE_CENTER,  .Group6
-	dbw CERULEAN_CAVE_2F,    .Group1
 	dbw CERULEAN_CAVE_B1F,   .Group1
 	dbw CERULEAN_CAVE_1F,    .Group1
 	dbw POKEMON_MANSION_B2F, .Group1
