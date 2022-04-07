@@ -15,7 +15,7 @@ CeruleanCave1FWildMons:
 	def_water_wildmons 15 ; encounter rate
 	db 60, POLIWRATH
 	db 60, DEWGONG
-	db 60, TENTACUEL
+	db 60, TENTACRUEL
 	db 60, KINGLER
 	db 60, LAPRAS
 	db 55, DRAGONAIR

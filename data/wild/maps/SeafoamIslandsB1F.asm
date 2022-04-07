@@ -1,10 +1,10 @@
 SeafoamIslandsB1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 37, GOLBAT
-	db 37, GRAVELER
 	db 37, MAROWAK
+	db 36, GRAVELER
 	db 37, GOLDUCK
-	db 37, KINGLER
+	db 38, KINGLER
 	db 37, SLOWBRO
 	db 37, JYNX
 	db 36, POLIWHIRL

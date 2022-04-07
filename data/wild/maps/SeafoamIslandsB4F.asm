@@ -5,7 +5,7 @@ SeafoamIslandsB4FWildMons:
 	db 40, GRAVELER
 	db 40, GOLDUCK
 	db 40, SLOWBRO
-	db 41, KINGLER
+	db 41, MAROWAK
 	db 30, KABUTO
 	db 41, VAPOREON 
 	db 42, POLIWRATH

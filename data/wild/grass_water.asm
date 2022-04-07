@@ -142,8 +142,8 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw PokemonTower1FWildMons
-	dw PokemonTower2FWildMons
+	dw NothingWildMons
+	dw NothingWildMons
 	dw PokemonTower3FWildMons
 	dw PokemonTower4FWildMons
 	dw PokemonTower5FWildMons
@@ -192,7 +192,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw SeafoamIslands1FWildMons
+	dw SeafoamIslandsB1FWildMons
 	dw NothingWildMons
 	dw VictoryRoad2FWildMons
 	dw NothingWildMons
@@ -286,8 +286,6 @@ INCLUDE "data/wild/maps/Route10.asm"
 INCLUDE "data/wild/maps/Route12.asm"
 INCLUDE "data/wild/maps/Route8.asm"
 INCLUDE "data/wild/maps/Route7.asm"
-INCLUDE "data/wild/maps/PokemonTower1F.asm"
-INCLUDE "data/wild/maps/PokemonTower2F.asm"
 INCLUDE "data/wild/maps/PokemonTower3F.asm"
 INCLUDE "data/wild/maps/PokemonTower4F.asm"
 INCLUDE "data/wild/maps/PokemonTower5F.asm"
@@ -306,7 +304,6 @@ INCLUDE "data/wild/maps/SafariZoneWest.asm"
 INCLUDE "data/wild/maps/CityCoast.asm"
 INCLUDE "data/wild/maps/CityPond.asm"
 INCLUDE "data/wild/maps/SeaRoutes.asm"
-INCLUDE "data/wild/maps/SeafoamIslands1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB1F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB2F.asm"
 INCLUDE "data/wild/maps/SeafoamIslandsB3F.asm"

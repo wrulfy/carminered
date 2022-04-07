@@ -5,8 +5,8 @@ SeafoamIslandsB3FWildMons:
 	db 39, JYNX
 	db 39, GOLDUCK
 	db 39, SLOWBRO
+	db 40, MAROWAK
 	db 39, KINGLER
-	db 39, MAROWAK
 	db 40, VAPOREON
 	db 41, POLIWRATH
 	db 30, KABUTO
