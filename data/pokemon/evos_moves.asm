@@ -469,7 +469,7 @@ GyaradosEvosMoves:
 	db 0
 ; Learnset
 	db 20, BITE
-	db 24, RAZOR_WIND
+	db 24, WING_ATTACK
 	db 29, LEER
 	db 34, WATERFALL
 	db 38, THRASH
@@ -1180,8 +1180,8 @@ PikachuEvosMoves:
 	db 24, DOUBLE_TEAM
 	db 27, SWIFT
 	db 31, AGILITY
-	db 35, LIGHT_SCREEN
-	db 39, THUNDER
+	db 35, THUNDER
+	db 39, LIGHT_SCREEN
 	db 0
 
 RaichuEvosMoves:
@@ -1190,9 +1190,9 @@ RaichuEvosMoves:
 ; Learnset
 	db 13, MEGA_PUNCH
 	db 19, THUNDER_WAVE
-	db 25, TAKE_DOWN
+	db 25, BODY_SLAM
 	db 31, THUNDERPUNCH
-	db 37, BODY_SLAM
+	db 37, TAKE_DOWN
 	db 43, LIGHT_SCREEN
 	db 49, MEGA_KICK
 	db 55, THUNDER

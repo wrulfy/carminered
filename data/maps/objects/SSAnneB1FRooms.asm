@@ -18,10 +18,10 @@ SSAnneB1FRooms_Object:
 	def_object_events
 	object_event  0, 13, SPRITE_SAILOR, STAY, DOWN, 1, OPP_SAILOR, 3
 	object_event  2, 11, SPRITE_SAILOR, STAY, DOWN, 2, OPP_SAILOR, 4
-	object_event 12,  3, SPRITE_SAILOR, STAY, LEFT, 3, OPP_SAILOR, 5
-	object_event 22,  2, SPRITE_SAILOR, STAY, DOWN, 4, OPP_SAILOR, 6
-	object_event  0,  2, SPRITE_SAILOR, STAY, RIGHT, 5, OPP_SAILOR, 7
-	object_event  0,  4, SPRITE_FISHER, STAY, RIGHT, 6, OPP_FISHER, 2
+	object_event  2,  1, SPRITE_SUPER_NERD, STAY, DOWN, 3, OPP_ROCKER, 3
+	object_event  0,  3, SPRITE_HIKER, STAY, LEFT, 4, OPP_BLACKBELT, 8
+	object_event 22,  2, SPRITE_SAILOR, STAY, RIGHT, 5, OPP_SAILOR, 7
+	object_event 12,  2, SPRITE_FISHER, STAY, RIGHT, 6, OPP_FISHER, 2
 	object_event 10, 13, SPRITE_SUPER_NERD, STAY, RIGHT, 7 ; person
 	object_event 11, 12, SPRITE_MONSTER, STAY, NONE, 8 ; person
 	object_event 20,  2, SPRITE_POKE_BALL, STAY, NONE, 9, ETHER

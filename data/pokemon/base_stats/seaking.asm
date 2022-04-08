@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/seaking.pic", 0, 1 ; sprite dimensions
 	dw SeakingPicFront, SeakingPicBack
 
-	db SUPERSONIC, BUBBLEBEAM, HORN_ATTACK, PSYBEAM ; level 1 learnset
+	db SUPERSONIC, WATER_GUN, HORN_ATTACK, PSYBEAM ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
