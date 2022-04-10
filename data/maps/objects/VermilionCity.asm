@@ -25,8 +25,8 @@ VermilionCity_Object:
 	object_event 19,  7, SPRITE_BEAUTY, WALK, LEFT_RIGHT, 1 ; person
 	object_event 14,  6, SPRITE_GAMBLER, STAY, NONE, 2 ; person
 	object_event 19, 30, SPRITE_SAILOR, STAY, UP, 3 ; person
-	object_event 30,  7, SPRITE_GAMBLER, STAY, NONE, 4 ; person
-	object_event 29,  9, SPRITE_MONSTER, WALK, UP_DOWN, 5 ; person
+	object_event 30, 10, SPRITE_GAMBLER, STAY, NONE, 4 ; person
+	object_event 32, 10, SPRITE_MONSTER, WALK, UP_DOWN, 5 ; person
 	object_event 25, 27, SPRITE_SAILOR, WALK, LEFT_RIGHT, 6 ; person
 
 	def_warps_to VERMILION_CITY
