@@ -19,8 +19,8 @@ CeruleanCaveB1FWildMons:
 	db 60, DRAGONITE
 	db 60, GYARADOS
 	db 65, SEADRA
+	db 60, OMASTAR
+	db 60, KABUTOPS
 	db 65, GYARADOS
 	db 65, DRAGONITE
-	db 65, GYARADOS
-	db 70, DRAGONITE
 	end_water_wildmons
