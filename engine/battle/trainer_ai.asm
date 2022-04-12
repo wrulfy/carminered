@@ -332,9 +332,17 @@ BlackbeltAI:
 	jp AIUseXAttack
 
 GiovanniAI:
+	; The intended 25% chance to consider switching will not apply.
+	; Uncomment the line below to fix this.
 	cp 25 percent + 1
 	ret nc
-	jp AIUseGuardSpec
+	ld a, 10
+	call AICheckIfHPBelowFraction
+	jp c, AIUseFullRestore
+	ld a, 5
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AISwitchIfEnoughMons
 
 CooltrainerMAI:
 	cp 25 percent + 1
@@ -342,17 +350,9 @@ CooltrainerMAI:
 	jp AIUseXAttack
 
 CooltrainerFAI:
-	; The intended 25% chance to consider switching will not apply.
-	; Uncomment the line below to fix this.
 	cp 25 percent + 1
-	; ret nc
-	ld a, 10
-	call AICheckIfHPBelowFraction
-	jp c, AIUseHyperPotion
-	ld a, 5
-	call AICheckIfHPBelowFraction
 	ret nc
-	jp AISwitchIfEnoughMons
+	jp AIUseXSpecial
 
 BrockAI:
 ; if his active monster has a status condition, use a full heal
@@ -403,10 +403,10 @@ Rival2AI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUsePotion
+	jp AIUseSuperPotion
 
 Rival3AI:
-	cp 13 percent - 1
+	cp 25 percent + 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
@@ -414,7 +414,9 @@ Rival3AI:
 	jp AIUseFullRestore
 
 LoreleiAI:
-	cp 50 percent + 1
+	cp 8 percent
+	jp c, AISwitchIfEnoughMons
+	cp 60 percent + 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
@@ -424,21 +426,28 @@ LoreleiAI:
 BrunoAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXDefend
-
-AgathaAI:
-	cp 8 percent
-	jp c, AISwitchIfEnoughMons
-	cp 50 percent + 1
+	jp AIUseXAccuracy
 	ret nc
-	ld a, 4
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseHyperPotion
+
+AgathaAI:
+	cp 33 percent + 1
+	ret nc ; is this one necessary? 
+	jp AIUseXSpecial
+	cp 40 percent + 1 ; would this now be 40-33 or just 40?
+	ret nc
+	ld a, 5
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseHyperPotion
 
 LanceAI:
 	cp 50 percent + 1
 	ret nc
+	jp AIUseXAccuracy
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
