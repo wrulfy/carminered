@@ -327,7 +327,7 @@ JugglerAI:
 	jp AISwitchIfEnoughMons
 
 BlackbeltAI:
-	cp 13 percent - 1
+	cp 50 percent + 1
 	ret nc
 	jp AIUseXAttack
 
@@ -382,7 +382,7 @@ ErikaAI:
 KogaAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXAttack
+	jp AIUseXAccuracy
 
 BlaineAI:
 	cp 25 percent + 1
@@ -398,7 +398,7 @@ SabrinaAI:
 	jp AIUseHyperPotion
 
 Rival2AI:
-	cp 13 percent - 1
+	cp 15 percent - 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
@@ -426,8 +426,7 @@ LoreleiAI:
 BrunoAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseXAccuracy
-	ret nc
+	jp AIUseXDefend
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
@@ -435,10 +434,8 @@ BrunoAI:
 
 AgathaAI:
 	cp 33 percent + 1
-	ret nc ; is this one necessary? 
+	ret nc 
 	jp AIUseXSpecial
-	cp 40 percent + 1 ; would this now be 40-33 or just 40?
-	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
