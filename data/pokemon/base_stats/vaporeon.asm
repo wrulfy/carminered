@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/vaporeon.pic", 0, 1 ; sprite dimensions
 	dw VaporeonPicFront, VaporeonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, WATER_GUN ; level 1 learnset
+	db WATER_GUN, GROWL, SAND_ATTACK, QUICK_ATTACK ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset

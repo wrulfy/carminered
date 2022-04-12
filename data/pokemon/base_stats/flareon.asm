@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/flareon.pic", 0, 1 ; sprite dimensions
 	dw FlareonPicFront, FlareonPicBack
 
-	db TACKLE, SAND_ATTACK, QUICK_ATTACK, EMBER ; level 1 learnset
+	db EMBER, GROWL, SAND_ATTACK, QUICK_ATTACK ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset

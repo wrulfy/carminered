@@ -387,15 +387,18 @@ KogaAI:
 BlaineAI:
 	cp 25 percent + 1
 	ret nc
-	jp AIUseSuperPotion
-
-SabrinaAI:
-	cp 25 percent + 1
-	ret nc
 	ld a, 10
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseHyperPotion
+
+SabrinaAI:
+	cp 25 percent + 1
+	ret nc
+	ld a, 4
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseSuperPotion
 
 Rival2AI:
 	cp 15 percent - 1
@@ -424,27 +427,30 @@ LoreleiAI:
 	jp AIUseSuperPotion
 
 BrunoAI:
-	cp 25 percent + 1
+	cp 25 percent
+	jp c, AIUseXDefend
+	cp 50 percent 
 	ret nc
-	jp AIUseXDefend
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseHyperPotion
 
 AgathaAI:
-	cp 33 percent + 1
-	ret nc 
-	jp AIUseXSpecial
+	cp 33 percent
+	jp c, AIUseXSpecial
+	cp 66 percent 
+	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
 	jp AIUseHyperPotion
 
 LanceAI:
-	cp 50 percent + 1
+	cp 45 percent
+	jp c, AIUseXAccuracy
+	cp 95 percent + 1
 	ret nc
-	jp AIUseXAccuracy
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
