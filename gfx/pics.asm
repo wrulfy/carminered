@@ -323,6 +323,7 @@ WeepinbellPicFront::   INCBIN "gfx/pokemon/front/weepinbell.pic"
 WeepinbellPicBack::    INCBIN "gfx/pokemon/back/weepinbellb.pic"
 VictreebelPicFront::   INCBIN "gfx/pokemon/front/victreebel.pic"
 VictreebelPicBack::    INCBIN "gfx/pokemon/back/victreebelb.pic"
+ProfOakPic::       INCBIN "gfx/trainers/prof.oak.pic"
 
 
 SECTION "Pics 6", ROMX
@@ -351,8 +352,7 @@ TamerPic::         INCBIN "gfx/trainers/tamer.pic"
 BirdKeeperPic::    INCBIN "gfx/trainers/birdkeeper.pic"
 BlackbeltPic::     INCBIN "gfx/trainers/blackbelt.pic"
 Rival1Pic::        INCBIN "gfx/trainers/rival1.pic"
-ProfOakPic::       INCBIN "gfx/trainers/prof.oak.pic"
-ChiefPic::         INCBIN "gfx/trainers/rocket.pic"
+ChiefPic::         INCBIN "gfx/trainers/chief.pic"
 ScientistPic::     INCBIN "gfx/trainers/scientist.pic"
 GiovanniPic::      INCBIN "gfx/trainers/giovanni.pic"
 RocketPic::        INCBIN "gfx/trainers/rocket.pic"

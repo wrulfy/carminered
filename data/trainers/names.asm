@@ -25,7 +25,7 @@ TrainerNames::
 	db "BLACKBELT@"
 	db "RIVAL1@"
 	db "PROF.OAK@"
-	db "CHIEF@"
+	db "ROCKET CHIEF@"
 	db "SCIENTIST@"
 	db "GIOVANNI@"
 	db "ROCKET@"
