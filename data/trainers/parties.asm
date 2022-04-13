@@ -63,11 +63,11 @@ YoungsterData:
 ; Mt. Moon 1F
 	db 12, RATTATA, RATTATA, ZUBAT, ZUBAT, 0
 ; Route 24
-	db 17, RATTATA, EKANS, SANDSHREW, 0
+	db 16, RATTATA, EKANS, SANDSHREW, 0
 ; Route 25
-	db 16, PSYDUCK, SPEAROW, 0
-	db 17, SLOWPOKE, 0
-	db 16, PIKACHU, VULPIX, 0
+	db 17, PSYDUCK, SPEAROW, 0
+	db 20, SLOWPOKE, 0
+	db 17, PIKACHU, VULPIX, 0
 ; SS Anne 1F Rooms
 	db 22, RATICATE, 0
 ; Route 11
@@ -114,7 +114,7 @@ LassData:
 	db 13, ODDISH, BELLSPROUT, 0
 	db 15, CLEFAIRY, 0
 ; Route 24
-	db 16, NIDORINA, 0
+	db 17, NIDORINA, 0
 	db 16, PIDGEY, SPEAROW, 0
 ; Route 25
 	db 18, NIDORAN_M, NIDORAN_F, 0
@@ -156,7 +156,7 @@ JrTrainerMData:
 ; Route 24/Route 25 NOW ONLY ROUTE 24
 	db 15, EKANS, GROWLITHE, ABRA, 0
 ; Route 24
-	db 20, MANKEY, 0
+	db 19, MANKEY, 0
 ; Route 6
 	db 22, SQUIRTLE, 0
 	db 17, SPEAROW, MEOWTH, MANKEY, PIDGEY, 0
@@ -177,7 +177,7 @@ JrTrainerFData:
 ; Unused
 	db 22, BULBASAUR, 0
 ; Route 9
-	db 21, ODDISH, BELLSPROUT, ODDISH, BELLSPROUT, 0
+	db 22, ODDISH, BELLSPROUT, BULBASAUR, 0
 	db 27, MEOWTH, 0
 ; Route 10
 	db 24, GOLDEEN, CLEFAIRY, POLIWAG, 0
@@ -244,7 +244,7 @@ HikerData:
 	db 12, GEODUDE, GEODUDE, MAGNEMITE, MANKEY, 0
 ; Route 25
 	db 16, MACHOP, GEODUDE, 0
-	db 16, GEODUDE, GEODUDE, MACHOP, GEODUDE, 0
+	db 15, GEODUDE, GEODUDE, MACHOP, GEODUDE, 0
 	db 18, RHYHORN, 0
 ; Route 9
 	db 25, ONIX, 0
@@ -422,7 +422,7 @@ PsychicData:
 	db 34, MR_MIME, KADABRA, 0
 	db 33, SLOWPOKE, SLOWPOKE, SLOWBRO, 0
 ; REPRUPOSED FOR SS ANNE	
-	db 22, MR_MIME, 0
+	db 23, MR_MIME, 0
 
 RockerData:
 ; Vermilion Gym
@@ -498,7 +498,7 @@ BlackbeltData:
 	db 40, MACHOP, MACHOKE, 0
 	db 43, MACHOKE, 0
 ;REPRUPOSED FOR SS ANNE	
-	db 21, MANKEY, MACHOP, 0
+	db 20, MANKEY, MACHOP, 0
 ; Victory Road 2F
 	db 43, MACHOKE, MACHOP, MACHOKE, 0
 
@@ -575,9 +575,9 @@ RocketData:
 	db 16, ZUBAT, EKANS, 0
 	db 18, CUBONE, 0
 ; Cerulean City
-	db 20, MACHOP, DROWZEE, 0
+	db 20, MACHOP, GRIMER, 0
 ; Route 24
-	db 20, RATICATE, 0
+	db 20, KOFFING, 0
 ; Game Corner
 	db 26, RATICATE, GOLBAT, 0
 ; Rocket Hideout B1F

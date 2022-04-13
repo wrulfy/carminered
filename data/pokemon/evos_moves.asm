@@ -913,12 +913,12 @@ SeelEvosMoves:
 	db EV_LEVEL, 34, DEWGONG
 	db 0
 ; Learnset
-	db 10, LICK
-	db 15, MIST
-	db 20, BUBBLEBEAM
+	db 16, MIST
+	db 21, LICK
 	db 25, TAKE_DOWN
-	db 30, AURORA_BEAM
-	db 35, REST
+	db 28, BUBBLEBEAM
+	db 31, AURORA_BEAM
+	db 36, REST
 	db 0
 
 DiglettEvosMoves:
@@ -1147,9 +1147,9 @@ VulpixEvosMoves:
 	db EV_LEVEL, 33, NINETALES
 	db 0
 ; Learnset
-	db 14, LICK
-	db 20, QUICK_ATTACK
-	db 25, PSYBEAM
+	db 10, LICK
+	db 16, QUICK_ATTACK
+	db 22, PSYBEAM
 	db 28, FIRE_SPIN
 	db 33, CONFUSE_RAY
 	db 37, HYPNOSIS
@@ -1590,9 +1590,9 @@ DewgongEvosMoves:
 	db 0
 ; Learnset
 	db 34, HORN_DRILL
-	db 36, REST
+	db 38, REST
 	db 42, WATERFALL
-	db 48, DOUBLE_EDGE
+	db 47, DOUBLE_EDGE
 	db 54, ICE_BEAM
 	db 0
 

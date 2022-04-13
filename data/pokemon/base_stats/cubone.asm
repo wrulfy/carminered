@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/cubone.pic", 0, 1 ; sprite dimensions
 	dw CubonePicFront, CubonePicBack
 
-	db GROWL, RAGE, SAND_ATTACK, NO_MOVE ; level 1 learnset
+	db GROWL, RAGE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

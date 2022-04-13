@@ -7,7 +7,7 @@ Route10WildMons:
 	db 20, VULPIX
 	db 20, RATICATE
 	db 20, FEAROW
-	db 22, VULPIX
+	db 21, VULPIX
 	db 18, PONYTA 
 	db 23, MAGMAR
 	end_grass_wildmons
