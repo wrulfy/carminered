@@ -28,7 +28,7 @@ SpecialTrainerMoves:
 	db 1, 3, PECK
 	db 0
 
-	db PSYCHIC, 4
+	db PSYCHIC_TR, 4
 	db 1, 1, DOUBLESLAP
 	db 0
 
@@ -37,31 +37,31 @@ SpecialTrainerMoves:
 	db 2, 4, DIG
 	db 0
 	
-	db GREEN1, 7
+	db RIVAL1, 7
 	db 1, 4, SWIFT
 	db 0
 
-	db GREEN1, 8
+	db RIVAL1, 8
 	db 1, 4, SWIFT
 	db 0
 
-	db GREEN1, 9
+	db RIVAL1, 9
 	db 1, 4, SWIFT
 	db 0
 
-	db GREEN2, 1
+	db RIVAL2, 1
 	db 1, 3, SWIFT
 	db 2, 1, CUT
 	db 4, 1, MIST
 	db 0
 
-	db GREEN2, 2
+	db RIVAL2, 2
 	db 1, 3, SWIFT
 	db 3, 2, MIST
 	db 1, 1, CUT
 	db 0
 
-	db GREEN2, 2
+	db RIVAL2, 2
 	db 1, 3, SWIFT
 	db 2, 2, MIST
 	db 3, 1, CUT
@@ -77,7 +77,7 @@ SpecialTrainerMoves:
 	db 3, 4, RAGE
 	db 0
 
-	db LTSURGE, 1
+	db LT_SURGE, 1
 	db 1, 3, QUICK_ATTACK
 	db 3, 2, EMBER
 	db 4, 4, SMOKESCREEN
