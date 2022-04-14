@@ -14,11 +14,11 @@
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
-	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
-	     HYDRO_PUMP,   ICE_BEAM,     GROWTH,       MEGA_DRAIN,   DIG,          \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         EGG_BOMB,     \
-	     REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   CUT,          \
-	     SURF          
+	tmhm RAZOR_WIND,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
+	     BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     GROWTH,       MEGA_DRAIN,   \
+	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     EGG_BOMB,     REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
+	     CUT,          SURF          
 	; end
 
 	db 0 ; padding

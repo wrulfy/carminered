@@ -14,11 +14,11 @@
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   SLUDGE,       POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   LIGHT_SCREEN, MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        DREAM_EATER,  SKY_ATTACK,   REST,         CONSTRICT,    \
-		 SUBSTITUTE,   FLY,          FLASH
+	tmhm RAZOR_WIND,   WHIRLWIND,    SLUDGE,       POISON_GAS,   TAKE_DOWN,    \
+	     DOUBLE_EDGE,  HYPER_BEAM,   LIGHT_SCREEN, MEGA_DRAIN,   SOLARBEAM,    \
+	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         SWIFT,        DREAM_EATER,  SKY_ATTACK,   REST,         \
+	     CONSTRICT,    SUBSTITUTE,   FLY,          FLASH         
 	; end
 
 	db 0 ; padding

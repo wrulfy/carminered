@@ -14,10 +14,11 @@
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
-	tmhm POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SOLARBEAM,    SMOKESCREEN,  EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        REST,         \
-	     SUBSTITUTE,   STRENGTH      
+	tmhm RAZOR_WIND,   POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
+	     DOUBLE_EDGE,  SOLARBEAM,    SMOKESCREEN,  EARTHQUAKE,   MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER, SWIFT,        \
+	     REST,         SUBSTITUTE,   STRENGTH      
 	; end
+
 
 	db 0 ; padding

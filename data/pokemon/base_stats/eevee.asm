@@ -16,8 +16,7 @@
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       \
 	     PAY_DAY,      DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SWIFT,        REST,         CONFUSE_RAY,  \
-	     SUBSTITUTE    
+	     REFLECT,      BIDE,         SWIFT,        REST,         SUBSTITUTE    \
 	; end
 
 	db 0 ; padding

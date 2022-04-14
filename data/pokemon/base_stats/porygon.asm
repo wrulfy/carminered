@@ -14,11 +14,12 @@
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     GROWTH,       \
-	     HYPER_BEAM,   LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SELFDESTRUCT, SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, \
-	     CONFUSE_RAY,  MIST,         SUBSTITUTE,   FLY,          FLASH         
+	tmhm RAZOR_WIND,   POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
+	     GROWTH,       HYPER_BEAM,   LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  \
+	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         SELFDESTRUCT, SWIFT,        DREAM_EATER,  REST,         \
+	     THUNDER_WAVE, CONFUSE_RAY,  MIST,         SUBSTITUTE,   FLY,          \
+	     FLASH         
 	; end
 
 	db 0 ; padding

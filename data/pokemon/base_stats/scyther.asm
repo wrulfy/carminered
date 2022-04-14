@@ -14,10 +14,11 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   SWORDS_DANCE, POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   COUNTER,      LIGHT_SCREEN, TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SWIFT,        GUILLOTINE,   SKY_ATTACK,   \
-	     REST,         CONSTRICT,    SUBSTITUTE,   CUT,          FLY           
+	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    POISON_GAS,   TAKE_DOWN,    \
+	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      LIGHT_SCREEN, \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     GUILLOTINE,   SKY_ATTACK,   REST,         CONSTRICT,    SUBSTITUTE,   \
+	     CUT,          FLY           
 	; end
 
 	db 0 ; padding

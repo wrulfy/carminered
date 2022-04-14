@@ -14,10 +14,11 @@
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  GROWTH,       LIGHT_SCREEN, MEGA_DRAIN,   SOLARBEAM,    \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         \
-	     CONSTRICT,    SUBSTITUTE,   CUT,          STRENGTH,     FLASH         
+	tmhm SWORDS_DANCE, WHIRLWIND,    SLUDGE,       POISON_GAS,   BODY_SLAM,    \
+	     TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       LIGHT_SCREEN, MEGA_DRAIN,   \
+	     SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     REST,         CONSTRICT,    SUBSTITUTE,   CUT,          STRENGTH,     \
+	     FLASH         
 	; end
 
 	db 0 ; padding

@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm SLUDGE,       POISON_GAS,   BODY_SLAM,    GROWTH,       HYPER_BEAM,   \
-	     MEGA_DRAIN,   THUNDERBOLT,  SMOKESCREEN,  DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FLAMETHROWER, REST,         \
-	     CONFUSE_RAY,  EXPLOSION,    SUBSTITUTE,   STRENGTH      
+	     SUBMISSION,   MEGA_DRAIN,   THUNDERBOLT,  SMOKESCREEN,  DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, FLAMETHROWER, \
+	     REST,         CONFUSE_RAY,  EXPLOSION,    SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

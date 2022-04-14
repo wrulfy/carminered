@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, SLUDGE,       POISON_GAS,   HORN_DRILL,   \
-	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     GUILLOTINE,   SKY_ATTACK,   REST,         CONSTRICT,    SUBSTITUTE,   \
-	     CUT,          FLY,          FLASH         
+	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   MEGA_DRAIN,   \
+	     SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     SWIFT,        GUILLOTINE,   SKY_ATTACK,   REST,         CONSTRICT,    \
+	     SUBSTITUTE,   CUT,          FLY,          FLASH         
 	; end
 
 	db 0 ; padding

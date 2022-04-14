@@ -18,7 +18,7 @@
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     METRONOME,    EGG_BOMB,     FLAMETHROWER, REST,         SUBSTITUTE,   \
-	     STRENGTH      
+	     STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

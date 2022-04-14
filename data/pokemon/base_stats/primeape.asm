@@ -14,11 +14,11 @@
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, THUNDERBOLT,  EARTHQUAKE,   DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         METRONOME,    EGG_BOMB,     SWIFT,        \
-	     REST,         SUBSTITUTE,   STRENGTH      
+	tmhm MEGA_PUNCH,   RAZOR_WIND,   SLUDGE,       POISON_GAS,   BODY_SLAM,    \
+	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   \
+	     COUNTER,      SEISMIC_TOSS, THUNDERBOLT,  EARTHQUAKE,   DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    EGG_BOMB,     \
+	     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

@@ -780,11 +780,11 @@ ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 35, SLASH
-	db 40, CONSTRICT
-	db 45, SPORE
-	db 51, MEGA_DRAIN
-	db 56, GROWTH
+	db 38, LEECH_SEED
+	db 42, CONSTRICT
+	db 46, SPORE
+	db 50, MEGA_DRAIN
+	db 55, GROWTH
 	db 61, GUILLOTINE
 	db 0
 
@@ -1471,7 +1471,8 @@ ParasEvosMoves:
 	db 15, SLEEP_POWDER
 	db 20, LEECH_LIFE
 	db 25, CUT
-	db 31, LEECH_SEED
+	db 31, SLASH
+	db 36, LEECH_SEED
 	db 0
 
 PoliwhirlEvosMoves:

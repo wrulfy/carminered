@@ -22,7 +22,7 @@ Moves:
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,          100, 25
 	move GUILLOTINE,   RECOIL_EFFECT,              130, BUG,           90,  5
-	move RAZOR_WIND,   FLINCH_SIDE_EFFECT1,         75, FLYING,        95, 20
+	move RAZOR_WIND,   SWIFT_EFFECT,                75, FLYING,       100, 15
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, NORMAL,       100, 10
 	move CUT,          NO_ADDITIONAL_EFFECT,        60, GRASS,        100, 25
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, DRAGON,       100, 30
@@ -35,7 +35,7 @@ Moves:
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 25
 	move MEGA_KICK,    NO_ADDITIONAL_EFFECT,       120, NORMAL,        85, 10
-	move JUMP_KICK,    SWIFT_EFFECT,                90, FIGHTING,     100, 15
+	move JUMP_KICK,    SWIFT_EFFECT,                90, FIGHTING,     100, 10
 	move ROLLING_KICK, FLINCH_SIDE_EFFECT2,         65, FIGHTING,     100, 20
 	move SAND_ATTACK,  ACCURACY_DOWN_SIDE_EFFECT,   20, GROUND,       100, 35
 	move HEADBUTT,     FLINCH_SIDE_EFFECT2,         70, NORMAL,       100, 15

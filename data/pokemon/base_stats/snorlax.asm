@@ -14,13 +14,13 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     HYDRO_PUMP,   HYPER_BEAM,   \
-	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, SOLARBEAM,    \
-	     THUNDERBOLT,  EARTHQUAKE,   FISSURE,      PSYCHIC_M,    TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-	     SELFDESTRUCT, FLAMETHROWER, REST,         MIST,         SUBSTITUTE,   \
-	     SURF,         STRENGTH      
+	tmhm MEGA_PUNCH,   WHIRLWIND,    SLUDGE,       POISON_GAS,   BODY_SLAM,    \
+	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   ICE_BEAM,     HYDRO_PUMP,   \
+	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     SOLARBEAM,    THUNDERBOLT,  EARTHQUAKE,   FISSURE,      PSYCHIC_M,    \
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     METRONOME,    SELFDESTRUCT, FLAMETHROWER, REST,         MIST,         \
+	     SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

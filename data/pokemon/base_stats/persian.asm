@@ -14,11 +14,11 @@
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
-	tmhm SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   HYPER_BEAM,   PAY_DAY,      THUNDERBOLT,  DIG,          \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     GUILLOTINE,   DREAM_EATER,  REST,         MIST,         SUBSTITUTE,   \
-	     CUT,          FLASH         
+	tmhm RAZOR_WIND,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
+	     DOUBLE_EDGE,  BUBBLEBEAM,   HYPER_BEAM,   PAY_DAY,      THUNDERBOLT,  \
+	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     SWIFT,        GUILLOTINE,   DREAM_EATER,  REST,         MIST,         \
+	     SUBSTITUTE,   CUT,          FLASH         
 	; end
 
 	db 0 ; padding

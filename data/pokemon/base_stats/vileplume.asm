@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  GROWTH,       HYPER_BEAM,   MEGA_DRAIN,   SOLARBEAM,    \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         REST,         \
-	     SUBSTITUTE,   CUT,          FLASH         
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     DREAM_EATER,  REST,         SUBSTITUTE,   CUT,          FLASH         
 	; end
 
 

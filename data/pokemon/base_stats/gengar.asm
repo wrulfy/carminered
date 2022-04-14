@@ -14,12 +14,12 @@
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset
-	tmhm MEGA_PUNCH,   SLUDGE,       SLUDGE,       POISON_GAS,   BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, MEGA_DRAIN,   THUNDERBOLT,  SMOKESCREEN,  PSYCHIC_M,    \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
-	     SELFDESTRUCT, DREAM_EATER,  REST,         CONFUSE_RAY,  EXPLOSION,    \
-	     MIST,         SUBSTITUTE,   FLY,          STRENGTH      
+	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
+	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     MEGA_DRAIN,   THUNDERBOLT,  SMOKESCREEN,  PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    SELFDESTRUCT, \
+	     DREAM_EATER,  REST,         CONFUSE_RAY,  EXPLOSION,    MIST,         \
+	     SUBSTITUTE,   FLY,          STRENGTH      
 	; end
 
 

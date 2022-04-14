@@ -14,10 +14,10 @@
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
-	tmhm SWORDS_DANCE, POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SOFTBOILED,   SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY           
+	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    POISON_GAS,   HORN_DRILL,   \
+	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        SOFTBOILED,   \
+	     SKY_ATTACK,   REST,         SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding
