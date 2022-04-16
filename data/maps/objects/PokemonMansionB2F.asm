@@ -2,7 +2,7 @@ PokemonMansionB2F_Object:
 	db $3 ; border block
 
 	def_warp_events
-	warp_event 36,  3, POKEMON_MANSION_B1F, 2
+	warp_event 36,  3, LAST_MAP, 2
 	warp_event 33, 15, POKEMON_MANSION_B2F, 3
 	warp_event 15, 25, POKEMON_MANSION_B2F, 2
 	warp_event 21, 19, POKEMON_MANSION_B2F, 5

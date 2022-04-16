@@ -3,5 +3,5 @@ _SilphCo1Text1::
 
 	para "The PRESIDENT is"
 	line "in the boardroom"
-	cont "on 11F!"
+	cont "on 10F!"
 	done

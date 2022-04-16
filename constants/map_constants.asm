@@ -27,8 +27,8 @@ ENDM
 	mapconst INDIGO_PLATEAU,                 9, 10 ; $09
 	mapconst SAFFRON_CITY,                  18, 20 ; $0A
 NUM_CITY_MAPS EQU const_value
-	mapconst UNUSED_MAP_0B,                  0,  0 ; $0B
 FIRST_ROUTE_MAP EQU const_value
+	mapconst ROUTE_0,                       18, 10 ; $0B
 	mapconst ROUTE_1,                       18, 10 ; $0C
 	mapconst ROUTE_2,                       36, 10 ; $0D
 	mapconst ROUTE_3,                        9, 35 ; $0E
@@ -169,7 +169,7 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst POKEMON_TOWER_7F,               9, 10 ; $94
 	mapconst MR_FUJIS_HOUSE,                 4,  4 ; $95
 	mapconst LAVENDER_MART,                  4,  4 ; $96
-	mapconst LAVENDER_CLEFAIRY_HOUSE,          4,  4 ; $97
+	mapconst LAVENDER_CLEFAIRY_HOUSE,        4,  4 ; $97
 	mapconst FUCHSIA_MART,                   4,  4 ; $98
 	mapconst FUCHSIA_BILLS_GRANDPAS_HOUSE,   4,  4 ; $99
 	mapconst FUCHSIA_POKECENTER,             4,  7 ; $9A
@@ -261,7 +261,7 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst COLOSSEUM,                      4,  5 ; $F0
 	mapconst UNUSED_MAP_F1,                  0,  0 ; $F1
 	mapconst UNUSED_MAP_F2,                  0,  0 ; $F2
-	mapconst UNUSED_MAP_F3,                  0,  0 ; $F3
+	mapconst POKEMON_MANSION_TUNNEL,         3, 20 ; $F3
 	mapconst CINNABAR_LAB_STORAGE_ROOM,      4,  4 ; $F4
 	mapconst LORELEIS_ROOM,                  6,  5 ; $F5
 	mapconst BRUNOS_ROOM,                    6,  5 ; $F6

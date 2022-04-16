@@ -41,7 +41,7 @@ SilphCoElevatorScript_457f1:
 	ret
 
 SilphCoElevatorFloors:
-	db 11 ; #
+	db 10 ; #
 	db FLOOR_1F
 	db FLOOR_2F
 	db FLOOR_3F
@@ -51,7 +51,6 @@ SilphCoElevatorFloors:
 	db FLOOR_7F
 	db FLOOR_8F
 	db FLOOR_9F
-	db FLOOR_10F
 	db FLOOR_11F
 	db -1 ; end
 
@@ -67,7 +66,6 @@ SilphCoElevatorWarpMaps:
 	db 2, SILPH_CO_7F
 	db 2, SILPH_CO_8F
 	db 2, SILPH_CO_9F
-	db 2, SILPH_CO_10F
 	db 1, SILPH_CO_11F
 SilphCoElevatorWarpMapsEnd:
 

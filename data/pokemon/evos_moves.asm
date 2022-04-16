@@ -428,12 +428,12 @@ LaprasEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, MIST
-	db 24, SUPERSONIC
-	db 28, SLAM
-	db 32, BODY_SLAM
-	db 37, ICE_BEAM
-	db 40, SURF
+	db 23, MIST
+	db 26, SUPERSONIC
+	db 29, SLAM
+	db 32, SURF
+	db 36, ICE_BEAM
+	db 40, BODY_SLAM
 	db 46, DRAGON_RAGE
 	db 53, CONFUSE_RAY
 	db 60, BLIZZARD

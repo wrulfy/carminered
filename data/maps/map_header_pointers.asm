@@ -12,7 +12,7 @@ MapHeaderPointers::
 	dw CinnabarIsland_h
 	dw IndigoPlateau_h
 	dw SaffronCity_h
-	dw SaffronCity_h ; UNUSED_MAP_0B
+	dw Route0_h ; UNUSED_MAP_0B
 	dw Route1_h
 	dw Route2_h
 	dw Route3_h
@@ -244,7 +244,7 @@ MapHeaderPointers::
 	dw Colosseum_h
 	dw SilphCo2F_h ; UNUSED_MAP_F1
 	dw SilphCo2F_h ; UNUSED_MAP_F2
-	dw SilphCo2F_h ; UNUSED_MAP_F3
+	dw PokemonMansionTunnel_h
 	dw CinnabarLabStorageRoom_h
 	dw LoreleisRoom_h
 	dw BrunosRoom_h

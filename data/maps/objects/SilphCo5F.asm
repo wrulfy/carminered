@@ -20,7 +20,7 @@ SilphCo5F_Object:
 	object_event 28,  4, SPRITE_ROCKET, STAY, UP, 5, OPP_ROCKET, 29
 	object_event  2, 13, SPRITE_POKE_BALL, STAY, NONE, 6, TM_HORN_DRILL
 	object_event  4,  6, SPRITE_POKE_BALL, STAY, NONE, 7, PROTEIN
-	object_event 21, 16, SPRITE_POKE_BALL, STAY, NONE, 8, CARD_KEY
+	object_event 21, 16, SPRITE_POKE_BALL, STAY, NONE, 8, RARE_CANDY
 	object_event 22, 12, SPRITE_CLIPBOARD, STAY, NONE, 9 ; person
 	object_event 25, 10, SPRITE_CLIPBOARD, STAY, NONE, 10 ; person
 	object_event 24,  6, SPRITE_CLIPBOARD, STAY, NONE, 11 ; person

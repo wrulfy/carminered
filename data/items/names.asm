@@ -95,7 +95,7 @@ ItemNames::
 	li "7F"
 	li "8F"
 	li "9F"
+	li "XXX"
 	li "10F"
-	li "11F"
 	li "B4F"
 	assert_list_length NUM_ITEMS + NUM_FLOORS

@@ -52,5 +52,5 @@ _SilphCo4EndBattleText4::
 
 _SilphCo4AfterBattleText4::
 	text "I better tell the"
-	line "BOSS on 11F!"
+	line "BOSS on 10F!"
 	done
