@@ -16,10 +16,10 @@ AgathaShowOrHideExitBlock:
 	ret z
 	CheckEvent EVENT_BEAT_AGATHAS_ROOM_TRAINER_0
 	jr z, .blockExitToNextRoom
-	ld a, $e
+	ld a, $5
 	jp .setExitBlock
 .blockExitToNextRoom
-	ld a, $3b
+	ld a, $24
 .setExitBlock
 	ld [wNewTileBlockID], a
 	lb bc, 0, 2

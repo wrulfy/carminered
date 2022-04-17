@@ -100,7 +100,6 @@ SHOW EQU $15
 	const HS_POWER_PLANT_ITEM_3            ; 58 X
 	const HS_POWER_PLANT_ITEM_4            ; 59 X
 	const HS_POWER_PLANT_ITEM_5            ; 5A X
-	const HS_MOLTRES                       ; 5B X
 	const HS_VICTORY_ROAD_2F_ITEM_1        ; 5C X
 	const HS_VICTORY_ROAD_2F_ITEM_2        ; 5D X
 	const HS_VICTORY_ROAD_2F_ITEM_3        ; 5E X
@@ -196,8 +195,8 @@ SHOW EQU $15
 	const HS_SILPH_CO_11F_2                ; B8
 	const HS_SILPH_CO_11F_3                ; B9
 	const HS_POKEMON_MANSION_2F_ITEM       ; BB X THIS SHOULD BE BA AND SO ON, BUT I AINT REPLACING ALL COMMENTS
+	const HS_MOLTRES                       ; 5B X
 	const HS_POKEMON_MANSION_3F_ITEM_1     ; BC X
-	const HS_POKEMON_MANSION_3F_ITEM_2     ; BD X
 	const HS_POKEMON_MANSION_B1F_ITEM_1    ; BE X
 	const HS_POKEMON_MANSION_B1F_ITEM_2    ; BF X
 	const HS_POKEMON_MANSION_B1F_ITEM_3    ; C0 X
@@ -236,6 +235,7 @@ SHOW EQU $15
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_1 ; E1
 	const HS_SEAFOAM_ISLANDS_B4F_BOULDER_2 ; E2
 	const HS_ARTICUNO                      ; E3 X
+	const HS_MEW                           ; 
 	const HS_POKEMON_MANSION_B2F_ITEM_1    ; E4 X
 	const HS_POKEMON_MANSION_B2F_ITEM_2    ; E5 X
 	const HS_POKEMON_MANSION_B2F_ITEM_3    ; E6 X

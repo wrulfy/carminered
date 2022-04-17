@@ -252,7 +252,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw PokemonMansionB2FHS
 	assert_table_length NUM_MAPS
 	dw -1 ; end
 
@@ -393,8 +393,7 @@ VictoryRoad2FHS:
 	db VICTORY_ROAD_2F, $07, SHOW
 	db VICTORY_ROAD_2F, $08, SHOW
 	db VICTORY_ROAD_2F, $09, SHOW
-	db VICTORY_ROAD_2F, $0A, SHOW
-	db VICTORY_ROAD_2F, $0D, SHOW
+	db VICTORY_ROAD_2F, $0C, SHOW
 BillsHouseHS:
 	db BILLS_HOUSE, $01, SHOW
 	db BILLS_HOUSE, $02, HIDE
@@ -565,6 +564,7 @@ SeafoamIslandsB4FHS:
 	db SEAFOAM_ISLANDS_B4F, $02, HIDE
 	db SEAFOAM_ISLANDS_B4F, $03, SHOW
 PokemonMansionB2FHS:
+	db POKEMON_MANSION_B2F, $03, SHOW
 	db POKEMON_MANSION_B2F, $04, SHOW
 	db POKEMON_MANSION_B2F, $05, SHOW
 	db POKEMON_MANSION_B2F, $06, SHOW

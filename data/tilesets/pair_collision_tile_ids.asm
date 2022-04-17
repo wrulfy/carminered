@@ -12,7 +12,6 @@ TilePairCollisionsLand::
 	db FOREST, $52, $2E
 	db FOREST, $55, $2E
 	db FOREST, $56, $2E
-	db FOREST, $20, $2E
 	db FOREST, $5E, $2E
 	db FOREST, $5F, $2E
 	db -1 ; end

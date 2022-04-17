@@ -494,11 +494,14 @@ WarpFound2::
 	ld [wUnusedD366], a ; not read
 	ldh a, [hWarpDestinationMap]
 	ld [wCurMap], a
-	cp ROCK_TUNNEL_1F
+	cp POKEMON_MANSION_B2F ;check if POKEMON_MANSION_B2F
+	jr z, .needsFlash ; if yes, then jump to .needsFlash
+	cp ROCK_TUNNEL_1F ; check if ROCK_TUNNEL_1F
 	jr nz, .notRockTunnel
-	ld a, $06
-	ld [wMapPalOffset], a
-	call GBFadeOutToBlack
+.needsFlash	
+	ld a, $06 ; needs FLASH
+	ld [wMapPalOffset], a ; needs FLASH
+	call GBFadeOutToBlack ; needs FLASH
 .notRockTunnel
 	call PlayMapChangeSound
 	jr .done
