@@ -229,12 +229,6 @@ PokemonTower7FujiText:
 	ld a, HS_MR_FUJIS_HOUSE_MR_FUJI
 	ld [wMissableObjectIndex], a
 	predef ShowObject
-	ld a, HS_SAFFRON_CITY_E
-	ld [wMissableObjectIndex], a
-	predef HideObject
-	ld a, HS_SAFFRON_CITY_F
-	ld [wMissableObjectIndex], a
-	predef ShowObject
 	ld a, $4
 	ld [wPokemonTower7FCurScript], a
 	ld [wCurMapScript], a

@@ -18,8 +18,15 @@ PlayBattleMusic::
 	jr c, .wildBattle
 	cp OPP_RIVAL3
 	jr z, .finalBattle
+	cp OPP_LORELEI
+	jr z, .E4Music
+	cp OPP_BRUNO
+	jr z, .E4Music
+	cp OPP_AGATHA
+	jr z, .E4Music
 	cp OPP_LANCE
 	jr nz, .normalTrainerBattle
+.E4Music
 	ld a, MUSIC_GYM_LEADER_BATTLE ; lance also plays gym leader theme
 	jr .playSong
 .normalTrainerBattle

@@ -1,5 +1,5 @@
 AgathasRoom_Object:
-	db $0 ; border block
+	db $3 ; border block
 
 	def_warp_events
 	warp_event  4, 11, BRUNOS_ROOM, 3
