@@ -18,13 +18,13 @@ _GiovanniPreBattleText::
 	cont "greatest trainer!"
 	done
 
-_ReceivedEarthBadgeText::
+_ReceivedDrillBadgeText::
 	text "Ha!"
 	line "That was a truly"
 	cont "intense fight!"
 	cont "You have won!"
 	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	cont "the DRILLBADGE!@"
 	text_end
 
 _GiovanniPostBattleAdviceText::
@@ -43,8 +43,8 @@ _GiovanniPostBattleAdviceText::
 	cont "Farewell!@"
 	text_end
 
-_GiovanniEarthBadgeInfoText::
-	text "The EARTHBADGE"
+_GiovanniDrillBadgeInfoText::
+	text "The DRILLBADGE"
 	line "makes #MON of"
 	cont "any level obey!"
 

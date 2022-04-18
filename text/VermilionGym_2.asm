@@ -10,8 +10,8 @@ _LTSurgePostBattleAdviceText::
 	cont "type #MON!"
 	done
 
-_LTSurgeThunderBadgeInfoText::
-	text "The THUNDERBADGE"
+_LTSurgeBurnBadgeInfoText::
+	text "The BURNBADGE"
 	line "cranks up your"
 	cont "#MON's SPEED!"
 
@@ -45,14 +45,14 @@ _TM25NoRoomText::
 	line "in your pack!"
 	done
 
-_ReceivedThunderBadgeText::
+_ReceivedBurnBadgeText::
 	text "Whoa!"
 
 	para "You're the real"
 	line "deal, kid!"
 
 	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	line "the BURNBADGE!"
 	prompt
 
 _VermilionGymBattleText1::

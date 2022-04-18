@@ -161,9 +161,9 @@ CinnabarGymReceiveTM45:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_VOLCANOBADGE, [hl]
+	set BIT_POWERBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_VOLCANOBADGE, [hl]
+	set BIT_POWERBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_CINNABAR_GYM_TRAINER_0, EVENT_BEAT_CINNABAR_GYM_TRAINER_6
@@ -183,7 +183,7 @@ CinnabarGym_TextPointers:
 	dw CinnabarGymTrainerText6
 	dw CinnabarGymTrainerText7
 	dw CinnabarGymGuideText
-	dw BlaineVolcanoBadgeInfoText
+	dw BlainePowerBadgeInfoText
 	dw ReceivedTM45Text
 	dw TM45NoRoomText
 
@@ -223,8 +223,8 @@ BlaineText:
 .beforeBeat
 	ld hl, BlainePreBattleText
 	call PrintText
-	ld hl, ReceivedVolcanoBadgeText
-	ld de, ReceivedVolcanoBadgeText
+	ld hl, ReceivedPowerBadgeText
+	ld de, ReceivedPowerBadgeText
 	call SaveEndBattleTextPointers
 	ld a, $7
 	ld [wGymLeaderNo], a
@@ -234,8 +234,8 @@ BlainePreBattleText:
 	text_far _BlainePreBattleText
 	text_end
 
-ReceivedVolcanoBadgeText:
-	text_far _ReceivedVolcanoBadgeText
+ReceivedPowerBadgeText:
+	text_far _ReceivedPowerBadgeText
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_waitbutton
 	text_end
@@ -244,8 +244,8 @@ BlainePostBattleAdviceText:
 	text_far _BlainePostBattleAdviceText
 	text_end
 
-BlaineVolcanoBadgeInfoText:
-	text_far _BlaineVolcanoBadgeInfoText
+BlainePowerBadgeInfoText:
+	text_far _BlainePowerBadgeInfoText
 	text_end
 
 ReceivedTM45Text:

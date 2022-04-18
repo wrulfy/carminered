@@ -25,7 +25,7 @@ _ErikaPreBattleText::
 	line "shall not lose."
 	done
 
-_ReceivedRainbowBadgeText::
+_ReceivedGrubBadgeText::
 	text "Oh!"
 	line "I concede defeat."
 
@@ -33,7 +33,7 @@ _ReceivedRainbowBadgeText::
 	line "strong."
 
 	para "I must confer you"
-	line "the RAINBOWBADGE."
+	line "the GRUBBADGE."
 	prompt
 
 _ErikaPostBattleAdviceText::
@@ -47,8 +47,8 @@ _ErikaPostBattleAdviceText::
 	cont "unattractive."
 	done
 
-_ErikaRainbowBadgeInfoText::
-	text "The RAINBOWBADGE"
+_ErikaGrubBadgeInfoText::
+	text "The GRUBBADGE"
 	line "will make #MON"
 	cont "up to L50 obey."
 

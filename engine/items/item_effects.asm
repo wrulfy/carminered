@@ -37,14 +37,14 @@ ItemUsePtrTable:
 	dw ItemUseMedicine   ; HYPER_POTION
 	dw ItemUseMedicine   ; SUPER_POTION
 	dw ItemUseMedicine   ; POTION
-	dw ItemUseBait       ; BOULDERBADGE
-	dw ItemUseRock       ; CASCADEBADGE
-	dw UnusableItem      ; THUNDERBADGE
-	dw UnusableItem      ; RAINBOWBADGE
-	dw UnusableItem      ; SOULBADGE
-	dw UnusableItem      ; MARSHBADGE
-	dw UnusableItem      ; VOLCANOBADGE
-	dw UnusableItem      ; EARTHBADGE
+	dw ItemUseBait       ; COMMONBADGE
+	dw ItemUseRock       ; SNOWBADGE
+	dw UnusableItem      ; BURNBADGE
+	dw UnusableItem      ; GRUBBADGE
+	dw UnusableItem      ; MIASMABADGE
+	dw UnusableItem      ; POLTERBADGE
+	dw UnusableItem      ; POWERBADGE
+	dw UnusableItem      ; DRILLBADGE
 	dw ItemUseEscapeRope ; ESCAPE_ROPE
 	dw ItemUseRepel      ; REPEL
 	dw UnusableItem      ; OLD_AMBER

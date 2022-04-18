@@ -153,9 +153,9 @@ ViridianGymReceiveTM26:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_EARTHBADGE, [hl]
+	set BIT_DRILLBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_EARTHBADGE, [hl]
+	set BIT_DRILLBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_VIRIDIAN_GYM_TRAINER_0, EVENT_BEAT_VIRIDIAN_GYM_TRAINER_7
@@ -178,7 +178,7 @@ ViridianGym_TextPointers:
 	dw ViridianGymTrainerText8
 	dw ViridianGymGuideText
 	dw PickUpItemText
-	dw GiovanniEarthBadgeInfoText
+	dw GiovanniDrillBadgeInfoText
 	dw ReceivedTM26Text
 	dw TM26NoRoomText
 
@@ -230,8 +230,8 @@ GiovanniText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedEarthBadgeText
-	ld de, ReceivedEarthBadgeText
+	ld hl, ReceivedDrillBadgeText
+	ld de, ReceivedDrillBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -248,8 +248,8 @@ GiovanniPreBattleText:
 	text_far _GiovanniPreBattleText
 	text_end
 
-ReceivedEarthBadgeText:
-	text_far _ReceivedEarthBadgeText
+ReceivedDrillBadgeText:
+	text_far _ReceivedDrillBadgeText
 	sound_level_up ; probably supposed to play SFX_GET_ITEM_1 but the wrong music bank is loaded
 	text_end
 
@@ -258,8 +258,8 @@ GiovanniPostBattleAdviceText:
 	text_waitbutton
 	text_end
 
-GiovanniEarthBadgeInfoText:
-	text_far _GiovanniEarthBadgeInfoText
+GiovanniDrillBadgeInfoText:
+	text_far _GiovanniDrillBadgeInfoText
 	text_end
 
 ReceivedTM26Text:

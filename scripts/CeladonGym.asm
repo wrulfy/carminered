@@ -61,9 +61,9 @@ CeladonGymReceiveTM48:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_RAINBOWBADGE, [hl]
+	set BIT_GRUBBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_RAINBOWBADGE, [hl]
+	set BIT_GRUBBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_CELADON_GYM_TRAINER_0, EVENT_BEAT_CELADON_GYM_TRAINER_6
@@ -79,7 +79,7 @@ CeladonGym_TextPointers:
 	dw CeladonGymTrainerText5
 	dw CeladonGymTrainerText6
 	dw CeladonGymTrainerText7
-	dw ErikaRainbowBadgeInfoText
+	dw ErikaGrubBadgeInfoText
 	dw ReceivedTM48Text
 	dw TM48NoRoomText
 
@@ -120,8 +120,8 @@ ErikaText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedRainbowBadgeText
-	ld de, ReceivedRainbowBadgeText
+	ld hl, ReceivedGrubBadgeText
+	ld de, ReceivedGrubBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -139,16 +139,16 @@ ErikaPreBattleText:
 	text_far _ErikaPreBattleText
 	text_end
 
-ReceivedRainbowBadgeText:
-	text_far _ReceivedRainbowBadgeText
+ReceivedGrubBadgeText:
+	text_far _ReceivedGrubBadgeText
 	text_end
 
 ErikaPostBattleAdviceText:
 	text_far _ErikaPostBattleAdviceText
 	text_end
 
-ErikaRainbowBadgeInfoText:
-	text_far _ErikaRainbowBadgeInfoText
+ErikaGrubBadgeInfoText:
+	text_far _ErikaGrubBadgeInfoText
 	text_end
 
 ReceivedTM48Text:

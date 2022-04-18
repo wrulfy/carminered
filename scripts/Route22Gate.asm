@@ -59,7 +59,7 @@ Route22Gate_TextPointers:
 Route22GateText1:
 	text_asm
 	ld a, [wObtainedBadges]
-	bit BIT_BOULDERBADGE, a
+	bit BIT_COMMONBADGE, a
 	jr nz, .asm_1e6f6
 	ld hl, Route22GateText_1e704
 	call PrintText

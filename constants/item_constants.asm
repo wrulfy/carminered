@@ -27,16 +27,16 @@
 	const HYPER_POTION  ; $12
 	const SUPER_POTION  ; $13
 	const POTION        ; $14
-	const BOULDERBADGE  ; $15
-	const CASCADEBADGE  ; $16
+	const COMMONBADGE  ; $15
+	const SNOWBADGE  ; $16
 SAFARI_BAIT EQU $15 ; overload
 SAFARI_ROCK EQU $16 ; overload
-	const THUNDERBADGE  ; $17
-	const RAINBOWBADGE  ; $18
-	const SOULBADGE     ; $19
-	const MARSHBADGE    ; $1A
-	const VOLCANOBADGE  ; $1B
-	const EARTHBADGE    ; $1C
+	const BURNBADGE  ; $17
+	const GRUBBADGE  ; $18
+	const MIASMABADGE     ; $19
+	const POLTERBADGE    ; $1A
+	const POWERBADGE  ; $1B
+	const DRILLBADGE    ; $1C
 	const ESCAPE_ROPE   ; $1D
 	const REPEL         ; $1E
 	const OLD_AMBER     ; $1F

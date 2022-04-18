@@ -16,7 +16,7 @@ _SabrinaPreBattleText::
 	cont "you my powers!"
 	done
 
-_ReceivedMarshBadgeText::
+_ReceivedPolterBadgeText::
 	text "I'm"
 	line "shocked!"
 	cont "But, a loss is a"
@@ -27,7 +27,7 @@ _ReceivedMarshBadgeText::
 	cont "to win!"
 
 	para "You earned the"
-	line "MARSHBADGE!@"
+	line "POLTERBADGE!@"
 	text_end
 
 _SabrinaPostBattleAdviceText::
@@ -37,8 +37,8 @@ _SabrinaPostBattleAdviceText::
 	cont "realize it!"
 	done
 
-_KogaMarshBadgeInfoText::
-	text "The MARSHBADGE"
+_KogaPolterBadgeInfoText::
+	text "The POLTERBADGE"
 	line "makes #MON up"
 	cont "to L70 obey you!"
 

@@ -130,7 +130,7 @@ StartMenu_Pokemon::
 	dw .teleport
 	dw .softboiled
 .fly
-	bit BIT_THUNDERBADGE, a
+	bit BIT_BURNBADGE, a
 	jp z, .newBadgeRequired
 	call CheckIfInOutsideMap
 	jr z, .canFly
@@ -150,7 +150,7 @@ StartMenu_Pokemon::
 	set 1, [hl]
 	jp StartMenu_Pokemon
 .cut
-	bit BIT_CASCADEBADGE, a
+	bit BIT_SNOWBADGE, a
 	jp z, .newBadgeRequired
 	predef UsedCut
 	ld a, [wActionResultOrTookBattleTurn]
@@ -158,7 +158,7 @@ StartMenu_Pokemon::
 	jp z, .loop
 	jp CloseTextDisplay
 .surf
-	bit BIT_SOULBADGE, a
+	bit BIT_MIASMABADGE, a
 	jp z, .newBadgeRequired
 	farcall IsSurfingAllowed
 	ld hl, wd728
@@ -175,13 +175,13 @@ StartMenu_Pokemon::
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .strength
-	bit BIT_RAINBOWBADGE, a
+	bit BIT_GRUBBADGE, a
 	jp z, .newBadgeRequired
 	predef PrintStrengthTxt
 	call GBPalWhiteOutWithDelay3
 	jp .goBackToMap
 .flash
-	bit BIT_BOULDERBADGE, a
+	bit BIT_COMMONBADGE, a
 	jp z, .newBadgeRequired
 	xor a
 	ld [wMapPalOffset], a

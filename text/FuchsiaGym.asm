@@ -16,11 +16,11 @@ _KogaBeforeBattleText::
 	cont "techniques!"
 	done
 
-_ReceivedSoulBadgeText::
+_ReceivedMiasmaBadgeText::
 	text "Humph!"
 	line "You have proven"
 	cont "your worth!"
 
 	para "Here! Take the"
-	line "SOULBADGE!"
+	line "MIASMABADGE!"
 	prompt

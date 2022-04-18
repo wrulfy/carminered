@@ -61,9 +61,9 @@ SaffronGymReceiveTM46:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_MARSHBADGE, [hl]
+	set BIT_POLTERBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_MARSHBADGE, [hl]
+	set BIT_POLTERBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_SAFFRON_GYM_TRAINER_0, EVENT_BEAT_SAFFRON_GYM_TRAINER_6
@@ -80,7 +80,7 @@ SaffronGym_TextPointers:
 	dw SaffronGymTrainerText6
 	dw SaffronGymTrainerText7
 	dw SaffronGymGuideText
-	dw KogaMarshBadgeInfoText
+	dw KogaPolterBadgeInfoText
 	dw ReceivedTM46Text
 	dw TM46NoRoomText
 
@@ -121,8 +121,8 @@ SabrinaText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedMarshBadgeText
-	ld de, ReceivedMarshBadgeText
+	ld hl, ReceivedPolterBadgeText
+	ld de, ReceivedPolterBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -139,8 +139,8 @@ SabrinaPreBattleText:
 	text_far _SabrinaPreBattleText
 	text_end
 
-ReceivedMarshBadgeText:
-	text_far _ReceivedMarshBadgeText
+ReceivedPolterBadgeText:
+	text_far _ReceivedPolterBadgeText
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_promptbutton
 	text_end
@@ -149,8 +149,8 @@ SabrinaPostBattleAdviceText:
 	text_far _SabrinaPostBattleAdviceText
 	text_end
 
-KogaMarshBadgeInfoText:
-	text_far _KogaMarshBadgeInfoText
+KogaPolterBadgeInfoText:
+	text_far _KogaPolterBadgeInfoText
 	text_end
 
 ReceivedTM46Text:

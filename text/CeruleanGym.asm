@@ -25,8 +25,8 @@ _TM49ExplanationText::
 	line "enemy #MON!"
 	done
 
-_MistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
+_MistySnowBadgeInfoText::
+	text "The SNOWBADGE"
 	line "makes all #MON"
 	cont "up to L30 obey!"
 
@@ -55,14 +55,14 @@ _TM49NoRoomText::
 	line "room for this!"
 	done
 
-_ReceivedCascadeBadgeText::
+_ReceivedSnowBadgeText::
 	text "Wow!"
 	line "You're too much!"
 
 	para "All right!"
 
 	para "You can have the"
-	line "CASCADEBADGE to"
+	line "SNOWBADGE to"
 	cont "show you beat me!@"
 	text_end
 

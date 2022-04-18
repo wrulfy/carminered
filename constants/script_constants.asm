@@ -42,14 +42,14 @@ NUM_NPC_TRADES EQU const_value
 ; badges
 ; wObtainedBadges and wBeatGymFlags bits
 	const_def
-	const BIT_BOULDERBADGE ; 0
-	const BIT_CASCADEBADGE ; 1
-	const BIT_THUNDERBADGE ; 2
-	const BIT_RAINBOWBADGE ; 3
-	const BIT_SOULBADGE    ; 4
-	const BIT_MARSHBADGE   ; 5
-	const BIT_VOLCANOBADGE ; 6
-	const BIT_EARTHBADGE   ; 7
+	const BIT_COMMONBADGE ; 0
+	const BIT_SNOWBADGE ; 1
+	const BIT_BURNBADGE ; 2
+	const BIT_GRUBBADGE ; 3
+	const BIT_MIASMABADGE    ; 4
+	const BIT_POLTERBADGE   ; 5
+	const BIT_POWERBADGE ; 6
+	const BIT_DRILLBADGE   ; 7
 NUM_BADGES EQU const_value
 
 ; OaksAideScript results

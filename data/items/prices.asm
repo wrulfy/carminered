@@ -20,14 +20,14 @@ ItemPrices::
 	bcd3 1500  ; HYPER_POTION
 	bcd3 500   ; SUPER_POTION
 	bcd3 250   ; POTION
-	bcd3 0     ; BOULDERBADGE
-	bcd3 0     ; CASCADEBADGE
-	bcd3 0     ; THUNDERBADGE
-	bcd3 0     ; RAINBOWBADGE
-	bcd3 0     ; SOULBADGE
-	bcd3 0     ; MARSHBADGE
-	bcd3 0     ; VOLCANOBADGE
-	bcd3 0     ; EARTHBADGE
+	bcd3 0     ; COMMONBADGE
+	bcd3 0     ; SNOWBADGE
+	bcd3 0     ; BURNBADGE
+	bcd3 0     ; GRUBBADGE
+	bcd3 0     ; MIASMABADGE
+	bcd3 0     ; POLTERBADGE
+	bcd3 0     ; POWERBADGE
+	bcd3 0     ; DRILLBADGE
 	bcd3 550   ; ESCAPE_ROPE
 	bcd3 350   ; REPEL
 	bcd3 0     ; OLD_AMBER

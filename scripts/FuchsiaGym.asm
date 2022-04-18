@@ -63,9 +63,9 @@ FuchsiaGymReceiveTM06:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_SOULBADGE, [hl]
+	set BIT_MIASMABADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_SOULBADGE, [hl]
+	set BIT_MIASMABADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_FUCHSIA_GYM_TRAINER_0, EVENT_BEAT_FUCHSIA_GYM_TRAINER_5
@@ -81,7 +81,7 @@ FuchsiaGym_TextPointers:
 	dw FuchsiaGymTrainerText5
 	dw FuchsiaGymTrainerText6
 	dw FuchsiaGymGuideText
-	dw KogaSoulBadgeInfoText
+	dw KogaMiasmaBadgeInfoText
 	dw ReceivedTM06Text
 	dw TM06NoRoomText
 
@@ -120,8 +120,8 @@ KogaText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedSoulBadgeText
-	ld de, ReceivedSoulBadgeText
+	ld hl, ReceivedMiasmaBadgeText
+	ld de, ReceivedMiasmaBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -140,16 +140,16 @@ KogaBeforeBattleText:
 	text_far _KogaBeforeBattleText
 	text_end
 
-ReceivedSoulBadgeText:
-	text_far _ReceivedSoulBadgeText
+ReceivedMiasmaBadgeText:
+	text_far _ReceivedMiasmaBadgeText
 	text_end
 
 KogaPostBattleAdviceText:
 	text_far _KogaPostBattleAdviceText
 	text_end
 
-KogaSoulBadgeInfoText:
-	text_far _KogaSoulBadgeInfoText
+KogaMiasmaBadgeInfoText:
+	text_far _KogaMiasmaBadgeInfoText
 	text_end
 
 ReceivedTM06Text:

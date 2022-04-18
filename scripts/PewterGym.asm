@@ -61,9 +61,9 @@ PewterGymScriptReceiveTM39:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_BOULDERBADGE, [hl]
+	set BIT_COMMONBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_BOULDERBADGE, [hl]
+	set BIT_COMMONBADGE, [hl]
 
 	ld a, HS_GYM_GUY
 	ld [wMissableObjectIndex], a
@@ -112,8 +112,8 @@ BrockText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedBoulderBadgeText
-	ld de, ReceivedBoulderBadgeText
+	ld hl, ReceivedCommonBadgeText
+	ld de, ReceivedCommonBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -151,8 +151,8 @@ TM39NoRoomText:
 	text_far _TM39NoRoomText
 	text_end
 
-ReceivedBoulderBadgeText:
-	text_far _ReceivedBoulderBadgeText
+ReceivedCommonBadgeText:
+	text_far _ReceivedCommonBadgeText
 	sound_level_up ; probably supposed to play SFX_GET_ITEM_1 but the wrong music bank is loaded
 	text_far _BrockBoulerBadgeInfoText ; Text to tell that the flash technique can be used
 	text_end
@@ -178,7 +178,7 @@ PewterGymAfterBattleText1:
 PewterGymGuideText:
 	text_asm
 	ld a, [wBeatGymFlags]
-	bit BIT_BOULDERBADGE, a
+	bit BIT_COMMONBADGE, a
 	jr nz, .afterBeat
 	ld hl, PewterGymGuidePreAdviceText
 	call PrintText

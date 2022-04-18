@@ -80,9 +80,9 @@ VermilionGymReceiveTM25:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_THUNDERBADGE, [hl]
+	set BIT_BURNBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_THUNDERBADGE, [hl]
+	set BIT_BURNBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEventRange EVENT_BEAT_VERMILION_GYM_TRAINER_0, EVENT_BEAT_VERMILION_GYM_TRAINER_2
@@ -95,7 +95,7 @@ VermilionGym_TextPointers:
 	dw VermilionGymTrainerText2
 	dw VermilionGymTrainerText3
 	dw VermilionGymGuideText
-	dw LTSurgeThunderBadgeInfoText
+	dw LTSurgeBurnBadgeInfoText
 	dw ReceivedTM25Text
 	dw TM25NoRoomText
 
@@ -128,8 +128,8 @@ LTSurgeText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedThunderBadgeText
-	ld de, ReceivedThunderBadgeText
+	ld hl, ReceivedBurnBadgeText
+	ld de, ReceivedBurnBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -153,8 +153,8 @@ LTSurgePostBattleAdviceText:
 	text_far _LTSurgePostBattleAdviceText
 	text_end
 
-LTSurgeThunderBadgeInfoText:
-	text_far _LTSurgeThunderBadgeInfoText
+LTSurgeBurnBadgeInfoText:
+	text_far _LTSurgeBurnBadgeInfoText
 	text_end
 
 ReceivedTM25Text:
@@ -167,8 +167,8 @@ TM25NoRoomText:
 	text_far _TM25NoRoomText
 	text_end
 
-ReceivedThunderBadgeText:
-	text_far _ReceivedThunderBadgeText
+ReceivedBurnBadgeText:
+	text_far _ReceivedBurnBadgeText
 	text_end
 
 VermilionGymTrainerText1:
@@ -228,7 +228,7 @@ VermilionGymAfterBattleText3:
 VermilionGymGuideText:
 	text_asm
 	ld a, [wBeatGymFlags]
-	bit BIT_THUNDERBADGE, a
+	bit BIT_BURNBADGE, a
 	jr nz, .afterBeat
 	ld hl, VermilionGymGuidePreBattleText
 	call PrintText

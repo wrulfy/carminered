@@ -61,9 +61,9 @@ CeruleanGymReceiveTM49:
 	call DisplayTextID
 .gymVictory
 	ld hl, wObtainedBadges
-	set BIT_CASCADEBADGE, [hl]
+	set BIT_SNOWBADGE, [hl]
 	ld hl, wBeatGymFlags
-	set BIT_CASCADEBADGE, [hl]
+	set BIT_SNOWBADGE, [hl]
 
 	; deactivate gym trainers
 	SetEvents EVENT_BEAT_CERULEAN_GYM_TRAINER_0, EVENT_BEAT_CERULEAN_GYM_TRAINER_1
@@ -75,7 +75,7 @@ CeruleanGym_TextPointers:
 	dw CeruleanGymTrainerText1
 	dw CeruleanGymTrainerText2
 	dw CeruleanGymGuideText
-	dw MistyCascadeBadgeInfoText
+	dw MistySnowBadgeInfoText
 	dw ReceivedTM49Text
 	dw TM49NoRoomText
 
@@ -106,8 +106,8 @@ MistyText:
 	ld hl, wd72d
 	set 6, [hl]
 	set 7, [hl]
-	ld hl, ReceivedCascadeBadgeText
-	ld de, ReceivedCascadeBadgeText
+	ld hl, ReceivedSnowBadgeText
+	ld de, ReceivedSnowBadgeText
 	call SaveEndBattleTextPointers
 	ldh a, [hSpriteIndex]
 	ld [wSpriteIndex], a
@@ -130,8 +130,8 @@ TM49ExplanationText:
 	text_far _TM49ExplanationText
 	text_end
 
-MistyCascadeBadgeInfoText:
-	text_far _MistyCascadeBadgeInfoText
+MistySnowBadgeInfoText:
+	text_far _MistySnowBadgeInfoText
 	text_end
 
 ReceivedTM49Text:
@@ -143,8 +143,8 @@ TM49NoRoomText:
 	text_far _TM49NoRoomText
 	text_end
 
-ReceivedCascadeBadgeText:
-	text_far _ReceivedCascadeBadgeText
+ReceivedSnowBadgeText:
+	text_far _ReceivedSnowBadgeText
 	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
 	text_promptbutton
 	text_end

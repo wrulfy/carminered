@@ -9,9 +9,9 @@ _KogaPostBattleAdviceText::
 	line "terrorize foes!"
 	done
 
-_KogaSoulBadgeInfoText::
+_KogaMiasmaBadgeInfoText::
 	text "Now that you have"
-	line "the SOULBADGE,"
+	line "the MIASMABADGE,"
 	cont "the DEFENSE of"
 	cont "your #MON"
 	cont "increases!"

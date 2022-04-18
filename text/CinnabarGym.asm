@@ -13,12 +13,12 @@ _BlainePreBattleText::
 	line "have BURN HEAL!"
 	done
 
-_ReceivedVolcanoBadgeText::
+_ReceivedPowerBadgeText::
 	text "I have"
 	line "burnt out!"
 
 	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	line "the POWERBADGE!@"
 	text_end
 
 _BlainePostBattleAdviceText::
@@ -30,10 +30,10 @@ _BlainePostBattleAdviceText::
 	line "water #MON!"
 	done
 
-_BlaineVolcanoBadgeInfoText::
+_BlainePowerBadgeInfoText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
+	para "The POWERBADGE"
 	line "heightens the"
 	cont "SPECIAL abilities"
 	cont "of your #MON!"

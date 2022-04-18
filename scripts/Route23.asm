@@ -29,7 +29,7 @@ Route23Script0:
 	ld a, [wYCoord]
 	ld b, a
 	ld e, $0
-	EventFlagBit c, EVENT_PASSED_EARTHBADGE_CHECK + 1, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit c, EVENT_PASSED_DRILLBADGE_CHECK + 1, EVENT_PASSED_SNOWBADGE_CHECK
 .asm_51224
 	ld a, [hli]
 	cp -1
@@ -49,7 +49,7 @@ Route23Script0:
 	ld a, c
 	ld [wWhichBadge], a
 	ld b, FLAG_TEST
-	EventFlagAddress hl, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagAddress hl, EVENT_PASSED_SNOWBADGE_CHECK
 	predef FlagActionPredef
 	ld a, c
 	and a
@@ -90,34 +90,34 @@ Route23Script_5125d:
 	ret
 
 BadgeTextPointers:
-	dw CascadeBadgeText
-	dw ThunderBadgeText
-	dw RainbowBadgeText
-	dw SoulBadgeText
-	dw MarshBadgeText
-	dw VolcanoBadgeText
-	dw EarthBadgeText
+	dw SnowBadgeText
+	dw BurnBadgeText
+	dw GrubBadgeText
+	dw MiasmaBadgeText
+	dw PolterBadgeText
+	dw PowerBadgeText
+	dw DrillBadgeText
 
-EarthBadgeText:
-	db "EARTHBADGE@"
+DrillBadgeText:
+	db "DRILLBADGE@"
 
-VolcanoBadgeText:
-	db "VOLCANOBADGE@"
+PowerBadgeText:
+	db "POWERBADGE@"
 
-MarshBadgeText:
-	db "MARSHBADGE@"
+PolterBadgeText:
+	db "POLTERBADGE@"
 
-SoulBadgeText:
-	db "SOULBADGE@"
+MiasmaBadgeText:
+	db "MIASMABADGE@"
 
-RainbowBadgeText:
-	db "RAINBOWBADGE@"
+GrubBadgeText:
+	db "GRUBBADGE@"
 
-ThunderBadgeText:
-	db "THUNDERBADGE@"
+BurnBadgeText:
+	db "BURNBADGE@"
 
-CascadeBadgeText:
-	db "CASCADEBADGE@"
+SnowBadgeText:
+	db "SNOWBADGE@"
 
 Route23Script_512d8:
 	ld a, $1
@@ -150,43 +150,43 @@ Route23_TextPointers:
 
 Route23Text1:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_EARTHBADGE_CHECK, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_DRILLBADGE_CHECK, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
 Route23Text2:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_VOLCANOBADGE_CHECK, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_POWERBADGE_CHECK, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
 Route23Text3:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_MARSHBADGE_CHECK, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_POLTERBADGE_CHECK, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
 Route23Text4:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_SOULBADGE_CHECK, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_MIASMABADGE_CHECK, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
 Route23Text5:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_RAINBOWBADGE_CHECK, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_GRUBBADGE_CHECK, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
 Route23Text6:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_THUNDERBADGE_CHECK, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_BURNBADGE_CHECK, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
 Route23Text7:
 	text_asm
-	EventFlagBit a, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagBit a, EVENT_PASSED_SNOWBADGE_CHECK
 	call Route23Script_51346
 	jp TextScriptEnd
 
@@ -214,7 +214,7 @@ Route23Script_51346:
 	ld a, [wWhichBadge]
 	ld c, a
 	ld b, FLAG_SET
-	EventFlagAddress hl, EVENT_PASSED_CASCADEBADGE_CHECK
+	EventFlagAddress hl, EVENT_PASSED_SNOWBADGE_CHECK
 	predef FlagActionPredef
 	ld a, $2
 	ld [wRoute23CurScript], a

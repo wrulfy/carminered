@@ -51,16 +51,16 @@ _TM39NoRoomText::
 	line "room for this!"
 	done
 
-_ReceivedBoulderBadgeText::
+_ReceivedCommonBadgeText::
 	text "I took"
 	line "you for granted."
 
 	para "As proof of your"
 	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	cont "the COMMONBADGE!"
 
 	para "<PLAYER> received"
-	line "the BOULDERBADGE!@"
+	line "the COMMONBADGE!@"
 	text_end
 
 _BrockBoulerBadgeInfoText::
