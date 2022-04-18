@@ -24,6 +24,12 @@ _CeruleanHouse2Text_74e81::
 	done
 
 _CeruleanHouse2Text_74e96::
+	text "#MON up to L20"
+	line "will obey you."
+
+	para "Any higher, they"
+	line "become unruly!"
+
 	text "The ATTACK of all"
 	line "#MON increases"
 	cont "a little bit."
@@ -46,7 +52,13 @@ _CeruleanHouse2Text_74e9b::
 	prompt
 
 _CeruleanHouse2Text_74ea0::
-	text "The SPEED of all"
+	text "#MON up to L40"
+	line "will obey you."
+
+	para "Any higher, they"
+	line "become unruly!"
+
+	text "The DEFENSE of all"
 	line "#MON increases"
 	cont "a little bit."
 
@@ -68,7 +80,13 @@ _CeruleanHouse2Text_74ea5::
 	prompt
 
 _CeruleanHouse2Text_74eaa::
-	text "The DEFENSE of all"
+	text "#MON up to L60"
+	line "will obey you."
+
+	para "Any higher, they"
+	line "become unruly!"
+
+	text "The SPEED of all"
 	line "#MON increases"
 	cont "a little bit."
 
@@ -86,6 +104,12 @@ _CeruleanHouse2Text_74eaf::
 	prompt
 
 _CeruleanHouse2Text_74eb4::
+	text "#MON up to L80"
+	line "will obey you."
+
+	para "Any higher, they"
+	line "become unruly!"
+
 	text "Your #MON's"
 	line "SPECIAL abilities"
 	cont "increase a bit."

@@ -71,12 +71,16 @@ _BrockBoulerBadgeInfoText::
 	cont "BADGE!"
 
 	para "Its bearer's"
-	line "#MON become"
-	cont "more powerful!"
+	line "#MON ATTACK"
+	cont "increase a bit!"
 
 	para "The technique"
 	line "FLASH can now be"
 	cont "used any time!"
+
+	para "Also foreing"
+	line "#MON will obey"
+	cont "up to L20!"
 	prompt
 
 _PewterGymBattleText1::

@@ -5,7 +5,7 @@ _CeruleanTrashedText_1d6ab::
 	para "Look what they"
 	line "did here!"
 
-	para "They stole a TM"
+	para "They stole my TMs"
 	line "for teaching"
 	cont "#MON how to"
 	cont "DIG holes!"

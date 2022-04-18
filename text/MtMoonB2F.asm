@@ -41,7 +41,7 @@ _MtMoon3Text_49f8f::
 
 _MtMoon3Text_49f94::
 	text "Far away, on"
-	line "CINNABAR ISLAND,"
+	line "CELADON CITY,"
 	cont "there's a #MON"
 	cont "LAB."
 

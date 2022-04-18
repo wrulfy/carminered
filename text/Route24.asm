@@ -57,7 +57,7 @@ _Route24Text_5152b::
 _Route24Text_51530::
 	text "With your ability,"
 	line "you could become"
-	cont "a top leader in"
+	cont "a top CHIEF in"
 	cont "TEAM ROCKET!"
 	done
 

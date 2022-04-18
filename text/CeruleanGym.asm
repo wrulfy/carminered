@@ -13,7 +13,7 @@ _MistyPreBattleText::
 
 	para "My policy is an"
 	line "all-out offensive"
-	cont "with water-type"
+	cont "with ice-type"
 	cont "#MON!"
 	done
 
@@ -113,14 +113,14 @@ _CeruleanGymGuidePreBattleText::
 
 	para "The LEADER, MISTY,"
 	line "is a pro who uses"
-	cont "water #MON!"
+	cont "ice #MON!"
 
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
+	para "You can melt all"
+	line "their ice with"
+	cont "fire #MON!"
 
-	para "Or, zap them with"
-	line "electricity!"
+	para "Or, crush them"
+	line "with rocks!"
 	done
 
 _CeruleanGymGuidePostBattleText::

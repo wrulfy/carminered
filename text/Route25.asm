@@ -96,7 +96,7 @@ _Route25EndBattleText6::
 _Route25AfterBattleText6::
 	text "You came from MT."
 	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	cont "a PARAS?"
 	done
 
 _Route25BattleText7::

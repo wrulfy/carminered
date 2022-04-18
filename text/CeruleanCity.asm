@@ -96,7 +96,8 @@ _CeruleanCityText_196ee::
 
 _CeruleanCityText_196f3::
 	text "OK! I'll return"
-	line "the TM I stole!"
+	line "one of the TMs I"
+	cont "stole!"
 	prompt
 
 _CeruleanCityText3::
@@ -138,7 +139,7 @@ _CeruleanCityText6::
 
 _CeruleanCityText_19730::
 	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
+	line "Use AMNESIA!"
 	cont "Come on, SLOWBRO"
 	cont "pay attention!"
 	done
@@ -230,6 +231,6 @@ _CeruleanCityText17::
 	line "#MON GYM"
 	cont "LEADER: MISTY"
 
-	para "The Tomboyish"
+	para "The Ice-Cold"
 	line "Mermaid!"
 	done
