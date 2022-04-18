@@ -82,7 +82,7 @@ BugCatcherData:
 ; Viridian Forest
 	db 8, WEEDLE, CATERPIE, 0
 	db 7, WEEDLE, KAKUNA, METAPOD, 0
-	db 9, VENONAT, 0
+	db 10, VENONAT, 0
 ; Route 3
 	db 11, WEEDLE, WEEDLE, WEEDLE, VENONAT, 0
 	db 10, CATERPIE, WEEDLE, PARAS, 0
@@ -174,8 +174,8 @@ JrTrainerFData:
 ; Route 6
 	db 19, RATTATA, PIKACHU, 0
 	db 18, PIDGEY, PIDGEY, PIDGEOTTO, 0
-; Unused
-	db 22, BULBASAUR, 0
+; Unused NOW ON ROUTE 2
+	db 7, NIDORAN_F, VULPIX, MANKEY, 0
 ; Route 9
 	db 22, ODDISH, BELLSPROUT, BULBASAUR, 0
 	db 27, MEOWTH, 0

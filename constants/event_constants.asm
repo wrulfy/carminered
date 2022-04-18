@@ -227,6 +227,7 @@
 	const EVENT_GOT_HM05
 	const_skip 2
 	const EVENT_BEAT_ROUTE_2_TRAINER_0
+	const EVENT_BEAT_ROUTE_2_TRAINER_1
 
 ; Route 3 events
 	const_next $3E0

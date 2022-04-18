@@ -1,11 +1,9 @@
 _Route3Text1::
-	text "Whew... I better"
-	line "take a rest..."
-	cont "Groan..."
+	text "I've 6 # BALLs"
+	line "set in my belt."
 
-	para "That tunnel from"
-	line "CERULEAN takes a"
-	cont "lot out of you!"
+	para "At most, you can"
+	line "carry 6 #MON."
 	done
 
 _Route3BattleText1::

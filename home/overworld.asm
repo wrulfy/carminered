@@ -496,6 +496,10 @@ WarpFound2::
 	ld [wCurMap], a
 	cp POKEMON_MANSION_B2F ;check if POKEMON_MANSION_B2F
 	jr z, .needsFlash ; if yes, then jump to .needsFlash
+	cp MT_MOON_1F ;check if POKEMON_MANSION_B2F
+	jr z, .needsFlash ; if yes, then jump to .needsFlash
+	cp MT_MOON_B1F ;check if POKEMON_MANSION_B2F
+	jr z, .needsFlash ; if yes, then jump to .needsFlash
 	cp ROCK_TUNNEL_1F ; check if ROCK_TUNNEL_1F
 	jr nz, .notRockTunnel
 .needsFlash	

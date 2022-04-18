@@ -10,8 +10,5 @@ Route2HouseText1:
 	text_end
 
 Route2HouseText2:
-	text_asm
-	ld a, TRADE_FOR_JESTER
-	ld [wWhichTrade], a
-	predef DoInGameTradeDialogue
-	jp TextScriptEnd
+	text_far _Route2HouseText2
+	text_end

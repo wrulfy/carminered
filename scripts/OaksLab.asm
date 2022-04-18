@@ -984,7 +984,7 @@ OaksLabText5:
 	ld b, POKE_BALL
 	call IsItemInBag
 	jr nz, .asm_1d2e7
-	CheckEvent EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE
+	CheckEvent EVENT_GOT_POKEDEX
 	jr nz, .asm_1d2d0
 	CheckEvent EVENT_GOT_POKEDEX
 	jr nz, .asm_1d2c8

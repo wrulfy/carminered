@@ -14,7 +14,32 @@ MtMoonHealNurseText:
 	script_pokecenter_nurse
 
 MtMoonPokecenterText2:
-	text_far _MtMoonPokecenterText1
+	text_asm
+	CheckEvent EVENT_GOT_HM05
+	jr nz, .got_item
+	ld a, 10
+	ldh [hOaksAideRequirement], a
+	ld a, HM_FLASH
+	ldh [hOaksAideRewardItem], a
+	ld [wd11e], a
+	call GetItemName
+	ld hl, wcd6d
+	ld de, wOaksAideRewardItemName
+	ld bc, ITEM_NAME_LENGTH
+	call CopyData
+	predef OaksAideScript
+	ldh a, [hOaksAideResult]
+	cp OAKS_AIDE_GOT_ITEM
+	jr nz, .no_item
+	SetEvent EVENT_GOT_HM05
+.got_item
+	ld hl, MtMoonPokecenterText_5d616
+	call PrintText
+.no_item
+	jp TextScriptEnd
+
+MtMoonPokecenterText_5d616:
+	text_far _MtMoonPokecenterText_5d616
 	text_end
 
 MtMoonPokecenterText3:

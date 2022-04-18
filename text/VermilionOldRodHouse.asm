@@ -5,7 +5,7 @@ _MagikarpSalesmanText1::
 
 	para "I'll let you have"
 	line "a swell MEW"
-	cont "for just ¥50000!"
+	cont "for just ¥9900!"
 	cont "What do you say?"
 	done
 
