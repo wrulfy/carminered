@@ -35,9 +35,9 @@ _Route25AfterBattleText2::
 	done
 
 _Route25BattleText3::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
+	text "I'm a birdkeeper."
+	line "I've got a lot of"
+	cont "birds!"
 	done
 
 _Route25EndBattleText3::
@@ -46,7 +46,7 @@ _Route25EndBattleText3::
 	prompt
 
 _Route25AfterBattleText3::
-	text "Oh well. My girl"
+	text "Oh well. My birds"
 	line "will cheer me up."
 	done
 
@@ -134,8 +134,8 @@ _Route25AfterBattleText8::
 	done
 
 _Route25BattleText9::
-	text "You're going to"
-	line "see BILL? First,"
+	text "You went to"
+	line "see BILL? Okay,"
 	cont "let's fight!"
 	done
 
@@ -145,7 +145,7 @@ _Route25EndBattleText9::
 	prompt
 
 _Route25AfterBattleText9::
-	text "The trail below"
+	text "This trail below"
 	line "is a shortcut to"
 	cont "CERULEAN CITY."
 	done

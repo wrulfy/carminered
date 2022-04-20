@@ -1626,7 +1626,7 @@ ItemUseDireHit:
 	and a
 	jp z, ItemUseNotTime
 	ld hl, wPlayerBattleStatus2
-	set GETTING_PUMPED, [hl] ; Focus Energy bit
+	set HAS_SUBSTITUTE_UP, [hl] ; should make a weak substitute
 	jp PrintItemUseTextAndRemoveItem
 
 ItemUseXStat:

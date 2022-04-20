@@ -23,6 +23,7 @@ Route8_TextPointers:
 	dw Route8Text8
 	dw Route8Text9
 	dw Route8Text10
+	dw Route8Text10
 
 Route8TrainerHeaders:
 	def_trainers
@@ -210,4 +211,8 @@ Route8AfterBattleText9:
 
 Route8Text10:
 	text_far _Route8Text10
+	text_end
+
+Route8Text11:
+	text_far _Route8Text11
 	text_end

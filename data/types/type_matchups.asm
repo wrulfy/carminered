@@ -23,19 +23,19 @@ TypeEffects:
 	db FIRE,         BUG,          SUPER_EFFECTIVE
 	db FIRE,         ROCK,         NOT_VERY_EFFECTIVE
 	db WATER,        GROUND,       SUPER_EFFECTIVE
+	db WATER,        ICE,          NOT_VERY_EFFECTIVE	
 	db ELECTRIC,     GROUND,       NO_EFFECT
 	db ELECTRIC,     FLYING,       SUPER_EFFECTIVE
 	db GRASS,        GROUND,       SUPER_EFFECTIVE
 	db GRASS,        BUG,          NOT_VERY_EFFECTIVE
 	db GRASS,        POISON,       NOT_VERY_EFFECTIVE
 	db GRASS,        ROCK,         SUPER_EFFECTIVE
-	db GRASS,        FLYING,       NOT_VERY_EFFECTIVE
 	db ICE,          WATER,        NOT_VERY_EFFECTIVE
+	db ICE,          FIRE,         NOT_VERY_EFFECTIVE
 	db ICE,          GRASS,        SUPER_EFFECTIVE
 	db ICE,          GROUND,       SUPER_EFFECTIVE
 	db ICE,          FLYING,       SUPER_EFFECTIVE
 	db FIGHTING,     NORMAL,       SUPER_EFFECTIVE
-	db FIGHTING,     POISON,       NOT_VERY_EFFECTIVE
 	db FIGHTING,     FLYING,       NOT_VERY_EFFECTIVE
 	db FIGHTING,     PSYCHIC_TYPE, NOT_VERY_EFFECTIVE
 	db FIGHTING,     BUG,          NOT_VERY_EFFECTIVE
@@ -54,10 +54,10 @@ TypeEffects:
 	db GROUND,       BUG,          NOT_VERY_EFFECTIVE
 	db GROUND,       ROCK,         SUPER_EFFECTIVE
 	db GROUND,       POISON,       SUPER_EFFECTIVE
+	db GROUND,       ICE,          NOT_VERY_EFFECTIVE	
 	db FLYING,       ELECTRIC,     NOT_VERY_EFFECTIVE
 	db FLYING,       FIGHTING,     SUPER_EFFECTIVE
 	db FLYING,       BUG,          SUPER_EFFECTIVE
-	db FLYING,       GRASS,        SUPER_EFFECTIVE
 	db FLYING,       ROCK,         NOT_VERY_EFFECTIVE
 	db PSYCHIC_TYPE, FIGHTING,     SUPER_EFFECTIVE
 	db PSYCHIC_TYPE, POISON,       SUPER_EFFECTIVE
@@ -66,8 +66,7 @@ TypeEffects:
 	db BUG,          FIGHTING,     NOT_VERY_EFFECTIVE
 	db BUG,          FLYING,       NOT_VERY_EFFECTIVE
 	db BUG,          PSYCHIC_TYPE, SUPER_EFFECTIVE
-	db BUG,          GHOST,        NOT_VERY_EFFECTIVE
-	db BUG,          POISON,       SUPER_EFFECTIVE
+	db BUG,          POISON,       NOT_VERY_EFFECTIVE
 	db ROCK,         FIRE,         SUPER_EFFECTIVE
 	db ROCK,         FIGHTING,     NOT_VERY_EFFECTIVE
 	db ROCK,         GROUND,       NOT_VERY_EFFECTIVE
@@ -75,11 +74,14 @@ TypeEffects:
 	db ROCK,         BUG,          SUPER_EFFECTIVE
 	db ROCK,         ICE,          SUPER_EFFECTIVE
 	db GHOST,        NORMAL,       NO_EFFECT
-	db GHOST,        PSYCHIC_TYPE, NO_EFFECT
+	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ELECTRIC,     DRAGON,       NOT_VERY_EFFECTIVE
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
+	db PSYCHIC_TYPE, BUG,          NOT_VERY_EFFECTIVE
+	db POISON,       WATER,        SUPER_EFFECTIVE
+	db BUG,          GHOST,        SUPER_EFFECTIVE
 	db -1 ; end

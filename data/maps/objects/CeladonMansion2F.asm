@@ -8,8 +8,9 @@ CeladonMansion2F_Object:
 	warp_event  4,  1, CELADON_MANSION_3F, 4
 
 	def_bg_events
-	bg_event  4,  9, 1 ; CeladonMansion2Text1
+	bg_event  4,  9, 2 ; CeladonMansion2Text1
 
 	def_object_events
+	object_event  4,  4, SPRITE_MONSTER, WALK, ANY_DIR, 1 ; person
 
 	def_warps_to CELADON_MANSION_2F

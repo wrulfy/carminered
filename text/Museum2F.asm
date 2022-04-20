@@ -11,8 +11,9 @@ _Museum2FText2::
 	para "The 1st lunar"
 	line "landing!"
 
-	para "I bought a color"
-	line "TV to watch it!"
+	para "My parents bought"
+	line "a color TV just"
+	cont "to watch it."
 	done
 
 _Museum2FText3::
@@ -21,7 +22,7 @@ _Museum2FText3::
 	done
 
 _Museum2FText4::
-	text "I want a PIKACHU!"
+	text "I want a PARAS!"
 	line "It's so cute!"
 
 	para "I asked my Daddy"
@@ -29,7 +30,7 @@ _Museum2FText4::
 	done
 
 _Museum2FText5::
-	text "Yeah, a PIKACHU"
+	text "Yeah, a PARAS"
 	line "soon, I promise!"
 	done
 

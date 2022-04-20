@@ -5,7 +5,7 @@ _SSAnne6Text1::
 	done
 
 _SSAnne6Text2::
-	text "I saw an odd ball"
+	text "I saw an odd stone"
 	line "in the trash."
 	done
 

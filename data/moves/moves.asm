@@ -140,7 +140,7 @@ Moves:
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
 	move SWIFT,        SWIFT_EFFECT,                60, NORMAL,       100, 20
 	move SKULL_BASH,   CHARGE_EFFECT,              150, NORMAL,       100, 15
-	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,           95, 20
+	move SPIKE_CANNON, TWO_TO_FIVE_ATTACKS_EFFECT,  25, ICE,           95, 15
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      90, BUG,          100, 15
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 10
 	move KINESIS,      ACCURACY_DOWN_SIDE_EFFECT,   50, PSYCHIC_TYPE, 100, 25

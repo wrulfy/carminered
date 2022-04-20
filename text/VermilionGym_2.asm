@@ -2,22 +2,26 @@ _LTSurgePostBattleAdviceText::
 	text "A little word of"
 	line "advice, kid!"
 
-	para "Electricity is"
-	line "sure powerful!"
+	para "Fire sure is"
+	line "powerful!"
 
-	para "But, it's useless"
-	line "against ground-"
+	para "But, it's weak"
+	line "against water-"
 	cont "type #MON!"
 	done
 
 _LTSurgeBurnBadgeInfoText::
 	text "The BURNBADGE"
 	line "cranks up your"
-	cont "#MON's SPEED!"
+	cont "#MON's DEFENSE!"
 
 	para "It also lets your"
 	line "#MON FLY any"
 	cont "time, kid!"
+
+	para "And #MON from"
+	line "strangers will"
+	cont "obey up to L40!"
 
 	para "You're special,"
 	line "kid! Take this!"
@@ -38,6 +42,9 @@ _TM25ExplanationText::
 
 	para "Teach it to an"
 	line "fiery #MON!"
+
+	para "Sometimes it will"
+	line "poison the target"
 	done
 
 _TM25NoRoomText::
@@ -77,7 +84,7 @@ _VermilionGymAfterBattleText1::
 _VermilionGymBattleText2::
 	text "I'm a lightweight,"
 	line "but I'm good with"
-	cont "electricity!"
+	cont "fireworks!"
 	done
 
 _VermilionGymEndBattleText2::

@@ -14,7 +14,7 @@ SSAnne1FRooms_Object:
 	def_object_events
 	object_event  2,  3, SPRITE_GENTLEMAN, STAY, LEFT, 1, OPP_GENTLEMAN, 1
 	object_event 11,  4, SPRITE_GENTLEMAN, STAY, UP, 2, OPP_GENTLEMAN, 2
-	object_event 11, 14, SPRITE_YOUNGSTER, STAY, UP, 3, OPP_YOUNGSTER, 8
+	object_event 11, 14, SPRITE_YOUNGSTER, STAY, UP, 3, OPP_PSYCHIC_TR, 4
 	object_event 13, 11, SPRITE_COOLTRAINER_F, STAY, LEFT, 4, OPP_LASS, 11
 	object_event 22,  3, SPRITE_GIRL, WALK, UP_DOWN, 5 ; person
 	object_event  0, 14, SPRITE_MIDDLE_AGED_MAN, STAY, NONE, 6 ; person

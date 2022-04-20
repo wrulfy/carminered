@@ -12,8 +12,7 @@ gfx/sprites.o \
 gfx/tilesets.o
 
 pokered_obj        := $(rom_obj:.o=_red.o)
-pokeblue_obj       := $(rom_obj:.o=_blue.o)
-pokeblue_debug_obj := $(rom_obj:.o=_blue_debug.o)
+
 
 
 ### Build tools
@@ -40,7 +39,7 @@ RGBLINK ?= $(RGBDS)rgblink
 .PHONY: all red blue blue_debug clean tidy compare tools
 
 all: $(roms)
-red:        pokered.gbc
+red:        carminered.gbc
 blue:       pokeblue.gbc
 blue_debug: pokeblue_debug.gbc
 

@@ -1,6 +1,6 @@
 _CeladonCityText1::
 	text "I got my KOFFING"
-	line "in CINNABAR!"
+	line "in ROUTE 10!"
 
 	para "It's nice, but it"
 	line "breathes poison"
@@ -8,9 +8,9 @@ _CeladonCityText1::
 	done
 
 _CeladonCityText2::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
+	text "Ewww! This GYM is"
+	line "awful! It's full"
+	cont "bugs!"
 	done
 
 _CeladonCityText3::
@@ -93,9 +93,9 @@ _CeladonCityText10::
 	line "the accuracy of"
 	cont "techniques!"
 
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
+	para "DIRE GUARD would"
+	line "protect #MON"
+	cont "from a hit!"
 
 	para "Get your items at"
 	line "CELADON DEPT."
@@ -113,7 +113,7 @@ _CeladonCityText13::
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
-	para "The Nature Loving"
+	para "The Insect Loving"
 	line "Princess!"
 	done
 
@@ -132,9 +132,9 @@ _CeladonCityText16::
 
 	para "GUARD SPEC."
 	line "protects #MON"
-	cont "against SPECIAL"
-	cont "attacks such as"
-	cont "fire and water!"
+	cont "against some"
+	cont "status moves like"
+	cont "GROWL and LEER!"
 
 	para "Get your items at"
 	line "CELADON DEPT."
@@ -155,7 +155,7 @@ _CeladonCityText18::
 
 _CeladonCityText19::
 	text "CELADON FOSSIL"
-	line "RESTORATION CENTER"
+	line "REVIVAL CENTER"
 	
 	para "We bring fossils"
 	line "back to life"

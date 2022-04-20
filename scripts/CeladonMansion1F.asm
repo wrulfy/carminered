@@ -31,7 +31,7 @@ CeladonMansion1Text3:
 CeladonMansion1Text4:
 	text_far _CeladonMansion1Text4
 	text_asm
-	ld a, NIDORAN_F
+	ld a, FARFETCHD
 	jp CeladonMansion1_PlayCryScript
 
 CeladonMansion1Text5:

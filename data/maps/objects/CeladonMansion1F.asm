@@ -15,6 +15,6 @@ CeladonMansion1F_Object:
 	object_event  0,  5, SPRITE_MONSTER, STAY, RIGHT, 1 ; person
 	object_event  1,  5, SPRITE_GRANNY, STAY, DOWN, 2 ; person
 	object_event  1,  8, SPRITE_FAIRY, WALK, LEFT_RIGHT, 3 ; person
-	object_event  4,  4, SPRITE_MONSTER, WALK, UP_DOWN, 4 ; person
+	object_event  4,  4, SPRITE_BIRD, WALK, UP_DOWN, 4 ; person
 
 	def_warps_to CELADON_MANSION_1F

@@ -148,6 +148,15 @@ _Route8AfterBattleText9::
 	done
 
 _Route8Text10::
+	text "Some ROCKET have"
+	line "been spotted"
+	cont "hiking down the"
+	cont "mountain, I'm on"
+	cont "watch for more to"
+	cont "come down too."
+	done
+
+_Route8Text11::
 	text "UNDERGROUND PATH"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"

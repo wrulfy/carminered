@@ -33,10 +33,6 @@ SpecialTrainerMoves:
 	db 1, 3, PECK
 	db 0
 
-	db PSYCHIC_TR, 4
-	db 1, 1, DOUBLESLAP
-	db 0
-
 	db ROCKET, 5
 	db 1, 2, DIG
 	db 2, 4, DIG

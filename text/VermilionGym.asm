@@ -8,13 +8,13 @@ _LTSurgePreBattleText::
 	cont "That's for sure!"
 
 	para "I tell you kid,"
-	line "electric #MON"
+	line "fire #MON"
 	cont "saved me during"
 	cont "the war!"
 
-	para "They zapped my"
+	para "They burned my"
 	line "enemies into"
-	cont "paralysis!"
+	cont "a crisp!"
 
 	para "The same as I'll"
 	line "do to you!"

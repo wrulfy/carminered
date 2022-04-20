@@ -2,11 +2,11 @@ Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 16, MEOWTH
 	db 16, MANKEY
-	db 16, GROWLITHE
-	db 17, MEOWTH
-	db 18, MEOWTH
+	db 15, MEOWTH
+	db 17, SLOWPOKE
+	db 16, BELLSPROUT
 	db 16, KRABBY
-	db 15, SLOWPOKE
+	db 18, MEOWTH
 	db 17, KRABBY
 	db 17, PIDGEY
 	db 18, PIDGEOTTO

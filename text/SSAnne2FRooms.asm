@@ -25,14 +25,18 @@ _SSAnne9Text_61c1f::
 	line "the SAFARI ZONE"
 	cont "in FUCHSIA CITY?"
 
-	para "It had many rare"
-	line "kinds of #MON!!"
+	para "Is a jungle full"
+	line "of rare #MON!!"
 	done
 
 _SSAnne9Text_61c2e::
 	text "Me and my Daddy"
 	line "think the SAFARI"
 	cont "ZONE is awesome!"
+	
+	para "It is a bit dark"
+	line "but there #MON"
+	cont "are peaceful"
 	done
 
 _SSAnne9Text_61c3d::

@@ -58,12 +58,13 @@ _SSAnneNotHereText::
 	done
 
 _VermilionCityText4::
-	text "I'm putting up a"
+	text "I've finished"
 	line "building on this"
 	cont "plot of land."
 
 	para "My #MON is"
-	line "tamping the land."
+	line "helping moving"
+	cont "stuff in."
 	done
 
 _VermilionCityText5::
@@ -74,8 +75,8 @@ _VermilionCityText5::
 _VermilionCityText14::
 	text_start
 	para "A MACHOP is"
-	line "stomping the land"
-	cont "flat."
+	line "carrying several"
+	cont "appliances."
 	done
 
 _VermilionCityText6::
@@ -118,7 +119,7 @@ _VermilionCityText12::
 	line "#MON GYM"
 	cont "LEADER: LT.SURGE"
 
-	para "The Lightning "
+	para "The Burning"
 	line "American!"
 	done
 

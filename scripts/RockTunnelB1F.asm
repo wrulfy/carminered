@@ -37,7 +37,7 @@ RockTunnel2TrainerHeader4:
 RockTunnel2TrainerHeader5:
 	trainer EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_5, 4, RockTunnel2BattleText7, RockTunnel2EndBattleText7, RockTunnel2AfterBattleText7
 RockTunnel2TrainerHeader6:
-	trainer EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_6, 3, RockTunnel2BattleText8, RockTunnel2EndBattleText8, RockTunnel2AfterBattleText8
+	trainer EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_6, 4, RockTunnel2BattleText8, RockTunnel2EndBattleText8, RockTunnel2AfterBattleText8
 RockTunnel2TrainerHeader7:
 	trainer EVENT_BEAT_ROCK_TUNNEL_2_TRAINER_7, 3, RockTunnel2BattleText9, RockTunnel2EndBattleText9, RockTunnel2AfterBattleText9
 	db -1 ; end

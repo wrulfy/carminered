@@ -4,7 +4,7 @@ Route9WildMons:
 	db 19, SPEAROW
 	db 18, VENONAT
 	db 19, VENONAT
-	db 19, EKANS
+	db 19, GROWLITHE
 	db 20, EKANS
 	db 20, RATICATE
 	db 20, FEAROW

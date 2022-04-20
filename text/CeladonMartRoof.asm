@@ -84,6 +84,9 @@ _CeladonMartRoofText_48520::
 
 	para "TM24 contains"
 	line "THUNDERBOLT!@"
+
+	para "It can paralyz the"
+	line "target sometimes!@"
 	text_end
 
 _CeladonMartRoofText_48526::

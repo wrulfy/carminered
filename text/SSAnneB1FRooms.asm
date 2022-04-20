@@ -1,5 +1,5 @@
 _SSAnne10Text8::
-	text "MACHOKE: Gwoh!"
+	text "MACHAMP: Gwoh!"
 	line "Goggoh!@"
 	text_end
 
@@ -36,8 +36,8 @@ _SSAnne10AfterBattleText2::
 	done
 
 _SSAnne10BattleText3::
-	text "Us sailors have"
-	line "#MON too!"
+	text "Yeah I'm on tour"
+	line "with my #MON!"
 	done
 
 _SSAnne10EndBattleText3::
@@ -46,25 +46,26 @@ _SSAnne10EndBattleText3::
 	prompt
 
 _SSAnne10AfterBattleText3::
-	text "We caught all our"
+	text "I caught all my"
 	line "#MON while"
-	cont "out at sea!"
+	cont "out at the tour!"
 	done
 
 _SSAnne10BattleText4::
-	text "I like feisty"
-	line "kids like you!@"
+	text "Hey, back off kid,"
+	line "this aint the"
+	cont "backstage"
 	text_end
 
 _SSAnne10EndBattleText4::
-	text "Argh!"
-	line "Lost it!"
+	text "No"
+	line "autographs today!"
 	prompt
 
 _SSAnne10AfterBattleText4::
-	text "Sea #MON live"
-	line "in deep water."
-	cont "You'll need a ROD!"
+	text "I'm a bodyguard,"
+	line "sorry I took you"
+	cont "for a groupie."
 	done
 
 _SSAnne10BattleText5::
@@ -105,7 +106,7 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-	text "My buddy, MACHOKE,"
+	text "My buddy, MACHAMP,"
 	line "is super strong!"
 
 	para "He has enough"

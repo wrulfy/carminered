@@ -14,19 +14,19 @@ _RockTunnel2AfterBattleText2::
 	done
 
 _RockTunnel2BattleText3::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "BOOM! BOOM!"
+	line "Explosions!"
 	done
 
 _RockTunnel2EndBattleText3::
 	text "Oops!"
-	line "Out-muscled!"
+	line "Out of bombs!"
 	prompt
 
 _RockTunnel2AfterBattleText3::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Did you enjoy the"
+	line "fireworks?"
+	cont "Hahahaha!"
 	done
 
 _RockTunnel2BattleText4::
@@ -98,11 +98,11 @@ _RockTunnel2AfterBattleText7::
 	done
 
 _RockTunnel2BattleText8::
-	text "Hit me with your"
-	line "best shot!"
+	text "............OOOOOH"
+	line "GET OUT!"
 	done
 
 _RockTunnel2EndBattleText8::
-	text "Fired"
-	line "away!"
+	text "Did I"
+	line "scare you?"
 	prompt

@@ -58,4 +58,5 @@ HiddenItemCoords:
 	hidden_item VERMILION_CITY,                14,  11
 	hidden_item CERULEAN_CITY,                 15,   8
 	hidden_item ROUTE_4,                       40,   3
+	hidden_item ROUTE_6,                        2,   4
 	db -1 ; end

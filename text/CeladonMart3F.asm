@@ -53,9 +53,9 @@ _CeladonMart3Text4::
 
 	para "Huh?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GRAVELER didn't"
+	line "evolve into a "
+	cont "diferent #MON?"
 	done
 
 _CeladonMart3Text5::
@@ -94,6 +94,6 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "Carmine Red!"
+	line "Is on sale now!"
 	done

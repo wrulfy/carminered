@@ -37,21 +37,21 @@ _SSAnne8AfterBattleText2::
 	done
 
 _SSAnne8BattleText3::
-	text "I love #MON!"
-	line "Do you?"
+	text "This boat sure is"
+	line "pretty boring"
 	done
 
 _SSAnne8EndBattleText3::
-	text "Wow! "
-	line "You're great!"
+	text "You're"
+	line "stronger than me!"
 	prompt
 
 _SSAnne8AfterBattleText3::
-	text "Let me be your"
-	line "friend, OK?"
+	text "I wanted to stay"
+	line "at home studying,"
 
-	para "Then we can trade"
-	line "#MON!"
+	para "but my family"
+	line "dragged me here."
 	done
 
 _SSAnne8BattleText4::

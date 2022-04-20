@@ -31,9 +31,9 @@ ItemPrices::
 	bcd3 550   ; ESCAPE_ROPE
 	bcd3 350   ; REPEL
 	bcd3 0     ; OLD_AMBER
-	bcd3 7500  ; FIRE_STONE
-	bcd3 7500  ; THUNDER_STONE
-	bcd3 7500  ; WATER_STONE
+	bcd3 8000  ; FIRE_STONE
+	bcd3 8000  ; THUNDER_STONE
+	bcd3 8000  ; WATER_STONE
 	bcd3 9800  ; HP_UP
 	bcd3 9800  ; PROTEIN
 	bcd3 9800  ; IRON
@@ -46,7 +46,7 @@ ItemPrices::
 	bcd3 0     ; COFFEE
 	bcd3 0     ; BIKE_VOUCHER
 	bcd3 950   ; X_ACCURACY
-	bcd3 2100  ; LEAF_STONE
+	bcd3 8000  ; LEAF_STONE
 	bcd3 0     ; CARD_KEY
 	bcd3 20000 ; NUGGET
 	bcd3 9800  ; XXX PP_UP

@@ -1,12 +1,19 @@
 _ProgrammerText::
 	text "Me? I'm the"
 	line "programmer!"
+	cont "Dont blame me on"
+	cont "the spaguetti"
+	cont "code I was young"
+	cont "and naive!"
 	done
 
 _GraphicArtistText::
 	text "I'm the graphic"
 	line "artist!"
-	cont "I drew you!"
+	cont "Everyone thinks"
+	cont "they can do"
+	cont "better than I did"
+	cont "on 1996!"
 	done
 
 _WriterText::
@@ -46,7 +53,9 @@ _CeladonMansion3Text5::
 	text "It's the game"
 	line "program! Messing"
 	cont "with it could bug"
-	cont "out the game!"
+	cont "even more out the"
+	cont "game! Or even fix"
+	cont "it by pure luck"
 	done
 
 _CeladonMansion3Text6::
@@ -58,7 +67,8 @@ _CeladonMansion3Text6::
 _CeladonMansion3Text7::
 	text "It's the script!"
 	line "Better not look"
-	cont "at the ending!"
+	cont "at the horrible"
+	cont "ASM language!"
 	done
 
 _CeladonMansion3Text8::

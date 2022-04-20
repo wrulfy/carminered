@@ -11,10 +11,10 @@ _ErikaPreBattleText::
 	line "I am the LEADER"
 	cont "of CELADON GYM."
 
-	para "I teach the art of"
-	line "flower arranging."
+	para "I teach the branch"
+	line "of entomology."
 	cont "My #MON are of"
-	cont "the grass-type."
+	cont "the bug-type."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -43,8 +43,8 @@ _ErikaPostBattleAdviceText::
 
 	para "I would never"
 	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	cont "if they weren't"
+	cont "Invertebrates."
 	done
 
 _ErikaGrubBadgeInfoText::
@@ -77,7 +77,7 @@ _TM48ExplanationText::
 	para "your #MON will"
 	line "cling to the foe"
 	cont "dealing damage and"
-	cont "may slow it down"
+	cont "may slow it down."
 	done
 
 _TM48NoRoomText::
@@ -88,8 +88,8 @@ _TM48NoRoomText::
 _CeladonGymBattleText2::
 	text "Hey!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "Are you really"
+	line "allowed in here?"
 	done
 
 _CeladonGymEndBattleText2::
@@ -104,28 +104,29 @@ _CeladonGymAfterBattleText2::
 	done
 
 _CeladonGymBattleText3::
-	text "I was getting"
-	line "bored."
+	text "I bet all on my"
+	line "PINSIR!"
 	done
 
 _CeladonGymEndBattleText3::
 	text "My"
-	line "makeup!"
+	line "beetle!"
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
+	text "I made a fortune"
+	line "with Beetle Sumo"
+	cont "Wrestling."
 
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	para "My dear friend"
+	line "PINSIR had a big"
+	cont "winning streak!"
 	done
 
 _CeladonGymBattleText4::
 	text "Aren't you the"
-	line "peeping Tom?"
+	line "weird old guy"
+	cont "peeping outside?"
 	done
 
 _CeladonGymEndBattleText4::
@@ -134,42 +135,42 @@ _CeladonGymEndBattleText4::
 	prompt
 
 _CeladonGymAfterBattleText4::
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "If he doesn't like"
+	line "bugs why is he"
+	cont "peeping at all?"
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my grass"
-	line "#MON!"
+	text "Cool bug facts!"
 
-	para "They're so easy"
-	line "to raise!"
+	para "Did you know there"
+	line "are over 400000"
+	cont "species of beetle"
+	cont "around the world?"
 	done
 
 _CeladonGymEndBattleText5::
-	text "No!"
+	text "I know"
+	line "more bug facts!"
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "Carcinisation is"
+	line "when crustaceans"
+	cont "evolve to crabs!"
 
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	para "Because crabs are"
+	line "the best!"
 	done
 
 _CeladonGymBattleText6::
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "This game is full"
+	line "of bugs!"
 	done
 
 _CeladonGymEndBattleText6::
-	text "Oh!"
-	line "You!"
+	text "What"
+	line "a buggy battle!"
 	prompt
 
 _CeladonGymAfterBattleText6::
@@ -177,6 +178,9 @@ _CeladonGymAfterBattleText6::
 	line "might be quiet,"
 	cont "but she's also"
 	cont "very skilled!"
+
+	para "She's also the"
+	line "best Waifu!"
 	done
 
 _CeladonGymBattleText7::
@@ -203,7 +207,7 @@ _CeladonGymBattleText8::
 
 	para "You better not"
 	line "underestimate"
-	cont "girl power!"
+	cont "BUG power!"
 	done
 
 _CeladonGymEndBattleText8::

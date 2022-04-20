@@ -57,7 +57,7 @@ ItemNames::
 	li "GUARD SPEC."
 	li "SUPER REPEL"
 	li "MAX REPEL"
-	li "DIRE HIT"
+	li "DIRE GUARD"
 	li "COIN"
 	li "FRESH WATER"
 	li "SODA POP"
