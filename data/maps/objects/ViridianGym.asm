@@ -8,7 +8,7 @@ ViridianGym_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  2,  1, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 3
+	object_event  2,  2, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 3
 	object_event 12,  7, SPRITE_COOLTRAINER_M, STAY, DOWN, 2, OPP_COOLTRAINER_M, 9
 	object_event 11, 11, SPRITE_HIKER, STAY, UP, 3, OPP_BLACKBELT, 6
 	object_event 10,  7, SPRITE_ROCKER, STAY, DOWN, 4, OPP_TAMER, 3
@@ -18,6 +18,6 @@ ViridianGym_Object:
 	object_event  2, 16, SPRITE_ROCKER, STAY, RIGHT, 8, OPP_TAMER, 4
 	object_event  6,  5, SPRITE_COOLTRAINER_M, STAY, DOWN, 9, OPP_COOLTRAINER_M, 1
 	object_event 16, 15, SPRITE_GYM_GUIDE, STAY, DOWN, 10 ; person
-	object_event 16,  9, SPRITE_POKE_BALL, STAY, NONE, 11, REVIVE
+	object_event  1,  1, SPRITE_POKE_BALL, STAY, NONE, 11, SECRET_KEY
 
 	def_warps_to VIRIDIAN_GYM

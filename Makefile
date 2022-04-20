@@ -13,8 +13,6 @@ gfx/tilesets.o
 
 pokered_obj        := $(rom_obj:.o=_red.o)
 
-
-
 ### Build tools
 
 ifeq (,$(shell which sha1sum))
