@@ -5,7 +5,7 @@
 
 	db DRAGON, ICE ; type
 	db 45 ; catch rate
-	db 210 ; base exp
+	db 208 ; base exp
 
 	INCBIN "gfx/pokemon/front/lapras.pic", 0, 1 ; sprite dimensions
 	dw LaprasPicFront, LaprasPicBack

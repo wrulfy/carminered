@@ -106,7 +106,7 @@ ViridianSchoolHouse_Blocks: INCBIN "maps/ViridianSchoolHouse.blk"
 
 CeruleanTrashedHouse_Blocks: INCBIN "maps/CeruleanTrashedHouse.blk"
 
-DiglettsCaveRoute11_Blocks:
+DiglettsCaveRoute11_Blocks: INCBIN "maps/DiglettsCaveRoute11.blk"
 DiglettsCaveRoute2_Blocks: INCBIN "maps/DiglettsCaveRoute2.blk"
 
 

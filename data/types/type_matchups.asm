@@ -77,11 +77,13 @@ TypeEffects:
 	db GHOST,        PSYCHIC_TYPE, SUPER_EFFECTIVE
 	db FIRE,         DRAGON,       NOT_VERY_EFFECTIVE
 	db WATER,        DRAGON,       NOT_VERY_EFFECTIVE
-	db ELECTRIC,     DRAGON,       NOT_VERY_EFFECTIVE
 	db GRASS,        DRAGON,       NOT_VERY_EFFECTIVE
 	db ICE,          DRAGON,       SUPER_EFFECTIVE
 	db DRAGON,       DRAGON,       SUPER_EFFECTIVE
 	db PSYCHIC_TYPE, BUG,          NOT_VERY_EFFECTIVE
 	db POISON,       WATER,        SUPER_EFFECTIVE
 	db BUG,          GHOST,        SUPER_EFFECTIVE
+	db GHOST,        BUG,          NOT_VERY_EFFECTIVE
+	db DRAGON,       ROCK,         NOT_VERY_EFFECTIVE
+	db ROCK,         GRASS,        NOT_VERY_EFFECTIVE
 	db -1 ; end

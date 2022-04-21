@@ -17,8 +17,8 @@ PokemonMansionB2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  1, 34, SPRITE_ROCKET, STAY, DOWN, 1, OPP_CHIEF, 5
-	object_event 31,  2, SPRITE_ROCKET, STAY, RIGHT, 2, OPP_CHIEF, 6
+	object_event 36,  2, SPRITE_ROCKET, STAY, DOWN, 1, OPP_CHIEF, 5
+	object_event 35,  3, SPRITE_ROCKET, STAY, RIGHT, 2, OPP_CHIEF, 6
 	object_event  4,  4, SPRITE_MONSTER, STAY, DOWN, 3, MEW, 60
 	object_event 26, 34, SPRITE_POKE_BALL, STAY, NONE, 4, RARE_CANDY
 	object_event 13, 19, SPRITE_POKE_BALL, STAY, NONE, 5, PP_UP

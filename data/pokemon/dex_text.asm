@@ -429,13 +429,13 @@ _ArbokDexEntry::
 	dex
 
 _ParasectDexEntry::
-	text "A host-parasite"
-	next "pair in which the"
-	next "parasite mushroom"
+	text "Upon evolution its"
+	next "back's Tochukaso"
+	next "confides godlike"
 
-	page "has taken over the"
-	next "host bug. Prefers"
-	next "damp places"
+	page "powers to PARASECT,"
+	next "only held back by"
+	next "2 double weakness"
 	dex
 
 _PsyduckDexEntry::
@@ -900,12 +900,12 @@ _EkansDexEntry::
 
 _ParasDexEntry::
 	text "Burrows to suck"
-	next "tree roots. The"
-	next "mushrooms on its"
+	next "tree roots. Stores"
+	next "nutrients on the"
 
-	page "back grow by draw-"
-	next "ing nutrients from"
-	next "the bug host"
+	page "back's mushrooms"
+	next "to prepare for a"
+	next "great evolution"
 	dex
 
 _PoliwhirlDexEntry::

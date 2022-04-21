@@ -61,7 +61,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_WATER     ; Poliwag
 	nybble ICON_WATER     ; Poliwhirl
-	nybble ICON_WATER     ; Poliwrath
+	nybble ICON_MON       ; Poliwrath
 	nybble ICON_MON       ; Abra
 	nybble ICON_MON       ; Kadabra
 	nybble ICON_MON       ; Alakazam

@@ -158,5 +158,5 @@ _CeladonCityText19::
 	line "REVIVAL CENTER"
 	
 	para "We bring fossils"
-	line "back to life"
+	line "back to life!"
 	done

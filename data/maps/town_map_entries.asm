@@ -18,7 +18,7 @@ ExternalMapEntries:
 	external_map  2, 15, CinnabarIslandName
 	external_map  0,  2, IndigoPlateauName
 	external_map 10,  5, SaffronCityName
-	external_map 12,  4, Route0Name ; unused
+	external_map 12,  4, Route0Name ; un-unused
 	external_map  2, 10, Route1Name
 	external_map  2,  6, Route2Name
 	external_map  4,  3, Route3Name
@@ -58,6 +58,8 @@ InternalMapEntries:
 	; maximum map id subject to this rule, x, y, name
 	internal_map OAKS_LAB,                       2, 11, PalletTownName
 	internal_map VIRIDIAN_GYM,                   2,  8, ViridianCityName
+	internal_map DIGLETTS_CAVE_ROUTE_2,          3,  4, DiglettsCaveName
+	internal_map ROUTE_2_TRADE_HOUSE,            2,  4, Route2Name	
 	internal_map VIRIDIAN_FOREST_SOUTH_GATE,     2,  6, Route2Name
 	internal_map VIRIDIAN_FOREST,                2,  5, ViridianForestName
 	internal_map PEWTER_POKECENTER,              2,  3, PewterCityName
@@ -71,9 +73,12 @@ InternalMapEntries:
 	internal_map UNDERGROUND_PATH_ROUTE_8,      11,  5, Route8Name
 	internal_map ROCK_TUNNEL_1F,                14,  3, RockTunnelName
 	internal_map POWER_PLANT,                    1, 15, PowerPlantName
+	internal_map ROUTE_11_GATE_1F,              13,  9, Route11Name
+	internal_map DIGLETTS_CAVE_ROUTE_11,        11,  8, DiglettsCaveName
 	internal_map ROUTE_11_GATE_2F,              13,  9, Route11Name
 	internal_map ROUTE_12_GATE_1F,              14,  7, Route12Name
 	internal_map BILLS_HOUSE,                   12,  0, Route25Name
+	internal_map VERMILION_PIDGEY_HOUSE,        10,  9, VermilionCityName	
 	internal_map VERMILION_DOCK,                10, 10, VermilionCityName
 	internal_map SS_ANNE_B1F_ROOMS,              9, 10, SSAnneName
 	internal_map VICTORY_ROAD_1F,                0,  4, VictoryRoadName
@@ -89,9 +94,11 @@ InternalMapEntries:
 	internal_map SAFARI_ZONE_GATE,               8, 12, SafariZoneName
 	internal_map FUCHSIA_MEETING_ROOM,           8, 13, FuchsiaCityName
 	internal_map SEAFOAM_ISLANDS_B4F,            6, 15, SeafoamIslandsName
-	internal_map VERMILION_OLD_ROD_HOUSE,       10,  9, VermilionCityName
-	internal_map FUCHSIA_GOOD_ROD_HOUSE,         8, 13, FuchsiaCityName
+	internal_map VERMILION_OLD_ROD_HOUSE,        8, 13, FuchsiaCityName
+	internal_map FUCHSIA_GOOD_ROD_HOUSE,        14,  5, LavenderTownName
 	internal_map POKEMON_MANSION_1F,            15,  3, PokemonMansionName
+	internal_map CINNABAR_LAB_METRONOME_ROOM,    2, 15, CinnabarIslandName
+	internal_map CINNABAR_LAB_FOSSIL_ROOM,       7,  5, CeladonCityName
 	internal_map CINNABAR_MART_COPY,             2, 15, CinnabarIslandName
 	internal_map INDIGO_PLATEAU_LOBBY,           0,  2, IndigoPlateauName
 	internal_map MR_PSYCHICS_HOUSE,             10,  5, SaffronCityName
@@ -105,19 +112,19 @@ InternalMapEntries:
 	internal_map ROUTE_12_GATE_2F,              14,  7, Route12Name
 	internal_map VERMILION_TRADE_HOUSE,         10,  9, VermilionCityName
 	internal_map DIGLETTS_CAVE,                  8,  7, DiglettsCaveName
-	internal_map DIGLETTS_CAVE_ROUTE_2,          3,  4, DiglettsCaveName
-	internal_map DIGLETTS_CAVE_ROUTE_11,        11,  8, DiglettsCaveName	
 	internal_map VICTORY_ROAD_3F,                0,  4, VictoryRoadName
 	internal_map UNUSED_MAP_CE,                  7,  5, RocketHQName
 	internal_map SILPH_CO_8F,                   10,  5, SilphCoName
 	internal_map POKEMON_MANSION_B1F,           15,  3, PokemonMansionName
 	internal_map SAFARI_ZONE_NORTH_REST_HOUSE,   8, 12, SafariZoneName
 	internal_map CERULEAN_CAVE_1F,               9,  1, CeruleanCaveName
-	internal_map NAME_RATERS_HOUSE,             14,  5, LavenderTownName
+	internal_map NAME_RATERS_HOUSE,             10,  9, VermilionCityName
 	internal_map CERULEAN_BADGE_HOUSE,          10,  2, CeruleanCityName
 	internal_map ROCK_TUNNEL_B1F,               14,  3, RockTunnelName
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
-	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName
-	internal_map POKEMON_MANSION_B2F,           12,  4, Route0Name
 	internal_map POKEMON_MANSION_TUNNEL,        13,  4, PokemonMansionName
+	internal_map CINNABAR_LAB_STORAGE_ROOM,      2, 15, CinnabarIslandName
+	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName
+	internal_map POKEMON_MANSION_0F,            14,  4, Route10Name
+	internal_map POKEMON_MANSION_B2F,           12,  4, Route0Name
 	db -1 ; end

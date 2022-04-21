@@ -1,11 +1,11 @@
 	db DEX_TAUROS ; pokedex id
 
-	db  75, 110,  95, 120,  50
+	db  75, 110,  95, 120,  60
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
 	db 45 ; catch rate
-	db 209 ; base exp
+	db 210 ; base exp
 
 	INCBIN "gfx/pokemon/front/tauros.pic", 0, 1 ; sprite dimensions
 	dw TaurosPicFront, TaurosPicBack

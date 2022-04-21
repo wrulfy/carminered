@@ -570,14 +570,14 @@ GiovanniData:
 
 RocketData:
 ; Mt. Moon B2F
-	db 15, RATTATA, ZUBAT, DROWZEE, 0
+	db 15, MACHOP, KOFFING, DROWZEE, 0
 	db 14, SANDSHREW, RATTATA, ZUBAT, 0
 	db 16, ZUBAT, EKANS, 0
 	db 18, CUBONE, 0
 ; Cerulean City
 	db 20, MACHOP, GRIMER, 0
 ; Route 24
-	db 20, KOFFING, 0
+	db 20, RATICATE, 0
 ; Game Corner
 	db 26, RATICATE, GOLBAT, 0
 ; Rocket Hideout B1F
