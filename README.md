@@ -1,29 +1,28 @@
-# This is a personal project of a Gen 1 romhack, using the dissasembly as base instead of a binary hack like it was common years ago.
+# This is a personal project of a Gen 1 romhack, using the dissasembly as base instead of a binary hack like it was common many years ago.
 ## The objetive is to create a more personal interesting view of Gen 1, mainly focused on:
 - Improving the barren movepools a lot of pokemon had, by altering a lot of moves so they're better and repruposing a lot of useless or identic moves into different ones so every type has some barebones useable coverage.
-- Buffing a lot of pokemon that definitely got the short end of the stick. this is by better stats or improved movesets, directly or indirectly due to the updated moves
+- Buffing a lot of pokemon that definitely got the short end of the stick. this is by better stats or improved movesets, directly or indirectly due to the updated moves. Beware of the Bugs
 - Increasing the difficulty of the gameplay by giving AI trainers overall better teams, mainly by progressively having more pokemon, evolved pokemon (For example no more birdkeepers with high level Pidgeys when they could had Pidgeottos or even Pidgeots)
 - A few key points in the story will require new ways to advance, so at the middle point of the game the game doesn't open as much, so a slowly increasing level curve can be maintained. Don't expect anything too fancy
-- Some types might become way, way stronger than they were in the orginal Gen 1. Beware of Bugs. 
+- Some types might become way, way stronger than they were in the orginal Gen 1. Really, beware of the Bugs. 
 - There's also several type changes. Some might be logic some might make no sense.
 
-So far the only thing that has been done is the update of the moves, changes to some TMs, changed the scrips tied to these TMs, and reorganized what TMs can learn each pokemon
+So far, most of the common stuff so is "playable" has been done, but a lot of the heavy work is still needed to cover from past celadon to the end of the game in terms of roosters and texts. If you glitched out of Celadon right now you could technically complete the game, but the rest would be much more barren.
 
 # TODO list:
-- Update the type matchup. (hopefully I'll be able to swap categories of Ghost and Dragon)
-- Update pokemon Stats, types, and starting moves
-- Update pokemon level up moves and evolutions (hopefully I'll be able to add more than 1 evolution method to some pokemon)
-- Update trainer rosters
-- Update wild encounters (hopefully I'll be able to copy how the super rod works to the other rods as to have a better pool)
-- Change the maps to account for some Leader changes and story progression
+- Finish updating trainer rosters past Celadon
+- Add a few extra trainers to some areas
+- Finish updating texts past Celadon
+- Finish reviewing some maps to see if they need changes, or redesigns
+- Finish reviewing tileset so they don't have more potted plants/posts with abhorrend "background" styles
+- More detailed stuff from the TODO file
+- "Merge" the few changes Pokered has received over these 2 months. As far I know the game is still the exact same, but I would make sure I do it properly. Last time I tried to merge one of my own branches I almost ruined the whole project.
 
 
 ## Other stuff I would like to do eventually, but right now I don't really know assembly enough to program it, as it would be making new scripts from scratch
 - Add Gym Leader rematches. The idea is to fight them again after Giovanni goes away.
-- Add a move deleter, since there's no way of deleting HM moves. Maybe I'll go with a relearner too but I don't count with it, is not really needed, also probably much more difficult to code
-- Add a TM case like in FRLG, and make the TMs inside it infinite uses. Considering how I made a lot of the TMs very strong moves and more pokemon can learn them more this might make things a bit too easy since it would give you too many strong moves, instead of the single use TMs, where you have to think twice who should learn it.
-This is mostly intended to free space from the PC, as it can only hold 50 different items.
-
+- Increase the storage capacity of the PC, even if it is at the cost of one or two pokemon boxes
+- Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, so maybe increase their levels is enough
 
 ## Things I don't think about adding, since I think it would deviate the game a bit too much from the gen 1 feel:
 - Dark/steel/fairy types
