@@ -143,11 +143,11 @@ Now you're ready to [build **pokered**](#build-pokered).
 To download the **pokered** source files:
 
 ```bash
-git clone https://github.com/pret/pokered
-cd pokered
+git clone https://github.com/wrulfy/carminered
+cd carminered
 ```
 
-To build **pokered.gbc** and **pokeblue.gbc**:
+To build **pokered.gbc** :
 
 ```bash
 make
