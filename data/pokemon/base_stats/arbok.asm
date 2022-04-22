@@ -17,7 +17,7 @@
 	tmhm WHIRLWIND,    SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   MEGA_DRAIN,   DRAGON_RAGE,  EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     REST,         CONSTRICT,    SUBSTITUTE,   STRENGTH      
+	     REST,         CONSTRICT,    SUBSTITUTE,   STRENGTH,     FLASH         
 	; end
 
 

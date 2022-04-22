@@ -127,16 +127,16 @@ _VermilionGymGuidePreBattleText::
 	para "LT.SURGE has a"
 	line "nickname. People"
 	cont "refer to him as"
-	cont "the Lightning"
+	cont "the Burning"
 	cont "American!"
 
 	para "He's an expert on"
-	line "electric #MON!"
+	line "fire #MON!"
 
-	para "Birds and water"
+	para "Bugs and grass"
 	line "#MON are at"
 	cont "risk! Beware of"
-	cont "paralysis too!"
+	cont "burns too!"
 
 	para "LT.SURGE is very"
 	line "cautious!"
@@ -148,5 +148,5 @@ _VermilionGymGuidePreBattleText::
 
 _VermilionGymGuidePostBattleText::
 	text "Whew! That match"
-	line "was electric!"
+	line "was flaming hot!"
 	done

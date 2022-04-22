@@ -1,9 +1,9 @@
 PokemonTower4FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 24, GASTLY
-	db 23, CLEFAIRY
+	db 24, CLEFAIRY
 	db 24, GASTLY
-	db 25, CLEFAIRY
+	db 23, CLEFAIRY
 	db 24, VULPIX
 	db 23, GRIMER
 	db 24, LICKITUNG

@@ -35,8 +35,8 @@ _SSAnne9Text_61c2e::
 	cont "ZONE is awesome!"
 	
 	para "It is a bit dark"
-	line "but there #MON"
-	cont "are peaceful"
+	line "but the #MON"
+	cont "there are docile."
 	done
 
 _SSAnne9Text_61c3d::

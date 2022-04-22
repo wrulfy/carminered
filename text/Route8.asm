@@ -141,8 +141,8 @@ _Route8EndBattleText9::
 	prompt
 
 _Route8AfterBattleText9::
-	text "I heard that"
-	line "CLEFAIRY evolves"
+	text "I heard CLEFAIRY"
+	line "can evolve"
 	cont "when it's exposed"
 	cont "to a MOON STONE."
 	done

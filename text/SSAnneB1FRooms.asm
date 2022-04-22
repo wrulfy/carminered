@@ -32,7 +32,7 @@ _SSAnne10EndBattleText2::
 _SSAnne10AfterBattleText2::
 	text "Did you see the"
 	line "FISHING GURU in"
-	cont "VERMILION CITY?"
+	cont "LAVENDER TOWN?"
 	done
 
 _SSAnne10BattleText3::
@@ -54,8 +54,8 @@ _SSAnne10AfterBattleText3::
 _SSAnne10BattleText4::
 	text "Hey, back off kid,"
 	line "this aint the"
-	cont "backstage"
-	text_end
+	cont "backstage!"
+	done
 
 _SSAnne10EndBattleText4::
 	text "No"

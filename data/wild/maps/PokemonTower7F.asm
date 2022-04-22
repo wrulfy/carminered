@@ -1,13 +1,13 @@
 PokemonTower7FWildMons:
 	def_grass_wildmons 15 ; encounter rate
 	db 26, CLEFAIRY
-	db 27, LICKITUNG
+	db 26, LICKITUNG
 	db 29, HAUNTER
 	db 27, GASTLY
 	db 27, VULPIX
 	db 26, GRIMER
 	db 28, CLEFAIRY
-	db 30, CLEFABLE
+	db 25, GASTLY
 	db 32, NINETALES
 	db 34, GENGAR
 	end_grass_wildmons

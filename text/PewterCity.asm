@@ -1,11 +1,12 @@
 _PewterCityText1::
-	text "It's rumored that"
-	line "CLEFAIRYs came"
-	cont "from the moon!"
+	text "I've heard that"
+	line "when CLEFAIRYs"
+	cont "evolve, they turn"
+	cont "into ghosts."
 
-	para "They appeared "
-	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	para "I always though"
+	line "they were just"
+	cont "moon fairies!"
 	done
 
 _PewterCityText2::

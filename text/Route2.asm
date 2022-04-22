@@ -1,6 +1,6 @@
 _Route2BattleText1::
 	text "Hello, are you a"
-	line "#MON Trainer?"
+	line "#MON trainer?"
 	done
 
 _Route2EndBattleText1::
@@ -13,7 +13,7 @@ _Route2AfterBattleText1::
 	line "own adventure"
 	cont "yesterday"
 
-	para "POKEMON are"
+	para "#MON are"
 	line "fantastic!"
 	done
 
@@ -29,8 +29,8 @@ _Route2EndBattleText2::
 
 _Route2AfterBattleText2::
 	text "I'm training to "
-	line "defeat BROCK on"
-	cont "PEWTER GYM"
+	line "defeat BROCK over"
+	cont "at PEWTER GYM."
 
 	para "He's a really"
 	line "tough trainer!"

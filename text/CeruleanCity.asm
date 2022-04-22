@@ -109,7 +109,7 @@ _CeruleanCityText3::
 
 _CeruleanCityText4::
 	text "That bush in"
-	line "front of the shop"
+	line "front of the mart"
 	cont "is in the way."
 
 	para "There might be a"

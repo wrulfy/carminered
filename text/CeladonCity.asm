@@ -1,6 +1,6 @@
 _CeladonCityText1::
 	text "I got my KOFFING"
-	line "in ROUTE 10!"
+	line "on Route 10!"
 
 	para "It's nice, but it"
 	line "breathes poison"

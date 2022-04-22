@@ -17,6 +17,7 @@ _CeladonMansion2Text1::
 	para "Special thanks to"
 	line "Rangi42, 33Dannye,"
 	cont "Drush, Chatot4444,"
+	cont "FrenchOrange,"
 	cont "and many more"
 	cont "over the PRET"
 	cont "discord server!"

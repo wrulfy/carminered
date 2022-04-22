@@ -67,15 +67,15 @@ _ReceivedSnowBadgeText::
 	text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
+	text "I'm cool enough"
+	line "for you!"
 
 	para "MISTY can wait!"
 	done
 
 _CeruleanGymEndBattleText1::
 	text "You"
-	line "overwhelmed me!"
+	line "defrosted me!"
 	prompt
 
 _CeruleanGymAfterBattleText1::
@@ -86,10 +86,11 @@ _CeruleanGymAfterBattleText1::
 	done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
+	text "Splash! "
 
-	para "I'm first up!"
-	line "Let's do it!"
+	para "Nothing beats ice"
+	line "cold baths!"
+	cont "Now let's battle!"
 	done
 
 _CeruleanGymEndBattleText2::
@@ -106,10 +107,12 @@ _CeruleanGymAfterBattleText2::
 	done
 
 _CeruleanGymGuidePreBattleText::
-	text "Yo! Champ in"
-	line "making!"
+	text "Champ in making!"
+	line "Im freezing righ"
+	cont "here!"
 
-	para "Here's my advice!"
+	para "Here's some cold"
+	cont "advice!"
 
 	para "The LEADER, MISTY,"
 	line "is a pro who uses"

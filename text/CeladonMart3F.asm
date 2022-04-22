@@ -51,11 +51,10 @@ _CeladonMart3Text4::
 	para "I love GRAVELER!"
 	line "I collect them!"
 
-	para "Huh?"
-
-	para "GRAVELER didn't"
-	line "evolve into a "
-	cont "diferent #MON?"
+	para "GOLEM looks ugly!"
+	line "But GRAVELER are"
+	cont "cool, I'll never"
+	cont "evolve them!"
 	done
 
 _CeladonMart3Text5::

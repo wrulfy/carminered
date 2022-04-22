@@ -2,7 +2,7 @@ _ProgrammerText::
 	text "Me? I'm the"
 	line "programmer!"
 	cont "Dont blame me on"
-	cont "the spaguetti"
+	cont "the spaghetti"
 	cont "code I was young"
 	cont "and naive!"
 	done
@@ -13,7 +13,7 @@ _GraphicArtistText::
 	cont "Everyone thinks"
 	cont "they can do"
 	cont "better than I did"
-	cont "on 1996!"
+	cont "in 1996!"
 	done
 
 _WriterText::

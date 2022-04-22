@@ -1,9 +1,9 @@
 PokemonTower3FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 23, GASTLY
-	db 22, CLEFAIRY
+	db 23, CLEFAIRY
 	db 23, GASTLY
-	db 24, CLEFAIRY
+	db 22, CLEFAIRY
 	db 23, VULPIX
 	db 22, GRIMER
 	db 24, GASTLY
