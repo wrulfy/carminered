@@ -50,14 +50,14 @@ ENDM
 	warp_tiles $5E
 
 .ForestWarpTileIDs:
-	warp_tiles $5A, $5C, $3A
+	warp_tiles $5C, $3A
 
 .DojoWarpTileIDs:
 .GymWarpTileIDs:
 	warp_tiles $4A
 
 .HouseWarpTileIDs:
-	warp_tiles $54, $5C, $32
+	warp_tiles $54
 
 .ShipWarpTileIDs:
 	warp_tiles $37, $39, $1E, $4A
@@ -66,7 +66,7 @@ ENDM
 	warp_tiles $15, $55, $04
 
 .CavernWarpTileIDs:
-	warp_tiles $18, $1A, $22
+	warp_tiles $18, $1A, $22, $36, $38
 
 .LobbyWarpTileIDs:
 	warp_tiles $1A, $1C, $38

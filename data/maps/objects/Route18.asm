@@ -1,5 +1,5 @@
 Route18_Object:
-	db $43 ; border block
+	db $F ; border block
 
 	def_warp_events
 	warp_event 33,  8, ROUTE_18_GATE_1F, 1
@@ -9,7 +9,7 @@ Route18_Object:
 
 	def_bg_events
 	bg_event 43,  7, 4 ; Route18Text4
-	bg_event 33,  5, 5 ; Route18Text5
+	bg_event 33,  7, 5 ; Route18Text5
 
 	def_object_events
 	object_event 29, 11, SPRITE_COOLTRAINER_M, STAY, RIGHT, 1, OPP_BIRD_KEEPER, 8

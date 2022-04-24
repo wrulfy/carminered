@@ -43,6 +43,7 @@ SilphCo10F_TextPointers:
 	dw SilphCo10Text1
 	dw SilphCo10Text2
 	dw SilphCo10Text3
+	dw SilphCo10Text4
 	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
@@ -50,9 +51,11 @@ SilphCo10F_TextPointers:
 SilphCo10TrainerHeaders:
 	def_trainers
 SilphCo10TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_10F_TRAINER_0, 3, SilphCo10BattleText1, SilphCo10EndBattleText1, SilphCo10AfterBattleText1
+	trainer EVENT_BEAT_SILPH_CO_10F_TRAINER_0, 2, SilphCo10BattleText1, SilphCo10EndBattleText1, SilphCo10AfterBattleText1
 SilphCo10TrainerHeader1:
-	trainer EVENT_BEAT_SILPH_CO_10F_TRAINER_1, 4, SilphCo10BattleText2, SilphCo10EndBattleText2, SilphCo10AfterBattleText2
+	trainer EVENT_BEAT_SILPH_CO_10F_TRAINER_1, 3, SilphCo10BattleText2, SilphCo10EndBattleText2, SilphCo10AfterBattleText2
+SilphCo10TrainerHeader2:
+	trainer EVENT_BEAT_SILPH_CO_10F_TRAINER_2, 3, SilphCo10BattleText3, SilphCo10EndBattleText3, SilphCo10AfterBattleText3
 	db -1 ; end
 
 SilphCo10Text1:
@@ -68,6 +71,12 @@ SilphCo10Text2:
 	jp TextScriptEnd
 
 SilphCo10Text3:
+	text_asm
+	ld hl, SilphCo10TrainerHeader2
+	call TalkToTrainer
+	jp TextScriptEnd
+
+SilphCo10Text4:
 	text_asm
 	CheckEvent EVENT_BEAT_SILPH_CO_GIOVANNI
 	ld hl, SilphCo10Text_5a1d8
@@ -108,3 +117,16 @@ SilphCo10EndBattleText2:
 SilphCo10AfterBattleText2:
 	text_far _SilphCo10AfterBattleText2
 	text_end
+
+SilphCo10BattleText3:
+	text_far _SilphCo10BattleText3
+	text_end
+
+SilphCo10EndBattleText3:
+	text_far _SilphCo10EndBattleText3
+	text_end
+
+SilphCo10AfterBattleText3:
+	text_far _SilphCo10AfterBattleText3
+	text_end
+

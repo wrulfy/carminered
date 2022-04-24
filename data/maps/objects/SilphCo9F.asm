@@ -2,11 +2,13 @@ SilphCo9F_Object:
 	db $2e ; border block
 
 	def_warp_events
-	warp_event 14,  0, SILPH_CO_10F, 1
-	warp_event 16,  0, SILPH_CO_8F, 1
-	warp_event 18,  0, SILPH_CO_ELEVATOR, 1
-	warp_event  9,  3, SILPH_CO_3F, 8
-	warp_event 17, 15, SILPH_CO_5F, 5
+	warp_event 14,  0, SILPH_CO_11F, 1;1 STAIRS
+	warp_event 16,  0, SILPH_CO_8F, 1;2 STAIRS
+	warp_event 18,  0, SILPH_CO_ELEVATOR, 1;3 ELEVATOR
+	warp_event  9,  3, SILPH_CO_7F, 5;4 DONE
+	warp_event 17, 15, SILPH_CO_5F, 5;5 DONE
+	warp_event 17,  9, SILPH_CO_6F, 6;6 DONE
+	warp_event 23,  3, SILPH_CO_7F, 7;7 DONE
 
 	def_bg_events
 

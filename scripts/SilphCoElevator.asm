@@ -41,7 +41,8 @@ SilphCoElevatorScript_457f1:
 	ret
 
 SilphCoElevatorFloors:
-	db 10 ; #
+	db 11 ; #
+	db FLOOR_10F
 	db FLOOR_1F
 	db FLOOR_2F
 	db FLOOR_3F
@@ -57,6 +58,7 @@ SilphCoElevatorFloors:
 ; These specify where the player goes after getting out of the elevator.
 SilphCoElevatorWarpMaps:
 	; warp number, map id
+	db 2, SILPH_CO_10F
 	db 3, SILPH_CO_1F
 	db 2, SILPH_CO_2F
 	db 2, SILPH_CO_3F

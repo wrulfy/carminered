@@ -101,7 +101,7 @@ FuchsiaCityText21:
 	text_asm
 	ld hl, FuchsiaCityKangaskhanText
 	call PrintText
-	ld a, KANGASKHAN
+	ld a, FARFETCHD
 	call DisplayPokedex
 	jp TextScriptEnd
 
@@ -113,7 +113,7 @@ FuchsiaCityText22:
 	text_asm
 	ld hl, FuchsiaCitySlowpokeText
 	call PrintText
-	ld a, SLOWPOKE
+	ld a, RHYDON
 	call DisplayPokedex
 	jp TextScriptEnd
 

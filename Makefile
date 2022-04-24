@@ -12,6 +12,7 @@ gfx/sprites.o \
 gfx/tilesets.o
 
 pokered_obj        := $(rom_obj:.o=_red.o)
+pokeblue_debug_obj := $(rom_obj:.o=_blue_debug.o)
 
 ### Build tools
 

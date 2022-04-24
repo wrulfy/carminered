@@ -40,3 +40,19 @@ _SilphCo10AfterBattleText2::
 	line "with beating me?"
 	cont "Then go on home!"
 	done
+
+_SilphCo10BattleText3::
+	text "Enough of your"
+	line "silly games!"
+	done
+
+_SilphCo10EndBattleText3::
+	text "No"
+	line "continues left!"
+	prompt
+
+_SilphCo10AfterBattleText3::
+	text "Are you satisfied"
+	line "with beating me?"
+	cont "Then go on home!"
+	done

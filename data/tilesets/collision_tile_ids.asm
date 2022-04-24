@@ -47,7 +47,7 @@ Interior_Coll::
 	coll_tiles $04, $0f, $15, $1f, $3b, $45, $47, $55, $56
 
 Cavern_Coll::
-	coll_tiles $05, $15, $18, $1a, $20, $21, $22, $2a, $2d, $30
+	coll_tiles $05, $15, $18, $1a, $20, $21, $22, $2a, $2d, $30, $36, $38
 
 	coll_tiles ; unused
 
@@ -67,4 +67,4 @@ Facility_Coll::
 	coll_tiles $01, $10, $11, $13, $1b, $20, $21, $22, $30, $31, $32, $42, $43, $48, $52, $55, $58, $5e
 
 Plateau_Coll::
-	coll_tiles $1b, $23, $2c, $2d, $3b, $45
+	coll_tiles $1b, $23, $2c, $2d, $38, $3b

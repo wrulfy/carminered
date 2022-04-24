@@ -2,11 +2,12 @@ SilphCo6F_Object:
 	db $2e ; border block
 
 	def_warp_events
-	warp_event 16,  0, SILPH_CO_7F, 2
-	warp_event 14,  0, SILPH_CO_5F, 1
-	warp_event 18,  0, SILPH_CO_ELEVATOR, 1
-	warp_event  3, 15, SILPH_CO_4F, 5
-	warp_event  3,  3, SILPH_CO_2F, 7
+	warp_event 16,  0, SILPH_CO_7F, 2;1 STAIR
+	warp_event 14,  0, SILPH_CO_5F, 1;2 STAIR
+	warp_event 18,  0, SILPH_CO_ELEVATOR, 1;3 ELEVATOR
+	warp_event  3, 15, SILPH_CO_4F, 5;4 DONE
+	warp_event  3,  3, SILPH_CO_2F, 7;5 DONE
+	warp_event 23,  3, SILPH_CO_9F, 6;6 DONE
 
 	def_bg_events
 
@@ -15,7 +16,7 @@ SilphCo6F_Object:
 	object_event 20,  6, SPRITE_SILPH_WORKER, STAY, NONE, 2 ; person
 	object_event 21,  6, SPRITE_ERIKA, STAY, DOWN, 3 ; person
 	object_event 11, 10, SPRITE_ERIKA, STAY, RIGHT, 4 ; person
-	object_event 18, 13, SPRITE_SILPH_WORKER, STAY, UP, 5 ; person
+	object_event 16, 13, SPRITE_SILPH_WORKER, STAY, UP, 5 ; person
 	object_event 17,  3, SPRITE_ROCKET, STAY, RIGHT, 6, OPP_ROCKET, 30
 	object_event  3,  7, SPRITE_SCIENTIST, STAY, DOWN, 7, OPP_SCIENTIST, 7
 	object_event 14, 15, SPRITE_ROCKET, STAY, LEFT, 8, OPP_ROCKET, 31
