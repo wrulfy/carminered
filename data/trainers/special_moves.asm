@@ -93,7 +93,7 @@ SpecialTrainerMoves:
 	db 4, 4, SMOKESCREEN
 
 	db GIOVANNI, 1
-	db 2, 2, STRENGTH
+	db 2, 3, STRENGTH
 	db 4, 1, RAZOR_WIND
 	db 0
 

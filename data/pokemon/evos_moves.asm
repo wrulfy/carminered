@@ -902,10 +902,9 @@ MankeyEvosMoves:
 ; Learnset
 	db 11, LOW_KICK
 	db 16, FOCUS_ENERGY
-	db 20, SEISMIC_TOSS
-	db 25, SHARPEN
+	db 20, DIG
+	db 25, SEISMIC_TOSS
 	db 30, KARATE_CHOP
-	db 40, THRASH
 	db 0
 
 SeelEvosMoves:
@@ -1104,11 +1103,10 @@ MeowthEvosMoves:
 	db 0
 ; Learnset
 	db 11, BITE
-	db 16, PAY_DAY
-	db 20, LEER
-	db 25, SHARPEN
+	db 16, SHARPEN
+	db 20, DIG
+	db 25, PAY_DAY
 	db 30, FURY_SWIPES
-	db 40, SLASH
 	db 0
 
 KrabbyEvosMoves:
@@ -1555,11 +1553,12 @@ PrimeapeEvosMoves:
 	db 0
 ; Learnset
 	db 28, RAGE
-	db 33, KARATE_CHOP
-	db 37, FURY_SWIPES
-	db 41, THRASH
-	db 45, ROAR
-	db 52, DIZZY_PUNCH
+	db 32, KARATE_CHOP
+	db 36, FURY_SWIPES
+	db 40, THRASH
+	db 44, MEDITATE
+	db 48, DIZZY_PUNCH
+	db 53, EARTHQUAKE
 	db 0
 
 DugtrioEvosMoves:
@@ -1820,11 +1819,12 @@ PersianEvosMoves:
 	db 0
 ; Learnset
 	db 28, SWIFT
-	db 33, FURY_SWIPES
-	db 37, SCREECH
-	db 41, SLASH
-	db 46, ROAR
-	db 52, HYPNOSIS
+	db 32, FURY_SWIPES
+	db 36, SCREECH
+	db 40, SLASH
+	db 44, ROAR
+	db 48, EARTHQUAKE
+	db 53, HYPNOSIS
 	db 0
 
 MarowakEvosMoves:

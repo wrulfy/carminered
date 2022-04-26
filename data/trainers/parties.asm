@@ -562,7 +562,7 @@ ScientistData:
 
 GiovanniData:
 ; Rocket Hideout B4F
-	db $FF, 30, SANDSLASH, 30, GRAVELER, 32, RHYHORN, 34, DUGTRIO, 0
+	db $FF, 30, SANDSLASH, 30, RHYHORN, 32, PERSIAN, 34, DUGTRIO, 0
 ; Silph Co. 11F
 	db $FF, 43, RHYHORN, 43, MAROWAK, 44, FARFETCHD, 45, NIDORINA, 47, NIDOKING, 0
 ; Viridian Gym

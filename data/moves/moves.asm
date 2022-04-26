@@ -155,7 +155,7 @@ Moves:
 	move SKY_ATTACK,   FLINCH_SIDE_EFFECT1,        120, FLYING,        85,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 40
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 40
-	move DIZZY_PUNCH,  NO_ADDITIONAL_EFFECT,       100, FIGHTING,     100, 10
+	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,      100, FIGHTING,     100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 10
 	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, NORMAL,        85, 20
 	move PSYWAVE,      CONFUSION_SIDE_EFFECT,      120, PSYCHIC_TYPE,  85,  5
