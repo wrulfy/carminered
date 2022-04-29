@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/mr.mime.pic", 0, 1 ; sprite dimensions
 	dw MrMimePicFront, MrMimePicBack
 
-	db DOUBLESLAP, HARDEN, CONFUSION, NO_MOVE ; level 1 learnset
+	db DOUBLESLAP, DEFENSE_CURL, CONFUSION, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

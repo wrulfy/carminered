@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/slowpoke.pic", 0, 1 ; sprite dimensions
 	dw SlowpokePicFront, SlowpokePicBack
 
-	db HARDEN, CONFUSION, DISABLE, NO_MOVE ; level 1 learnset
+	db DEFENSE_CURL, CONFUSION, DISABLE, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

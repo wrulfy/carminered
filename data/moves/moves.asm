@@ -110,7 +110,7 @@ Moves:
 	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
 	move RAGE,         RAGE_EFFECT,                 25, NORMAL,       100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC_TYPE, 100, 20
-	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        95, GHOST,        100, 15
+	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,       120, GHOST,         85, 5
 	move MIMIC,        MIMIC_EFFECT,                 0, NORMAL,       100, 10
 	move SCREECH,      SPECIAL_DOWN_SIDE_EFFECT,    65, GHOST,        100, 20
 	move DOUBLE_TEAM,  EVASION_UP1_EFFECT,           0, NORMAL,       100, 10
@@ -155,7 +155,7 @@ Moves:
 	move SKY_ATTACK,   FLINCH_SIDE_EFFECT1,        120, FLYING,        85,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 40
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 40
-	move DIZZY_PUNCH,  CONFUSION_SIDE_EFFECT,      100, FIGHTING,     100, 10
+	move DIZZY_PUNCH,  DRAIN_HP_EFFECT,             90, FIGHTING,     100, 5
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 10
 	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, NORMAL,        85, 20
 	move PSYWAVE,      CONFUSION_SIDE_EFFECT,      120, PSYCHIC_TYPE,  85,  5

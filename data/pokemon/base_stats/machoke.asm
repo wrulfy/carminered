@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/machoke.pic", 0, 1 ; sprite dimensions
 	dw MachokePicFront, MachokePicBack
 
-	db ROLLING_KICK, MEDITATE, ROCK_THROW, SEISMIC_TOSS ; level 1 learnset
+	db SEISMIC_TOSS, ROLLING_KICK, MEGA_PUNCH, FOCUS_ENERGY ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

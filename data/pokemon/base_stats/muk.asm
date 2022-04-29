@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/muk.pic", 0, 1 ; sprite dimensions
 	dw MukPicFront, MukPicBack
 
-	db POISONPOWDER, SMOG, SCREECH, MINIMIZE ; level 1 learnset
+	db SMOG, MINIMIZE, SCREECH, SLUDGE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
