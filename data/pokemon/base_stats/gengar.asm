@@ -1,16 +1,16 @@
 	db DEX_GENGAR ; pokedex id
 
-	db  60,  75,  60, 110, 130
+	db  60,  65,  60, 140, 110
 	;   hp  atk  def  spd  spc
 
-	db GHOST, POISON ; type
+	db GHOST, GHOST ; type
 	db 45 ; catch rate
 	db 196 ; base exp
 
 	INCBIN "gfx/pokemon/front/gengar.pic", 0, 1 ; sprite dimensions
 	dw GengarPicFront, GengarPicBack
 
-	db SMOG, HYPNOSIS, CONFUSE_RAY, MIST ; level 1 learnset
+	db SMOG, DREAM_EATER, SUPERSONIC, POISON_GAS ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

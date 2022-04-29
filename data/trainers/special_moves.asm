@@ -105,19 +105,18 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1
-	db 3, 3, GROWL
+	db 3, 3, POUND
 	db 3, 4, SWIFT
 	db 0
 
 	db MISTY, 1
 	db 3, 3, MIST
-	db 3, 4, RAGE
 	db 0
 
 	db LT_SURGE, 1
 	db 1, 3, QUICK_ATTACK
 	db 3, 2, EMBER
-	db 4, 4, SMOKESCREEN
+	db 4, 2, SMOKESCREEN
 	db 0
 
 	db ERIKA, 1

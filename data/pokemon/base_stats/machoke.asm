@@ -1,6 +1,6 @@
 	db DEX_MACHOKE ; pokedex id
 
-	db  80, 110,  70,  45,  50
+	db  70, 120,  60,  45,  50
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type

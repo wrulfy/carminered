@@ -1,6 +1,6 @@
 	db DEX_ABRA ; pokedex id
 
-	db  30,  20,  20,  90, 105
+	db  35,  20,  20,  85, 100
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type

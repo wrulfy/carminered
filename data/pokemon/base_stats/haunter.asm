@@ -1,16 +1,16 @@
 	db DEX_HAUNTER ; pokedex id
 
-	db  45,  55,  45,  95, 115
+	db  45,  45,  45, 120,  95
 	;   hp  atk  def  spd  spc
 
-	db GHOST, POISON ; type
+	db GHOST, GHOST ; type
 	db 90 ; catch rate
 	db 130 ; base exp
 
 	INCBIN "gfx/pokemon/front/haunter.pic", 0, 1 ; sprite dimensions
 	dw HaunterPicFront, HaunterPicBack
 
-	db SUPERSONIC, HAZE, DREAM_EATER, HYPNOSIS ; level 1 learnset
+	db HAZE, SCREECH, MIST, HYPNOSIS ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

@@ -1,6 +1,6 @@
 	db DEX_CLEFABLE ; pokedex id
 
-	db  105, 70,  73,  60, 105
+	db  110, 85,  78,  61, 110
 	;   hp  atk  def  spd  spc
 
 	db GHOST, FLYING ; type

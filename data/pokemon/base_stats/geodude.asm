@@ -1,9 +1,9 @@
 	db DEX_GEODUDE ; pokedex id
 
-	db  40,  80, 100,  15,  40
+	db  40,  80, 100,  10,  45
 	;   hp  atk  def  spd  spc
 
-	db ROCK, GROUND ; type
+	db ROCK, ROCK ; type
 	db 255 ; catch rate
 	db 80 ; base exp
 
@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SMOKESCREEN,  EARTHQUAKE,   \
-	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     ICE_BEAM,     SUBMISSION,   COUNTER,      SEISMIC_TOSS, SMOKESCREEN,  \
+	     EARTHQUAKE,   DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         \
 	     METRONOME,    SELFDESTRUCT, EGG_BOMB,     FLAMETHROWER, REST,         \
-	     EXPLOSION,    SUBSTITUTE,   STRENGTH      
+	     EXPLOSION,    MIST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

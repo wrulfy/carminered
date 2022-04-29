@@ -252,7 +252,7 @@ SpearowEvosMoves:
 	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 7, SCRATCH
+	db 6, SCRATCH
 	db 11, LEER
 	db 15, MIRROR_MOVE
 	db 20, FURY_ATTACK
@@ -264,11 +264,11 @@ VoltorbEvosMoves:
 	db EV_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 13, SONICBOOM
+	db 12, THUNDERSHOCK
 	db 16, SWIFT
 	db 19, LIGHT_SCREEN
 	db 22, SELFDESTRUCT
-	db 26, THUNDERBOLT
+	db 26, SONICBOOM
 	db 30, HEADBUTT
 	db 34, SCREECH
 	db 0
@@ -365,8 +365,9 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 39, DOUBLE_TEAM
 	db 44, CONFUSE_RAY
-	db 49, POISON_GAS
+	db 49, SMOKESCREEN
 	db 54, DISABLE
 	db 59, NIGHT_SHADE
 	db 0
@@ -715,8 +716,8 @@ MachokeEvosMoves:
 	db EV_LEVEL, 37, MACHAMP
 	db 0
 ; Learnset
-	db 27, SUBMISSION
-	db 31, SLAM
+	db 27, SLAM
+	db 31, SUBMISSION
 	db 35, ROAR
 	db 39, KARATE_CHOP
 	db 43, MEGA_KICK
@@ -1358,10 +1359,11 @@ WigglytuffEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, DEFENSE_CURL
-	db 24, BIDE
-	db 32, REST
-	db 40, DOUBLE_EDGE
+	db 13, BODY_SLAM
+	db 20, REST
+	db 27, SCREECH
+	db 34, DOUBLE_EDGE
+	db 41, SUBSTITUTE
 	db 48, SUPERSONIC
 	db 0
 
@@ -1502,6 +1504,7 @@ WeedleEvosMoves:
 	db EV_LEVEL, 7, KAKUNA
 	db 0
 ; Learnset
+	db 4, STRING_SHOT
 	db 0
 
 KakunaEvosMoves:
@@ -1588,11 +1591,11 @@ DewgongEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, HORN_DRILL
+	db 34, DRILL_PECK
 	db 38, REST
-	db 42, WATERFALL
-	db 47, DOUBLE_EDGE
-	db 54, ICE_BEAM
+	db 42, DOUBLE_EDGE
+	db 47, ICE_BEAM
+	db 54, HORN_DRILL
 	db 0
 
 MissingNo79EvosMoves:
@@ -1612,6 +1615,7 @@ CaterpieEvosMoves:
 	db EV_LEVEL, 7, METAPOD
 	db 0
 ; Learnset
+	db 4, STRING_SHOT
 	db 0
 
 MetapodEvosMoves:
@@ -1788,7 +1792,7 @@ ElectrodeEvosMoves:
 	db 30, SKULL_BASH
 	db 35, SCREECH
 	db 41, EXPLOSION
-	db 47, THUNDER
+	db 47, THUNDERBOLT
 	db 53, HYPER_BEAM
 	db 0
 
@@ -1801,6 +1805,7 @@ ClefableEvosMoves:
 	db 36, LIGHT_SCREEN
 	db 44, SOFTBOILED
 	db 52, NIGHT_SHADE
+	db 60, SPLASH	
 	db 0
 
 WeezingEvosMoves:
@@ -1831,11 +1836,12 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HEADBUTT
-	db 24, BONEMERANG
-	db 32, ICE_PUNCH
-	db 40, THRASH
-	db 48, ICE_BEAM
+	db 13, HEADBUTT
+	db 20, ICE_PUNCH
+	db 27, BONEMERANG
+	db 34, THRASH
+	db 41, ICE_BEAM
+	db 48, FISSURE
 	db 0
 
 MissingNo92EvosMoves:
@@ -1852,8 +1858,8 @@ HaunterEvosMoves:
 ; Learnset
 	db 27, SMOG
 	db 31, DREAM_EATER
-	db 35, SMOKESCREEN
-	db 39, SUPERSONIC
+	db 35, SUPERSONIC
+	db 39, POISON_GAS
 	db 43, CONFUSE_RAY
 	db 0
 
