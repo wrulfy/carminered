@@ -21,6 +21,10 @@ SpecialTrainerMoves:
 	db 1, 1, WING_ATTACK
 	db 0
 
+	db SUPER_NERD, 1
+	db 3, 1, ACID
+	db 0
+
 	db BURGLAR, 1
 	db 1, 4, EMBER
 	db 0
@@ -94,10 +98,12 @@ SpecialTrainerMoves:
 
 	db GIOVANNI, 1
 	db 2, 3, STRENGTH
-	db 4, 1, RAZOR_WIND
+	db 3, 1, DREAM_EATER
+	db 4, 4, RAZOR_WIND
 	db 0
 
 	db CHIEF, 2
+	db 3, 1, DIG
 	db 3, 2, WHIRLWIND
 	db 0
 	db CHIEF, 3

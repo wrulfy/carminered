@@ -1,10 +1,10 @@
 	db DEX_GOLDEEN ; pokedex id
 
-	db  45,  67,  50,  53,  50
+	db  50,  67,  37,  41,  50
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
-	db 225 ; catch rate
+	db 255 ; catch rate
 	db 74 ; base exp
 
 	INCBIN "gfx/pokemon/front/goldeen.pic", 0, 1 ; sprite dimensions

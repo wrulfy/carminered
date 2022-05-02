@@ -1,38 +1,42 @@
-_Route12HouseText_564c0::
+_Route12SuperRodHouse_4a350::
 	text "Ahoy, I'm the"
 	line "SURFING GURU!"
 
 	para "I simply Looove"
 	line "Surfing!"
 
-	para "Do you like to"
-	line "surf?"
-	done
+	para "The bridge"
+	line "collapsed the"
+	cont "other day and now"
+	cont "you can't walk up"
+	cont "to Lavender!"
 
-_Route12HouseText_564c5::
-	text "Grand! I like"
-	line "your style!"
+	para "But you can still"
+	line "surf up though"
+	cont "the coast!"
 
 	para "Take this and"
 	line "surf, young one!"
+	prompt
 
-	para "<PLAYER> received"
-	line "HM03!@"
+_ReceivedHM03Text::
+	text "<PLAYER> received"
+	line "@"
+	text_ram wStringBuffer
+	text "!@"
+	text_end
 
-	para "HM03 is SURF!"
-	line "#MON will be"
-	cont "able to ferry you"
+_HM03ExplanationText::
+	text "HM03 is SURF!"
+
+	para "#MON will be"
+	line "able to ferry you"
 	cont "across water!"
 
 	para "And, this HM isn't"
 	line "disposable! You"
 	cont "can use it over"
 	cont "and over!"
-
-	text_end
-
-_Route12HouseText_564ca::
-	text_start
 
 	para "Surfing is a way"
 	line "of life!"
@@ -43,26 +47,7 @@ _Route12HouseText_564ca::
 	cont "and explore!"
 	done
 
-_Route12HouseText_564cf::
-	text "Oh... That's so"
-	line "disappointing..."
-	done
-
-_Route12HouseText_564d4::
-	text "Hello there,"
-	line "<PLAYER>!"
-
-	para "Teach Surf to any"
-	line "aquatic #MON"
-	cont "and explore"
-	cont "beyond the land"
-	cont "for treasures!"
-
-	para "Try surfing"
-	line "wherever you can!"
-	done
-
-_Route12HouseText_564d9::
+_HM03NoRoomText::
 	text "Oh no!"
 
 	para "I had a gift for"

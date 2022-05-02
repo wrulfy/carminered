@@ -199,10 +199,11 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 42, FURY_ATTACK
-	db 48, HORN_DRILL
-	db 54, FISSURE
-	db 60, EGG_BOMB
+	db 40, FURY_ATTACK
+	db 44, HORN_DRILL
+	db 48, FISSURE
+	db 54, EGG_BOMB
+	db 60, TWINEEDLE
 	db 0
 
 KangaskhanEvosMoves:
@@ -503,9 +504,9 @@ TentacoolEvosMoves:
 	db 12, WATER_GUN
 	db 16, SUPERSONIC
 	db 21, ACID
-	db 26, ACID_ARMOR
-	db 31, BUBBLEBEAM
-	db 35, SCREECH
+	db 26, BUBBLEBEAM
+	db 31, SCREECH
+	db 35, ACID_ARMOR
 	db 0
 
 GastlyEvosMoves:
@@ -1946,11 +1947,12 @@ TentacruelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, BUBBLEBEAM
-	db 37, SCREECH
+	db 32, SCREECH
+	db 37, ACID_ARMOR
 	db 42, SLUDGE
-	db 48, POISON_GAS
-	db 54, HYDRO_PUMP
+	db 48, HYDRO_PUMP
+	db 53, CONSTRICT
+	db 60, POISON_GAS
 	db 0
 
 MissingNo9CEvosMoves:
@@ -2026,8 +2028,9 @@ RapidashEvosMoves:
 ; Learnset
 	db 40, FURY_ATTACK
 	db 44, HYPNOSIS
-	db 50, AGILITY 
-	db 56, FIRE_BLAST
+	db 48, FIRE_BLAST
+	db 54, TWINEEDLE
+	db 60, AGILITY
 	db 0
 
 RattataEvosMoves:

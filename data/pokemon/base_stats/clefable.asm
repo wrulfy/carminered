@@ -11,7 +11,7 @@
 	dw ClefablePicFront, ClefablePicBack
 
 	db LICK, DOUBLESLAP, METRONOME, SING ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   RAZOR_WIND,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \

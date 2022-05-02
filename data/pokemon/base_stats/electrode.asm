@@ -1,6 +1,6 @@
 	db DEX_ELECTRODE ; pokedex id
 
-	db  60,  70,  60, 140,  80
+	db  60,  70,  60, 150,  80
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, NORMAL ; type
