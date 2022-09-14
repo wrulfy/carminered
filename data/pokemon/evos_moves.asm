@@ -211,12 +211,12 @@ KangaskhanEvosMoves:
 	db 0
 ; Learnset
 	db 22, BITE
-	db 26, LEER
-	db 30, COMET_PUNCH
+	db 26, COMET_PUNCH
+	db 30, LEER
 	db 34, MEGA_PUNCH
 	db 40, SLAM
-	db 45, ROAR
-	db 49, DIZZY_PUNCH
+	db 45, DIZZY_PUNCH
+	db 49, ROAR
 	db 55, MEGA_KICK
 	db 0
 
@@ -239,7 +239,7 @@ ClefairyEvosMoves:
 	db EV_LEVEL, 34, CLEFABLE
 	db 0
 ; Learnset
-	db 13, METRONOME
+	db 13, SING
 	db 17, DOUBLESLAP
 	db 21, WING_ATTACK
 	db 25, MINIMIZE
@@ -257,7 +257,7 @@ SpearowEvosMoves:
 	db 11, LEER
 	db 15, MIRROR_MOVE
 	db 20, FURY_ATTACK
-	db 24, TAKE_DOWN
+	db 24, HEADBUTT
 	db 0
 
 VoltorbEvosMoves:
@@ -581,14 +581,14 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, STOMP
-	db 20, LEECH_SEED
-	db 24, VINE_WHIP
+	db 16, VINE_WHIP
+	db 20, STOMP
+	db 24, LEECH_SEED
 	db 28, POISONPOWDER
 	db 32, BIND
 	db 36, EGG_BOMB
 	db 40, SLEEP_POWDER
-	db 44, MEGA_DRAIN
+	db 44, SOLAR_BEAM
 	db 50, GROWTH
 	db 0
 
@@ -625,7 +625,7 @@ OnixEvosMoves:
 ; Learnset
 	db 19, GUST
 	db 23, RAGE
-	db 27, HARDEN
+	db 27, GLARE
 	db 31, STRENGTH
 	db 35, SLAM
 	db 39, DIG
@@ -638,7 +638,7 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, TAKE_DOWN
+	db 26, HEADBUTT
 	db 31, FURY_SWIPES
 	db 36, DRILL_PECK
 	db 41, AGILITY
@@ -702,7 +702,7 @@ ChanseyEvosMoves:
 	db 0
 ; Learnset
 	db 14, DOUBLESLAP
-	db 19, GROWL
+	db 19, DEFENSE_CURL
 	db 24, METRONOME
 	db 29, MINIMIZE
 	db 34, TAKE_DOWN
@@ -1215,8 +1215,8 @@ DratiniEvosMoves:
 	db EV_LEVEL, 28, DRAGONAIR
 	db 0
 ; Learnset
-	db 12, THUNDER_WAVE
-	db 16, QUICK_ATTACK
+	db 12, QUICK_ATTACK
+	db 16, GLARE
 	db 21, WHIRLWIND
 	db 26, WRAP
 	db 30, AGILITY
@@ -1467,11 +1467,11 @@ ParasEvosMoves:
 	db EV_LEVEL, 35, PARASECT
 	db 0
 ; Learnset
-	db 10, ABSORB
-	db 15, SLEEP_POWDER
-	db 20, LEECH_LIFE
-	db 25, CUT
-	db 31, SLASH
+	db 15, ABSORB
+	db 19, SLEEP_POWDER
+	db 23, LEECH_LIFE
+	db 27, CUT
+	db 32, SLASH
 	db 36, LEECH_SEED
 	db 0
 

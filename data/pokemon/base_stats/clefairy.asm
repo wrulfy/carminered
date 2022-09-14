@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/clefairy.pic", 0, 1 ; sprite dimensions
 	dw ClefairyPicFront, ClefairyPicBack
 
-	db POUND, GROWL, SING, NO_MOVE ; level 1 learnset
+	db POUND, GROWL, METRONOME, NO_MOVE ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset

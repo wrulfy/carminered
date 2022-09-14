@@ -18,7 +18,7 @@ Moves:
 	move PAY_DAY,      PAY_DAY_EFFECT,              60, NORMAL,       100, 20
 	move FIRE_PUNCH,   BURN_SIDE_EFFECT2,           75, FIRE,         100, 15
 	move ICE_PUNCH,    FREEZE_SIDE_EFFECT2,         75, ICE,          100, 15
-	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT1,       75, ELECTRIC,     100, 15
+	move THUNDERPUNCH, PARALYZE_SIDE_EFFECT2,       75, ELECTRIC,     100, 15
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,          100, 25
 	move GUILLOTINE,   RECOIL_EFFECT,              130, BUG,           90,  5
@@ -87,7 +87,7 @@ Moves:
 	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        50, GRASS,         95, 20
 	move SOLARBEAM,    NO_ADDITIONAL_EFFECT,       120, GRASS,         85,  5
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,       100, 35
-	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         90, 30
+	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         90, 20
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         70, 20
 	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   90, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN_SIDE_EFFECT,      20, BUG,          100, 40
@@ -95,7 +95,7 @@ Moves:
 	move FIRE_SPIN,    TRAPPING_EFFECT,             35, FIRE,          75, 10
 	move THUNDERSHOCK, PARALYZE_SIDE_EFFECT1,       40, ELECTRIC,     100, 30
 	move THUNDERBOLT,  PARALYZE_SIDE_EFFECT1,       95, ELECTRIC,     100, 15
-	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,     100, 20
+	move THUNDER_WAVE, PARALYZE_EFFECT,              0, ELECTRIC,      80, 25
 	move THUNDER,      PARALYZE_SIDE_EFFECT1,      120, ELECTRIC,      85,  5
 	move ROCK_THROW,   NO_ADDITIONAL_EFFECT,        40, ROCK,         100, 30
 	move EARTHQUAKE,   NO_ADDITIONAL_EFFECT,       100, GROUND,       100, 10
@@ -144,19 +144,19 @@ Moves:
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      90, BUG,          100, 15
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 10
 	move KINESIS,      ACCURACY_DOWN_SIDE_EFFECT,   50, PSYCHIC_TYPE, 100, 25
-	move SOFTBOILED,   HEAL_EFFECT,                  0, NORMAL,       100, 20
+	move SOFTBOILED,   HEAL_EFFECT,                  0, FLYING,       100, 20
 	move HI_JUMP_KICK, RECOIL_EFFECT,              120, FIGHTING,      90, 10
-	move GLARE,        PARALYZE_EFFECT,              0, NORMAL,       100, 30
+	move GLARE,        PARALYZE_EFFECT,              0, DRAGON,       100, 15
 	move DREAM_EATER,  DRAIN_HP_EFFECT,             70, GHOST,        100, 15
 	move POISON_GAS,   POISON_EFFECT,                0, POISON,        90, 10
 	move BARRAGE,      TWO_TO_FIVE_ATTACKS_EFFECT,  25, ROCK,          95, 20
 	move LEECH_LIFE,   DRAIN_HP_EFFECT,             60, BUG,          100, 20
-	move LOVELY_KISS,  SLEEP_EFFECT,                 0, NORMAL,        90, 10
+	move LOVELY_KISS,  SLEEP_EFFECT,                 0, ICE,           90, 10
 	move SKY_ATTACK,   FLINCH_SIDE_EFFECT1,        120, FLYING,        85,  5
 	move TRANSFORM,    TRANSFORM_EFFECT,             0, NORMAL,       100, 40
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      20, WATER,        100, 40
 	move DIZZY_PUNCH,  DRAIN_HP_EFFECT,             90, FIGHTING,     100, 5
-	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 10
+	move SPORE,        SLEEP_EFFECT,                 0, BUG,          100, 10
 	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, NORMAL,        85, 20
 	move PSYWAVE,      CONFUSION_SIDE_EFFECT,      120, PSYCHIC_TYPE,  85,  5
 	move SPLASH,       NO_ADDITIONAL_EFFECT,       100, FLYING,       100, 10

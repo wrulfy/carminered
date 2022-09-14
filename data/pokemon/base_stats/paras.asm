@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/paras.pic", 0, 1 ; sprite dimensions
 	dw ParasPicFront, ParasPicBack
 
-	db STRING_SHOT, SCRATCH, NO_MOVE, NO_MOVE ; level 1 learnset
+	db STRING_SHOT, SCRATCH, STUN_SPORE, NO_MOVE ; level 1 learnset
 	db GROWTH_SPECIAL ; growth rate
 
 	; tm/hm learnset
