@@ -89,7 +89,7 @@ Moves:
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,       100, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         90, 20
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         70, 20
-	move PETAL_DANCE,  THRASH_PETAL_DANCE_EFFECT,   90, GRASS,        100, 20
+	move PETAL_DANCE,  EVASION_DOWN_SIDE_EFFECT,    65, GRASS,        100, 20
 	move STRING_SHOT,  SPEED_DOWN_SIDE_EFFECT,      20, BUG,          100, 40
 	move DRAGON_RAGE,  NO_ADDITIONAL_EFFECT,       100, DRAGON,       100, 10
 	move FIRE_SPIN,    TRAPPING_EFFECT,             35, FIRE,          75, 10

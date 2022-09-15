@@ -130,5 +130,17 @@ SpecialTrainerMoves:
 	db 4, 2, CONSTRICT
 	db 4, 3, EGG_BOMB
 	db 0
+
+	db KOGA, 1
+	db 1, 1, SWORDS_DANCE
+	db 2, 1, WRAP
+	db 2, 2, POISON_GAS
+	db 3, 1, SLUDGE
+	db 3, 2, SURF
+	db 4, 1, LEECH_SEED
+	db 4, 2, POISON_GAS
+	db 5, 2, POISON_GAS
+	db 0
+
 	
 	db -1 ; end

@@ -16,9 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   ICE_BEAM,     HYPER_BEAM,   SUBMISSION,   COUNTER,      \
-	     SEISMIC_TOSS, LIGHT_SCREEN, PSYCHIC_M,    TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    DREAM_EATER,  \
-	     REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   FLASH         
+	     SEISMIC_TOSS, LIGHT_SCREEN, MEGA_DRAIN,   PSYCHIC_M,    TELEPORT,     \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     DREAM_EATER,  REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
+		 FLASH,        
 	; end
 
 	db 0 ; padding

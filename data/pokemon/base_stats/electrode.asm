@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/electrode.pic", 0, 1 ; sprite dimensions
 	dw ElectrodePicFront, ElectrodePicBack
 
-	db HEADBUTT, LIGHT_SCREEN, SELFDESTRUCT, THUNDERBOLT ; level 1 learnset
+	db HEADBUTT, LIGHT_SCREEN, SELFDESTRUCT, SONICBOOM ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

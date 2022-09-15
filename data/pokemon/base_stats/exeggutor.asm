@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/exeggutor.pic", 0, 1 ; sprite dimensions
 	dw ExeggutorPicFront, ExeggutorPicBack
 
-	db REFLECT, CONFUSION, HYPNOSIS, MEGA_DRAIN ; level 1 learnset
+	db REFLECT, CONFUSION, HYPNOSIS, PETAL_DANCE ; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

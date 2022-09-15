@@ -341,7 +341,7 @@ ExeggcuteEvosMoves:
 ; Learnset
 	db 14, CONFUSION
 	db 19, REFLECT
-	db 23, MEGA_DRAIN
+	db 23, PETAL_DANCE
 	db 27, STUN_SPORE
 	db 31, PSYBEAM
 	db 35, POISONPOWDER
@@ -581,14 +581,14 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, VINE_WHIP
-	db 20, STOMP
-	db 24, LEECH_SEED
-	db 28, POISONPOWDER
-	db 32, BIND
-	db 36, EGG_BOMB
-	db 40, SLEEP_POWDER
-	db 44, SOLAR_BEAM
+	db 18, STOMP
+	db 22, BIND
+	db 26, LEECH_SEED
+	db 30, POISONPOWDER
+	db 34, MEGA_DRAIN
+	db 38, EGG_BOMB
+	db 42, SLEEP_POWDER
+	db 46, SOLAR_BEAM
 	db 50, GROWTH
 	db 0
 
@@ -623,15 +623,15 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, GUST
-	db 23, RAGE
-	db 27, GLARE
-	db 31, STRENGTH
-	db 35, SLAM
-	db 39, DIG
-	db 43, ROAR
+	db 21, GUST
+	db 25, RAGE
+	db 29, GLARE
+	db 33, STRENGTH
+	db 37, SLAM
+	db 41, DIG
 	db 47, ROCK_SLIDE
-	db 51, DRAGON_RAGE
+	db 52, ROAR
+	db 57, DRAGON_RAGE
 	db 0
 
 FearowEvosMoves:
@@ -732,7 +732,7 @@ MrMimeEvosMoves:
 	db 23, REFLECT
 	db 24, LIGHT_SCREEN
 	db 28, PSYBEAM
-	db 32, RAZOR_LEAF
+	db 32, PETAL_DANCE
 	db 38, BARRIER
 	db 44, SUBSTITUTE
 	db 50, PSYWAVE
@@ -1059,7 +1059,7 @@ JynxEvosMoves:
 	db 37, ICE_PUNCH
 	db 42, LOVELY_KISS
 	db 48, PSYCHIC_M
-	db 54, PETAL_DANCE
+	db 54, MEGA_DRAIN
 	db 61, BLIZZARD
 	db 0
 
@@ -1792,8 +1792,9 @@ ElectrodeEvosMoves:
 ; Learnset
 	db 30, SKULL_BASH
 	db 35, SCREECH
-	db 41, EXPLOSION
-	db 47, THUNDERBOLT
+	db 39, EXPLOSION
+	db 44, THUNDERBOLT
+	db 48, GROWTH
 	db 53, HYPER_BEAM
 	db 0
 
@@ -2136,11 +2137,12 @@ MagnemiteEvosMoves:
 	db EV_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
-	db 11, LEER
-	db 16, ROCK_THROW
-	db 20, SONICBOOM
-	db 24, SUPERSONIC
-	db 28, SWIFT
+	db 10, LEER
+	db 13, FLASH
+	db 17, ROCK_THROW
+	db 21, SONICBOOM
+	db 25, SUPERSONIC
+	db 29, SWIFT
 	db 32, THUNDERBOLT
 	db 0
 
@@ -2253,7 +2255,7 @@ OddishEvosMoves:
 	db 11, ACID
 	db 14, POISONPOWDER
 	db 17, STUN_SPORE
-	db 20, MEGA_DRAIN
+	db 20, PETAL_DANCE
 	db 23, SCREECH
 	db 0
 
@@ -2265,7 +2267,7 @@ GloomEvosMoves:
 ; Learnset
 	db 25, SCREECH
 	db 30, SING
-	db 34, PETAL_DANCE
+	db 34, MEGA_DRAIN
 	db 38, SLUDGE
 	db 43, RECOVER
 	db 47, SOLARBEAM
