@@ -3,7 +3,7 @@
 	db  70, 100,  65, 100,  61
 	;   hp  atk  def  spd  spc
 
-	db NORMAL, FLYING ; type
+	db FLYING, FLYING ; type
 	db 90 ; catch rate
 	db 151 ; base exp
 
@@ -11,13 +11,13 @@
 	dw FearowPicFront, FearowPicBack
 
 	db SCRATCH, LEER, MIRROR_MOVE, FURY_ATTACK ; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm RAZOR_WIND,   WHIRLWIND,    POISON_GAS,   HORN_DRILL,   TAKE_DOWN,    \
-	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SWIFT,        SOFTBOILED,   SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY           
+	tmhm RAZOR_WIND,   WHIRLWIND,    SLUDGE,       POISON_GAS,   HORN_DRILL,   \
+	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      MIMIC,        \
+	     DOUBLE_TEAM,  BIDE,         SWIFT,        SOFTBOILED,   SKY_ATTACK,   \
+	     REST,         SUBSTITUTE,   FLY           
 	; end
 
 	db 0 ; padding

@@ -5,8 +5,8 @@ Route4WildMons:
 	db 12, RATTATA
 	db 10, JIGGLYPUFF 
 	db 11, RATTATA
-	db 13, EKANS
 	db 11, VOLTORB
+	db 13, EKANS
 	db 10, MANKEY
 	db 11, MEOWTH
 	db 13, MEOWTH

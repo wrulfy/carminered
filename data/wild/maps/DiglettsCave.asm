@@ -8,7 +8,7 @@ DiglettsCaveWildMons:
 	db 19, SANDSHREW
 	db 22, DIGLETT
 	db 14, GASTLY
-	db 22, SANDSLASH
+	db 24, SANDSLASH
 	db 26, DUGTRIO
 	end_grass_wildmons
 

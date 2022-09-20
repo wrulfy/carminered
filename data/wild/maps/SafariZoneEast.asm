@@ -1,7 +1,7 @@
 SafariZoneEastWildMons:
 	def_grass_wildmons 30 ; encounter rate
 	db 30, KANGASKHAN
-	db 22, BULBASAUR
+	db 25, BULBASAUR
 	db 30, TANGELA
 	db 30, ELECTABUZZ
 	db 30, TANGELA

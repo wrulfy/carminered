@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/sandslash.pic", 0, 1 ; sprite dimensions
 	dw SandslashPicFront, SandslashPicBack
 
-	db DEFENSE_CURL, POISON_STING, DIG, SWIFT ; level 1 learnset
+	db DIG, POISON_STING, SWIFT, VICE_GRIP ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

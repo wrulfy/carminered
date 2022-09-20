@@ -107,7 +107,7 @@ SpecialTrainerMoves:
 	db 3, 2, WHIRLWIND
 	db 0
 	db CHIEF, 3
-	db 4, 1, SLUDGE
+	db 4, 2, SLUDGE
 	db 0
 
 	db BROCK, 1
@@ -134,7 +134,7 @@ SpecialTrainerMoves:
 	db KOGA, 1
 	db 1, 1, SWORDS_DANCE
 	db 2, 1, WRAP
-	db 2, 2, POISON_GAS
+	db 2, 3, POISON_GAS
 	db 3, 1, SLUDGE
 	db 3, 2, SURF
 	db 4, 1, LEECH_SEED

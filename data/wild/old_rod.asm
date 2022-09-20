@@ -48,8 +48,8 @@ OldRodData:
 .Group2:
 	db 4
 	db 5, MAGIKARP
-	db 5, MAGIKARP
-	db 5, MAGIKARP
+	db 5, GOLDEEN
+	db 5, GOLDEEN
 	db 5, GOLDEEN
 
 .Group3:

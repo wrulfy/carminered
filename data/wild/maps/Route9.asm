@@ -9,7 +9,7 @@ Route9WildMons:
 	db 20, RATICATE
 	db 20, FEAROW
 	db 21, EKANS
-	db 22, ARBOK
+	db 24, ARBOK
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

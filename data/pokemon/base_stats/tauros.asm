@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/tauros.pic", 0, 1 ; sprite dimensions
 	dw TaurosPicFront, TaurosPicBack
 
-	db TACKLE, TAIL_WHIP, RAGE, NO_MOVE; level 1 learnset
+	db TACKLE, TAIL_WHIP, RAGE, HORN_ATTACK; level 1 learnset
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset

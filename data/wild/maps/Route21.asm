@@ -3,12 +3,12 @@ Route21WildMons:
 	db 43, TANGELA
 	db 43, RATICATE
 	db 44, MR_MIME
-	db 41, PIDGEOTTO
+	db 44, PIDGEOT
 	db 42, NIDORINA
 	db 42, NIDORINO
 	db 45, NIDOQUEEN
 	db 45, NIDOKING
-	db 44, PIDGEOT
+	db 41, PIDGEOTTO
 	db 46, PIDGEOT
 	end_grass_wildmons
 
