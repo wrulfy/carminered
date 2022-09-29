@@ -101,13 +101,26 @@ SpecialTrainerMoves:
 	db 3, 1, DREAM_EATER
 	db 4, 4, RAZOR_WIND
 	db 0
-
+	db GIOVANNI, 2
+	db 1, 2, BODY_SLAM
+	db 2, 1, THUNDERBOLT
+	db 2, 3, DREAM_EATER
+	db 3, 1, FLY
+	db 4, 1, FURY_SWIPES
+	db 5, 1, DRAGON_RAGE
+	db 0
+	
 	db CHIEF, 2
 	db 3, 1, DIG
 	db 3, 2, WHIRLWIND
 	db 0
 	db CHIEF, 3
 	db 4, 2, SLUDGE
+	db 0
+	db CHIEF, 4
+	db 3, 1, FURY_SWIPES
+	db 3, 2, BUBBLEBEAM
+	db 4, 1, SOLARBEAM
 	db 0
 
 	db BROCK, 1

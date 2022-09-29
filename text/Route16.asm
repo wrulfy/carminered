@@ -49,7 +49,7 @@ _Route16BattleText4::
 	done
 
 _Route16EndBattleText4::
-	text "Kaboom!"
+	text "Fwoosh!"
 	prompt
 
 _Route16AfterBattleText4::
@@ -85,9 +85,9 @@ _Route16EndBattleText6::
 	prompt
 
 _Route16AfterBattleText6::
-	text "I like harassing"
+	text "I like staining"
 	line "people with my"
-	cont "vicious #MON!"
+	cont "gooey #MON!"
 	done
 
 _Route16Text7::

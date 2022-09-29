@@ -1,7 +1,7 @@
 _Route18BattleText1::
 	text "I always check"
 	line "every grassy area"
-	cont "for new #MON."
+	cont "for new birds."
 	done
 
 _Route18EndBattleText1::
@@ -31,8 +31,8 @@ _Route18AfterBattleText2::
 	done
 
 _Route18BattleText3::
-	text "This is my turf!"
-	line "Get out of here!"
+	text "I love bats!"
+	line "They're the best!"
 	done
 
 _Route18EndBattleText3::
@@ -40,9 +40,9 @@ _Route18EndBattleText3::
 	prompt
 
 _Route18AfterBattleText3::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
+	text "I dont care bats"
+	line "are not birds, I"
+	cont "prefer them!"
 	done
 
 _Route18Text4::

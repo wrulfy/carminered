@@ -70,8 +70,8 @@ _Route17EndBattleText5::
 
 _Route17AfterBattleText5::
 	text "I got my VOLTORB"
-	line "at the abandoned"
-	cont "POWER PLANT."
+	line "on the grass near"
+	cont "ROCK TUNNEL."
 	done
 
 _Route17BattleText6::
@@ -106,7 +106,7 @@ _Route17AfterBattleText7::
 	done
 
 _Route17BattleText8::
-	text "Be a rebel!"
+	text "Come to mama!"
 	done
 
 _Route17EndBattleText8::
@@ -114,8 +114,9 @@ _Route17EndBattleText8::
 	prompt
 
 _Route17AfterBattleText8::
-	text "Be ready to fight"
-	line "for your beliefs!"
+	text "You shoud go back"
+	line "and visit your"
+	cont "mother more!"
 	done
 
 _Route17BattleText9::
@@ -158,11 +159,11 @@ _Route17Text12::
 	text "TRAINER TIPS"
 
 	para "All #MON are"
-	line "unique."
+	line "mostly unique."
 
 	para "Even #MON of"
 	line "the same type and"
-	cont "level grow at"
+	cont "level can grow at"
 	cont "different rates."
 	done
 
@@ -184,9 +185,9 @@ _Route17Text14::
 _Route17Text15::
 	text "It's a notice!"
 
-	para "Don't throw the"
-	line "game, throw #"
-	cont "BALLs instead!"
+	para "Don't crash the"
+	line "game, crash a"
+	cont "party instead!"
 	done
 
 _Route17Text16::
