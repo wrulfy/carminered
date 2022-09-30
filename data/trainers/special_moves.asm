@@ -23,6 +23,7 @@ SpecialTrainerMoves:
 
 	db SUPER_NERD, 1
 	db 3, 1, ACID
+	db 5, 4, ACID
 	db 0
 
 	db BURGLAR, 1

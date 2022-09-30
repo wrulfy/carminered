@@ -5,4 +5,4 @@ PrizeMonLevelDictionary:
 
 	db DRATINI,  18
 	db KANGASKHAN,  29
-	db PORYGON,  20
+	db PORYGON,  24

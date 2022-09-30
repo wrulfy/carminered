@@ -12,7 +12,7 @@ _KogaBeforeBattleText::
 
 	para "You shall feel"
 	line "the despair of"
-	cont "poison and sleep"
+	cont "poison and trap"
 	cont "techniques!"
 	done
 

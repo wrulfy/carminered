@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/gloom.pic", 0, 1 ; sprite dimensions
 	dw GloomPicFront, GloomPicBack
 
-	db POISONPOWDER, STUN_SPORE, ACID, PETAL_DANCE ; level 1 learnset
+	db POISONPOWDER, STUN_SPORE, PETAL_DANCE, ACID ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

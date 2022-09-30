@@ -1,13 +1,13 @@
 _FuchsiaMeetingRoomText1::
 	text "We nicknamed the"
-	line "WARDEN SLOWPOKE."
+	line "WARDEN TAUROS."
 
-	para "He and SLOWPOKE"
-	line "both look vacant!"
+	para "He and TAUROS"
+	line "both are hasty!"
 	done
 
 _FuchsiaMeetingRoomText2::
-	text "SLOWPOKE is very"
+	text "TAUROS is very"
 	line "knowledgeable"
 	cont "about #MON!"
 
@@ -17,7 +17,7 @@ _FuchsiaMeetingRoomText2::
 	done
 
 _FuchsiaMeetingRoomText3::
-	text "SLOWPOKE came in,"
+	text "TAUROS came in,"
 	line "but I couldn't"
 	cont "understand him."
 

@@ -2,6 +2,9 @@ _CeladonMart4Text2::
 	text "I'm getting a"
 	line "# DOLL for my"
 	cont "girl friend!"
+
+	para "It looks exactly"
+	cont "like a CLEFAIRY!"
 	done
 
 _CeladonMart4Text3::

@@ -3,8 +3,8 @@ _FuchsiaHouse1Text1::
 	line "WARDEN is old,"
 	cont "but still active!"
 
-	para "All his teeth are"
-	line "false, though."
+	para "He's a coffee"
+	line "connosieur."
 	done
 
 _FuchsiaHouse1Text2::

@@ -64,10 +64,10 @@ _HM04ExplanationText::
 	cont "in SAFARI ZONE?"
 
 	para "If you do, you"
-	line "win an HM!"
+	line "win a ROD!"
 
 	para "I hear it's the"
-	line "rare SURF HM."
+	line "rare SUPER ROD."
 	done
 
 _HM04NoRoomText::

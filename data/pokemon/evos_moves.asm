@@ -433,10 +433,10 @@ LaprasEvosMoves:
 	db 23, MIST
 	db 26, SUPERSONIC
 	db 29, SLAM
-	db 32, SURF
-	db 36, ICE_BEAM
-	db 40, BODY_SLAM
-	db 46, DRAGON_RAGE
+	db 33, SURF
+	db 37, ICE_BEAM
+	db 42, BODY_SLAM
+	db 47, DRAGON_RAGE
 	db 53, CONFUSE_RAY
 	db 60, BLIZZARD
 	db 0

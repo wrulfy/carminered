@@ -1,9 +1,9 @@
 _KogaPostBattleAdviceText::
 	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
+	line "POISON GAS,"
+	cont "#MON suffer"
+	cont "more and more as"
+	cont "the battle goes!"
 
 	para "It will surely"
 	line "terrorize foes!"
@@ -12,7 +12,7 @@ _KogaPostBattleAdviceText::
 _KogaMiasmaBadgeInfoText::
 	text "Now that you have"
 	line "the MIASMABADGE,"
-	cont "the DEFENSE of"
+	cont "the SPEED of"
 	cont "your #MON"
 	cont "increases!"
 
@@ -47,62 +47,62 @@ _TM06NoRoomText::
 	done
 
 _FuchsiaGymBattleText1::
-	text "Strength isn't"
-	line "the key for"
-	cont "#MON!"
-
-	para "It's strategy!"
-
-	para "I'll show you how"
-	line "strategy can beat"
-	cont "brute strength!"
+	text "This is ACID"
 	done
 
 _FuchsiaGymEndBattleText1::
-	text "What?"
-	line "Extraordinary!"
+	text "I'm"
+	line "giving you ACID."
 	prompt
 
 _FuchsiaGymAfterBattleText1::
-	text "So, you mix brawn"
-	line "with brains?"
-	cont "Good strategy!"
+	text "ACID is the"
+	line "latest sound"
+	cont "can you feel it,"
+	cont "all around,"
+	cont "as we dance?"
 	done
 
 _FuchsiaGymBattleText2::
-	text "I wanted to become"
-	line "a ninja, so I"
-	cont "joined this GYM!"
+	text "Master KOGA comes"
+	line "from a long line"
+	cont "of ninjas!"
+
+	para "What did you"
+	line "descend from?"
 	done
 
 _FuchsiaGymEndBattleText2::
-	text "I'm done"
-	line "for!"
+	text "Dropped"
+	line "my balls!"
 	prompt
 
 _FuchsiaGymAfterBattleText2::
-	text "I will keep on"
-	line "training under"
-	cont "KOGA, my ninja"
-	cont "master!"
+	text "Where there is"
+	line "light, there is"
+	cont "shadow!"
+
+	para "Light and shadow!"
+	line "Which do you"
+	cont "choose?"
 	done
 
 _FuchsiaGymBattleText3::
-	text "Let's see you"
-	line "beat my special"
-	cont "techniques!"
+	text "Move along, this"
+	line "is no place for"
+	cont "wimpy kids!"
 	done
 
 _FuchsiaGymEndBattleText3::
 	text "You"
-	line "had me fooled!"
+	line "think you've won?"
 	prompt
 
 _FuchsiaGymAfterBattleText3::
-	text "I like poison and"
-	line "sleep techniques,"
-	cont "as they linger"
-	cont "after battle!"
+	text "you should be"
+	line "thankful I lost"
+	cont "on prupose to not"
+	cont "make you cry!"
 	done
 
 _FuchsiaGymBattleText4::
@@ -147,27 +147,22 @@ _FuchsiaGymAfterBattleText5::
 	done
 
 _FuchsiaGymBattleText6::
-	text "Master KOGA comes"
-	line "from a long line"
-	cont "of ninjas!"
-
-	para "What did you"
-	line "descend from?"
+	text "You gotta fight"
+	line "me before Koga!"
 	done
 
 _FuchsiaGymEndBattleText6::
-	text "Dropped"
-	line "my balls!"
+	text "Whoa"
+	line "you're strong!"
 	prompt
 
 _FuchsiaGymAfterBattleText6::
-	text "Where there is"
-	line "light, there is"
-	cont "shadow!"
+	text "Koga will be much"
+	line "harder than me,"
+	cont "be ready to lose!"
 
-	para "Light and shadow!"
-	line "Which do you"
-	cont "choose?"
+	para "His strategy can"
+	line "get pretty TOXIC!"
 	done
 
 _FuchsiaGymGuidePreBattleText::
