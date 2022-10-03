@@ -17,11 +17,11 @@ _SafariZoneRestHouse4Text2::
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "My EEVEE evolved"
+	text "I evolved my EEVEE"
 	line "into FLAREON!"
 
-	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
-	cont "I wonder why?"
+	para "But, a friend"
+	line "choosed to evolve"
+	cont "his to VAPOREON!"
+	cont "That's suspicius."
 	done

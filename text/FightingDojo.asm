@@ -90,7 +90,7 @@ _FightingDojoEndBattleText3::
 _FightingDojoAfterBattleText3::
 	text "The only thing"
 	line "that frightens us"
-	cont "is psychic power!"
+	cont "is spooky ghosts!"
 	done
 
 _FightingDojoBattleText4::
@@ -114,13 +114,13 @@ _FightingDojoAfterBattleText4::
 
 _WantHitmonleeText::
 	text "You want the"
-	line "hard kicking"
+	line "fast kicking"
 	cont "HITMONLEE?"
 	done
 
 _WantHitmonchanText::
 	text "You want the"
-	line "piston punching"
+	line "element punching"
 	cont "HITMONCHAN?"
 	done
 

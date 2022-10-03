@@ -75,20 +75,20 @@ _FuchsiaCityVoltorbText::
 	line "a # BALL."
 	prompt
 
-_FuchsiaCityKangaskhanText::
-	text "Name: KANGASKHAN"
+_FuchsiaCitySlowpokeText::
+	text "Name: RHYDON"
 
-	para "A maternal #MON"
-	line "that raises its"
-	cont "young in a pouch"
-	cont "on its belly."
+	para "A fierce #MON"
+	line "that can drill"
+	cont "though diamond"
+	cont "and survive lava."
 	prompt
 
-_FuchsiaCitySlowpokeText::
-	text "Name: SLOWPOKE"
+_FuchsiaCityKangaskhanText::
+	text "Name: FARFETCH'D"
 
-	para "Friendly and very"
-	line "slow moving."
+	para "Carries a leek as"
+	line "offensive weapon."
 	prompt
 
 _FuchsiaCityLaprasText::

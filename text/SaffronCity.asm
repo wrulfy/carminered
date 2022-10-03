@@ -98,6 +98,7 @@ _SaffronCityText16::
 
 _SaffronCityText17::
 	text "FIGHTING DOJO"
+	line "Former GYM"
 	done
 
 _SaffronCityText18::
@@ -106,7 +107,7 @@ _SaffronCityText18::
 	cont "LEADER: SABRINA"
 
 	para "The Master of"
-	line "Psychic #MON!"
+	line "Ghost #MON!"
 	done
 
 _SaffronCityText20::

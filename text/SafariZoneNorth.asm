@@ -27,7 +27,7 @@ _SafariZoneNorthText6::
 _SafariZoneNorthText7::
 	text "TRAINER TIPS"
 
-	para "Win a free HM for"
-	line "finding the"
+	para "Win a free ROD"
+	line "for finding the"
 	cont "SECRET HOUSE!"
 	done

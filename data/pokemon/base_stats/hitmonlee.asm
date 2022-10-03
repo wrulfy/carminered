@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/hitmonlee.pic", 0, 1 ; sprite dimensions
 	dw HitmonleePicFront, HitmonleePicBack
 
-	db DOUBLE_KICK, MEDITATE, QUICK_ATTACK, FOCUS_ENERGY ; level 1 learnset
+	db DOUBLE_KICK, FOCUS_ENERGY, QUICK_ATTACK, MEDITATE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

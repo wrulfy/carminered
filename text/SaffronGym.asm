@@ -1,14 +1,14 @@
 _SabrinaPreBattleText::
-	text "I had a vision of"
+	text "Spirits foretold"
 	line "your arrival!"
 
-	para "I have had psychic"
-	line "powers since I"
-	cont "was a child."
+	para "I am able to talk"
+	line "with ghosts since"
+	cont "I was a child."
 
-	para "I first learned"
-	line "to bend spoons"
-	cont "with my mind."
+	para "They teached me"
+	line "about all kinds"
+	cont "of occultism."
 
 	para "I dislike fight-"
 	line "ing, but if you"
@@ -31,10 +31,10 @@ _ReceivedPolterBadgeText::
 	text_end
 
 _SabrinaPostBattleAdviceText::
-	text "Everyone has"
-	line "psychic power!"
+	text "Everyone can talk"
+	line "with spirits!"
 	cont "People just don't"
-	cont "realize it!"
+	cont "know how!"
 	done
 
 _KogaPolterBadgeInfoText::
@@ -65,7 +65,7 @@ _TM46ExplanationText::
 
 	para "TM46, CONFUSE RAY!"
 	line "It uses powerful"
-	cont "spooky waves to"
+	cont "spirit waves to"
 	cont "hurt and confuse!"
 	done
 
@@ -79,31 +79,31 @@ _SaffronGymGuidePreBattleText::
 	line "making!"
 
 	para "SABRINA's #MON"
-	line "use psychic power"
+	line "use spirit power"
 	cont "instead of force!"
 
 	para "Fighting #MON"
-	line "are weak against"
-	cont "psychic #MON!"
+	line "can't touch"
+	cont "ghost #MON!"
 
-	para "They get creamed"
-	line "before they can"
-	cont "even aim a punch!"
+	para "Their punches"
+	line "will just phase"
+	cont "though them!"
 	done
 
 _SaffronGymGuidePostBattleText::
-	text "Psychic power,"
+	text "Spirit powers,"
 	line "huh?"
 
 	para "If I had that,"
-	line "I'd make a bundle"
-	cont "at the slots!"
+	line "I'd would con"
+	cont "lots of people!"
 	done
 
 _SaffronGymBattleText1::
 	text "SABRINA is younger"
-	line "than I, but I"
-	cont "respect her!"
+	line "than I, she's a"
+	cont "better exorcist!"
 	done
 
 _SaffronGymEndBattleText1::
@@ -133,9 +133,9 @@ _SaffronGymEndBattleText2::
 	prompt
 
 _SaffronGymAfterBattleText2::
-	text "Psychic #MON"
-	line "fear only ghosts"
-	cont "and bugs!"
+	text "Ghost #MON"
+	line "fear only other"
+	cont "ghosts, and bugs!"
 	done
 
 _SaffronGymBattleText3::
@@ -187,9 +187,9 @@ _SaffronGymEndBattleText5::
 	prompt
 
 _SaffronGymAfterBattleText5::
-	text "I knew that this"
-	line "was going to take"
-	cont "place."
+	text "I foretold that"
+	line "this was going to"
+	cont "take place."
 	done
 
 _SaffronGymBattleText6::
@@ -202,8 +202,8 @@ _SaffronGymBattleText6::
 	done
 
 _SaffronGymEndBattleText6::
-	text "I lost"
-	line "my concentration!"
+	text "My"
+	line "poor spirits!"
 	prompt
 
 _SaffronGymAfterBattleText6::
@@ -215,13 +215,13 @@ _SaffronGymAfterBattleText6::
 	line "next door lost"
 	cont "its GYM status"
 	cont "when we went and"
-	cont "creamed them!"
+	cont "spooked them!"
 	done
 
 _SaffronGymBattleText7::
 	text "SAFFRON #MON"
 	line "GYM is famous for"
-	cont "its psychics!"
+	cont "its channelers!"
 
 	para "You want to see"
 	line "SABRINA!"
@@ -233,7 +233,7 @@ _SaffronGymEndBattleText7::
 	prompt
 
 _SaffronGymAfterBattleText7::
-	text "That's right! I"
-	line "used telepathy to"
-	cont "read your mind!"
+	text "We often do trips"
+	line "to LAVENDER to"
+	cont "help with wakes!"
 	done
