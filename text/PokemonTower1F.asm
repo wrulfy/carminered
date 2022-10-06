@@ -13,7 +13,7 @@ _PokemonTower1Text2::
 
 _PokemonTower1Text3::
 	text "I came to pray"
-	line "for my CLEFAIRY."
+	line "for my CUBONE."
 
 	para "Sniff! I can't"
 	line "stop crying..."

@@ -386,10 +386,11 @@ _OaksLabText_44201::
 	done
 
 _OaksLabText_44206::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "You're right on"
+	line "the track! Get a"
+	cont "FLASH HM from my"
+	cont "AIDE at MT.MOON"
+	cont "#MON CENTER!"
 	done
 
 _OaksLabText_4420b::
@@ -403,7 +404,8 @@ _OaksLabText_44210::
 	text "Good, you're"
 	line "trying hard!"
 	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	cont "from my AIDE at"
+	cont "ROUTE 11 GATE!"
 	done
 
 _OaksLabText_44215::
@@ -417,7 +419,7 @@ _OaksLabText_4421a::
 	line "least 50 species!"
 	cont "Be sure to get"
 	cont "EXP.ALL from my"
-	cont "AIDE!"
+	cont "AIDE at ROUTE 15!"
 	done
 
 _OaksLabText_4421f::

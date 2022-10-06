@@ -29,7 +29,7 @@ ELSE
 ENDC
 	db JOLTEON, 56
 	db DUGTRIO, 56
-	db ARTICUNO, 57
+	db JYNX, 99
 IF DEF(_DEBUG)
 	db PIKACHU, 5
 ENDC
@@ -70,20 +70,20 @@ IF DEF(_DEBUG)
 	ld [hli], a
 	ld [hl], a
 
-	; Jolteon gets Thunderbolt.
+	; Jolteon gets FLASH.
 	ld hl, wPartyMon3Moves + 3
-	ld a, THUNDERBOLT
+	ld a, FLASH
 	ld [hl], a
 	ld hl, wPartyMon3PP + 3
-	ld a, 15
+	ld a, 20
 	ld [hl], a
 
-	; Articuno gets Fly.
-	ld hl, wPartyMon5Moves
-	ld a, FLY
+	; JYNX gets Fly.
+	ld hl, wPartyMon5Moves + 3
+	ld a, ICE_BEAM
 	ld [hl], a
-	ld hl, wPartyMon5PP
-	ld a, 15
+	ld hl, wPartyMon5PP + 3
+	ld a, 10
 	ld [hl], a
 
 	; Pikachu gets Surf.

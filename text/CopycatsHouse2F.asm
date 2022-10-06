@@ -78,9 +78,9 @@ _CopycatsHouse2FText3::
 	done
 
 _CopycatsHouse2FText6::
-	text "A game with MARIO"
-	line "wearing a bucket"
-	cont "on his head!"
+	text "A game with a"
+	line "miner digging in"
+	cont "a dark cave!"
 	done
 
 _CopycatsHouse2FText_5cd17::

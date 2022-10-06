@@ -27,9 +27,10 @@ _RocketHideout4Text_45584::
 	done
 
 _RocketHideout4BattleText2::
-	text "I know you! You"
-	line "ruined our plans"
-	cont "at MT.MOON!"
+	text "I know you! My"
+	line "grunts told me"
+	cont "you ruined our"
+	cont "plans at MT.MOON!"
 	done
 
 _RocketHideout4EndBattleText2::

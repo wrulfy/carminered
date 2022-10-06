@@ -61,7 +61,7 @@ MonPartyData:
 	nybble ICON_QUADRUPED ; Arcanine
 	nybble ICON_WATER     ; Poliwag
 	nybble ICON_WATER     ; Poliwhirl
-	nybble ICON_MON       ; Poliwrath
+	nybble ICON_WATER     ; Poliwrath
 	nybble ICON_MON       ; Abra
 	nybble ICON_MON       ; Kadabra
 	nybble ICON_MON       ; Alakazam
@@ -87,13 +87,13 @@ MonPartyData:
 	nybble ICON_BIRD      ; Dodrio
 	nybble ICON_WATER     ; Seel
 	nybble ICON_WATER     ; Dewgong
-	nybble ICON_MON       ; Grimer
-	nybble ICON_MON       ; Muk
+	nybble ICON_BALL      ; Grimer
+	nybble ICON_BALL      ; Muk
 	nybble ICON_HELIX     ; Shellder
 	nybble ICON_HELIX     ; Cloyster
 	nybble ICON_BALL      ; Gastly
 	nybble ICON_BALL      ; Haunter
-	nybble ICON_MON       ; Gengar
+	nybble ICON_BALL      ; Gengar
 	nybble ICON_SNAKE     ; Onix
 	nybble ICON_MON       ; Drowzee
 	nybble ICON_MON       ; Hypno

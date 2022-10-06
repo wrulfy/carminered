@@ -25,11 +25,13 @@ _MomHealText2::
 
 _StandByMeText::
 	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	line "on TV. A man has"
+	cont "sprouted on the"
+	cont "farmland and two"
+	cont "guys discuss it"
+	cont "with the farmer."
 
-	para "I better go too."
+	para "I should go now."
 	done
 
 _TVWrongSideText::

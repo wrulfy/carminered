@@ -44,7 +44,7 @@ _ErikaPostBattleAdviceText::
 	para "I would never"
 	line "collect #MON"
 	cont "if they weren't"
-	cont "Invertebrates."
+	cont "invertebrates."
 	done
 
 _ErikaGrubBadgeInfoText::

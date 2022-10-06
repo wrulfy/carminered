@@ -4,8 +4,8 @@ _Route2BattleText1::
 	done
 
 _Route2EndBattleText1::
-	text "That was a"
-	line "fun battle!"
+	text "That was"
+	line "a fun battle!"
 	prompt
 
 _Route2AfterBattleText1::

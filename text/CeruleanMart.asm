@@ -1,7 +1,7 @@
 _CeruleanMartText2::
 	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	line "low level #MON"
+	cont "away from you."
 
 	para "Put your strongest"
 	line "#MON at the"
