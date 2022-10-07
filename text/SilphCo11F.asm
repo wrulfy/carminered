@@ -109,13 +109,17 @@ _SilphCo11EndBattleText1::
 
 _SilphCo11AfterBattleText1::
 	text "So, you want to"
-	line "see my BOSS?"
+	line "see our BOSS?"
+
+	para "You will have to"
+	line "find the other"
+	cont "way arund!"
 	done
 
 _SilphCo11BattleText2::
 	text "Halt! Do you have"
 	line "an appointment"
-	cont "with my BOSS?"
+	cont "with the BOSS?"
 	done
 
 _SilphCo11EndBattleText2::
@@ -125,8 +129,9 @@ _SilphCo11EndBattleText2::
 
 _SilphCo11AfterBattleText2::
 	text "Watch your step,"
-	line "my BOSS likes his"
-	cont "#MON tough!"
+	line "the BOSS likes"
+	cont "his #MON"
+	cont "pretty tough!"
 	done
 
 _SilphCo10Text_6237b::

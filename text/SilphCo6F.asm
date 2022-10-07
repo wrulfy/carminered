@@ -75,9 +75,9 @@ _SilphCo6BattleText3::
 	text "That rotten"
 	line "PRESIDENT!"
 
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	para "He should've let"
+	line "me telework from"
+	cont "my own house!"
 	done
 
 _SilphCo6EndBattleText3::
@@ -85,9 +85,9 @@ _SilphCo6EndBattleText3::
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "The President"
+	line "gets bored when"
+	cont "we're not here!"
 	done
 
 _SilphCo6BattleText4::

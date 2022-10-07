@@ -6,7 +6,7 @@ _SilphCo5EndBattleText4::
 _SilphCo5AfterBattleText4::
 	text "You're only on 5F."
 	line "It's a long way"
-	cont "to my BOSS!"
+	cont "to our BOSS!"
 	done
 
 _SilphCo5BattleText5::
@@ -49,7 +49,7 @@ _SilphCo5Text11::
 	text "It's a #MON"
 	line "REPORT!"
 
-	para "4 #MON evolve"
-	line "only when traded"
-	cont "by link-cable."
+	para "Most #MON that"
+	line "evolve by stone"
+	cont "also do by LEVEL."
 	done

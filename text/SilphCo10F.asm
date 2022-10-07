@@ -10,7 +10,7 @@ _SilphCo10Text_5a1d8::
 
 _SilphCo10BattleText1::
 	text "Welcome to the"
-	line "10F! So good of"
+	line "B1F! So good of"
 	cont "you to join me!"
 	done
 
@@ -21,8 +21,8 @@ _SilphCo10EndBattleText1::
 
 _SilphCo10AfterBattleText1::
 	text "Nice try, but the"
-	line "boardroom is up"
-	cont "one more floor!"
+	line "boardroom is on"
+	cont "the upmost floor!"
 	done
 
 _SilphCo10BattleText2::
@@ -36,23 +36,24 @@ _SilphCo10EndBattleText2::
 	prompt
 
 _SilphCo10AfterBattleText2::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "A CARD KEY? There"
+	line "is no such thing"
+	cont "over here, no!"
 	done
 
 _SilphCo10BattleText3::
-	text "Enough of your"
-	line "silly games!"
+	text "Don't you see I'm"
+	line "busy over here?"
 	done
 
 _SilphCo10EndBattleText3::
-	text "No"
-	line "continues left!"
+	text "Darn"
+	line "meddling kid!"
 	prompt
 
 _SilphCo10AfterBattleText3::
-	text "Are you satisfied"
-	line "with beating me?"
-	cont "Then go on home!"
+	text "I'm flooding the"
+	line "basement to mess"
+	cont "with SILPH CO.'s"
+	cont "security servers."
 	done

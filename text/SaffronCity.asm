@@ -69,7 +69,7 @@ _SaffronCityText12::
 	text_end
 
 _SaffronCityText13::
-	text "I saw ROCKET"
+	text "I saw ROCKET's"
 	line "BOSS escaping"
 	cont "SILPH's building."
 	done

@@ -23,8 +23,9 @@ _HeresYourLaprasText::
 	cont "for LAPRAS!"
 
 	para "It's a good"
-	line "swimmer. It'll"
-	cont "give you a lift!"
+	line "swimmer. It even"
+	cont "learns SURF by"
+	cont "itself!"
 	done
 
 _LaprasGuyText::
@@ -89,8 +90,8 @@ _SilphCo7EndBattleText1::
 	prompt
 
 _SilphCo7AfterBattleText1::
-	text "You won't find my"
-	line "BOSS by just"
+	text "You won't find"
+	line "our BOSS by just"
 	cont "scurrying around!"
 	done
 
@@ -140,7 +141,7 @@ _SilphCo7EndBattleText4::
 
 _SilphCo7AfterBattleText4::
 	text "Go on home"
-	line "before my BOSS"
+	line "before our BOSS"
 	cont "gets ticked off!"
 	done
 
@@ -169,7 +170,7 @@ _SilphCo7Text_51ec3::
 _SilphCo7Text_51ec8::
 	text "Oh ho!"
 	line "So, you are ready"
-	cont "for BOSS ROCKET!"
+	cont "for their BOSS!"
 	prompt
 
 _SilphCo7Text_51ecd::

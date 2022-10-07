@@ -20,7 +20,7 @@ _SilphCo4EndBattleText2::
 
 _SilphCo4AfterBattleText2::
 	text "Fwahahaha!"
-	line "My BOSS has been"
+	line "Our BOSS has been"
 	cont "after this place!"
 	done
 
@@ -51,6 +51,6 @@ _SilphCo4EndBattleText4::
 	prompt
 
 _SilphCo4AfterBattleText4::
-	text "I better tell the"
+	text "I better tell our"
 	line "BOSS on 10F!"
 	done

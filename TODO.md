@@ -17,3 +17,7 @@ finish adding the special moves to trainers
 
 text extensively that the victory road 2f works fine after moving moltres
 check that I don't have to move the check events from routes regarding moltres
+
+tweak the great/ultra balls to see the results of alteratios in the formula for a better rebalance
+
+see if its possible to alter the way exp.all works, to see if I can make it not halve XP before sharing, so it works like a gen+ exp share. also maybe make it a key item so is not soldable but still storable
