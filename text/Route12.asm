@@ -124,9 +124,9 @@ _Route12EndBattleText7::
 	prompt
 
 _Route12AfterBattleText7::
-	text "I catch MAGIKARP"
-	line "all the time, but"
-	cont "they're so weak!"
+	text "If you only hook"
+	line "MAGIKARP, use a"
+	cont "a better ROD!"
 	done
 
 _Route12Text11::

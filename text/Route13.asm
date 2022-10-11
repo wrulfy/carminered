@@ -15,19 +15,20 @@ _Route13AfterBattleText2::
 	done
 
 _Route13BattleText3::
-	text "I'm told I'm good"
-	line "for a kid!"
+	text "Did you meet a"
+	line "salesman back in"
+	cont "FUCHSIA CITY?"
 	done
 
 _Route13EndBattleText3::
 	text "Ohh!"
-	line "I lost!"
+	line "my poor DITTO!"
 	prompt
 
 _Route13AfterBattleText3::
-	text "I want to become"
-	line "a good trainer."
-	cont "I'll train hard."
+	text "I got bummed at"
+	line "first but I ended"
+	cont "loving my DITTO!"
 	done
 
 _Route13BattleText4::
@@ -105,9 +106,9 @@ _Route13EndBattleText8::
 	prompt
 
 _Route13AfterBattleText8::
-	text "I wonder which is"
-	line "stronger, male or"
-	cont "female #MON?"
+	text "I used elemental"
+	line "stones to evolve"
+	cont "early my #MON."
 	done
 
 _Route13BattleText9::
@@ -124,7 +125,7 @@ _Route13AfterBattleText9::
 	text "I don't know"
 	line "anything about"
 	cont "#MON. I just"
-	cont "like cool ones!"
+	cont "like cute ones!"
 	done
 
 _Route13BattleText10::

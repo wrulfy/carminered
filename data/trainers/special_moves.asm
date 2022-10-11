@@ -38,6 +38,19 @@ SpecialTrainerMoves:
 	db 1, 3, PECK
 	db 0
 
+	db BIRDKEEPER, 14
+	db 3, 2, RAZOR_WIND
+	db 0
+	db BIRDKEEPER, 15
+	db 2, 2, RAZOR_WIND
+	db 0
+	db BIRDKEEPER, 16
+	db 3, 1, RAZOR_WIND
+	db 0
+	db BIRDKEEPER, 17
+	db 4, 3, FLY
+	db 0
+
 	db ROCKET, 5
 	db 1, 2, DIG
 	db 2, 4, DIG

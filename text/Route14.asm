@@ -1,5 +1,5 @@
 _Route14BattleText1::
-	text "You need to use"
+	text "You might need"
 	line "TMs to teach good"
 	cont "moves to #MON!"
 	done
@@ -11,9 +11,9 @@ _Route14EndBattleText1::
 
 _Route14AfterBattleText1::
 	text "You have some HMs"
-	line "right? #MON"
-	cont "can't ever forget"
-	cont "those moves."
+	line "right? Those can"
+	cont "be used over and"
+	cont "over again."
 	done
 
 _Route14BattleText2::
@@ -28,8 +28,9 @@ _Route14EndBattleText2::
 	prompt
 
 _Route14AfterBattleText2::
-	text "They need to learn"
-	line "better moves."
+	text "They still have"
+	line "to learn their"
+	cont "best moves."
 	done
 
 _Route14BattleText3::

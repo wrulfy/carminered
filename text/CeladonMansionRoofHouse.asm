@@ -1,10 +1,10 @@
 _CeladonMansion5Text1::
-	text "I know everything"
-	line "about the world"
-	cont "of #MON in"
-	cont "your GAME BOY!"
+	text "I've caught over"
+	line "1000 EEVEE though"
+	cont "my life! You can"
+	cont "have this one!"
 
-	para "Get together with"
-	line "your friends and"
-	cont "trade #MON!"
+	para "Evolve it with the"
+	line "stones sold at"
+	cont "WISEMAN GIFTS!"
 	done

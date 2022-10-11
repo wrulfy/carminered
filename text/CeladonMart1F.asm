@@ -1,4 +1,4 @@
-_CeladonMart1Text1::
+_CeladonMart1Text1::;
 	text "Hello! Welcome to"
 	line "CELADON DEPT."
 	cont "STORE."

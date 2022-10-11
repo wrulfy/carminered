@@ -4,7 +4,7 @@ _CeladonMart2Text3::
 	cont "bay..."
 
 	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	line "lasting REPEL!"
 	done
 
 _CeladonMart2Text4::

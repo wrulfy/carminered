@@ -1,4 +1,4 @@
-_CeladonDinerText1::
+_CeladonDinerText1::;
 	text "Hi!"
 
 	para "We're taking a"

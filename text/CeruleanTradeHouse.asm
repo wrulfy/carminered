@@ -5,5 +5,5 @@ _CeruleanHouse1Text1::
 	para "If you are a"
 	line "collector, would"
 	cont "you please trade"
-	cont "with him?"
+	cont "with him, please?"
 	done

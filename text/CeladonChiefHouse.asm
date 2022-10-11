@@ -9,7 +9,7 @@ _CeladonHouseText2::
 
 	para "We just shipped"
 	line "2000 #MON as"
-	cont "slot prizes!"
+	cont "coin prizes!"
 	done
 
 _CeladonHouseText3::

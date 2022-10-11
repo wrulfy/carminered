@@ -1,4 +1,4 @@
-_CeruleanPokecenterText2::
+_CeruleanPokecenterText2::;
 	text "That BILL!"
 
 	para "I heard that"

@@ -19,7 +19,7 @@ _TM41ExplanationText::
 
 	para "This move heals"
 	line "other #MON"
-	cont "with its own HP"
+	cont "with its own HP,"
 	cont "so use it wisely."
 	done
 
@@ -32,7 +32,7 @@ _Route12GateUpstairsText_495b8::
 	text "Looked into the"
 	line "binoculars."
 
-	para "A man fishing!"
+	para "A man is fishing!"
 	done
 
 _Route12GateUpstairsText_495c4::

@@ -1052,7 +1052,7 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, SING
+	db 24, HYPNOSIS
 	db 27, PSYBEAM
 	db 31, BODY_SLAM
 	db 35, ICE_PUNCH
