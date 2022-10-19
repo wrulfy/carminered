@@ -12,11 +12,6 @@ SpecialTrainerMoves:
 	db 1, 3, HORN_ATTACK
 	db 0
 
-	db BUG_CATCHER, 12
-	db 1, 2, MEGA_DRAIN
-	db 1, 2, TAKE_DOWN
-	db 0
-
 	db BUG_CATCHER, 13
 	db 1, 1, WING_ATTACK
 	db 0
@@ -144,6 +139,7 @@ SpecialTrainerMoves:
 
 	db MISTY, 1
 	db 3, 3, MIST
+	db 3, 4, AURORA_BEAM
 	db 0
 
 	db LT_SURGE, 1
@@ -154,6 +150,7 @@ SpecialTrainerMoves:
 
 	db ERIKA, 1
 	db 1, 1, DIG
+	db 3, 1, DREAM_EATER
 	db 4, 2, CONSTRICT
 	db 4, 3, EGG_BOMB
 	db 0
@@ -169,5 +166,13 @@ SpecialTrainerMoves:
 	db 5, 2, POISON_GAS
 	db 0
 
+	db KOGA, 1
+	db 1, 1, CONFUSE_RAY
+	db 1, 2, CONSTRICT
+	db 2, 1, CONFUSE_RAY
+	db 3, 2, MEGA_DRAIN
+	db 5, 1, CONFUSE_RAY
+	db 5, 2, SKY_ATTACK
+	db 5, 3, ICE_BEAM
 	
 	db -1 ; end

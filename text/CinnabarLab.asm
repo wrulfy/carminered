@@ -25,5 +25,5 @@ _Lab1Text4::
 
 _Lab1Text5::
 	text "#MON LAB"
-	line "Testing Room"
+	line "Storage Room"
 	done

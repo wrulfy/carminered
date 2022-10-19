@@ -5,29 +5,31 @@ _BlainePreBattleText::
 	line "am the LEADER of"
 	cont "CINNABAR GYM!"
 
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
+	para "My electrifying"
+	line "#MON will"
+	cont "shock all"
+	cont "the challengers!"
+
 
 	para "Hah! You better"
-	line "have BURN HEAL!"
+	line "have PARLYZ HEAL!"
 	done
 
 _ReceivedPowerBadgeText::
 	text "I have"
-	line "burnt out!"
+	line "low battery!"
 
 	para "You have earned"
 	line "the POWERBADGE!@"
 	text_end
 
 _BlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
+	text "THUNDER WAVE is"
+	line "an essential tool"
+	cont "for competitive!"
 
 	para "Don't waste it on"
-	line "water #MON!"
+	line "weak #MON!"
 	done
 
 _BlainePowerBadgeInfoText::
@@ -70,39 +72,40 @@ _TM45NoRoomText::
 
 _CinnabarGymBattleText2::
 	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
+	line "high-voltage"
+	cont "#MON's electric"
+	cont "attacks can get?"
 	done
 
 _CinnabarGymEndBattleText2::
 	text "Yow!"
-	line "Hot, hot, hot!"
+	line "Electrocuted!"
 	prompt
 
 _CinnabarGymAfterBattleText2::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion..."
+	text "Lightning, or to"
+	line "be more precise,"
+	cont "electrostatic"
+	cont "discharges"
 
 	para "Blah, blah, blah,"
 	line "blah..."
 	done
 
 _CinnabarGymBattleText1::
-	text "I was a thief, but"
-	line "I became straight"
-	cont "as a trainer!"
+	text "I love using"
+	line "ball #MON!"
 	done
 
 _CinnabarGymEndBattleText1::
-	text "I"
-	line "surrender!"
+	text "Back to"
+	line "pondering my orb."
 	prompt
 
 _CinnabarGymAfterBattleText1::
-	text "I can't help"
-	line "stealing other"
-	cont "people's #MON!"
+	text "I just like round"
+	line "#MON! Nothing"
+	cont "wrong with that!"
 	done
 
 _CinnabarGymBattleText3::
@@ -123,20 +126,22 @@ _CinnabarGymAfterBattleText3::
 	done
 
 _CinnabarGymBattleText4::
-	text "I just like using"
-	line "fire #MON!"
+	text "Hello, I work at"
+	line "the nearby POWER"
+	cont "PLANT!"
 	done
-
+	
 _CinnabarGymEndBattleText4::
-	text "Too hot"
-	line "to handle!"
+	text "My"
+	line "shift's over!"
 	prompt
 
 _CinnabarGymAfterBattleText4::
-	text "I wish there was"
-	line "a thief #MON!"
-	cont "I'd use that!"
-	done
+	text "We used to burn"
+	line "natural gas, but"
+	cont "we switched to be"
+	cont "geothermal power!"
+	done	
 
 _CinnabarGymBattleText5::
 	text "I know why BLAINE"
@@ -149,35 +154,37 @@ _CinnabarGymEndBattleText5::
 
 _CinnabarGymAfterBattleText5::
 	text "BLAINE was lost"
-	line "in the mountains"
-	cont "when a fiery bird"
+	line "in the seas when"
+	cont "a thunder bird"
 	cont "#MON appeared."
 
-	para "Its light enabled"
-	line "BLAINE to find"
-	cont "his way down!"
+	para "Its lightning let"
+	line "BLAINE find his"
+	cont "way to the shore!"
 	done
 
 _CinnabarGymBattleText6::
-	text "I've been to many"
-	line "GYMs, but this is"
-	cont "my favorite!"
+	text "BLAINE really is a"
+	line "strong LEADER, but"
+	cont "these quiz are"
+	cont "just silly!"
 	done
 
 _CinnabarGymEndBattleText6::
-	text "Yowza!"
-	line "Too hot!"
+	text "Welp!"
+	line "Lost my temper!"
 	prompt
 
 _CinnabarGymAfterBattleText6::
-	text "Us fire #MON"
-	line "fans like PONYTA"
-	cont "and NINETALES!"
+	text "I keep forgetting"
+	line "he made the quiz"
+	cont "thing with young"
+	cont "trainers in mind."
 	done
 
 _CinnabarGymBattleText7::
-	text "Fire is weak"
-	line "against H2O!"
+	text "Electricity loses"
+	line "against ground!"
 	done
 
 _CinnabarGymEndBattleText7::
@@ -186,27 +193,29 @@ _CinnabarGymEndBattleText7::
 	prompt
 
 _CinnabarGymAfterBattleText7::
-	text "Water beats fire!"
-	line "But, fire melts"
-	cont "ice #MON!"
+	text "Ground beats"
+	line "electricity, but"
+	cont "fries down bird"
+	cont "#MON!"
 	done
 
 _CinnabarGymGuidePreBattleText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
+	para "The electrifying"
+	line "BLAINE is an"
+	cont "electric #MON pro!"
 
-	para "Douse his spirits"
-	line "with water!"
+
+	para "Crush his spirits"
+	line "with quakes!"
 
 	para "You better take"
-	line "some BURN HEALs!"
+	line "some PARLYZ HEAL!"
 	done
 
 _CinnabarGymGuidePostBattleText::
 	text "<PLAYER>! You beat"
-	line "that fire brand!"
+	line "that thunderbald!"
 	done

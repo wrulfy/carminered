@@ -51,5 +51,5 @@ _SilphCo5Text11::
 
 	para "Most #MON that"
 	line "evolve by stone"
-	cont "also do by LEVEL."
+	cont "also do by level."
 	done

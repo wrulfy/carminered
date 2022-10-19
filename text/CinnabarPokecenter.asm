@@ -6,6 +6,10 @@ _CinnabarPokecenterText2::
 	line "evolving, you can"
 	cont "stop it and leave"
 	cont "it the way it is."
+
+	para "Although I don't"
+	line "see why you would"
+	cont "want to do that."
 	done
 
 _CinnabarPokecenterText3::

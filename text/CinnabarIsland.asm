@@ -6,7 +6,7 @@ _CinnabarIslandText1::
 	done
 
 _CinnabarIslandText2::
-	text "The Ol'POWER PLANT"
+	text "The POWER PLANT"
 	line "is overrun by wild"
 	cont "#MON but still"
 	cont "works nonetheless"
@@ -27,6 +27,6 @@ _CinnabarIslandText7::
 	line "#MON GYM"
 	cont "LEADER: BLAINE"
 
-	para "The Lightning"
+	para "The electrifying"
 	line "Quiz Master!"
 	done
