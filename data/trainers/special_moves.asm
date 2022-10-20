@@ -29,6 +29,10 @@ SpecialTrainerMoves:
 	db 1, 4, THUNDERSHOCK
 	db 0
 
+	db HIKER, 15
+	db 1, 1, SURF
+	db 0
+
 	db SAILOR, 3
 	db 1, 3, PECK
 	db 0
@@ -151,8 +155,8 @@ SpecialTrainerMoves:
 	db ERIKA, 1
 	db 1, 1, DIG
 	db 3, 1, DREAM_EATER
+	db 4, 1, EGG_BOMB
 	db 4, 2, CONSTRICT
-	db 4, 3, EGG_BOMB
 	db 0
 
 	db KOGA, 1

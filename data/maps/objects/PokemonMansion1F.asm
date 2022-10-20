@@ -14,7 +14,7 @@ PokemonMansion1F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 15, 19, SPRITE_SCIENTIST, STAY, LEFT, 1, OPP_SCIENTIST, 4
+	object_event 15, 19, SPRITE_SCIENTIST, STAY, LEFT, 1, OPP_SCIENTIST, 12
 	object_event 14,  3, SPRITE_POKE_BALL, STAY, NONE, 2, ESCAPE_ROPE
 	object_event 22, 19, SPRITE_POKE_BALL, STAY, NONE, 3, CARBOS
 

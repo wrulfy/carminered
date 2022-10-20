@@ -1240,13 +1240,13 @@ KabutoEvosMoves:
 	db 0
 ; Learnset
 	db 22, VICEGRIP
-	db 31, DIG
-	db 35, MEGA_DRAIN
+	db 31, MEGA_DRAIN
+	db 35, DIG
 	db 39, BARRAGE
 	db 42, SWORDS_DANCE
 	db 0
 
-KabutopsEvosMoves:
+EvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
