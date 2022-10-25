@@ -170,7 +170,7 @@ SpecialTrainerMoves:
 	db 5, 2, POISON_GAS
 	db 0
 
-	db KOGA, 1
+	db SABRINA, 1
 	db 1, 1, CONFUSE_RAY
 	db 1, 2, CONSTRICT
 	db 2, 1, CONFUSE_RAY

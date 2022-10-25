@@ -22,6 +22,7 @@ Route21_TextPointers:
 	dw Route21Text7
 	dw Route21Text8
 	dw Route21Text9
+	dw Route21Text10
 
 Route21TrainerHeaders:
 	def_trainers
@@ -43,6 +44,8 @@ Route21TrainerHeader7:
 	trainer EVENT_BEAT_ROUTE_21_TRAINER_7, 0, Route21BattleText8, Route21EndBattleText8, Route21AfterBattleText8
 Route21TrainerHeader8:
 	trainer EVENT_BEAT_ROUTE_21_TRAINER_8, 0, Route21BattleText9, Route21EndBattleText9, Route21AfterBattleText9
+Route21TrainerHeader9:
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_9, 4, Route21BattleText10, Route21EndBattleText10, Route21AfterBattleText10
 	db -1 ; end
 
 Route21Text1:
@@ -96,6 +99,12 @@ Route21Text8:
 Route21Text9:
 	text_asm
 	ld hl, Route21TrainerHeader8
+	call TalkToTrainer
+	jp TextScriptEnd
+
+Route21Text10:
+	text_asm
+	ld hl, Route21TrainerHeader9
 	call TalkToTrainer
 	jp TextScriptEnd
 
@@ -205,4 +214,16 @@ Route21EndBattleText9:
 
 Route21AfterBattleText9:
 	text_far _Route21AfterBattleText9
+	text_end
+
+Route21BattleText10:
+	text_far _Route21BattleText10
+	text_end
+
+Route21EndBattleText10:
+	text_far _Route21EndBattleText10
+	text_end
+
+Route21AfterBattleText10:
+	text_far _Route21AfterBattleText10
 	text_end

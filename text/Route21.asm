@@ -59,18 +59,20 @@ _Route21AfterBattleText4::
 	done
 
 _Route21BattleText5::
-	text "I caught all my"
-	line "#MON at sea!"
+	text "Right now, I'm in"
+	line "a triathlon meet!"
 	done
 
 _Route21EndBattleText5::
-	text "Diver!!"
-	line "Down!!"
+	text "Pant..."
+	line "pant...pant..."
 	prompt
 
 _Route21AfterBattleText5::
-	text "Where'd you catch"
-	line "your #MON?"
+	text "I'm beat!"
+	line "But, I still have"
+	cont "the bike race and"
+	cont "marathon left!"
 	done
 
 _Route21BattleText6::
@@ -91,7 +93,7 @@ _Route21AfterBattleText6::
 	done
 
 _Route21BattleText7::
-	text "Ahh! Feel the sun"
+	text "Ahh! Feel the sea"
 	line "and the wind!"
 	done
 
@@ -101,13 +103,13 @@ _Route21EndBattleText7::
 	prompt
 
 _Route21AfterBattleText7::
-	text "I'm sunburnt to a"
-	line "crisp!"
+	text "I used to be quite"
+	line "the fast swimmer!"
 	done
 
 _Route21BattleText8::
-	text "Hey, don't scare"
-	line "away the fish!"
+	text "I'm not weak just"
+	line "because I'm young!"
 	done
 
 _Route21EndBattleText8::
@@ -117,21 +119,37 @@ _Route21EndBattleText8::
 
 _Route21AfterBattleText8::
 	text "I was just angry"
-	line "that I couldn't"
-	cont "catch anything."
+	line "because I trained"
+	cont "a whole lot."
 	done
 
 _Route21BattleText9::
-	text "Keep me company"
-	line "'til I get a hit!"
+	text "Behold my magestic"
+	line "bird!"
+	done
+
+_Route21EndBattleText9::
+	text "Oh,"
+	line "my poor bird!"
+	prompt
+
+_Route21AfterBattleText9::
+	text "A DRAGON is just a"
+	line "very fancy bird!"
+	done
+
+_Route21BattleText9::
+	text "Hello! I'm walking"
+	line "on water by using"
+	cont "my telekinesis!"
 	done
 
 _Route21EndBattleText9::
 	text "That"
-	line "burned some time."
+	line "was impressive."
 	prompt
 
 _Route21AfterBattleText9::
-	text "Oh wait! I got a"
-	line "bite! Yeah!"
+	text "My next goal is to"
+	line "walk on thin air!"
 	done

@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, \
-	     THUNDERBOLT,  PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    SWIFT,        REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   STRENGTH,     FLASH         
+	     THUNDERBOLT,  EARTHQUAKE,   PSYCHIC_M,    TELEPORT,     MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    SWIFT,        \
+	     REST,         THUNDER_WAVE, SUBSTITUTE,   STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

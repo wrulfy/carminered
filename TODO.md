@@ -21,3 +21,7 @@ check that I don't have to move the check events from routes regarding moltres
 tweak the great/ultra balls to see the results of alteratios in the formula for a better rebalance
 
 see if its possible to alter the way exp.all works, to see if I can make it not halve XP before sharing, so it works like a gen+ exp share. also maybe make it a key item so is not soldable but still storable
+
+
+check if the chief trainers move after the tower fight, if they dont I can turn them into a different sprite, if so, reprupose the balding sprite
+maybe reuse another sprite that's very less used

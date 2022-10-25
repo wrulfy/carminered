@@ -88,18 +88,18 @@ _Route20AfterBattleText6::
 	done
 
 _Route20BattleText7::
-	text "I rode my bird"
-	line "#MON here!"
+	text "Keep me company"
+	line "'til I get a hit!"
 	done
 
 _Route20EndBattleText7::
-	text "Oh"
-	line "no!"
+	text "That"
+	line "burned some time."
 	prompt
 
 _Route20AfterBattleText7::
-	text "My birds can't"
-	line "FLY me back!"
+	text "Oh wait! I got a"
+	line "bite! Yeah!"
 	done
 
 _Route20BattleText8::
@@ -129,10 +129,10 @@ _Route20EndBattleText9::
 	prompt
 
 _Route20AfterBattleText9::
-	text "#MON have"
-	line "taken over an"
-	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	text "You need to move"
+	line "boulders to not"
+	cont "get lost at the"
+	cont "SEAFOAM ISLANDS!"
 	done
 
 _Route20BattleText10::
