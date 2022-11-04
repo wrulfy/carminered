@@ -9,8 +9,8 @@ _Route21EndBattleText1::
 	prompt
 
 _Route21AfterBattleText1::
-	text "I can't catch"
-	line "anything good!"
+	text "I need to catch"
+	line "even more fish!"
 	done
 
 _Route21BattleText2::
@@ -20,12 +20,12 @@ _Route21BattleText2::
 
 _Route21EndBattleText2::
 	text "Darn"
-	line "MAGIKARP!"
+	line "ROD broke again!"
 	prompt
 
 _Route21AfterBattleText2::
-	text "I seem to only"
-	line "catch MAGIKARP!"
+	text "This is the third"
+	line "rod of this week!"
 	done
 
 _Route21BattleText3::
@@ -59,37 +59,37 @@ _Route21AfterBattleText4::
 	done
 
 _Route21BattleText5::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "How many BADGES"
+	line "do you have?"
 	done
 
 _Route21EndBattleText5::
-	text "Pant..."
-	line "pant...pant..."
+	text "What"
+	line "a tough battle!"
 	prompt
 
 _Route21AfterBattleText5::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "I'm training hard"
+	line "to rematch BLAINE"
+	cont "and I won't lose"
+	cont "again!"
 	done
 
 _Route21BattleText6::
-	text "Right now, I'm in"
-	line "a triathlon meet!"
+	text "How many BADGES"
+	line "do you have?"
 	done
 
 _Route21EndBattleText6::
-	text "Pant..."
-	line "pant...pant..."
+	text "What"
+	line "a tough battle!"
 	prompt
 
 _Route21AfterBattleText6::
-	text "I'm beat!"
-	line "But, I still have"
-	cont "the bike race and"
-	cont "marathon left!"
+	text "I'm training hard"
+	line "to rematch BLAINE"
+	cont "and I won't lose"
+	cont "again!"
 	done
 
 _Route21BattleText7::

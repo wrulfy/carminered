@@ -178,5 +178,17 @@ SpecialTrainerMoves:
 	db 5, 1, CONFUSE_RAY
 	db 5, 2, SKY_ATTACK
 	db 5, 3, ICE_BEAM
+
+	db BLAINE, 1
+	db 1, 1, SOLARBEAM
+	db 1, 3, THUNDERWAVE
+	db 2, 1, SMOKESCREEN
+	db 2, 4, THUNDERWAVE
+	db 3, 1, THUNDERWAVE
+	db 3, 2, EARTHQUAKE
+	db 4, 1, THUNDERWAVE
+	db 4, 3, HYDRO_PUMP
+	db 5, 3, FLY
+	db 6, 3, CONFUSE_RAY
 	
 	db -1 ; end
