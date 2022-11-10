@@ -1,4 +1,4 @@
-_FuchsiaHouse3Text_561bd::
+_FuchsiaHouse3Text_561bd::;
 	text "I'm the FISHING"
 	line "GURU's older"
 	cont "brother!"

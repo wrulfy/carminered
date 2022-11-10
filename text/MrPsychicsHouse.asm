@@ -1,4 +1,4 @@
-_TM29PreReceiveText::
+_TM29PreReceiveText::;
 	text "...Wait! Don't"
 	line "say a word!"
 

@@ -1,4 +1,4 @@
-_PewterHouse1Text1::
+_PewterHouse1Text1::;S
 	text "NIDORAN: Bowbow!@"
 	text_end
 

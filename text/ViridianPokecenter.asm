@@ -1,4 +1,4 @@
-_ViridianPokeCenterText2::
+_ViridianPokeCenterText2::;S
 	text "You can use that"
 	line "PC in the corner."
 

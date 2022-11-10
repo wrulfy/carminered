@@ -1,4 +1,4 @@
-_ViridianForestText1::
+_ViridianForestText1::;S
 	text "I came here with"
 	line "some friends!"
 

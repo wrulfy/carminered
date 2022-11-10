@@ -8,13 +8,13 @@ _Mansion4EndBattleText1::
 	prompt
 
 _Mansion4AfterBattleText1::
-	text "You can find stuff"
-	line "lying around."
+	text "I don't know how"
+	line "I got down there."
 	done
 
 _Mansion4BattleText2::
-	text "This place is"
-	line "ideal for a lab."
+	text "This used to be"
+	line "TEAM ROCKET's lab."
 	done
 
 _Mansion4EndBattleText2::
@@ -23,9 +23,9 @@ _Mansion4EndBattleText2::
 	prompt
 
 _Mansion4AfterBattleText2::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "GIOVANNI was mad"
+	line "with power! I did"
+	cont "try to stop him!"
 	done
 
 _Mansion4Text7::

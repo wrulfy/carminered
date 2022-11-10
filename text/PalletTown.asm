@@ -1,4 +1,4 @@
-_OakAppearsText::
+_OakAppearsText::;
 	text "OAK: Hey! Wait!"
 	line "Don't go out!@"
 	text_end

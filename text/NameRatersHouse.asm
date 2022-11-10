@@ -1,4 +1,4 @@
-_NameRaterText_1dab3::
+_NameRaterText_1dab3::;
 	text "Hello, hello!"
 	line "I am the official"
 	cont "NAME RATER!"

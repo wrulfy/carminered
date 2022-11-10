@@ -75,8 +75,8 @@ _Museum1FText_5c28e::
 	para "So I have a favor"
 	line "to ask!"
 
-	para "Take this to a"
-	line "#MON LAB and"
+	para "Take this to the"
+	line "CELADON's LAB and"
 	cont "get it examined!"
 	prompt
 

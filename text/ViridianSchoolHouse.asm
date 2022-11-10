@@ -1,4 +1,4 @@
-_SchoolText1::
+_SchoolText1::;S
 	text "Whew! I'm trying"
 	line "to memorize all"
 	cont "my notes."

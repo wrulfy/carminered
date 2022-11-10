@@ -219,7 +219,7 @@ _ViridianGymGuidePreBattleText::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "Even I don't know"
+	para "Even I didn't know"
 	line "VIRIDIAN LEADER's"
 	cont "identity!"
 
@@ -235,6 +235,7 @@ _ViridianGymGuidePreBattleText::
 
 _ViridianGymGuidePostBattleText::
 	text "Blow me away!"
-	line "GIOVANNI was the"
-	cont "GYM LEADER here?"
+	line "The GYM LEADER"
+	cont "was TEAM ROCKET's"
+	cont "BOSS?"
 	done

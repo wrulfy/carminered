@@ -1,4 +1,4 @@
-_BikeShopText_1d810::
+_BikeShopText_1d810::;
 	text "Hi! Welcome to"
 	line "our BIKE SHOP."
 

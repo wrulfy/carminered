@@ -14,7 +14,7 @@ _CinnabarIslandText2::
 
 _CinnabarIslandText3::
 	text "CINNABAR ISLAND"
-	line "The Sparklng Town"
+	line "Sparkling Town"
 	cont "of Clean Energy"
 	done
 

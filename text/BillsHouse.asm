@@ -1,4 +1,4 @@
-_BillsHouseText_1e865::
+_BillsHouseText_1e865::;
 	text "Hiya! I'm a"
 	line "#MON..."
 	cont "...No I'm not!"

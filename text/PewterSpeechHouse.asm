@@ -14,6 +14,7 @@ _PewterHouse2Text2::
 	cont "when they are"
 	cont "hurt or asleep!"
 
-	para "But, it's not a"
-	line "sure thing!"
+	para "The type of #"
+	line "BALL you use also"
+	cont "matters a lot!"
 	done

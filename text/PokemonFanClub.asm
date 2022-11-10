@@ -1,4 +1,4 @@
-PikachuFanText::
+PikachuFanText::;
 	text "Won't you admire"
 	line "my PIKACHU's"
 	cont "adorable tail?"

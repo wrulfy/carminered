@@ -1,4 +1,4 @@
-_FuchsiaMartText2::
+_FuchsiaMartText2::;
 	text "Do you have a"
 	line "SAFARI ZONE flag?"
 

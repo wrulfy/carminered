@@ -13,6 +13,7 @@ PokemonMansion0F_Object:
 	object_event 5, 5, SPRITE_ROCKET, STAY, DOWN, 1 ; person
 	object_event 1, 1, SPRITE_SCIENTIST, STAY, LEFT, 2 ; person
 	object_event 3, 4, SPRITE_ROCKET, WALK, LEFT_RIGHT, 3 ; person
+	object_event 3, 3, SPRITE_POKEDEX, STAY, NONE, 4 ; person
 
 
 	def_warps_to POKEMON_MANSION_0F

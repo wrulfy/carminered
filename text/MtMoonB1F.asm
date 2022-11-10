@@ -1,3 +1,3 @@
-_MtMoonText1::
+_MtMoonText1::;
 	text_start
 	done

@@ -1,4 +1,4 @@
-_PokemonTower3BattleText1::
+_PokemonTower3BattleText1::;
 	text "Urrg...Awaa..."
 	line "Huhu...graa.."
 	done

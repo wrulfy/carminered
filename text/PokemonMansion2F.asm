@@ -1,7 +1,7 @@
 _Mansion2BattleText1::
-	text "I can't get out!"
-	line "This old place is"
-	cont "one big puzzle!"
+	text "This place is"
+	line "stacked! I gotta"
+	cont "make more rounds!"
 	done
 
 _Mansion2EndBattleText1::
@@ -10,9 +10,9 @@ _Mansion2EndBattleText1::
 	prompt
 
 _Mansion2AfterBattleText1::
-	text "Switches open and"
-	line "close alternating"
-	cont "sets of doors!"
+	text "I'm gonna make a"
+	line "fortune reselling"
+	cont "all this scrap!"
 	done
 
 _Mansion2Text3::

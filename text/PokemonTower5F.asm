@@ -35,7 +35,7 @@ _PokemonTower5AfterBattleText2::
 	done
 
 _PokemonTower5BattleText3::
-	text "Zombies!"
+	text "Jumpscare!"
 	done
 
 _PokemonTower5EndBattleText3::

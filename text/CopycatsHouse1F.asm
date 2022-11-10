@@ -1,8 +1,8 @@
 _CopycatsHouse1FText1::
-	text "My daughter is so"
-	line "self-centered."
-	cont "She only has a"
-	cont "few friends."
+	text "My daughter is a"
+	line "bit special, but"
+	cont "I still love her"
+	cont "nonetheless."
 	done
 
 _CopycatsHouse1FText2::

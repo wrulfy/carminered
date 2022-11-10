@@ -4,28 +4,26 @@ _PokemonMansion0FText5::
 	done
 
 _PokemonMansion0FText1::
-	text "TEST TEXT"
-	line "FOR THE BOTTOM"
-	cont "ROCKET"
-	cont "GET OUT"
+	text "Suit youself kid,"
+	line "they don't pay me"
+	cont "enough to fight."
 	done
 
 _PokemonMansion0FText2::
-	text "TEST TEXT"
-	line "FOR THE TOP"
-	cont "SCIENTIST"
-	cont "GET OUT"
+	text "This used to be a"
+	line "great laboratory."
+	cont "Now is only our"
+	cont "hubris's debris."
 	done
 
 _PokemonMansion0FText3::
-	text "TEST TEXT"
-	line "FOR THE WALKING"
-	cont "ROCKET"
-	cont "GET OUT"
+	text "I don't get the"
+	line "point of guarding"
+	cont "this outpost."
 	done
 
 _PokemonMansion0FText4::
-	text "TEST TEXT"
-	line "FOR THE BOOK"
-	cont "ON THE TABLE"
+	text "WARNING:"
+	line "NO ENTRY WITHOUT"
+	cont "AUTHORIZATION"
 	done

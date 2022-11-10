@@ -72,7 +72,7 @@ _MtMoon1EndBattleText6::
 	text "I lost?"
 	prompt
 
-_MtMoon1AfterBattleText6::
+_MtMoon1AfterBattleText6::;
 	text "I heard there are"
 	line "some very rare"
 	cont "fossils here."

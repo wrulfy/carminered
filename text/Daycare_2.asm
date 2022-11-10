@@ -1,4 +1,4 @@
-_DayCareAllRightThenText::
+_DayCareAllRightThenText::;
 	text "All right then,"
 	line "@"
 	text_end

@@ -1,4 +1,4 @@
-_ViridianForestExitText1::
+_ViridianForestExitText1::;
 	text "Many #MON live"
 	line "only in forests "
 	cont "and caves."

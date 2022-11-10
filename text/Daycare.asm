@@ -1,4 +1,4 @@
-_DayCareIntroText::
+_DayCareIntroText::;
 	text "I run a DAYCARE."
 	line "Would you like me"
 	cont "to raise one of"

@@ -1,4 +1,4 @@
-_ViridianHouseText1::
+_ViridianHouseText1::;
 	text "Coming up with"
 	line "nicknames is fun,"
 	cont "but hard."

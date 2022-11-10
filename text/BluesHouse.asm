@@ -1,4 +1,4 @@
-_DaisyInitialText::
+_DaisyInitialText::;S
 	text "Hi <PLAYER>!"
 	line "<RIVAL> is out at"
 	cont "Grandpa's lab."

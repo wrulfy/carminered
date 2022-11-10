@@ -1,4 +1,4 @@
-_PewterPokecenterText2::
+_PewterPokecenterText2::;
 	text "What!?"
 
 	para "TEAM ROCKET is"

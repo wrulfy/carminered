@@ -1,4 +1,4 @@
-_ViridianForestEntranceText1::
+_ViridianForestEntranceText1::;
 	text "Are you going to"
 	line "VIRIDIAN FOREST?"
 	cont "Be careful, it's"

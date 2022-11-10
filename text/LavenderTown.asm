@@ -1,4 +1,4 @@
-_LavenderTownText_4413c::
+_LavenderTownText_4413c::;
 	text "Do you believe in"
 	line "GHOSTs?"
 	done

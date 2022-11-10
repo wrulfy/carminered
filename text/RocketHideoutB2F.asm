@@ -1,4 +1,4 @@
-_RocketHideout2BattleText2::
+_RocketHideout2BattleText2::;
 	text "BOSS said you can"
 	line "see GHOSTs with"
 	cont "the SILPH SCOPE!"

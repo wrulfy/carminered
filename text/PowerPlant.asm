@@ -1,4 +1,4 @@
-_VoltorbBattleText::
+_VoltorbBattleText::;
 	text "Bzzzt!"
 	done
 

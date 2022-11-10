@@ -6,6 +6,10 @@ _FuchsiaPokecenterText1::
 	para "It's tough, but"
 	line "you have to raise"
 	cont "them evenly."
+
+	para "Unless you're doing"
+	line "a silly challenge"
+	cont "for a video."
 	done
 
 _FuchsiaPokecenterText3::

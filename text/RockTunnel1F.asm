@@ -59,7 +59,7 @@ _RockTunnel1EndBattleText4::
 
 _RockTunnel1AfterBattleText4::
 	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	line "a CUBONE as I go!"
 	done
 
 _RockTunnel1BattleText5::
@@ -74,7 +74,7 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
+	text "I saw a RHYHORN"
 	line "in this tunnel!"
 	done
 

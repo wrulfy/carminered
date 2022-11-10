@@ -1,4 +1,4 @@
-_PokemonTower4BattleText1::
+_PokemonTower4BattleText1::;
 	text "GHOST! No!"
 	line "Kwaaah!"
 	done

@@ -25,3 +25,8 @@ see if its possible to alter the way exp.all works, to see if I can make it not 
 
 check if the chief trainers move after the tower fight, if they dont I can turn them into a different sprite, if so, reprupose the balding sprite
 maybe reuse another sprite that's very less used
+
+see if I can add more types to assing new types to some status moves so they're out of the type chart so the AI doesn't mess with them unless you resist everything else
+
+
+check the texts that are linked to BILL's house PC to see any potentian in changing the text or not

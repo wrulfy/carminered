@@ -13,8 +13,8 @@ _Mansion3AfterBattleText1::
 	done
 
 _Mansion3BattleText2::
-	text "My mentor once"
-	line "lived here."
+	text "Are you training"
+	line "a full team too?"
 	done
 
 _Mansion3EndBattleText2::
@@ -23,9 +23,9 @@ _Mansion3EndBattleText2::
 	prompt
 
 _Mansion3AfterBattleText2::
-	text "So, you're stuck?"
-	line "Try jumping off"
-	cont "over there!"
+	text "Leveling up six"
+	line "#MON takes a"
+	cont "lot of grinding!"
 	done
 
 _Mansion3Text5::

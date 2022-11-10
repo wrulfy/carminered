@@ -1,4 +1,4 @@
-_CeladonPrizeRoomText1::
+_CeladonPrizeRoomText1::;
 	text "I sure do fancy"
 	line "that PORYGON!"
 

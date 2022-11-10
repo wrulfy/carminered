@@ -1,4 +1,4 @@
-_ViridianMartText1::
+_ViridianMartText1::;
 	text "Okay! Say hi to"
 	line "PROF.OAK for me!"
 	done

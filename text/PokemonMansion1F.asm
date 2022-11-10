@@ -9,9 +9,9 @@ _Mansion1EndBattleText2::
 	prompt
 
 _Mansion1AfterBattleText2::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
+	text "How did you even"
+	line "got the key? What"
+	cont "happened?"
 	done
 
 _MansionSwitchText::

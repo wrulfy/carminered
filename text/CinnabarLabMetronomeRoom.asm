@@ -1,4 +1,4 @@
-_TM40PreReceiveText::
+_TM40PreReceiveText::;
 	text "Ka-chink!"
 	line "I made a cool TM!"
 
