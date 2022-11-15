@@ -153,10 +153,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db ERIKA, 1
-	db 1, 1, DIG
+	db 1, 1, ICE_BEAM
 	db 3, 1, DREAM_EATER
 	db 4, 1, EGG_BOMB
 	db 4, 2, CONSTRICT
+	db 4, 4, DIG
 	db 0
 
 	db KOGA, 1

@@ -95,7 +95,7 @@ BugCatcherData:
 ; Route 6
 	db 18, VENONAT, VENONAT, BUTTERFREE, 0
 	db 22, BEEDRILL, 0
-; Unused REPRUPOSED FOR CELADON GYM
+; REPRUPOSED FOR CELADON GYM
 	db 28, BUTTERFREE, BEEDRILL, BUTTERFREE, BEEDRILL, 0
 ; Route 9
 	db 23, BUTTERFREE, BEEDRILL, 0
@@ -266,6 +266,8 @@ HikerData:
 	db 25, GEODUDE, ONIX, 0
 ; Extra for seafoam
 	db 41, WARTORTLE, KABUTOPS, GOLEM, 0
+; Extra for viridian gym
+	db 51, DUGTRIO, ONIX, RHYDON, 0
 
 
 BikerData:
@@ -317,7 +319,7 @@ BurglarData:
 	db 53, ARCANINE, FLAREON, MAGMAR, 0
 
 EngineerData:
-; Unused REPRUPOSED FOR CINNABAR GYM
+; REPRUPOSED FOR CINNABAR GYM
 	db 47, VOLTORB, MAGNEMITE, 0
 ; Route 11
 	db 23, ELECTABUZZ, MAGNETON, 0
@@ -389,7 +391,7 @@ GamblerData:
 	db 20, VULPIX, PONYTA, GROWLITHE, 0
 ; Route 8
 	db 25, NIDORINO, CUBONE, NIDORINA, 0
-; Unused, Now for the celadon gym
+; Repruposed for the celadon gym
 	db 31, PINSIR, 0
 ; Route 8
 	db 25, EEVEE, EEVEE, EEVEE, 0
@@ -456,8 +458,8 @@ TamerData:
 	db 37, NIDOQUEEN, ARBOK, 0
 	db 36, ARBOK, NIDOKING, GOLBAT, 0
 ; Viridian Gym
-	db 43, RHYHORN, 0
-	db 39, ARBOK, TAUROS, 0
+	db 51, RATICATE, FARFETCHD, NIDOQUEEN, 0
+	db 50, GOLDUCK, PERSIAN, SANDSLASH, MAROWAK, 0
 ; Victory Road 2F
 	db 44, PERSIAN, GOLDUCK, 0
 ; Unused
@@ -498,7 +500,7 @@ BlackbeltData:
 	db 40, POLIWRATH, 0
 	db 35, MACHOKE, MACHOKE, HITMONLEE, 0
 ; Viridian Gym
-	db 40, MACHOP, MACHOKE, 0
+	db 51, MACHOP, MACHOKE, 0
 	db 43, MACHOKE, 0
 ;REPRUPOSED FOR SS ANNE	
 	db 20, MANKEY, MACHOP, 0
@@ -698,7 +700,7 @@ GentlemanData:
 	db 21, NIDORAN_M, NIDORAN_F, 0
 ; SS Anne 2F Rooms
 	db 24, PIKACHU, 0
-; Unused
+; Repruposed for route 21
 	db 47, SEADRA, ONIX, LAPRAS, ARCANINE, 0
 ; SS Anne 2F Rooms
 	db 20, PONYTA, RHYHORN, 0

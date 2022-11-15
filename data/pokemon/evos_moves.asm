@@ -781,11 +781,11 @@ ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 38, LEECH_SEED
-	db 42, CONSTRICT
-	db 46, SPORE
-	db 50, MEGA_DRAIN
-	db 55, GROWTH
+	db 37, FURY_SWIPES
+	db 41, CONSTRICT
+	db 45, SPORE
+	db 50, EARTHQUAKE
+	db 55, GROWTH;MAKE IT MEGADRAIN MAYBE? OR SOMETHING ELSE IDK
 	db 61, GUILLOTINE
 	db 0
 
@@ -974,11 +974,11 @@ FarfetchdEvosMoves:
 	db 22, CUT
 	db 26, WING_ATTACK
 	db 30, SWORDS_DANCE
-	db 34, FURY_SWIPES
+	db 34, BONEMERANG
 	db 39, SLASH
-	db 43, FURY_ATTACK
+	db 43, DRILL_PECK
 	db 47, SOFTBOILED
-	db 53, EARTHQUAKE
+	db 53, FISSURE
 	db 0
 
 VenonatEvosMoves:
@@ -1246,7 +1246,7 @@ KabutoEvosMoves:
 	db 42, SWORDS_DANCE
 	db 0
 
-EvosMoves:
+KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
