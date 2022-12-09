@@ -1,4 +1,4 @@
-_Route6BattleText1::
+_Route6BattleText1::;
 	text "Who's there?"
 	line "Quit listening in"
 	cont "on us!"

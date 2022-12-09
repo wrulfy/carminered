@@ -429,13 +429,13 @@ _ArbokDexEntry::
 	dex
 
 _ParasectDexEntry::
-	text "Upon evolution its"
-	next "back's Tochukaso"
-	next "confides godlike"
+	text "Upon evolution it"
+	next "becomes one with"
+	next "the soil's fungi,"
 
-	page "powers to PARASECT,"
-	next "only held back by"
-	next "2 double weakness"
+	page "obtaining immense"
+	next "power from all"
+	next "the mycelium"
 	dex
 
 _PsyduckDexEntry::

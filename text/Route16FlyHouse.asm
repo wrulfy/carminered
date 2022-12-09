@@ -1,4 +1,4 @@
-_Route16HouseText3::
+_Route16HouseText3::;
 	text "Oh, you found my"
 	line "secret retreat!"
 

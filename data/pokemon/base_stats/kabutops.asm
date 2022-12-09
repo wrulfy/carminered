@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kabutops.pic", 0, 1 ; sprite dimensions
 	dw KabutopsPicFront, KabutopsPicBack
 
-	db DIG, VICEGRIP, MEGA_DRAIN, BARRAGE ; level 1 learnset
+	db VICEGRIP, DIG, MEGA_DRAIN, BARRAGE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

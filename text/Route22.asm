@@ -1,4 +1,4 @@
-_Route22RivalBeforeBattleText1::
+_Route22RivalBeforeBattleText1::;
 	text "<RIVAL>: Hey!"
 	line "<PLAYER>!"
 

@@ -10,14 +10,14 @@
 	INCBIN "gfx/pokemon/front/hitmonchan.pic", 0, 1 ; sprite dimensions
 	dw HitmonchanPicFront, HitmonchanPicBack
 
-	db LOW_KICK, HARDEN, QUICK_ATTACK, AGILITY ; level 1 learnset
+	db LOW_KICK, AGILITY, QUICK_ATTACK, GROWTH ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         METRONOME,    EGG_BOMB,     SWIFT,        \
-	     REST,         SUBSTITUTE,   STRENGTH      
+	     GROWTH,       SUBMISSION,   COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    EGG_BOMB,     \
+	     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

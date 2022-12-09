@@ -50,6 +50,22 @@ SpecialTrainerMoves:
 	db 4, 3, FLY
 	db 0
 
+	db BLACKBELT, 1
+	db 1, 1, RAZOR_WIND
+	db 2, 2, QUICK_ATTACK
+	db 3, 2, MEDITATE
+	db 4, 1, GROWTH
+	db 5, 2, EARTHQUAKE
+	db 0
+	db BLACKBELT, 6
+	db 2, 1, DIG
+	db 3, 1, DIG
+	db 0
+	db BLACKBELT, 7
+	db 1, 4, DIG
+	db 0
+
+
 	db ROCKET, 5
 	db 1, 2, DIG
 	db 2, 4, DIG
@@ -116,11 +132,25 @@ SpecialTrainerMoves:
 	db 0
 	db GIOVANNI, 2
 	db 1, 2, BODY_SLAM
-	db 2, 1, THUNDERBOLT
+	db 2, 1, BUBBLEBEAM
 	db 2, 3, DREAM_EATER
 	db 3, 1, FLY
-	db 4, 1, FURY_SWIPES
+	db 4, 4, DIG
+	db 5, 1, FLAMETHROWER
+	db 0
+	db GIOVANNI, 3
+	db 1, 1, SLUDGE
+	db 1, 2, EGG_BOMB
+	db 1, 4, DOUBLE_TEAM
+	db 2, 1, SWORDS_DANCE
+	db 2, 2, SKY_ATTACK
+	db 3, 1, FLAMETHROWER
+	db 3, 1, ICE_BEAM
+	db 4, 2, THUNDERBOLT
+	db 4, 4, DREAM_EATER
 	db 5, 1, DRAGON_RAGE
+	db 5, 2, TOXIC
+	db 6, 1, HYPER_BEAM
 	db 0
 	
 	db CHIEF, 2
@@ -155,7 +185,7 @@ SpecialTrainerMoves:
 	db ERIKA, 1
 	db 1, 1, ICE_BEAM
 	db 3, 1, DREAM_EATER
-	db 4, 1, EGG_BOMB
+	db 4, 1, MEGA_DRAIN
 	db 4, 2, CONSTRICT
 	db 4, 4, DIG
 	db 0

@@ -1,4 +1,4 @@
-_Route18GateText_49928::
+_Route18GateText_49928::;
 	text "You need a BICYCLE"
 	line "for CYCLING ROAD!"
 	done

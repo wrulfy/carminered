@@ -1,4 +1,4 @@
-_Route11GateUpstairsText_494a3::
+_Route11GateUpstairsText_494a3::;
 	text "There are items on"
 	line "the ground that"
 	cont "can't be seen."

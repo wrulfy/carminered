@@ -1,4 +1,4 @@
-_SafariZoneEastText5::
+_SafariZoneEastText5::;
 	text "REST HOUSE"
 	done
 

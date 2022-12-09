@@ -228,7 +228,7 @@ NidoranMEvosMoves:
 	db 5, POISON_STING
 	db 8, HORN_ATTACK
 	db 11, FOCUS_ENERGY
-	db 15, DOUBLE_KICK
+	db 14, DOUBLE_KICK
 	db 18, SMOG
 	db 22, FURY_ATTACK
 	db 0
@@ -381,7 +381,7 @@ NidoranFEvosMoves:
 	db 5, POISON_STING
 	db 8, BITE
 	db 11, TAIL_WHIP
-	db 15, DOUBLE_KICK
+	db 14, DOUBLE_KICK
 	db 18, SMOG
 	db 22, FURY_SWIPES
 	db 0
@@ -785,7 +785,7 @@ ParasectEvosMoves:
 	db 41, CONSTRICT
 	db 45, SPORE
 	db 50, EARTHQUAKE
-	db 55, GROWTH;MAKE IT MEGADRAIN MAYBE? OR SOMETHING ELSE IDK
+	db 55, GROWTH
 	db 61, GUILLOTINE
 	db 0
 
@@ -806,12 +806,11 @@ DrowzeeEvosMoves:
 	db EV_LEVEL, 27, HYPNO
 	db 0
 ; Learnset
-	db 12, CONFUSION
-	db 15, DISABLE
-	db 19, HEADBUTT
-	db 22, POISONPOWDER
-	db 25, PSYBEAM
-	db 28, MEDITATE
+	db 13, CONFUSION
+	db 16, DISABLE
+	db 20, POISONPOWDER
+	db 24, HEADBUTT
+	db 28, PSYBEAM
 	db 0
 
 GolemEvosMoves:
@@ -915,7 +914,7 @@ SeelEvosMoves:
 ; Learnset
 	db 16, MIST
 	db 21, LICK
-	db 25, TAKE_DOWN
+	db 25, HEADBUTT
 	db 28, BUBBLEBEAM
 	db 31, AURORA_BEAM
 	db 36, REST
@@ -1066,10 +1065,10 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, FLAMETHROWER
-	db 55, SOLARBEAM
+	db 51, FURY_ATTACK
+	db 55, LEER
 	db 60, SOFTBOILED
-	db 66, SKY_ATTACK
+	db 66, FIRE_BLAST
 	db 0
 
 ArticunoEvosMoves:
@@ -1363,7 +1362,7 @@ WigglytuffEvosMoves:
 	db 27, SCREECH
 	db 34, DOUBLE_EDGE
 	db 41, SUPERSONIC
-	db 48, SELFESTRUCT
+	db 48, SELFDESTRUCT
 	db 0
 
 EeveeEvosMoves:
@@ -1594,7 +1593,7 @@ DewgongEvosMoves:
 	db 34, DRILL_PECK
 	db 38, REST
 	db 42, DOUBLE_EDGE
-	db 47, ICE_BEAM
+	db 47, BLIZZARD
 	db 54, HORN_DRILL
 	db 0
 
@@ -1676,12 +1675,12 @@ HypnoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, MEDITATE
-	db 33, SKULL_BASH
+	db 29, PSYBEAM
+	db 33, MEDITATE
 	db 38, DREAM_EATER
-	db 43, PSYCHIC_M
-	db 48, SLEEP_POWDER
-	db 54, DOUBLE_EDGE
+	db 43, TRI_ATTACK
+	db 48, PSYWAVE
+	db 54, SLEEP_POWDER
 	db 0
 
 GolbatEvosMoves:
@@ -1725,6 +1724,7 @@ MagikarpEvosMoves:
 	db 0
 ; Learnset
 	db 14, TACKLE
+	db 25, BUBBLEBEAM
 	db 36, HYDRO_PUMP
 	db 0
 

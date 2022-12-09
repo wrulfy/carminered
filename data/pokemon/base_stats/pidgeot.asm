@@ -15,9 +15,10 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   LIGHT_SCREEN, MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SWIFT,        SOFTBOILED,   SKY_ATTACK,   REST,         \
-	     SUBSTITUTE,   FLY           
+	     BUBBLEBEAM,   HYDRO_PUMP,   HYPER_BEAM,   LIGHT_SCREEN, DRAGON_RAGE,  \
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETRHOWER, \
+	     SWIFT,        SOFTBOILED,   SKY_ATTACK,   REST,         SUBSTITUTE,   \
+		 FLY           
 	; end
 
 	db 0 ; padding

@@ -1,4 +1,4 @@
-_SafariZoneEntranceText1::
+_SafariZoneEntranceText1::;
 	text "Welcome to the"
 	line "SAFARI ZONE!"
 	done

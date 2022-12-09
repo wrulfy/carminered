@@ -1,4 +1,4 @@
-_Route24EndBattleText1::
+_Route24EndBattleText1::;
 	text "I"
 	line "thought not!"
 	prompt

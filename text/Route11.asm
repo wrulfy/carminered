@@ -57,7 +57,7 @@ _Route11EndBattleText4::
 
 _Route11AfterBattleText4::
 	text "Spread the word"
-	line "to save energy!"
+	line "for clean energy!"
 	done
 
 _Route11BattleText5::

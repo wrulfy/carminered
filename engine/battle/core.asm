@@ -846,7 +846,7 @@ FaintEnemyPokemon:
 ; half of the total stat exp and normal exp will divided evenly amongst every party member
 	ld a, $1
 	ld [wBoostExpByExpAll], a
-	ld a, [wPartyCount]
+	ld a, [wPartyCount];EXP.ALL this is where I think I should change it to 1 so it kinda works like modern exp all
 	ld b, 0
 .gainExpFlagsLoop
 	scf

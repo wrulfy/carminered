@@ -18,8 +18,8 @@
 	     TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       HYPER_BEAM,   SUBMISSION,   \
 	     COUNTER,      LIGHT_SCREEN, MEGA_DRAIN,   SOLARBEAM,    EARTHQUAKE,   \
 	     FISSURE,      DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         EGG_BOMB,     GUILLOTINE,   REST,         \
-		 CONSTRICT,    SUBSTITUTE,   CUT,          FLASH         
+	     REFLECT,      BIDE,         GUILLOTINE,   REST,         CONSTRICT,    \
+		 SUBSTITUTE,   CUT,          FLASH         
 	; end
 
 	db 0 ; padding

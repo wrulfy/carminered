@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     PAY_DAY,      \
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, DIG,          \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
-	     SWIFT,        REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
-	     SURF,         STRENGTH,     FLASH         
+	     SWIFT,        SOFTBOILED,   REST,         CONFUSE_RAY,  MIST,         \
+	     SUBSTITUTE,   SURF,         STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

@@ -14,7 +14,7 @@
 	db GROWTH_SLOW ; growth rate
 
 	; tm/hm learnset
-	tmhm HYDRO_PUMP    
+	tmhm BUBBLEBEAM,   HYDRO_PUMP,   DRAGON_RAGE     
 	; end
 
 	db 0 ; padding

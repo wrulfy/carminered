@@ -1,4 +1,4 @@
-_Route15BattleText1::
+_Route15BattleText1::;
 	text "Let me try out the"
 	line "#MON I just"
 	cont "got in a trade!"

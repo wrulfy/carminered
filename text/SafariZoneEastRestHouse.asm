@@ -5,11 +5,13 @@ _SafariZoneRestHouse3Text1::
 	done
 
 _SafariZoneRestHouse3Text2::
-	text "I caught a"
-	line "CHANSEY!"
+	text "I evolved my EEVEE"
+	line "into FLAREON!"
 
-	para "That makes this"
-	line "all worthwhile!"
+	para "But, a friend"
+	line "choosed to evolve"
+	cont "his to VAPOREON!"
+	cont "That's suspicius."
 	done
 
 _SafariZoneRestHouse3Text3::

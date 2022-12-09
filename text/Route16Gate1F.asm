@@ -1,4 +1,4 @@
-_Route16GateText_49777::
+_Route16GateText_49777::;
 	text "No pedestrians"
 	line "are allowed on"
 	cont "CYCLING ROAD!"

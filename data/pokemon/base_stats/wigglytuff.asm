@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/wigglytuff.pic", 0, 1 ; sprite dimensions
 	dw WigglytuffPicFront, WigglytuffPicBack
 
-	db DEFENSE_CURL, DOUBLESLAP, DISABLE, SING ; level 1 learnset
+	db DOUBLESLAP, DEFENSE_CURL, DISABLE, SING ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
@@ -18,9 +18,9 @@
 	     BUBBLEBEAM,   ICE_BEAM,     HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  SMOKESCREEN,  \
 	     DIG,          PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SELFDESTRUCT, FLAMETHROWER, SOFTBOILED,   \
-	     DREAM_EATER,  REST,         THUNDER_WAVE, MIST,         SUBSTITUTE,   \
-	     FLY,          STRENGTH,     FLASH         
+	     REFLECT,      BIDE,         SELFDESTRUCT, FLAMETHROWER, DREAM_EATER,  \
+	     REST,         THUNDER_WAVE, MIST,         SUBSTITUTE,   FLY,          \
+	     STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/hypno.pic", 0, 1 ; sprite dimensions
 	dw HypnoPicFront, HypnoPicBack
 
-	db POISONPOWDER, HEADBUTT, HYPNOSIS, PSYBEAM ; level 1 learnset
+	db CONFUSION, POISONPOWDER, HYPNOSIS, HEADBUTT ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

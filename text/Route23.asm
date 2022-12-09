@@ -1,4 +1,4 @@
-_VictoryRoadGuardText1::
+_VictoryRoadGuardText1::;
 	text "You can pass here"
 	line "only if you have"
 	cont "the @"

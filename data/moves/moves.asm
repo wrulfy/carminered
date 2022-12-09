@@ -83,7 +83,7 @@ Moves:
 	move ABSORB,       DRAIN_HP_EFFECT,             30, GRASS,        100, 30
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             80, GRASS,        100, 10
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,         90, 10
-	move GROWTH,       SPECIAL_UP1_EFFECT,           0, GRASS,        100, 20
+	move GROWTH,       SPECIAL_UP1_EFFECT,           0, NORMAL,       100, 20
 	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        50, GRASS,         95, 20
 	move SOLARBEAM,    NO_ADDITIONAL_EFFECT,       120, GRASS,         85,  5
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,       100, 35
@@ -144,7 +144,7 @@ Moves:
 	move CONSTRICT,    SPEED_DOWN_SIDE_EFFECT,      90, BUG,          100, 15
 	move AMNESIA,      SPECIAL_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 10
 	move KINESIS,      ACCURACY_DOWN_SIDE_EFFECT,   50, PSYCHIC_TYPE, 100, 25
-	move SOFTBOILED,   HEAL_EFFECT,                  0, FLYING,       100, 20
+	move SOFTBOILED,   HEAL_EFFECT,                  0, FLYING,       100, 10
 	move HI_JUMP_KICK, RECOIL_EFFECT,              120, FIGHTING,      90, 10
 	move GLARE,        PARALYZE_EFFECT,              0, DRAGON,       100, 15
 	move DREAM_EATER,  DRAIN_HP_EFFECT,             70, GHOST,        100, 15

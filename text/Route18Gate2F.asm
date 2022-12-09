@@ -1,4 +1,4 @@
-_Route18GateUpstairsText_49993::
+_Route18GateUpstairsText_49993::;
 	text "Looked into the"
 	line "binoculars."
 

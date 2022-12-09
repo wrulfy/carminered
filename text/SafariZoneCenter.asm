@@ -1,4 +1,4 @@
-_SafariZoneCenterText2::
+_SafariZoneCenterText2::;
 	text "REST HOUSE"
 	done
 

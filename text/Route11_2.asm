@@ -1,4 +1,4 @@
-_Route11EndBattleText9::
+_Route11EndBattleText9::;
 	text "Whoa!"
 	line "You spark plug!"
 	prompt

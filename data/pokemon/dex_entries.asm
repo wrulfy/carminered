@@ -499,7 +499,7 @@ ArbokDexEntry:
 	text_end
 
 ParasectDexEntry:
-	db "GODSHROOM@"
+	db "LORDSHROOM@"
 	db 3,3
 	dw 650
 	text_far _ParasectDexEntry
