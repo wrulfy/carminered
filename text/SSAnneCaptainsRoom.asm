@@ -1,4 +1,4 @@
-_SSAnne7RubText::
+_SSAnne7RubText::;
 	text "CAPTAIN: Ooargh..."
 	line "I feel hideous..."
 	cont "Urrp! Seasick..."

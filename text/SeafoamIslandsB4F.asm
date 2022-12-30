@@ -1,4 +1,4 @@
-_ArticunoBattleText::
+_ArticunoBattleText::;the alt dialogue for when I successfuly put trainers here is in the desktop
 	text "Gyaoo!@"
 	text_end
 

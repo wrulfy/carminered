@@ -1083,7 +1083,7 @@ ItemUseMedicine:
 	ld b, 50 ; Fresh Water heal amount
 	jr z, .addHealAmount
 	cp SUPER_POTION
-	ld b, 200 ; Hyper Potion heal amount
+	ld b, 120 ; Hyper Potion heal amount
 	jr c, .addHealAmount
 	ld b, 50 ; Super Potion heal amount
 	jr z, .addHealAmount

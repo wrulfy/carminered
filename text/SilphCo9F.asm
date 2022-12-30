@@ -1,4 +1,4 @@
-_SilphCo9Text_5d8e5::
+_SilphCo9Text_5d8e5::;
 	text "You look tired!"
 	line "You should take a"
 	cont "quick nap!"

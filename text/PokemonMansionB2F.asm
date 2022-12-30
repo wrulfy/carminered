@@ -1,31 +1,35 @@
 _Mansion5BattleText1::
-	text "Uh-oh. Where am"
-	line "I now?"
+	text "Prepare for"
+	line "trouble!"
 	done
 
 _Mansion5EndBattleText1::
-	text "OH NO!"
+	text "We're"
+	line "not done yet."
 	prompt
 
 _Mansion5AfterBattleText1::
-	text "You can find stuff"
-	line "lying around."
+	text "Boss asked us to"
+	line "catch a mythical"
+	cont "#MON that fled"
+	cont "over here."
 	done
 
 _Mansion5BattleText2::
-	text "This place is"
-	line "ideal for a lab."
+	text "And make it"
+	line "double!"
 	done
 
 _Mansion5EndBattleText2::
-	text "What"
-	line "was that for?"
+	text "Blasted"
+	line "off again!"
 	prompt
 
 _Mansion5AfterBattleText2::
-	text "I like it here!"
-	line "It's conducive to"
-	cont "my studies!"
+	text "This place is"
+	line "weird, we've been"
+	cont "going in circles"
+	cont "for days."
 	done
 
 _MewBattleText::

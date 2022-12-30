@@ -1,4 +1,4 @@
-_SilphCo8Text_565be::
+_SilphCo8Text_565be::;
 	text "I wonder if SILPH"
 	line "is finished..."
 	done

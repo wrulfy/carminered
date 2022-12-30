@@ -17,8 +17,8 @@ ItemPrices::
 	bcd3 150   ; PARLYZ_HEAL
 	bcd3 3000  ; FULL_RESTORE
 	bcd3 2500  ; MAX_POTION
-	bcd3 1500  ; HYPER_POTION
-	bcd3 500   ; SUPER_POTION
+	bcd3 1200  ; HYPER_POTION
+	bcd3 550   ; SUPER_POTION
 	bcd3 250   ; POTION
 	bcd3 0     ; COMMONBADGE
 	bcd3 0     ; SNOWBADGE
@@ -55,7 +55,7 @@ ItemPrices::
 	bcd3 1500  ; REVIVE
 	bcd3 3500  ; MAX_REVIVE
 	bcd3 700   ; GUARD_SPEC
-	bcd3 500   ; SUPER_REPEL
+	bcd3 550   ; SUPER_REPEL
 	bcd3 700   ; MAX_REPEL
 	bcd3 650   ; DIRE_HIT
 	bcd3 10    ; COIN

@@ -1,4 +1,4 @@
-_SaffronMartText2::
+_SaffronMartText2::;
 	text "MAX REPEL lasts"
 	line "longer than SUPER"
 	cont "REPEL for keeping"

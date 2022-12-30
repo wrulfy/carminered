@@ -216,7 +216,7 @@ KangaskhanEvosMoves:
 	db 34, MEGA_PUNCH
 	db 40, SLAM
 	db 45, DIZZY_PUNCH
-	db 49, ROAR
+	db 49, SHARPEN
 	db 55, MEGA_KICK
 	db 0
 
@@ -625,12 +625,12 @@ OnixEvosMoves:
 ; Learnset
 	db 21, GUST
 	db 25, RAGE
-	db 29, GLARE
+	db 29, ROAR
 	db 33, STRENGTH
 	db 37, SLAM
 	db 41, DIG
 	db 47, ROCK_SLIDE
-	db 52, ROAR
+	db 52, GLARE
 	db 57, DRAGON_RAGE
 	db 0
 
@@ -717,9 +717,9 @@ MachokeEvosMoves:
 	db EV_LEVEL, 37, MACHAMP
 	db 0
 ; Learnset
-	db 27, SLAM
-	db 31, SUBMISSION
-	db 35, ROAR
+	db 27, SUBMISSION
+	db 31, SLAM
+	db 35, COUNTER
 	db 39, KARATE_CHOP
 	db 43, MEGA_KICK
 	db 0
@@ -883,8 +883,8 @@ KoffingEvosMoves:
 	db 10, POISONPOWDER
 	db 15, DEFENSE_CURL
 	db 20, HAZE
-	db 25, SMOKESCREEN
-	db 29, SELFDESTRUCT
+	db 25, SELFDESTRUCT
+	db 29, SMOKESCREEN
 	db 32, SMOG
 	db 37, PSYBEAM
 	db 0
@@ -939,9 +939,9 @@ TaurosEvosMoves:
 	db 26, DOUBLE_KICK
 	db 30, THRASH
 	db 34, REST
-	db 39, TAKE_DOWN
-	db 44, TWINEEDLE
-	db 49, ROAR
+	db 39, FURY_ATTACK
+	db 44, TAKE_DOWN
+	db 49, TWINEEDLE
 	db 55, EARTHQUAKE
 	db 61, MEGA_KICK
 	db 0
@@ -1178,7 +1178,7 @@ PikachuEvosMoves:
 	db 24, DOUBLE_TEAM
 	db 27, SWIFT
 	db 31, AGILITY
-	db 35, THUNDER
+	db 35, THUNDERBOLT
 	db 39, LIGHT_SCREEN
 	db 0
 
@@ -1186,13 +1186,12 @@ RaichuEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, MEGA_PUNCH
-	db 19, THUNDER_WAVE
-	db 25, BODY_SLAM
-	db 31, THUNDERPUNCH
-	db 37, TAKE_DOWN
-	db 43, LIGHT_SCREEN
-	db 49, MEGA_KICK
+	db 13, THUNDER_WAVE
+	db 20, MEGA_PUNCH
+	db 27, THUNDERPUNCH
+	db 34, SLAM
+	db 41, LIGHT_SCREEN
+	db 48, MEGA_KICK
 	db 55, THUNDER
 	db 0
 
@@ -1430,7 +1429,7 @@ MachopEvosMoves:
 	db 17, ROLLING_KICK
 	db 20, MEGA_PUNCH
 	db 23, FOCUS_ENERGY
-	db 26, SLAM
+	db 26, SUBMISSION
 	db 0
 
 ZubatEvosMoves:
@@ -1650,7 +1649,7 @@ MachampEvosMoves:
 	db 37, STRENGTH
 	db 42, KARATE_CHOP
 	db 47, MEGA_KICK
-	db 52, COUNTER
+	db 52, ROAR
 	db 57, HI_JUMP_KICK
 	db 0
 
@@ -1689,9 +1688,9 @@ GolbatEvosMoves:
 ; Learnset
 	db 26, HAZE
 	db 30, RAZOR_WIND
-	db 35, HYPNOSIS
-	db 40, CONFUSE_RAY
-	db 44, SLUDGE
+	db 35, HYPER_FANG
+	db 40, SLUDGE
+	db 44, CONFUSE_RAY
 	db 51, SKY_ATTACK
 	db 0
 
@@ -1711,7 +1710,7 @@ SnorlaxEvosMoves:
 ; Learnset
 	db 31, METRONOME
 	db 36, BODY_SLAM
-	db 40, SING
+	db 40, ROAR
 	db 45, DOUBLE_EDGE
 	db 49, HARDEN
 	db 54, HYPER_BEAM
@@ -1816,8 +1815,8 @@ WeezingEvosMoves:
 ; Learnset
 	db 38, PSYBEAM
 	db 42, SLUDGE
-	db 47, FLAMETHROWER
-	db 51, EXPLOSION
+	db 47, EXPLOSION
+	db 51, FLAMETHROWER
 	db 57, TOXIC
 	db 0
 
@@ -1902,9 +1901,9 @@ PidgeotEvosMoves:
 	db 0
 ; Learnset
 	db 41, SOFTBOILED
-	db 46, TAKE_DOWN
+	db 46, DOUBLE_EDGE
 	db 51, MIRROR_MOVE
-	db 56, SKY_ATTACK
+	db 57, SKY_ATTACK
 	db 0
 
 StarmieEvosMoves:
@@ -2027,10 +2026,10 @@ RapidashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 40, FURY_ATTACK
+	db 40, DRILL_PECK
 	db 44, HYPNOSIS
 	db 48, FIRE_BLAST
-	db 54, TWINEEDLE
+	db 53, TWINEEDLE
 	db 60, AGILITY
 	db 0
 
@@ -2065,8 +2064,8 @@ NidorinoEvosMoves:
 ; Learnset
 	db 20, SMOG
 	db 25, DIG
-	db 29, FURY_ATTACK
-	db 34, THRASH
+	db 29, POISON_GAS
+	db 34, FURY_ATTACK
 	db 38, TOXIC
 	db 43, HORN_DRILL
 	db 0
@@ -2080,7 +2079,7 @@ NidorinaEvosMoves:
 	db 20, SMOG
 	db 25, FURY_SWIPES
 	db 29, POISON_GAS
-	db 34, BODY_SLAM
+	db 34, HYPER_FANG
 	db 38, TOXIC
 	db 43, SUPER_FANG
 	db 0

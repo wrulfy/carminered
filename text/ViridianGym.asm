@@ -165,7 +165,7 @@ _ViridianGymAfterBattleText5::
 	done
 
 _ViridianGymBattleText6::
-	text "I'm the KARATE"
+	text "I'm the MOUNTAIN"
 	line "KING! Your fate"
 	cont "rests with me!"
 	done
@@ -175,9 +175,9 @@ _ViridianGymEndBattleText6::
 	prompt
 
 _ViridianGymAfterBattleText6::
-	text "#MON LEAGUE?"
-	line "You? Don't get"
-	cont "cocky!"
+	text "VICTORY ROAD? You"
+	line "won't be able to"
+	cont "hike though it!"
 	done
 
 _ViridianGymBattleText7::

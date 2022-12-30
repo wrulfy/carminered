@@ -21,20 +21,8 @@ SpecialTrainerMoves:
 	db 5, 4, ACID
 	db 0
 
-	db BURGLAR, 1
-	db 1, 4, EMBER
-	db 0
-
-	db GAMBLER, 3
-	db 1, 4, THUNDERSHOCK
-	db 0
-
 	db HIKER, 15
 	db 1, 1, SURF
-	db 0
-
-	db SAILOR, 3
-	db 1, 3, PECK
 	db 0
 
 	db BIRDKEEPER, 14
@@ -83,53 +71,151 @@ SpecialTrainerMoves:
 	db 1, 4, SWIFT
 	db 0
 
-	db RIVAL2, 1
+	db RIVAL2, 1 ;	db $FF, 23, PIDGEOTTO, 21, BELLSPROUT, 22, VULPIX, 25, WARTORTLE, 0
 	db 1, 3, SWIFT
 	db 2, 1, CUT
 	db 3, 3, MIST
 	db 0
 
-	db RIVAL2, 2
+	db RIVAL2, 2 ;	db $FF, 23, PIDGEOTTO, 21, VULPIX, 22, POLIWAG, 25, IVYSAUR, 0
 	db 1, 3, SWIFT
-	db 2, 4, MIST
+	db 3, 2, MIST
 	db 4, 1, CUT
 	db 0
 
-	db RIVAL2, 2
+	db RIVAL2, 3 ;	db $FF, 23, PIDGEOTTO, 21, POLIWAG, 22, BELLSPROUT, 25, CHARMELEON, 0
 	db 1, 3, SWIFT
 	db 2, 2, MIST
 	db 3, 1, CUT
 	db 0
 
-	db RIVAL2, 4
+	db RIVAL2, 4 ;	db $FF, 29, PIDGEOTTO, 27, MACHOP, 28, WEEPINBELL, 28, VULPIX, 32, BLASTOISE, 0
 	db 1, 1, QUICK_ATTACK
-	db 2, 4, FLASH
-	db 3, 1, CUT
+	db 2, 3, FLASH
+	db 3, 2, CUT
 	db 3, 4, SMOKESCREEN
 	db 4, 2, MIST
 	db 5, 3, DEFENSE_CURL
 	db 0
 
-	db RIVAL2, 5
+	db RIVAL2, 5; 	db $FF, 29, PIDGEOTTO, 27, MACHOP, 28, VULPIX, 28, POLIWHIRL, 32, VENUSAUR, 0
 	db 1, 1, QUICK_ATTACK
-	db 2, 4, FLASH
-	db 3, 2, MIST
-	db 3, 4, SMOKESCREEN
-	db 5, 4, CUT
+	db 2, 3, FLASH
+	db 3, 2, SMOKESCREEN
+	db 4, 1, MIST
+	db 5, 3, CUT
 	db 0
 
-	db RIVAL2, 6
+	db RIVAL2, 6 ;	db $FF, 29, PIDGEOTTO, 27, MACHOP, 28, POLIWHIRL, 28, WEEPINBELL, 32, CHARIZARD, 0
 	db 1, 1, QUICK_ATTACK
-	db 2, 4, FLASH
+	db 2, 3, FLASH
 	db 3, 1, MIST
-	db 4, 1, CUT
 	db 4, 4, SMOKESCREEN
+	db 5, 3, CUT
+	db 0
+
+	db RIVAL2, 7 ;	db $FF, 42, PIDGEOT, 41, MACHOKE, 39, LAPRAS, 41, WEEPINBELL, 41, NINETALES, 45, BLASTOISE, 0
+	db 1, 2, POISON_GAS
+	db 2, 3, FLASH
+	db 4, 1, SMOKESCREEN
+	db 4, 4, CONSTRICT
+	db 5, 2, CONFUSE_RAY
+	db 5, 3, MIST
+	db 6, 1, SURF
+	db 0
+
+	db RIVAL2, 8 ;	db $FF, 42, PIDGEOT, 41, MACHOKE, 39, LAPRAS, 41, NINETALES, 41, POLIWHIRL, 45, VENUSAUR, 0
+	db 1, 2, POISON_GAS
+	db 2, 3, FLASH
+	db 4, 2, CONFUSE_RAY
+	db 4, 3, SMOKESCREEN
+	db 5, 1, BODY_SLAM
+	db 6, 1, CONSTRICT
+	db 6, 1, RAZOR_LEAF
+	db 0
+
+	db RIVAL2, 9 ;	db $FF, 42, PIDGEOT, 41, MACHOKE, 39, LAPRAS, 41, POLIWHIRL, 41, WEEPINBELL, 45, CHARIZARD, 0
+	db 1, 2, POISON_GAS
+	db 2, 3, FLASH
+	db 4, 1, BODY_SLAM
+	db 5, 1, SMOKESCREEN
+	db 5, 4, CONSTRICT
+	db 6, 1, FIRE_PUNCH
+	db 0
+
+	db RIVAL2, 10 ;	db $FF, 56, PIDGEOT, 55, MACHAMP, 54, LAPRAS, 56, NINETALES, 56, VICTREEBEL, 59, BLASTOISE, 0
+	db 1, 4, POISON_GAS
+	db 2, 4, EARTHQUAKE
+	db 3, 4, THUNDER_WAVE
+	db 4, 4, SMOKESCREEN
+	db 5, 1, CONFUSE_RAY
+	db 5, 2, MIST
+	db 6, 2, SURF
+	db 0
+
+	db RIVAL2, 11 ; db $FF, 56, PIDGEOT, 55, MACHAMP, 54, LAPRAS, 56, POLIWRATH, 56, NINETALES, 59, VENUSAUR, 0
+	db 1, 4, POISON_GAS
+	db 2, 4, EARTHQUAKE
+	db 3, 4, THUNDER_WAVE
+	db 4, 4, CONFUSE_RAY
+	db 5, 1, SURF
+	db 5, 2, ICE_PUNCH
+	db 6, 2, CONSTRICT
+	db 0
+
+	db RIVAL2, 12 ;	db $FF, 56, PIDGEOT, 55, MACHAMP, 54, LAPRAS, 56, VICTREEBEL, 56, POLIWRATH, 59, CHARIZARD, 0
+	db 1, 4, POISON_GAS
+	db 2, 4, EARTHQUAKE
+	db 3, 2, THUNDER_WAVE
+	db 4, 1, SURF
+	db 4, 3, ICE_PUNCH
+	db 5, 4, SMOKESCREEN
+	db 6, 2, SLASH
+	db 0
+
+	db RIVAL3, 1 ;	db $FF, 69, PIDGEOT, 69, MACHAMP, 68, LAPRAS, 70, NINETALES, 70, VICTREEBEL, 72, BLASTOISE, 0
+	db 1, 3, HYDRO_PUMP
+	db 2, 1, EARTHQUAKE
+	db 2, 2, HYPER_BEAM
+	db 2, 3, EGG_BOMB
+	db 3, 1, THUNDERBOLT
+	db 3, 3, FISSURE
+	db 4, 4, BODY_SLAM
+	db 5, 2, SOLARBEAM
+	db 6, 1, ICE_BEAM
+	db 0
+
+	db RIVAL3, 2 ;	db $FF, 69, PIDGEOT, 69, MACHAMP, 68, LAPRAS, 70, POLIWRATH, 70, NINETALES, 72, VENUSAUR, 0
+	db 1, 3, HYDRO_PUMP
+	db 2, 1, EARTHQUAKE
+	db 2, 2, HYPER_BEAM
+	db 2, 3, EGG_BOMB
+	db 3, 3, THUNDERBOLT
+	db 4, 2, SOLARBEAM
+	db 5, 1, FISSURE
+	db 5, 2, ICE_BEAM
+	db 6, 1, CONSTRICT
+	db 0
+
+	db RIVAL3, 3 ;	db $FF, 69, PIDGEOT, 69, MACHAMP, 68, LAPRAS, 70, VICTREEBEL, 70, POLIWRATH, 72, CHARIZARD, 0
+	db 1, 3, HYDRO_PUMP
+	db 2, 1, EARTHQUAKE
+	db 2, 2, HYPER_BEAM
+	db 2, 3, EGG_BOMB
+	db 3, 1, THUNDERBOLT
+	db 4, 1, ICE_BEAM
+	db 4, 2, PSYCHIC
+	db 5, 2, SOLAR_BEAM
+	db 5, 4, BODY_SLAM
+	db 6, 1, FISSURE
+	db 0
 
 	db GIOVANNI, 1
 	db 2, 3, STRENGTH
 	db 3, 1, DREAM_EATER
 	db 4, 4, RAZOR_WIND
 	db 0
+
 	db GIOVANNI, 2
 	db 1, 2, BODY_SLAM
 	db 2, 1, BUBBLEBEAM
@@ -138,6 +224,7 @@ SpecialTrainerMoves:
 	db 4, 4, DIG
 	db 5, 1, FLAMETHROWER
 	db 0
+
 	db GIOVANNI, 3
 	db 1, 1, SLUDGE
 	db 1, 2, EGG_BOMB
@@ -152,14 +239,17 @@ SpecialTrainerMoves:
 	db 5, 2, TOXIC
 	db 6, 1, HYPER_BEAM
 	db 0
+
 	
 	db CHIEF, 2
 	db 3, 1, DIG
 	db 3, 2, WHIRLWIND
 	db 0
+
 	db CHIEF, 3
 	db 4, 2, SLUDGE
 	db 0
+
 	db CHIEF, 4
 	db 3, 1, FURY_SWIPES
 	db 3, 2, BUBBLEBEAM
@@ -209,17 +299,19 @@ SpecialTrainerMoves:
 	db 5, 1, CONFUSE_RAY
 	db 5, 2, SKY_ATTACK
 	db 5, 3, ICE_BEAM
+	db 0
 
 	db BLAINE, 1
 	db 1, 1, SOLARBEAM
-	db 1, 3, THUNDERWAVE
+	db 1, 3, THUNDER_WAVE
 	db 2, 1, SMOKESCREEN
-	db 2, 4, THUNDERWAVE
-	db 3, 1, THUNDERWAVE
+	db 2, 4, THUNDER_WAVE
+	db 3, 1, THUNDER_WAVE
 	db 3, 2, EARTHQUAKE
-	db 4, 1, THUNDERWAVE
+	db 4, 1, THUNDER_WAVE
 	db 4, 3, HYDRO_PUMP
 	db 5, 3, FLY
 	db 6, 3, CONFUSE_RAY
+	db 0
 	
 	db -1 ; end

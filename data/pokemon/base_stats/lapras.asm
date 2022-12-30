@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     HYPER_BEAM,   \
 	     SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  FISSURE,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     DREAM_EATER,  REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
-	     SURF,         STRENGTH      
+	     DREAM_EATER,  REST,         THUNDER_WAVE, CONFUSE_RAY,  MIST,         \
+	     SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

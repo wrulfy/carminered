@@ -1,4 +1,4 @@
-_SSAnne5Text1::
+_SSAnne5Text1::;
 	text "The party's over."
 	line "The ship will be"
 	cont "departing soon."

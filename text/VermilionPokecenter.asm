@@ -6,7 +6,7 @@ _VermilionPokecenterText2::
 	cont "abilities."
 
 	para "A #MON raised"
-	line "by a trainer is"
+	line "by a trainer gets"
 	cont "stronger than one"
 	cont "in the wild."
 	done

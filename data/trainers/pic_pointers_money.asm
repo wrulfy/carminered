@@ -31,7 +31,7 @@ TrainerPicAndMoneyPointers::
 	pic_money TamerPic,        6000
 	pic_money BirdKeeperPic,   3500
 	pic_money BlackbeltPic,    4000
-	pic_money Rival1Pic,       3500
+	pic_money Rival1Pic,       5000
 	pic_money ProfOakPic,      9900
 	pic_money ChiefPic,        9500
 	pic_money ScientistPic,    5000
@@ -48,7 +48,7 @@ TrainerPicAndMoneyPointers::
 	pic_money BlainePic,       9900
 	pic_money SabrinaPic,      9900
 	pic_money GentlemanPic,    8500
-	pic_money Rival2Pic,       6500
+	pic_money Rival2Pic,       7500
 	pic_money Rival3Pic,       9900
 	pic_money LoreleiPic,      9900
 	pic_money ChannelerPic,    3000

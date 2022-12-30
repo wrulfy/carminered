@@ -1,4 +1,4 @@
-_VermilionMartText2::
+_VermilionMartText2::;
 	text "There are evil"
 	line "people who will"
 	cont "use #MON for"

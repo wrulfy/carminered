@@ -1,4 +1,4 @@
-_SSAnne2Text1::
+_SSAnne2Text1::;
 	text "This ship, she is"
 	line "a luxury liner"
 	cont "for trainers!"

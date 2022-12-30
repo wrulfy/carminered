@@ -44,7 +44,7 @@ _SilphCo5AfterBattleText3::
 	cont "catch anything!"
 	done
 
-_SilphCo5BattleText4::
+_SilphCo5BattleText4::;
 	text "Whaaat? There"
 	line "shouldn't be any"
 	cont "children here?"

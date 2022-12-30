@@ -6,8 +6,8 @@ _LavenderHouse2Text_1d9dc::
 	text "I hate those"
 	line "horrible ROCKETs!"
 
-	para "That poor mother"
-	line "of CLEFAIY..."
+	para "The poor CLEFAIRY's"
+	line "mother..."
 
 	para "It was killed"
 	line "trying to escape"

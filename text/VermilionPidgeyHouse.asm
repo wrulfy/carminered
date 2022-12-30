@@ -1,4 +1,4 @@
-_VermilionHouse1Text1::
+_VermilionHouse1Text1::;
 	text "I'm getting my"
 	line "PIDGEY to fly a"
 	cont "letter to SAFFRON"

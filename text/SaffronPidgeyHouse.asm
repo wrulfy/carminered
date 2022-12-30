@@ -1,4 +1,4 @@
-_SaffronHouse1Text1::
+_SaffronHouse1Text1::;
 	text "Thank you for"
 	line "writing. I hope"
 	cont "to see you soon!"

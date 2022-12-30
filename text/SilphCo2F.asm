@@ -1,4 +1,4 @@
-_SilphCo2Text_59ded::
+_SilphCo2Text_59ded::;
 	text "Eeek!"
 	line "No! Stop! Help!"
 

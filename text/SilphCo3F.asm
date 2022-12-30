@@ -1,4 +1,4 @@
-_SilphCo3Text_59ff9::
+_SilphCo3Text_59ff9::;
 	text "I work for SILPH."
 	line "What should I do?"
 	done

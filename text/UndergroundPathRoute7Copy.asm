@@ -1,4 +1,4 @@
-_UGPathRoute7EntranceUnusedText_5d773::
+_UGPathRoute7EntranceUnusedText_5d773::;
 	text "I want to shop at"
 	line "the dept. store"
 	cont "in CELADON but..."

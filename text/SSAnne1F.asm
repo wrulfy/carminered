@@ -1,4 +1,4 @@
-_SSAnne1Text1::
+_SSAnne1Text1::;
 	text "Bonjour!"
 	line "I am le waiter on"
 	cont "this ship!"
