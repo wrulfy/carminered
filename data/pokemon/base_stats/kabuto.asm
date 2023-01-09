@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     GROWTH,       MEGA_DRAIN,   \
-	     DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     EGG_BOMB,     REST,         CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
+	     SOLARBEAM,    DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         EGG_BOMB,     REST,         MIST,         SUBSTITUTE,   \
 	     CUT,          SURF          
 	; end
 

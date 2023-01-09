@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SLUDGE,       POISON_GAS,   BODY_SLAM,    GROWTH,       MEGA_DRAIN,   \
 	     THUNDERBOLT,  SMOKESCREEN,  DIG,          MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         SELFDESTRUCT, FLAMETHROWER, REST,         CONFUSE_RAY,  \
-	     EXPLOSION,    SUBSTITUTE,   STRENGTH      
+	     BIDE,         SELFDESTRUCT, FLAMETHROWER, DREAM_EATER,  REST,         \
+	     CONFUSE_RAY,  EXPLOSION,    SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

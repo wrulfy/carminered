@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  SMOKESCREEN,  \
 	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FLAMETHROWER, SWIFT,        REST,         CONFUSE_RAY,  \
-	     MIST,         SUBSTITUTE    
+	     BIDE,         FLAMETHROWER, SWIFT,        DREAM_EATER,  REST,         \
+	     CONFUSE_RAY,  MIST,         SUBSTITUTE    
 	; end
 
 	db 0 ; padding

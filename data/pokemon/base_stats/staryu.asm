@@ -17,8 +17,8 @@
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   \
 	     ICE_BEAM,     GROWTH,       LIGHT_SCREEN, THUNDERBOLT,  PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     SWIFT,        REST,         THUNDER_WAVE, CONFUSE_RAY,  MIST,         \
-	     SUBSTITUTE,   SURF,         FLASH         
+	     SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, CONFUSE_RAY,  \
+	     MIST,         SUBSTITUTE,   SURF,         FLASH         
 	; end
 
 	db 0 ; padding

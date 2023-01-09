@@ -17,8 +17,8 @@
 	tmhm RAZOR_WIND,   WHIRLWIND,    SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     \
 	     GROWTH,       HYPER_BEAM,   SUBMISSION,   SEISMIC_TOSS, MEGA_DRAIN,   \
-	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         EGG_BOMB,     GUILLOTINE,   REST,         CONFUSE_RAY,  \
+	     SOLARBEAM,    DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
+	     REFLECT,      BIDE,         EGG_BOMB,     GUILLOTINE,   REST,         \
 	     MIST,         SUBSTITUTE,   CUT,          SURF          
 	; end
 

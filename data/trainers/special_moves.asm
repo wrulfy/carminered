@@ -313,5 +313,45 @@ SpecialTrainerMoves:
 	db 5, 3, FLY
 	db 6, 3, CONFUSE_RAY
 	db 0
+
+	db LORELEI, 1
+	db 1, 1, RAZOR_WIND
+	db 2, 3, DOUBLE_EDGE
+	db 3, 4, FLAMETHROWER
+	db 4, 2, CONFUSE_RAY
+	db 5, 1, EARTHQUAKE
+	db 6, 1, HYDRO_PUMP
+	db 0
+
+	db BRUNO, 1
+	db 1, 2, CONFUSE_RAY
+	db 2, 2, GUILLOTINE
+	db 3, 1, EARTHQUAKE
+	db 4, 1, ICE_BEAM
+	db 5, 1, DRAGON_RAGE
+	db 6, 1, EARTHQUAKE
+	db 6, 2, FIRE_PUNCH
+	db 0
+
+	db AGATHA, 1
+	db 1, 1, CONFUSE_RAY
+	db 1, 3, THUNDERWAVE
+	db 2, 1, SOLARBEAM
+	db 3, 1, SLUDGE
+	db 5, 1, DREAM_EATER
+	db 5, 3, THUNDERBOLT
+	db 6, 1, EGG_BOMB
+	db 0
 	
+	db LANCE, 1
+	db 1, 1, HORN_DRILL
+	db 1, 4, HYPER_BEAM
+	db 2, 1, MEGA_DRAIN
+	db 3, 1, SLASH
+	db 4, 1, SOLARBEAM
+	db 5, 2, EARTHQUAKE
+	db 6, 1, FLAMETHROWER
+	db 6, 3, ICE_BEAM
+	db 0
+
 	db -1 ; end
