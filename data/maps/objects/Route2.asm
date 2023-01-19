@@ -16,7 +16,7 @@ Route2_Object:
 	def_object_events
 	object_event 13, 54, SPRITE_POKE_BALL, STAY, NONE, 1, MOON_STONE
 	object_event 13, 45, SPRITE_POKE_BALL, STAY, NONE, 2, HP_UP
-	object_event 11, 57, SPRITE_GIRL, STAY, LEFT, 3, OPP_LASS, 19
+	object_event 11, 57, SPRITE_GIRL, STAY, LEFT, 3, OPP_LASS, 18
 	object_event  0,  2, SPRITE_COOLTRAINER_F, STAY, RIGHT, 4, OPP_JR_TRAINER_F, 4
 
 	def_warps_to ROUTE_2

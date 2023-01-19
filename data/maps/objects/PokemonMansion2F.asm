@@ -10,7 +10,7 @@ PokemonMansion2F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 14,  7, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 1, OPP_BURGLAR, 7
+	object_event 14,  7, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 1, OPP_BURGLAR, 2
 	object_event 28,  7, SPRITE_POKE_BALL, STAY, NONE, 2, CALCIUM
 	object_event 18,  2, SPRITE_POKEDEX, STAY, NONE, 3 ; person
 	object_event 20, 10, SPRITE_POKEDEX, STAY, NONE, 4 ; person

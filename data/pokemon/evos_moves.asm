@@ -1439,8 +1439,8 @@ ZubatEvosMoves:
 ; Learnset
 	db 9, LICK
 	db 12, SUPERSONIC
-	db 15, WING_ATTACK
-	db 18, BITE
+	db 15, BITE
+	db 18, WING_ATTACK
 	db 21, LEECH_LIFE
 	db 24, HAZE
 	db 0
@@ -1687,11 +1687,11 @@ GolbatEvosMoves:
 	db 0
 ; Learnset
 	db 26, HAZE
-	db 30, RAZOR_WIND
-	db 35, HYPER_FANG
-	db 40, SLUDGE
-	db 44, CONFUSE_RAY
-	db 51, SKY_ATTACK
+	db 30, HYPER_FANG
+	db 35, RAZOR_WIND
+	db 40, CONFUSE_RAY
+	db 44, SLUDGE
+	db 51, SUPER_FANG
 	db 0
 
 MewtwoEvosMoves:

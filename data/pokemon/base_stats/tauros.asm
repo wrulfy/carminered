@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   ICE_BEAM,     HYPER_BEAM,   SOLARBEAM,    THUNDERBOLT,  \
-	     EARTHQUAKE,   FISSURE,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     BIDE,         FLAMETHROWER, REST,         MIST,         SUBSTITUTE,   \
-	     SURF,         STRENGTH      
+	     BUBBLEBEAM,   ICE_BEAM,     HYPER_BEAM,   SUBMISSION,   SOLARBEAM,    \
+	     THUNDERBOLT,  EARTHQUAKE,   FISSURE,      TELEPORT,     MIMIC,        \
+	     DOUBLE_TEAM,  BIDE,         FLAMETHROWER, REST,         MIST,         \
+	     SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

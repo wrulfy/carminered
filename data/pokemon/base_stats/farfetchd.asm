@@ -15,10 +15,11 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    POISON_GAS,   BODY_SLAM,    \
-	     TAKE_DOWN,    DOUBLE_EDGE,  EARTHQUAKE,   DIG,          TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        \
-	     GUILLOTINE,   SOFTBOILED,   SKY_ATTACK,   REST,         SUBSTITUTE,   \
-	     CUT,          FLY,          SURF,         STRENGTH,     FLASH         
+	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   \
+	     DRAGON_RAGE,  EARTHQUAKE,   DIG,          TELEPORT,     MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        GUILLOTINE,   \
+	     SOFTBOILED,   SKY_ATTACK,   REST,         SUBSTITUTE,   CUT,          \
+		 FLY,          SURF,         STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

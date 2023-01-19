@@ -15,10 +15,10 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  BUBBLEBEAM,   PAY_DAY,      THUNDERBOLT,  DIG,          \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-	     GUILLOTINE,   DREAM_EATER,  REST,         MIST,         SUBSTITUTE,   \
-	     CUT,          FLASH         
+	     DOUBLE_EDGE,  BUBBLEBEAM,   PAY_DAY,      LIGHT_SCREEN, THUNDERBOLT,  \
+	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  BIDE,         \
+	     SWIFT,        GUILLOTINE,   DREAM_EATER,  REST,         MIST,         \
+	     SUBSTITUTE,   CUT,          FLASH         
 	; end
 
 	db 0 ; padding

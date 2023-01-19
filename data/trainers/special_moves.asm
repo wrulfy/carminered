@@ -8,10 +8,6 @@ SpecialTrainerMoves:
 	db 3, 4, PSYBEAM
 	db 0
 
-	db BUG_CATCHER, 11
-	db 1, 3, HORN_ATTACK
-	db 0
-
 	db BUG_CATCHER, 13
 	db 1, 1, WING_ATTACK
 	db 0
@@ -21,19 +17,22 @@ SpecialTrainerMoves:
 	db 5, 4, ACID
 	db 0
 
-	db HIKER, 15
+	db HIKER, 16
 	db 1, 1, SURF
 	db 0
 
 	db BIRDKEEPER, 14
 	db 3, 2, RAZOR_WIND
 	db 0
+
 	db BIRDKEEPER, 15
 	db 2, 2, RAZOR_WIND
 	db 0
+
 	db BIRDKEEPER, 16
 	db 3, 1, RAZOR_WIND
 	db 0
+
 	db BIRDKEEPER, 17
 	db 4, 3, FLY
 	db 0
@@ -45,20 +44,16 @@ SpecialTrainerMoves:
 	db 4, 1, GROWTH
 	db 5, 2, EARTHQUAKE
 	db 0
+
 	db BLACKBELT, 6
 	db 2, 1, DIG
 	db 3, 1, DIG
 	db 0
+
 	db BLACKBELT, 7
 	db 1, 4, DIG
 	db 0
 
-
-	db ROCKET, 5
-	db 1, 2, DIG
-	db 2, 4, DIG
-	db 0
-	
 	db RIVAL1, 7
 	db 1, 4, SWIFT
 	db 0
@@ -69,6 +64,124 @@ SpecialTrainerMoves:
 
 	db RIVAL1, 9
 	db 1, 4, SWIFT
+	db 0
+
+	db CHIEF, 2
+	db 3, 1, DIG
+	db 3, 2, WHIRLWIND
+	db 0
+
+	db CHIEF, 3
+	db 4, 2, SLUDGE
+	db 0
+
+	db CHIEF, 4
+	db 3, 1, FURY_SWIPES
+	db 3, 2, BUBBLEBEAM
+	db 4, 1, SOLARBEAM
+	db 0
+
+	db GIOVANNI, 1
+	db 2, 3, STRENGTH
+	db 3, 1, DREAM_EATER
+	db 4, 4, RAZOR_WIND
+	db 0
+
+	db GIOVANNI, 2
+	db 1, 2, BODY_SLAM
+	db 2, 1, BUBBLEBEAM
+	db 2, 3, DREAM_EATER
+	db 3, 1, FLY
+	db 4, 4, DIG
+	db 5, 1, FLAMETHROWER
+	db 0
+
+	db GIOVANNI, 3
+	db 1, 1, SLUDGE
+	db 1, 2, EGG_BOMB
+	db 1, 4, DOUBLE_TEAM
+	db 2, 1, SWORDS_DANCE
+	db 2, 2, SKY_ATTACK
+	db 3, 1, FLAMETHROWER
+	db 3, 1, ICE_BEAM
+	db 4, 2, THUNDERBOLT
+	db 4, 4, DREAM_EATER
+	db 5, 1, DRAGON_RAGE
+	db 5, 2, TOXIC
+	db 6, 1, HYPER_BEAM
+	db 0
+
+	db ROCKET, 5
+	db 1, 2, DIG
+	db 2, 4, DIG
+	db 0
+	
+	db BRUNO, 1
+	db 1, 2, CONFUSE_RAY
+	db 2, 2, GUILLOTINE
+	db 3, 1, EARTHQUAKE
+	db 4, 1, ICE_BEAM
+	db 5, 1, DRAGON_RAGE
+	db 6, 1, EARTHQUAKE
+	db 6, 2, FIRE_PUNCH
+	db 0
+
+	db BROCK, 1
+	db 3, 3, POUND
+	db 3, 4, SWIFT
+	db 0
+
+	db MISTY, 1
+	db 3, 3, MIST
+	db 3, 4, AURORA_BEAM
+	db 0
+
+	db LT_SURGE, 1
+	db 1, 3, QUICK_ATTACK
+	db 3, 2, EMBER
+	db 4, 2, SMOKESCREEN
+	db 0
+
+	db ERIKA, 1
+	db 1, 1, ICE_BEAM
+	db 3, 1, DREAM_EATER
+	db 4, 1, MEGA_DRAIN
+	db 4, 2, CONSTRICT
+	db 4, 4, DIG
+	db 0
+
+	db KOGA, 1
+	db 1, 1, SWORDS_DANCE
+	db 2, 1, WRAP
+	db 2, 3, POISON_GAS
+	db 3, 1, SLUDGE
+	db 3, 2, SURF
+	db 4, 1, LEECH_SEED
+	db 4, 2, POISON_GAS
+	db 5, 2, POISON_GAS
+	db 0
+
+	db BLAINE, 1
+	db 1, 1, SOLARBEAM
+	db 1, 3, THUNDER_WAVE
+	db 2, 1, SMOKESCREEN
+	db 2, 4, THUNDER_WAVE
+	db 3, 1, THUNDER_WAVE
+	db 3, 2, EARTHQUAKE
+	db 4, 1, THUNDER_WAVE
+	db 4, 3, SURF
+	db 5, 3, FLY
+	db 6, 3, CONFUSE_RAY
+	db 0
+
+	db SABRINA, 1
+	db 1, 1, CONFUSE_RAY
+	db 1, 2, CONSTRICT
+	db 2, 1, CONFUSE_RAY
+	db 3, 2, MEGA_DRAIN
+	db 5, 1, CONFUSE_RAY
+	db 5, 2, SKY_ATTACK
+	db 5, 3, ICE_BEAM
 	db 0
 
 	db RIVAL2, 1 ;	db $FF, 23, PIDGEOTTO, 21, BELLSPROUT, 22, VULPIX, 25, WARTORTLE, 0
@@ -210,110 +323,6 @@ SpecialTrainerMoves:
 	db 6, 1, FISSURE
 	db 0
 
-	db GIOVANNI, 1
-	db 2, 3, STRENGTH
-	db 3, 1, DREAM_EATER
-	db 4, 4, RAZOR_WIND
-	db 0
-
-	db GIOVANNI, 2
-	db 1, 2, BODY_SLAM
-	db 2, 1, BUBBLEBEAM
-	db 2, 3, DREAM_EATER
-	db 3, 1, FLY
-	db 4, 4, DIG
-	db 5, 1, FLAMETHROWER
-	db 0
-
-	db GIOVANNI, 3
-	db 1, 1, SLUDGE
-	db 1, 2, EGG_BOMB
-	db 1, 4, DOUBLE_TEAM
-	db 2, 1, SWORDS_DANCE
-	db 2, 2, SKY_ATTACK
-	db 3, 1, FLAMETHROWER
-	db 3, 1, ICE_BEAM
-	db 4, 2, THUNDERBOLT
-	db 4, 4, DREAM_EATER
-	db 5, 1, DRAGON_RAGE
-	db 5, 2, TOXIC
-	db 6, 1, HYPER_BEAM
-	db 0
-
-	
-	db CHIEF, 2
-	db 3, 1, DIG
-	db 3, 2, WHIRLWIND
-	db 0
-
-	db CHIEF, 3
-	db 4, 2, SLUDGE
-	db 0
-
-	db CHIEF, 4
-	db 3, 1, FURY_SWIPES
-	db 3, 2, BUBBLEBEAM
-	db 4, 1, SOLARBEAM
-	db 0
-
-	db BROCK, 1
-	db 3, 3, POUND
-	db 3, 4, SWIFT
-	db 0
-
-	db MISTY, 1
-	db 3, 3, MIST
-	db 3, 4, AURORA_BEAM
-	db 0
-
-	db LT_SURGE, 1
-	db 1, 3, QUICK_ATTACK
-	db 3, 2, EMBER
-	db 4, 2, SMOKESCREEN
-	db 0
-
-	db ERIKA, 1
-	db 1, 1, ICE_BEAM
-	db 3, 1, DREAM_EATER
-	db 4, 1, MEGA_DRAIN
-	db 4, 2, CONSTRICT
-	db 4, 4, DIG
-	db 0
-
-	db KOGA, 1
-	db 1, 1, SWORDS_DANCE
-	db 2, 1, WRAP
-	db 2, 3, POISON_GAS
-	db 3, 1, SLUDGE
-	db 3, 2, SURF
-	db 4, 1, LEECH_SEED
-	db 4, 2, POISON_GAS
-	db 5, 2, POISON_GAS
-	db 0
-
-	db SABRINA, 1
-	db 1, 1, CONFUSE_RAY
-	db 1, 2, CONSTRICT
-	db 2, 1, CONFUSE_RAY
-	db 3, 2, MEGA_DRAIN
-	db 5, 1, CONFUSE_RAY
-	db 5, 2, SKY_ATTACK
-	db 5, 3, ICE_BEAM
-	db 0
-
-	db BLAINE, 1
-	db 1, 1, SOLARBEAM
-	db 1, 3, THUNDER_WAVE
-	db 2, 1, SMOKESCREEN
-	db 2, 4, THUNDER_WAVE
-	db 3, 1, THUNDER_WAVE
-	db 3, 2, EARTHQUAKE
-	db 4, 1, THUNDER_WAVE
-	db 4, 3, HYDRO_PUMP
-	db 5, 3, FLY
-	db 6, 3, CONFUSE_RAY
-	db 0
-
 	db LORELEI, 1
 	db 1, 1, RAZOR_WIND
 	db 2, 3, DOUBLE_EDGE
@@ -321,16 +330,6 @@ SpecialTrainerMoves:
 	db 4, 2, CONFUSE_RAY
 	db 5, 1, EARTHQUAKE
 	db 6, 1, HYDRO_PUMP
-	db 0
-
-	db BRUNO, 1
-	db 1, 2, CONFUSE_RAY
-	db 2, 2, GUILLOTINE
-	db 3, 1, EARTHQUAKE
-	db 4, 1, ICE_BEAM
-	db 5, 1, DRAGON_RAGE
-	db 6, 1, EARTHQUAKE
-	db 6, 2, FIRE_PUNCH
 	db 0
 
 	db AGATHA, 1
@@ -346,7 +345,7 @@ SpecialTrainerMoves:
 	db LANCE, 1
 	db 1, 1, HORN_DRILL
 	db 1, 4, HYPER_BEAM
-	db 2, 1, MEGA_DRAIN
+	db 2, 1, FLY
 	db 3, 1, SLASH
 	db 4, 1, SOLARBEAM
 	db 5, 2, EARTHQUAKE

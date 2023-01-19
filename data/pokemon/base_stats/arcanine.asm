@@ -15,9 +15,10 @@
 
 	; tm/hm learnset
 	tmhm WHIRLWIND,    POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   SOLARBEAM,    DRAGON_RAGE,  SMOKESCREEN,  DIG,          \
-	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FLAMETHROWER, SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
+	     HYPER_BEAM,   SUBMISSION,   SOLARBEAM,    DRAGON_RAGE,  SMOKESCREEN,  \
+	     DIG,          TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         FLAMETHROWER, SWIFT,        REST,         SUBSTITUTE,   \
+		 STRENGTH      
 	; end
 
 	db 0 ; padding

@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm WHIRLWIND,    POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, EGG_BOMB,     REST,         \
-	     EXPLOSION,    CONSTRICT,    SUBSTITUTE,   STRENGTH      
+	     HYPER_BEAM,   DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      DIG,          \
+	     MIMIC,        DOUBLE_TEAM,  BIDE,         SELFDESTRUCT, EGG_BOMB,     \
+	     REST,         EXPLOSION,    CONSTRICT,    SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding

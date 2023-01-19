@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     GROWTH,       SUBMISSION,   COUNTER,      SEISMIC_TOSS, EARTHQUAKE,   \
-	     MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    EGG_BOMB,     \
-	     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
+	     GROWTH,       HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  BIDE,         METRONOME,    \
+	     EGG_BOMB,     SWIFT,        REST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 	db 0 ; padding
