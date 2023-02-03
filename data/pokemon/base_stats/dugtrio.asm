@@ -11,7 +11,7 @@
 	dw DugtrioPicFront, DugtrioPicBack
 
 	db GROWL, DIG, HEADBUTT, SHARPEN; level 1 learnset
-	db GROWTH_NORMAL ; growth rate
+	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, SLUDGE,       POISON_GAS,   BODY_SLAM,    \

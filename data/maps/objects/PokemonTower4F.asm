@@ -8,9 +8,9 @@ PokemonTower4F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  5, 10, SPRITE_CHANNELER, STAY, RIGHT, 1, OPP_CHANNELER, 9
-	object_event 15,  7, SPRITE_CHANNELER, STAY, DOWN, 2, OPP_CHANNELER, 10
-	object_event 14, 12, SPRITE_CHANNELER, STAY, LEFT, 3, OPP_CHANNELER, 12
+	object_event  5, 10, SPRITE_CHANNELER, STAY, RIGHT, 1, OPP_CHANNELER, 5
+	object_event 15,  7, SPRITE_CHANNELER, STAY, DOWN, 2, OPP_CHANNELER, 6
+	object_event 14, 12, SPRITE_CHANNELER, STAY, LEFT, 3, OPP_CHANNELER, 7
 	object_event 12, 10, SPRITE_POKE_BALL, STAY, NONE, 4, ELIXER
 	object_event  9, 10, SPRITE_POKE_BALL, STAY, NONE, 5, FULL_HEAL
 	object_event 12, 16, SPRITE_POKE_BALL, STAY, NONE, 6, HP_UP

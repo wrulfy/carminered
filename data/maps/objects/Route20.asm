@@ -11,9 +11,9 @@ Route20_Object:
 
 	def_object_events
 	object_event 87,  8, SPRITE_SWIMMER, STAY, UP, 1, OPP_SWIMMER, 9; a
-	object_event 68, 11, SPRITE_SWIMMER, STAY, UP, 2, OPP_BEAUTY, 15;a
+	object_event 68, 11, SPRITE_SWIMMER, STAY, UP, 2, OPP_BEAUTY, 2;a
 	object_event 45, 10, SPRITE_SWIMMER, STAY, DOWN, 3, OPP_BEAUTY, 6;a
-	object_event 55, 14, SPRITE_SWIMMER, STAY, RIGHT, 4, OPP_COOLTRAINER_F, 3
+	object_event 55, 14, SPRITE_SWIMMER, STAY, RIGHT, 4, OPP_COOLTRAINER_F, 4
 	object_event 38, 13, SPRITE_SWIMMER, STAY, DOWN, 5, OPP_SWIMMER, 10
 	object_event 87, 13, SPRITE_SWIMMER, STAY, UP, 6, OPP_SWIMMER, 11; a
 	object_event 34,  9, SPRITE_FISHER, STAY, RIGHT, 7, OPP_FISHER, 9

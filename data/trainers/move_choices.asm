@@ -30,7 +30,7 @@ TrainerClassMoveChoiceModifications:
 	move_choices 1, 2    ; PSYCHIC_TR
 	move_choices 1, 3    ; ROCKER
 	move_choices 1, 2    ; JUGGLER
-	move_choices 1       ; TAMER
+	move_choices 1, 3    ; TAMER
 	move_choices 1       ; BIRD_KEEPER
 	move_choices 1, 3    ; BLACKBELT
 	move_choices         ; RIVAL1

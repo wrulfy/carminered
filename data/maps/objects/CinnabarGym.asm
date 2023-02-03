@@ -10,7 +10,7 @@ CinnabarGym_Object:
 	def_object_events
 	object_event  3,  3, SPRITE_MIDDLE_AGED_MAN, STAY, DOWN, 1, OPP_BLAINE, 1
 	object_event 17,  2, SPRITE_SUPER_NERD, STAY, DOWN, 2, OPP_SUPER_NERD, 8
-	object_event 17,  8, SPRITE_ROCKER, STAY, DOWN, 3, OPP_JUGGLER, 4
+	object_event 17,  8, SPRITE_ROCKER, STAY, DOWN, 3, OPP_JUGGLER, 2
 	object_event 11,  4, SPRITE_SUPER_NERD, STAY, DOWN, 4, OPP_SUPER_NERD, 9
 	object_event 11,  8, SPRITE_SUPER_NERD, STAY, DOWN, 5, OPP_ENGINEER, 1
 	object_event 11, 14, SPRITE_SUPER_NERD, STAY, DOWN, 6, OPP_SUPER_NERD, 10

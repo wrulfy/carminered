@@ -139,7 +139,7 @@ _CinnabarGymEndBattleText4::
 _CinnabarGymAfterBattleText4::
 	text "We used to burn"
 	line "natural gas, but"
-	cont "we switched to be"
+	cont "we switched to"
 	cont "geothermal power!"
 	done	
 

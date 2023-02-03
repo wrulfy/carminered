@@ -12,13 +12,32 @@ SpecialTrainerMoves:
 	db 1, 1, WING_ATTACK
 	db 0
 
+	db BUG_CATCHER, 15
+	db 6, 4, BODY_SLAM
+	db 0
+
 	db SUPER_NERD, 1
 	db 3, 1, ACID
 	db 5, 4, ACID
 	db 0
 
-	db HIKER, 16
+	db HIKER, 17
+	db 1, 1, EXPLOSION
+	db 2, 3, EXPLOSION
+	db 4, 4, EXPLOSION
+	db 0
+
+	db HIKER, 17
 	db 1, 1, SURF
+	db 0
+
+	db ENGINEER, 4
+	db 4, 1, DIG
+	db 4, 3, STRENGTH
+	db 0
+
+	db TAMER, 5
+	db 6, 1, SUBMISSION
 	db 0
 
 	db BIRDKEEPER, 14
@@ -54,6 +73,10 @@ SpecialTrainerMoves:
 	db 1, 4, DIG
 	db 0
 
+	db BLACKBELT, 9
+	db 6, 4, EARTHQUAKE
+	db 0
+
 	db RIVAL1, 7
 	db 1, 4, SWIFT
 	db 0
@@ -81,6 +104,20 @@ SpecialTrainerMoves:
 	db 4, 1, SOLARBEAM
 	db 0
 
+	db CHIEF, 5
+	db 1, 4, SLEEP_POWDER
+	db 2, 2, POISON_GAS
+	db 0
+
+	db CHIEF, 6
+	db 1, 1, ICE_BEAM
+	db 1, 3, SUPERSONIC
+	db 2, 1, EARTHQUAKE
+	db 3, 1, BUBBLEBEAM
+	db 3, 2, THUNDERBOLT
+	db 3, 3, SLASH
+	db 0
+
 	db GIOVANNI, 1
 	db 2, 3, STRENGTH
 	db 3, 1, DREAM_EATER
@@ -89,7 +126,7 @@ SpecialTrainerMoves:
 
 	db GIOVANNI, 2
 	db 1, 2, BODY_SLAM
-	db 2, 1, BUBBLEBEAM
+	db 2, 1, CUT
 	db 2, 3, DREAM_EATER
 	db 3, 1, FLY
 	db 4, 4, DIG
@@ -114,6 +151,10 @@ SpecialTrainerMoves:
 	db ROCKET, 5
 	db 1, 2, DIG
 	db 2, 4, DIG
+	db 0
+
+	db COOLTRAINER_F, 3
+	db 6, 3, RAZOR_WIND
 	db 0
 	
 	db BRUNO, 1
@@ -158,7 +199,8 @@ SpecialTrainerMoves:
 	db 3, 2, SURF
 	db 4, 1, LEECH_SEED
 	db 4, 2, POISON_GAS
-	db 5, 2, POISON_GAS
+	db 5, 1, POISON_GAS
+	db 5, 2, SLUDGE
 	db 0
 
 	db BLAINE, 1

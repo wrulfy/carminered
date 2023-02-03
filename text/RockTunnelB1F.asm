@@ -26,7 +26,8 @@ _RockTunnel2EndBattleText3::
 _RockTunnel2AfterBattleText3::
 	text "Did you enjoy the"
 	line "fireworks?"
-	cont "Hahahaha!"
+	cont "Don't worry, we'll"
+	cont "meet again!"
 	done
 
 _RockTunnel2BattleText4::

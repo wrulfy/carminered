@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/weezing.pic", 0, 1 ; sprite dimensions
 	dw WeezingPicFront, WeezingPicBack
 
-	db POISONPOWDER, SMOG, SELFDESTRUCT, SMOKESCREEN ; level 1 learnset
+	db SMOKESCREEN, POISON_GAS, SELFDESTRUCT, SMOG ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

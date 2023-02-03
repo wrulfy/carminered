@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/koffing.pic", 0, 1 ; sprite dimensions
 	dw KoffingPicFront, KoffingPicBack
 
-	db POISON_STING, TACKLE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db TACKLE, POISONPOWDER, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset

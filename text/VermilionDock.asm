@@ -1,26 +1,27 @@
 _VermilionDockText1::
-	text "What's this? An"
-	line "Old Letter?"
+	text "What's this? A"
+	line "wet Letter?"
 
 	para "To our BOSS"
-	line "G..V...."
+	line "GIOVANNI"
 
-	para "We found M.. in"
-	line "a hidden J...L."
+	para "We found MEW fled"
+	line "to a hidden ...."
 	cont "in the mountains"
-	cont "nearby L.V..D..!"
+	cont "nearby .......!"
 
 	para "Construction of"
-	line "the MA...O. has"
+	line "the ....... has"
 	cont "already begun!"
 
 	para "We dug a tunnel"
-	line "connecting to the"
+	line "connecting the"
 	cont "basement of ....."
 	cont "and the hidden"
-	cont ".............."
+	cont "................."
 
 	para "The rest of the"
 	line "letter is totally"
-	cont "unreadable..."
+	cont "illegible due to"
+	cont "the seawater..."
 	done

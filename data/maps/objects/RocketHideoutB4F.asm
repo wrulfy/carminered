@@ -12,7 +12,7 @@ RocketHideoutB4F_Object:
 	object_event 25,  3, SPRITE_GIOVANNI, STAY, DOWN, 1, OPP_GIOVANNI, 1
 	object_event 23, 12, SPRITE_ROCKET, STAY, DOWN, 2, OPP_CHIEF, 1
 	object_event 26, 12, SPRITE_ROCKET, STAY, DOWN, 3, OPP_CHIEF, 2
-	object_event 11,  2, SPRITE_ROCKET, STAY, DOWN, 4, OPP_ROCKET, 18
+	object_event 11,  2, SPRITE_ROCKET, STAY, DOWN, 4, OPP_ROCKET, 16
 	object_event 10, 12, SPRITE_POKE_BALL, STAY, NONE, 5, HP_UP
 	object_event  9,  4, SPRITE_POKE_BALL, STAY, NONE, 6, TM_BODY_SLAM
 	object_event 12, 20, SPRITE_POKE_BALL, STAY, NONE, 7, IRON

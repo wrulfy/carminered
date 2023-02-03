@@ -3,7 +3,7 @@ Route10WildMons:
 	db 20, VOLTORB
 	db 20, VENONAT
 	db 21, GROWLITHE
-	db 20, KOFFING 
+	db 19, KOFFING 
 	db 20, VULPIX
 	db 20, RATICATE
 	db 20, FEAROW

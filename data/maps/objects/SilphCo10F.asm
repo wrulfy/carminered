@@ -11,7 +11,7 @@ SilphCo10F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  1,  8, SPRITE_ROCKET, STAY, UP, 1, OPP_ROCKET, 39
+	object_event  1,  8, SPRITE_ROCKET, STAY, UP, 1, OPP_ROCKET, 17
 	object_event 10,  4, SPRITE_SCIENTIST, STAY, UP, 2, OPP_SCIENTIST, 11
 	object_event 11,  4, SPRITE_ROCKET, STAY, DOWN, 3, OPP_ROCKET, 21
 	object_event  9, 15, SPRITE_ERIKA, WALK, ANY_DIR, 4 ; person

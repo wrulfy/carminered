@@ -324,13 +324,13 @@ LickitungEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 14, SUPERSONIC
+	db 16, SUPERSONIC
 	db 20, STOMP
-	db 26, SCREECH
-	db 32, DISABLE
-	db 38, BODY_SLAM
-	db 44, SUBSTITUTE
-	db 50, NIGHT_SHADE
+	db 25, SCREECH
+	db 30, DISABLE
+	db 35, BODY_SLAM
+	db 41, SUBSTITUTE
+	db 47, NIGHT_SHADE
 	db 0
 
 ExeggcuteEvosMoves:
@@ -880,13 +880,13 @@ KoffingEvosMoves:
 	db EV_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 10, POISONPOWDER
-	db 15, DEFENSE_CURL
-	db 20, HAZE
+	db 10, DEFENSE_CURL
+	db 15, HAZE
+	db 20, SMOKESCREEN
 	db 25, SELFDESTRUCT
-	db 29, SMOKESCREEN
+	db 29, POISON_GAS
 	db 32, SMOG
-	db 37, PSYBEAM
+	db 37, FIRE_SPIN
 	db 0
 
 MissingNo38EvosMoves:
@@ -1568,9 +1568,9 @@ DugtrioEvosMoves:
 	db 26, TRI_ATTACK
 	db 30, FURY_SWIPES
 	db 34, SLASH
-	db 40, EARTHQUAKE
-	db 44, BARRAGE
-	db 50, FISSURE
+	db 39, EARTHQUAKE
+	db 43, BARRAGE
+	db 49, FISSURE
 	db 0
 
 VenomothEvosMoves:
@@ -1813,11 +1813,11 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 38, PSYBEAM
-	db 42, SLUDGE
+	db 38, FIRE_SPIN
+	db 42, PSYBEAM
 	db 47, EXPLOSION
-	db 51, FLAMETHROWER
-	db 57, TOXIC
+	db 51, SLUDGE
+	db 57, FIRE_BLAST
 	db 0
 
 PersianEvosMoves:
@@ -2017,7 +2017,7 @@ PonytaEvosMoves:
 	db 15, GROWL
 	db 21, STOMP
 	db 26, DOUBLE_KICK
-	db 31, FIRE_SPIN
+	db 31, SMOKESCREEN
 	db 36, TAKE_DOWN
 	db 41, HYPNOSIS
 	db 0
@@ -2108,7 +2108,7 @@ PorygonEvosMoves:
 	db 33, TRI_ATTACK
 	db 37, PSYCHIC_M
 	db 41, RECOVER
-	db 45, THUNDERBOLT
+	db 46, THUNDERBOLT
 	db 0
 
 AerodactylEvosMoves:

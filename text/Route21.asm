@@ -59,20 +59,20 @@ _Route21AfterBattleText4::
 	done
 
 _Route21BattleText5::
-	text "How many BADGES"
-	line "do you have?"
+	text "I'm practicing for"
+	line "a triathlon next"
+	cont "next week!"
 	done
 
 _Route21EndBattleText5::
-	text "What"
-	line "a tough battle!"
+	text "Back"
+	line "to swimming!"
 	prompt
 
 _Route21AfterBattleText5::
-	text "I'm training hard"
-	line "to rematch BLAINE"
-	cont "and I won't lose"
-	cont "again!"
+	text "We run, cycle, and"
+	line "swim all across"
+	cont "KANTO!"
 	done
 
 _Route21BattleText6::
