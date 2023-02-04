@@ -138,18 +138,18 @@ _Route21AfterBattleText9::
 	line "very fancy bird!"
 	done
 
-_Route21BattleText9::
+_Route21BattleText10::
 	text "Hello! I'm walking"
 	line "on water by using"
 	cont "my telekinesis!"
 	done
 
-_Route21EndBattleText9::
+_Route21EndBattleText10::
 	text "That"
 	line "was impressive."
 	prompt
 
-_Route21AfterBattleText9::
+_Route21AfterBattleText10::
 	text "My next goal is to"
 	line "walk on thin air!"
 	done

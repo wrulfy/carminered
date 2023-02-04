@@ -16,7 +16,7 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  \
 	     LIGHT_SCREEN, MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-	     FLAMETRHOWER, SWIFT,        SOFTBOILED,   SKY_ATTACK,   REST,         \
+	     FLAMETHROWER, SWIFT,        SOFTBOILED,   SKY_ATTACK,   REST,         \
 	     SUBSTITUTE,   FLY           
 	; end
 

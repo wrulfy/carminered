@@ -254,10 +254,10 @@ SpearowEvosMoves:
 	db 0
 ; Learnset
 	db 6, SCRATCH
-	db 11, LEER
-	db 15, MIRROR_MOVE
-	db 20, FURY_ATTACK
-	db 24, HEADBUTT
+	db 10, LEER
+	db 14, MIRROR_MOVE
+	db 19, FURY_ATTACK
+	db 23, HEADBUTT
 	db 0
 
 VoltorbEvosMoves:
@@ -588,7 +588,7 @@ TangelaEvosMoves:
 	db 34, MEGA_DRAIN
 	db 38, EGG_BOMB
 	db 42, SLEEP_POWDER
-	db 46, SOLAR_BEAM
+	db 46, SOLARBEAM
 	db 50, GROWTH
 	db 0
 
@@ -1967,10 +1967,10 @@ GoldeenEvosMoves:
 	db 0
 ; Learnset
 	db 6, SUPERSONIC
-	db 11, WATER_GUN
-	db 15, HORN_ATTACK
-	db 20, PSYBEAM
-	db 24, AGILITY
+	db 10, WATER_GUN
+	db 14, HORN_ATTACK
+	db 19, PSYBEAM
+	db 23, AGILITY
 	db 0
 
 SeakingEvosMoves:

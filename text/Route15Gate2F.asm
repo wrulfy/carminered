@@ -23,7 +23,6 @@ _Route15GateUpstairsText_49698::
 	line "small island!"
 	done
 
-
 ;	para "It gives half of"
 ;	line "the EXP to each"
 ;	cont "of your #MON."
