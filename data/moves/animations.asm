@@ -283,6 +283,7 @@ VicegripAnim:
 	db -1 ; end
 
 GuillotineAnim:
+	battle_anim SWORDS_DANCE, SUBANIM_18, 1, 6
 	battle_anim GUILLOTINE, SUBANIM_2A, 0, 6
 	db -1 ; end
 
@@ -436,11 +437,14 @@ PoisonStingAnim:
 	db -1 ; end
 
 TwineedleAnim:
+	battle_anim HORN_ATTACK, SUBANIM_45, 0, 4
 	battle_anim TWINEEDLE, SUBANIM_01, 0, 5
+	battle_anim HORN_ATTACK, SUBANIM_45, 0, 4
 	battle_anim TWINEEDLE, SUBANIM_01, 0, 5
 	db -1 ; end
 
 PinMissileAnim:
+	battle_anim HORN_ATTACK, SUBANIM_45, 0, 2
 	battle_anim PIN_MISSILE, SUBANIM_01, 0, 3
 	db -1 ; end
 
@@ -716,6 +720,8 @@ FissureAnim:
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	battle_anim FISSURE, SE_DARK_SCREEN_FLASH
 	battle_anim NO_MOVE, SE_SHAKE_SCREEN
+	battle_anim FISSURE, SE_DARK_SCREEN_FLASH
+	battle_anim NO_MOVE, SE_SHAKE_SCREEN
 	db -1 ; end
 
 DigAnim:
@@ -963,9 +969,10 @@ SpikeCannonAnim:
 	db -1 ; end
 
 ConstrictAnim:
+	battle_anim STRING_SHOT, SUBANIM_37, 0, 4
+	battle_anim CONSTRICT, SUBANIM_23, 0, 4
 	battle_anim CONSTRICT, SUBANIM_23, 0, 6
-	battle_anim CONSTRICT, SUBANIM_23, 0, 6
-	battle_anim CONSTRICT, SUBANIM_23, 0, 6
+	battle_anim CONSTRICT, SUBANIM_23, 0, 8
 	db -1 ; end
 
 AmnesiaAnim:
