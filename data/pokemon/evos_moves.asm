@@ -2102,7 +2102,7 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, PSYBEAM
+	db 24, PSYBEAM
 	db 27, AGILITY
 	db 30, SONICBOOM
 	db 33, TRI_ATTACK

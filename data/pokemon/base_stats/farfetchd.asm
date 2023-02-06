@@ -1,6 +1,6 @@
 	db DEX_FARFETCHD ; pokedex id
 
-	db 102,  85,  65,  80,  68
+	db 102,  90,  65,  80,  68
 	;   hp  atk  def  spd  spc
 
 	db GROUND, FLYING ; type

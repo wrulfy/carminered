@@ -34,7 +34,7 @@ Route11TrainerHeader1:
 Route11TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_11_TRAINER_2, 3, Route11BattleText3, Route11EndBattleText3, Route11AfterBattleText3
 Route11TrainerHeader3:
-	trainer EVENT_BEAT_ROUTE_11_TRAINER_3, 3, Route11BattleText4, Route11EndBattleText4, Route11AfterBattleText4
+	trainer EVENT_BEAT_ROUTE_11_TRAINER_3, 4, Route11BattleText4, Route11EndBattleText4, Route11AfterBattleText4
 Route11TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_11_TRAINER_4, 4, Route11BattleText5, Route11EndBattleText5, Route11AfterBattleText5
 Route11TrainerHeader5:
@@ -46,7 +46,7 @@ Route11TrainerHeader7:
 Route11TrainerHeader8:
 	trainer EVENT_BEAT_ROUTE_11_TRAINER_8, 3, Route11BattleText9, Route11EndBattleText9, Route11AfterBattleText9
 Route11TrainerHeader9:
-	trainer EVENT_BEAT_ROUTE_11_TRAINER_9, 4, Route11BattleText10, Route11EndBattleText10, Route11AfterBattleText10
+	trainer EVENT_BEAT_ROUTE_11_TRAINER_9, 3, Route11BattleText10, Route11EndBattleText10, Route11AfterBattleText10
 	db -1 ; end
 
 Route11Text1:

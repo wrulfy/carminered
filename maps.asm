@@ -989,7 +989,7 @@ UndergroundPathWestEast_Blocks: INCBIN "maps/UndergroundPathWestEast.blk"
 
 	INCBIN "maps/UnusedDiglettsCaveCopy.blk"
 
-SSAnneB1FRooms_Blocks:
+SSAnneB1FRooms_Blocks: INCBIN "maps/SSAnneB1FRooms.blk"
 SSAnne2FRooms_Blocks: INCBIN "maps/SSAnne2FRooms.blk"
 
 INCLUDE "data/maps/headers/PokemonTower1F.asm"

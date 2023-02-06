@@ -28,7 +28,7 @@ SSAnneB1FRooms_TextPointers:
 SSAnne10TrainerHeaders:
 	def_trainers
 SSAnne10TrainerHeader0:
-	trainer EVENT_BEAT_SS_ANNE_10_TRAINER_0, 2, SSAnne10BattleText1, SSAnne10EndBattleText1, SSAnne10AfterBattleText1
+	trainer EVENT_BEAT_SS_ANNE_10_TRAINER_0, 3, SSAnne10BattleText1, SSAnne10EndBattleText1, SSAnne10AfterBattleText1
 SSAnne10TrainerHeader1:
 	trainer EVENT_BEAT_SS_ANNE_10_TRAINER_1, 3, SSAnne10BattleText2, SSAnne10EndBattleText2, SSAnne10AfterBattleText2
 SSAnne10TrainerHeader2:

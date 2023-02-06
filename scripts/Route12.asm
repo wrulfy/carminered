@@ -75,6 +75,8 @@ Route12_TextPointers:
 	dw Route12Text12
 	dw Route12Text13
 	dw Route12Text14
+	dw Route12Text15
+	dw Route12Text16
 
 Route12TrainerHeaders:
 	def_trainers 2
@@ -239,3 +241,12 @@ Route12Text11:
 Route12Text12:
 	text_far _Route12Text12
 	text_end
+
+Route12Text15:
+	text_far _Route12Text15
+	text_end
+
+Route12Text16:
+	text_far _Route12Text16
+	text_end
+	

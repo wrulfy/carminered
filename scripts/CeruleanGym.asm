@@ -84,7 +84,7 @@ CeruleanGymTrainerHeaders:
 CeruleanGymTrainerHeader0:
 	trainer EVENT_BEAT_CERULEAN_GYM_TRAINER_0, 3, CeruleanGymBattleText1, CeruleanGymEndBattleText1, CeruleanGymAfterBattleText1
 CeruleanGymTrainerHeader1:
-	trainer EVENT_BEAT_CERULEAN_GYM_TRAINER_1, 3, CeruleanGymBattleText2, CeruleanGymEndBattleText2, CeruleanGymAfterBattleText2
+	trainer EVENT_BEAT_CERULEAN_GYM_TRAINER_1, 2, CeruleanGymBattleText2, CeruleanGymEndBattleText2, CeruleanGymAfterBattleText2
 	db -1 ; end
 
 MistyText:

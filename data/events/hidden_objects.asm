@@ -57,7 +57,7 @@ HiddenObjectMaps:
 	db POKEMON_MANSION_3F
 	db ROUTE_23
 	db VICTORY_ROAD_2F
-	db UNUSED_MAP_6F
+	db ROUTE_22
 	db BILLS_HOUSE
 	db VIRIDIAN_CITY
 	db SAFARI_ZONE_WEST_REST_HOUSE
@@ -147,7 +147,7 @@ HiddenObjectPointers:
 	dw Mansion3HiddenObjects
 	dw Route23HiddenObjects
 	dw VictoryRoad2HiddenObjects
-	dw Unused6FHiddenObjects
+	dw Route22HiddenObjects
 	dw BillsHouseHiddenObjects
 	dw ViridianCityHiddenObjects
 	dw SafariZoneRestHouse2HiddenObjects
@@ -420,8 +420,8 @@ ViridianForestHiddenObjects:
 	db -1 ; end
 
 MtMoon3HiddenObjects:
-	hidden_object 18, 12, MOON_STONE, HiddenItems
-	hidden_object 33,  9, ETHER, HiddenItems
+	hidden_object 21, 12, MOON_STONE, HiddenItems
+	hidden_object 6,  9, ETHER, HiddenItems
 	db -1 ; end
 
 IndigoPlateauHiddenObjects:
@@ -551,8 +551,8 @@ VictoryRoad2HiddenObjects:
 	hidden_object 26,  7, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
-Unused6FHiddenObjects:
-	hidden_object 14, 11, MAX_ELIXER, HiddenItems
+Route22HiddenObjects:
+	hidden_object 30,  2, FULL_HEAL, HiddenItems
 	db -1 ; end
 
 BillsHouseHiddenObjects:
@@ -620,7 +620,7 @@ BikeShopHiddenObjects:
 	db -1 ; end
 
 Route11HiddenObjects:
-	hidden_object 48,  5, LEAF_STONE, HiddenItems
+	hidden_object 52, 15, LEAF_STONE, HiddenItems
 	db -1 ; end
 
 Route12HiddenObjects:
@@ -670,5 +670,5 @@ Route4HiddenObjects:
 	db -1 ; end
 
 Route6HiddenObjects:
-	hidden_object 2,  4, THUNDER_STONE, HiddenItems
+	hidden_object 2,  3, THUNDER_STONE, HiddenItems
 	db -1 ; end

@@ -4,12 +4,12 @@ Route4_Object:
 	def_warp_events
 	warp_event 11,  5, MT_MOON_POKECENTER, 1
 	warp_event 18,  5, MT_MOON_1F, 1
-	warp_event 24,  5, MT_MOON_B1F, 8
+	warp_event 26,  5, MT_MOON_B1F, 8
 
 	def_bg_events
 	bg_event 12,  5, 4 ; PokeCenterSignText
 	bg_event 17,  7, 5 ; Route4Text5
-	bg_event 27,  7, 6 ; Route4Text6
+	bg_event 29,  7, 6 ; Route4Text6
 
 	def_object_events
 	object_event  9,  8, SPRITE_COOLTRAINER_F, WALK, ANY_DIR, 1 ; person

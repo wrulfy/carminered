@@ -31,19 +31,19 @@ MtMoon1F_TextPointers:
 MtMoon1TrainerHeaders:
 	def_trainers
 MtMoon1TrainerHeader0:
-	trainer EVENT_BEAT_MT_MOON_1_TRAINER_0, 2, MtMoon1BattleText2, MtMoon1EndBattleText2, MtMoon1AfterBattleText2
+	trainer EVENT_BEAT_MT_MOON_1_TRAINER_0, 3, MtMoon1BattleText2, MtMoon1EndBattleText2, MtMoon1AfterBattleText2
 MtMoon1TrainerHeader1:
-	trainer EVENT_BEAT_MT_MOON_1_TRAINER_1, 3, MtMoon1BattleText3, MtMoon1EndBattleText3, MtMoon1AfterBattleText3
+	trainer EVENT_BEAT_MT_MOON_1_TRAINER_1, 4, MtMoon1BattleText3, MtMoon1EndBattleText3, MtMoon1AfterBattleText3
 MtMoon1TrainerHeader2:
 	trainer EVENT_BEAT_MT_MOON_1_TRAINER_2, 3, MtMoon1BattleText4, MtMoon1EndBattleText4, MtMoon1AfterBattleText4
 MtMoon1TrainerHeader3:
-	trainer EVENT_BEAT_MT_MOON_1_TRAINER_3, 3, MtMoon1BattleText5, MtMoon1EndBattleText5, MtMoon1AfterBattleText5
+	trainer EVENT_BEAT_MT_MOON_1_TRAINER_3, 4, MtMoon1BattleText5, MtMoon1EndBattleText5, MtMoon1AfterBattleText5
 MtMoon1TrainerHeader4:
 	trainer EVENT_BEAT_MT_MOON_1_TRAINER_4, 3, MtMoon1BattleText6, MtMoon1EndBattleText6, MtMoon1AfterBattleText6
 MtMoon1TrainerHeader5:
-	trainer EVENT_BEAT_MT_MOON_1_TRAINER_5, 3, MtMoon1BattleText7, MtMoon1EndBattleText7, MtMoon1AfterBattleText7
+	trainer EVENT_BEAT_MT_MOON_1_TRAINER_5, 1, MtMoon1BattleText7, MtMoon1EndBattleText7, MtMoon1AfterBattleText7
 MtMoon1TrainerHeader6:
-	trainer EVENT_BEAT_MT_MOON_1_TRAINER_6, 3, MtMoon1BattleText8, MtMoon1EndBattleText8, MtMoon1AfterBattleText8
+	trainer EVENT_BEAT_MT_MOON_1_TRAINER_6, 2, MtMoon1BattleText8, MtMoon1EndBattleText8, MtMoon1AfterBattleText8
 	db -1 ; end
 
 MtMoon1Text1:

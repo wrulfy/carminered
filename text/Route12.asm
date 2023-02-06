@@ -137,3 +137,17 @@ _Route12Text11::
 _Route12Text12::
 	text "SPORT FISHING AREA"
 	done
+
+_Route12Text15::
+	text "I'm working on the"
+	line "bridge repairs,"
+	cont "it'll be ready in"
+	cont "about 3-4 weeks."
+	
+	para "-SURFING GURU-"
+	done
+
+_Route12Text16::
+	text "SURFING GURU's"
+	line "house "
+	done

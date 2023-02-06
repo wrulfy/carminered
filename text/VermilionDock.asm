@@ -1,11 +1,11 @@
 _VermilionDockText1::
-	text "What's this? A"
-	line "wet Letter?"
+	text "Oh wow what's this?"
+	line "A wet Letter?"
 
 	para "To our BOSS"
-	line "GIOVANNI"
+	line "........."
 
-	para "We found MEW fled"
+	para "We found ... fled"
 	line "to a hidden ...."
 	cont "in the mountains"
 	cont "nearby .......!"

@@ -313,6 +313,7 @@ WingAttackAnim:
 WhirlwindAnim:
 	battle_anim WHIRLWIND, SUBANIM_10, 1, 6
 	battle_anim NO_MOVE, SE_SLIDE_ENEMY_MON_OFF
+	battle_anim NO_MOVE, SE_SHOW_ENEMY_MON_PIC
 	db -1 ; end
 
 FlyAnim:
@@ -321,6 +322,7 @@ FlyAnim:
 	db -1 ; end
 
 BindAnim:
+	battle_anim VINE_WHIP, SUBANIM_16, 0, 1
 	battle_anim BIND, SUBANIM_23, 0, 4
 	battle_anim BIND, SUBANIM_23, 0, 4
 	db -1 ; end
