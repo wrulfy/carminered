@@ -16,12 +16,12 @@ SpecialTrainerMoves:
 	db 6, 4, BODY_SLAM
 	db 0
 
-	db SUPER_NERD, 1
+	db SUPER_NERD, 7
 	db 3, 1, ACID
 	db 5, 4, ACID
 	db 0
 
-	db HIKER, 17
+	db HIKER, 16
 	db 1, 1, EXPLOSION
 	db 2, 3, EXPLOSION
 	db 4, 4, EXPLOSION
@@ -40,19 +40,19 @@ SpecialTrainerMoves:
 	db 6, 1, SUBMISSION
 	db 0
 
-	db BIRD_KEEPER, 14
+	db BIRD_KEEPER, 13
 	db 3, 4, RAZOR_WIND
 	db 0
 
-	db BIRD_KEEPER, 15
+	db BIRD_KEEPER, 14
 	db 2, 1, RAZOR_WIND
 	db 0
 
-	db BIRD_KEEPER, 16
+	db BIRD_KEEPER, 15
 	db 3, 2, RAZOR_WIND
 	db 0
 
-	db BIRD_KEEPER, 17
+	db BIRD_KEEPER, 16
 	db 4, 3, FLY
 	db 0
 

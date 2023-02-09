@@ -1238,9 +1238,9 @@ KabutoEvosMoves:
 	db 0
 ; Learnset
 	db 22, VICEGRIP
-	db 31, MEGA_DRAIN
-	db 35, DIG
-	db 39, BARRAGE
+	db 26, MEGA_DRAIN
+	db 31, DIG
+	db 37, BARRAGE
 	db 42, SWORDS_DANCE
 	db 0
 
@@ -1320,9 +1320,9 @@ OmanyteEvosMoves:
 	db 0
 ; Learnset
 	db 22, BITE
-	db 31, WITHDRAW
-	db 35, DIG
-	db 39, BARRAGE
+	db 26, WITHDRAW
+	db 32, DIG
+	db 37, BARRAGE
 	db 42, BARRIER
 	db 0
 
