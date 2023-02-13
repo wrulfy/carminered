@@ -10,7 +10,7 @@ _CeladonCityText1::
 _CeladonCityText2::
 	text "Ewww! This GYM is"
 	line "awful! It's full"
-	cont "bugs!"
+	cont "of bugs!"
 	done
 
 _CeladonCityText3::

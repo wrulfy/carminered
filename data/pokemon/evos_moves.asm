@@ -409,7 +409,7 @@ CuboneEvosMoves:
 	db 24, HEADBUTT
 	db 27, BONEMERANG
 	db 30, ICE_PUNCH
-	db 33, THRASH
+	db 33, SKULL_BASH
 	db 0
 
 RhyhornEvosMoves:
@@ -940,7 +940,7 @@ TaurosEvosMoves:
 	db 30, THRASH
 	db 34, REST
 	db 39, FURY_ATTACK
-	db 44, TAKE_DOWN
+	db 44, SKULL_BASH
 	db 49, TWINEEDLE
 	db 55, EARTHQUAKE
 	db 61, MEGA_KICK
@@ -1840,7 +1840,7 @@ MarowakEvosMoves:
 	db 13, HEADBUTT
 	db 20, ICE_PUNCH
 	db 27, BONEMERANG
-	db 34, THRASH
+	db 34, SKULL_BASH
 	db 41, ICE_BEAM
 	db 48, FISSURE
 	db 0

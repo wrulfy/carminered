@@ -30,9 +30,9 @@ Route11TrainerHeaders:
 Route11TrainerHeader0:
 	trainer EVENT_BEAT_ROUTE_11_TRAINER_0, 3, Route11BattleText1, Route11EndBattleText1, Route11AfterBattleText1
 Route11TrainerHeader1:
-	trainer EVENT_BEAT_ROUTE_11_TRAINER_1, 2, Route11BattleText2, Route11EndBattleText2, Route11AfterBattleText2
+	trainer EVENT_BEAT_ROUTE_11_TRAINER_1, 4, Route11BattleText2, Route11EndBattleText2, Route11AfterBattleText2
 Route11TrainerHeader2:
-	trainer EVENT_BEAT_ROUTE_11_TRAINER_2, 3, Route11BattleText3, Route11EndBattleText3, Route11AfterBattleText3
+	trainer EVENT_BEAT_ROUTE_11_TRAINER_2, 4, Route11BattleText3, Route11EndBattleText3, Route11AfterBattleText3
 Route11TrainerHeader3:
 	trainer EVENT_BEAT_ROUTE_11_TRAINER_3, 4, Route11BattleText4, Route11EndBattleText4, Route11AfterBattleText4
 Route11TrainerHeader4:

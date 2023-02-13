@@ -180,7 +180,7 @@ StartBattle:
 .notOutOfSafariBalls
 	callfar PrintSafariZoneBattleText
 	ld a, [wEnemyMonSpeed + 1]
-	add a
+;	add a I'm sure this is the line I have to delete
 	ld b, a ; init b (which is later compared with random value) to (enemy speed % 256) * 2
 	jp c, EnemyRan ; if (enemy speed % 256) > 127, the enemy runs
 	ld a, [wSafariBaitFactor]
