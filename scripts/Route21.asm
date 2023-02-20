@@ -27,25 +27,25 @@ Route21_TextPointers:
 Route21TrainerHeaders:
 	def_trainers
 Route21TrainerHeader0:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_0, 0, Route21BattleText1, Route21EndBattleText1, Route21AfterBattleText1
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_0, 4, Route21BattleText1, Route21EndBattleText1, Route21AfterBattleText1
 Route21TrainerHeader1:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_1, 0, Route21BattleText2, Route21EndBattleText2, Route21AfterBattleText2
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_1, 3, Route21BattleText2, Route21EndBattleText2, Route21AfterBattleText2
 Route21TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_21_TRAINER_2, 4, Route21BattleText3, Route21EndBattleText3, Route21AfterBattleText3
 Route21TrainerHeader3:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_3, 4, Route21BattleText4, Route21EndBattleText4, Route21AfterBattleText4
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_3, 3, Route21BattleText4, Route21EndBattleText4, Route21AfterBattleText4
 Route21TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_21_TRAINER_4, 4, Route21BattleText5, Route21EndBattleText5, Route21AfterBattleText5
 Route21TrainerHeader5:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_5, 4, Route21BattleText6, Route21EndBattleText6, Route21AfterBattleText6
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_5, 3, Route21BattleText6, Route21EndBattleText6, Route21AfterBattleText6
 Route21TrainerHeader6:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_6, 3, Route21BattleText7, Route21EndBattleText7, Route21AfterBattleText7
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_6, 4, Route21BattleText7, Route21EndBattleText7, Route21AfterBattleText7
 Route21TrainerHeader7:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_7, 0, Route21BattleText8, Route21EndBattleText8, Route21AfterBattleText8
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_7, 4, Route21BattleText8, Route21EndBattleText8, Route21AfterBattleText8
 Route21TrainerHeader8:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_8, 0, Route21BattleText9, Route21EndBattleText9, Route21AfterBattleText9
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_8, 3, Route21BattleText9, Route21EndBattleText9, Route21AfterBattleText9
 Route21TrainerHeader9:
-	trainer EVENT_BEAT_ROUTE_21_TRAINER_9, 4, Route21BattleText10, Route21EndBattleText10, Route21AfterBattleText10
+	trainer EVENT_BEAT_ROUTE_21_TRAINER_9, 2, Route21BattleText10, Route21EndBattleText10, Route21AfterBattleText10
 	db -1 ; end
 
 Route21Text1:

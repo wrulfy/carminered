@@ -78,7 +78,7 @@ ItemPrices::
 	bcd3 0     ; OLD_ROD
 	bcd3 0     ; GOOD_ROD
 	bcd3 0     ; SUPER_ROD
-	bcd3 0     ; PP_UP
+	bcd3 9800  ; PP_UP
 	bcd3 800   ; ETHER
 	bcd3 1600  ; MAX_ETHER
 	bcd3 2000  ; ELIXER
