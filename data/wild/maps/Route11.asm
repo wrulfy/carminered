@@ -8,7 +8,7 @@ Route11WildMons:
 	db 15, POLIWAG
 	db 18, NIDORINO
 	db 18, NIDORINA
-	db 15, DROWZEE
+	db 15, SEEL
 	db 13, FARFETCHD
 	end_grass_wildmons
 

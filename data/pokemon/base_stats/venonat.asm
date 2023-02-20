@@ -17,7 +17,7 @@
 	tmhm POISON_GAS,   SLUDGE,       TAKE_DOWN,    DOUBLE_EDGE,  LIGHT_SCREEN, \
 	     MEGA_DRAIN,   SOLARBEAM,    PSYCHIC_M,    TELEPORT,     MIMIC,        \
 	     DOUBLE_TEAM,  REFLECT,      BIDE,         SWIFT,        REST,         \
-	     CONSTRICT,    SUBSTITUTE,   FLASH         
+	     CONFUSE_RAY,  CONSTRICT,    SUBSTITUTE,   FLASH         
 	; end
 
 	db 0 ; padding

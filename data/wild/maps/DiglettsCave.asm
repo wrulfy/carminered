@@ -8,8 +8,8 @@ DiglettsCaveWildMons:
 	db 19, SANDSHREW
 	db 22, DIGLETT
 	db 14, GASTLY
-	db 24, SANDSLASH
 	db 26, DUGTRIO
+	db 24, SANDSLASH
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

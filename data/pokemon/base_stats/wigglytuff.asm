@@ -18,9 +18,9 @@
 	     BUBBLEBEAM,   ICE_BEAM,     HYPER_BEAM,   SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  SMOKESCREEN,  \
 	     DIG,          PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         SELFDESTRUCT, FLAMETHROWER, DREAM_EATER,  \
-	     REST,         THUNDER_WAVE, MIST,         SUBSTITUTE,   FLY,          \
-	     STRENGTH,     FLASH         
+	     REFLECT,      BIDE,         METRONOME,    SELFDESTRUCT, FLAMETHROWER, \
+	     SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, MIST,         \
+	     SUBSTITUTE,   FLY,          STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

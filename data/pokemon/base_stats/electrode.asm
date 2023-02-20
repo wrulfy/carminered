@@ -16,8 +16,9 @@
 	; tm/hm learnset
 	tmhm POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  GROWTH,       HYPER_BEAM,   \
 	     LIGHT_SCREEN, THUNDERBOLT,  SMOKESCREEN,  TELEPORT,     MIMIC,        \
-	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        \
-	     REST,         THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH         
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         SELFDESTRUCT, FLAMETHROWER, \
+	     SWIFT,        REST,         THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   
+		 FLASH         
 	; end
 
 	db 0 ; padding

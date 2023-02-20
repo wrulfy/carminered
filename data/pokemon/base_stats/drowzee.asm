@@ -15,10 +15,11 @@
 
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   SLUDGE,       POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    \
-	     DOUBLE_EDGE,  SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, \
-	     SMOKESCREEN,  PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         METRONOME,    DREAM_EATER,  REST,         \
-	     THUNDER_WAVE, SUBSTITUTE,   FLASH         
+	     DOUBLE_EDGE,  ICE_BEAM,     SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
+	     LIGHT_SCREEN, SMOKESCREEN,  PSYCHIC_M,    TELEPORT,     MIMIC,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    FLAMETHROWER, \
+	     SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, SUBSTITUTE,   \
+		 FLASH         
 	; end
 
 	db 0 ; padding

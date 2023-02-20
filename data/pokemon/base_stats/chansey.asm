@@ -19,8 +19,8 @@
 	     SEISMIC_TOSS, LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  EARTHQUAKE,   \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         METRONOME,    SELFDESTRUCT, EGG_BOMB,     FLAMETHROWER, \
-	     SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, MIST,         \
-	     SUBSTITUTE,   STRENGTH,     FLASH         
+	     SWIFT,        SOFTBOILED,   DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     MIST,         SUBSTITUTE,   STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

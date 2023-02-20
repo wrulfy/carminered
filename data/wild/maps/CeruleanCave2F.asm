@@ -6,10 +6,10 @@ CeruleanCave2FWildMons:
 	db 62, DODRIO
 	db 62, PARASECT
 	db 62, RHYDON
-	db 62, PRIMEAPE
-	db 62, PERSIAN
-	db 63, CHARIZARD
-	db 56, CHARMELEON
+	db 63, PRIMEAPE
+	db 63, PERSIAN
+	db 64, CHARIZARD
+	db 44, CHARMELEON
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

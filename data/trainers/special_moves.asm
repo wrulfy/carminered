@@ -41,11 +41,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db BIRD_KEEPER, 13
-	db 3, 4, RAZOR_WIND
+	db 2, 1, RAZOR_WIND
 	db 0
 
 	db BIRD_KEEPER, 14
-	db 2, 1, RAZOR_WIND
+	db 5, 4, RAZOR_WIND
 	db 0
 
 	db BIRD_KEEPER, 15
@@ -53,7 +53,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db BIRD_KEEPER, 16
-	db 4, 3, FLY
+	db 2, 1, FLY
 	db 0
 
 	db BLACKBELT, 1
@@ -206,7 +206,7 @@ SpecialTrainerMoves:
 	db BLAINE, 1
 	db 1, 1, SOLARBEAM
 	db 1, 3, THUNDER_WAVE
-	db 2, 1, SMOKESCREEN
+	db 2, 1, FLAMETHROWER
 	db 2, 4, THUNDER_WAVE
 	db 3, 1, THUNDER_WAVE
 	db 3, 2, EARTHQUAKE
@@ -376,11 +376,11 @@ SpecialTrainerMoves:
 
 	db AGATHA, 1
 	db 1, 1, CONFUSE_RAY
-	db 1, 3, THUNDER_WAVE
-	db 2, 1, SOLARBEAM
+	db 1, 3, THUNDERBOLT
+	db 2, 1, DREAM_EATER
 	db 3, 1, SLUDGE
-	db 5, 1, DREAM_EATER
-	db 5, 3, THUNDERBOLT
+	db 5, 1, THUNDER_WAVE
+	db 5, 3, SOLARBEAM
 	db 6, 1, EGG_BOMB
 	db 0
 	

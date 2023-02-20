@@ -6,10 +6,10 @@ Route13WildMons:
 	db 33, BUTTERFREE
 	db 33, PARAS
 	db 33, KINGLER
-	db 35, PARASECT
+	db 36, PARAS
 	db 25, TAUROS 
 	db 36, PIDGEOT
-	db 38, PIDGEOT
+	db 38, PARASECT
 	end_grass_wildmons
 
 	def_water_wildmons 15 ; encounter rate

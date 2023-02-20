@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   HYPER_BEAM,   PAY_DAY,      LIGHT_SCREEN, \
 	     THUNDERBOLT,  EARTHQUAKE,   FISSURE,      DIG,          TELEPORT,     \
 	     MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        GUILLOTINE,   \
-	     DREAM_EATER,  REST,         MIST,         SUBSTITUTE,   CUT,          \
-		 FLASH         
+	     DREAM_EATER,  REST,         THUNDER_WAVE, MIST,         SUBSTITUTE,   \
+		 CUT,          FLASH         
 	; end
 
 	db 0 ; padding

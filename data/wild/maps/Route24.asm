@@ -16,7 +16,7 @@ Route24WildMons:
 	db 30, PSYDUCK
 	db 25, GOLDEEN
 	db 15, MAGIKARP
-	db 30, POLIWAG
+	db 25, POLIWAG
 	db 30, SEAKING
 	db 25, PSYDUCK
 	db 35, GOLDUCK

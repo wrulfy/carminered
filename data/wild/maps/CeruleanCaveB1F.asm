@@ -6,15 +6,15 @@ CeruleanCaveB1FWildMons:
 	db 64, HYPNO
 	db 64, VENOMOTH
 	db 64, EXEGGUTOR
-	db 64, NIDOKING
-	db 64, NIDOQUEEN
-	db 65, BLASTOISE
-	db 58, WARTORTLE
+	db 65, NIDOKING
+	db 65, NIDOQUEEN
+	db 66, BLASTOISE
+	db 46, WARTORTLE
 	end_grass_wildmons
 
 	def_water_wildmons 20 ; encounter rate
-	db 60, SLOWBRO
-	db 60, GOLDUCK
+	db 65, SLOWBRO
+	db 65, GOLDUCK
 	db 55, DRAGONAIR
 	db 60, DRAGONITE
 	db 60, GYARADOS

@@ -16,10 +16,10 @@ SeafoamIslandsB3FWildMons:
 	db 30, STARYU
 	db 30, SEEL
 	db 30, SHELLDER
-	db 35, CLOYSTER
+	db 35, MAGIKARP
 	db 35, DEWGONG
 	db 35, STARMIE
-	db 35, MAGIKARP
+	db 35, CLOYSTER
 	db 30, LAPRAS
 	db 40, MAGIKARP
 	db 30, OMANYTE

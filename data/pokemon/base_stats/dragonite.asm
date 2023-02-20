@@ -18,9 +18,9 @@
 	     BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   \
 	     ICE_BEAM,     HYPER_BEAM,   SUBMISSION,   LIGHT_SCREEN, DRAGON_RAGE,  \
 	     THUNDERBOLT,  EARTHQUAKE,   MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         FLAMETHROWER, SWIFT,        SKY_ATTACK,   REST,         \
-	     THUNDER_WAVE, CONSTRICT,    MIST,         SUBSTITUTE,   CUT,          \
-	     FLY,          SURF,         STRENGTH      
+	     BIDE,         METRONOME,    FLAMETHROWER, SWIFT,        SKY_ATTACK,   \
+	     REST,         THUNDER_WAVE, CONSTRICT,    MIST,         SUBSTITUTE,   \
+	     CUT,          FLY,          SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

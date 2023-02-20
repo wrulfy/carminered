@@ -8,7 +8,7 @@ Route7WildMons:
 	db 25, MEOWTH
 	db 26, PIDGEOTTO
 	db 26, WEEPINBELL
-	db 26, HYPNO
+	db 27, HYPNO
 	db 23, JYNX
 	end_grass_wildmons
 

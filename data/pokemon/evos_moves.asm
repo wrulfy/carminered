@@ -216,7 +216,7 @@ KangaskhanEvosMoves:
 	db 34, MEGA_PUNCH
 	db 40, SLAM
 	db 45, DIZZY_PUNCH
-	db 49, SHARPEN
+	db 49, ROAR
 	db 55, MEGA_KICK
 	db 0
 
@@ -253,7 +253,7 @@ SpearowEvosMoves:
 	db EV_LEVEL, 22, FEAROW
 	db 0
 ; Learnset
-	db 6, SCRATCH
+	db 6, GUST
 	db 10, LEER
 	db 14, MIRROR_MOVE
 	db 19, FURY_ATTACK
@@ -403,8 +403,8 @@ CuboneEvosMoves:
 	db 0
 ; Learnset
 	db 9, TAIL_WHIP
-	db 13, BONE_CLUB 
-	db 17, AURORA_BEAM 
+	db 13, BONE_CLUB
+	db 17, AURORA_BEAM
 	db 21, FOCUS_ENERGY
 	db 24, HEADBUTT
 	db 27, BONEMERANG
@@ -557,7 +557,7 @@ BlastoiseEvosMoves:
 ; Learnset
 	db 37, BARRAGE
 	db 42, CLAMP
-	db 47, BARRIER 
+	db 47, BARRIER
 	db 52, JUMP_KICK
 	db 57, ROCK_SLIDE
 	db 62, HYDRO_PUMP
@@ -683,7 +683,6 @@ KadabraEvosMoves:
 	db 28, PSYBEAM
 	db 32, SONICBOOM
 	db 36, RECOVER
-	db 40, PSYCHIC_M
 	db 0
 
 GravelerEvosMoves:
@@ -721,7 +720,6 @@ MachokeEvosMoves:
 	db 31, SLAM
 	db 35, COUNTER
 	db 39, KARATE_CHOP
-	db 43, MEGA_KICK
 	db 0
 
 MrMimeEvosMoves:
@@ -785,7 +783,7 @@ ParasectEvosMoves:
 	db 41, CONSTRICT
 	db 45, SPORE
 	db 50, EARTHQUAKE
-	db 55, GROWTH
+	db 55, CRABHAMMER
 	db 61, GUILLOTINE
 	db 0
 
@@ -916,7 +914,7 @@ SeelEvosMoves:
 	db 21, LICK
 	db 25, HEADBUTT
 	db 28, BUBBLEBEAM
-	db 31, AURORA_BEAM
+	db 32, AURORA_BEAM
 	db 36, REST
 	db 0
 
@@ -925,10 +923,10 @@ DiglettEvosMoves:
 	db EV_LEVEL, 26, DUGTRIO
 	db 0
 ; Learnset
-	db 10, GROWL
+	db 10, SCRATCH
 	db 15, DIG
-	db 19, HEADBUTT
-	db 24, SHARPEN
+	db 19, SHARPEN
+	db 24, HEADBUTT
 	db 28, FURY_SWIPES
 	db 0
 
@@ -1065,30 +1063,36 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, FURY_ATTACK
-	db 55, LEER
+	db 51, FLAMETHROWER
+	db 53, FURY_ATTACK
+	db 56, LEER
 	db 60, SOFTBOILED
-	db 66, FIRE_BLAST
+	db 65, FIRE_BLAST
+	db 71, SKY_ATTACK
 	db 0
 
 ArticunoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, RAZOR_WIND
-	db 55, REFLECT
+	db 51, ICE_BEAM
+	db 53, RAZOR_WIND
+	db 56, REFLECT
 	db 60, SOFTBOILED
-	db 66, BLIZZARD
+	db 65, BLIZZARD
+	db 71, SKY_ATTACK
 	db 0
 
 ZapdosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, DRILL_PECK
-	db 55, LIGHT_SCREEN
+	db 51, THUNDERBOLT
+	db 53, DRILL_PECK
+	db 56, LIGHT_SCREEN
 	db 60, SOFTBOILED
-	db 66, THUNDER
+	db 65, THUNDER
+	db 71, SKY_ATTACK
 	db 0
 
 DittoEvosMoves:
@@ -1167,7 +1171,7 @@ NinetalesEvosMoves:
 
 PikachuEvosMoves:
 ; Evolutions
-    db EV_ITEM, THUNDER_STONE, 1, RAICHU
+	db EV_ITEM, THUNDER_STONE, 1, RAICHU
 	db EV_LEVEL, 32, RAICHU
 	db 0
 ; Learnset
@@ -1511,7 +1515,7 @@ KakunaEvosMoves:
 	db 0
 ; Learnset
 	db 7, HARDEN
-	db 12, BARRIER
+	db 13, BARRIER
 	db 0
 
 BeedrillEvosMoves:
@@ -1622,7 +1626,7 @@ MetapodEvosMoves:
 	db 0
 ; Learnset
 	db 7, HARDEN
-	db 12, BARRIER
+	db 13, BARRIER
 	db 0
 
 ButterfreeEvosMoves:
@@ -1679,7 +1683,7 @@ HypnoEvosMoves:
 	db 38, DREAM_EATER
 	db 43, TRI_ATTACK
 	db 48, PSYWAVE
-	db 54, SLEEP_POWDER
+	db 54, LOVELY_KISS
 	db 0
 
 GolbatEvosMoves:
@@ -1854,7 +1858,6 @@ MissingNo92EvosMoves:
 HaunterEvosMoves:
 ; Evolutions
 	db EV_LEVEL, 39, GENGAR
-	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
 	db 27, SMOG

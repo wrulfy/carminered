@@ -6,7 +6,7 @@ VictoryRoad1FWildMons:
 	db 47, GOLBAT
 	db 47, SANDSLASH
 	db 48, MACHAMP
-	db 45, MACHOKE 
+	db 44, MACHOKE 
 	db 47, RHYDON
 	db 48, SNORLAX
 	db 47, AERODACTYL

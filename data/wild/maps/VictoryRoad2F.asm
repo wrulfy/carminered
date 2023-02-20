@@ -6,7 +6,7 @@ VictoryRoad2FWildMons:
 	db 47, CLEFABLE
 	db 48, GOLBAT
 	db 49, MACHAMP
-	db 46, GRAVELER
+	db 45, GRAVELER
 	db 48, RHYDON
 	db 49, SNORLAX
 	db 48, AERODACTYL

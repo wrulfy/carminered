@@ -14,12 +14,12 @@ Route22WildMons:
 	
 	def_water_wildmons 25 ; encounter rate
 	db 35, POLIWHIRL
-	db 30, POLIWAG
+	db 25, POLIWAG
 	db 25, GOLDEEN
 	db 15, MAGIKARP
-	db 25, POLIWAG
 	db 20, POLIWAG
-	db 25, POLIWAG
+	db 15, POLIWAG
+	db 20, POLIWAG
 	db 35, SEAKING
 	db 40, POLIWRATH
 	db 45, POLIWRATH

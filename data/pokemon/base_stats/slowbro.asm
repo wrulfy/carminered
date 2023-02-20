@@ -18,9 +18,9 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   HYDRO_PUMP,   ICE_BEAM,     HYPER_BEAM,   \
 	     PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, LIGHT_SCREEN, \
 	     EARTHQUAKE,   FISSURE,      DIG,          PSYCHIC_M,    TELEPORT,     \
-	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         FLAMETHROWER, \
-	     SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, MIST,         \
-	     SUBSTITUTE,   SURF,         STRENGTH,     FLASH         
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     FLAMETHROWER, SWIFT,        DREAM_EATER,  REST,         THUNDER_WAVE, \
+	     MIST,         SUBSTITUTE,   SURF,         STRENGTH,     FLASH         
 	; end
 
 	db 0 ; padding

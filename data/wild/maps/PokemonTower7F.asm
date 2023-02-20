@@ -8,8 +8,8 @@ PokemonTower7FWildMons:
 	db 26, GRIMER
 	db 28, CLEFAIRY
 	db 25, GASTLY
+	db 30, HAUNTER
 	db 32, NINETALES
-	db 34, GENGAR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

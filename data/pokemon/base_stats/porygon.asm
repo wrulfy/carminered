@@ -17,9 +17,9 @@
 	tmhm RAZOR_WIND,   POISON_GAS,   TAKE_DOWN,    DOUBLE_EDGE,  ICE_BEAM,     \
 	     GROWTH,       HYPER_BEAM,   LIGHT_SCREEN, SOLARBEAM,    THUNDERBOLT,  \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         SELFDESTRUCT, SWIFT,        SOFTBOILED,   DREAM_EATER,  \
-	     REST,         THUNDER_WAVE, CONFUSE_RAY,  MIST,         SUBSTITUTE,   \
-	     FLY,          FLASH         
+	     BIDE,         SELFDESTRUCT, FLAMETHROWER, SWIFT,        SOFTBOILED,   \
+	     DREAM_EATER,  REST,         THUNDER_WAVE, CONFUSE_RAY,  MIST,         \
+	     SUBSTITUTE,   FLY,          FLASH         
 	; end
 
 	db 0 ; padding

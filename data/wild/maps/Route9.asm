@@ -6,9 +6,9 @@ Route9WildMons:
 	db 19, VENONAT
 	db 19, GROWLITHE
 	db 20, EKANS
-	db 20, RATICATE
-	db 20, FEAROW
-	db 21, EKANS
+	db 19, EKANS
+	db 18, PARAS
+	db 21, RATICATE
 	db 24, ARBOK
 	end_grass_wildmons
 

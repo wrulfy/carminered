@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   LIGHT_SCREEN, MEGA_DRAIN,   SOLARBEAM,    \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         SWIFT,        DREAM_EATER,  SKY_ATTACK,   REST,         \
-	     CONSTRICT,    SUBSTITUTE,   FLY,          FLASH         
+	     CONFUSE_RAY,  CONSTRICT,    SUBSTITUTE,   FLY,          FLASH         
 	; end
 
 	db 0 ; padding
