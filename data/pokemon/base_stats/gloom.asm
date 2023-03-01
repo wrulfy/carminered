@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
-	db 120 ; catch rate
-	db 123 ; base exp
+	db 130 ; catch rate
+	db 124 ; base exp
 
 	INCBIN "gfx/pokemon/front/gloom.pic", 0, 1 ; sprite dimensions
 	dw GloomPicFront, GloomPicBack

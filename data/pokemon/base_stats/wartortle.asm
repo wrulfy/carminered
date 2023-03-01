@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, ROCK ; type
-	db 45 ; catch rate
+	db 30 ; catch rate
 	db 122 ; base exp
 
 	INCBIN "gfx/pokemon/front/wartortle.pic", 0, 1 ; sprite dimensions

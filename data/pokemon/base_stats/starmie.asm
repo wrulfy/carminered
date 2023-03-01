@@ -1,11 +1,11 @@
 	db DEX_STARMIE ; pokedex id
 
-	db  60,  75,  85, 115, 100
+	db  65,  75,  85, 125, 105
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ICE ; type
-	db 60 ; catch rate
-	db 199 ; base exp
+	db 50 ; catch rate
+	db 207 ; base exp
 
 	INCBIN "gfx/pokemon/front/starmie.pic", 0, 1 ; sprite dimensions
 	dw StarmiePicFront, StarmiePicBack

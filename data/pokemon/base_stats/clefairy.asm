@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, FLYING ; type
-	db 150 ; catch rate
-	db 95 ; base exp
+	db 75 ; catch rate
+	db 93 ; base exp
 
 	INCBIN "gfx/pokemon/front/clefairy.pic", 0, 1 ; sprite dimensions
 	dw ClefairyPicFront, ClefairyPicBack

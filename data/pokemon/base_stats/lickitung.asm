@@ -1,10 +1,10 @@
 	db DEX_LICKITUNG ; pokedex id
 
-	db 110,  65,  85,  40,  85
+	db 115,  65,  85,  35,  85
 	;   hp  atk  def  spd  spc
 
 	db GHOST, NORMAL ; type
-	db 45 ; catch rate
+	db 90 ; catch rate
 	db 147 ; base exp
 
 	INCBIN "gfx/pokemon/front/lickitung.pic", 0, 1 ; sprite dimensions

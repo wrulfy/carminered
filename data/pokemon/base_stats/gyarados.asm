@@ -1,10 +1,10 @@
 	db DEX_GYARADOS ; pokedex id
 
-	db  95, 125,  79,  81,  90
+	db  95, 120,  79,  81,  95
 	;   hp  atk  def  spd  spc
 
 	db WATER, FLYING ; type
-	db 15 ; catch rate
+	db 35 ; catch rate
 	db 212 ; base exp
 
 	INCBIN "gfx/pokemon/front/gyarados.pic", 0, 1 ; sprite dimensions

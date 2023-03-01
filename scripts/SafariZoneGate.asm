@@ -154,7 +154,7 @@ SafariZoneGate_TextPointers:
 	jp nz, .PleaseComeAgain
 	xor a
 	ldh [hMoney], a
-	ld a, $05
+	ld a, $10;I assume this is the price I can alter
 	ldh [hMoney + 1], a
 	ld a, $00
 	ldh [hMoney + 2], a
@@ -167,7 +167,7 @@ SafariZoneGate_TextPointers:
 .success
 	xor a
 	ld [wPriceTemp], a
-	ld a, $05
+	ld a, $10;I assume this is the price I can alter
 	ld [wPriceTemp + 1], a
 	ld a, $00
 	ld [wPriceTemp + 2], a

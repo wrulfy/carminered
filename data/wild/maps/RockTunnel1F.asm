@@ -9,7 +9,7 @@ RockTunnel1FWildMons:
 	db 20, CUBONE
 	db 21, CUBONE
 	db 18, ONIX
-	db 20, ONIX
+	db 24, SANDSLASH
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

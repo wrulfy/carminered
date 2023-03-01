@@ -1,11 +1,11 @@
 	db DEX_PERSIAN ; pokedex id
 
-	db  70,  75,  60, 120,  75
+	db  70,  75,  60, 125,  75
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, GROUND ; type
-	db 90 ; catch rate
-	db 153 ; base exp
+	db 80 ; catch rate
+	db 159 ; base exp
 
 	INCBIN "gfx/pokemon/front/persian.pic", 0, 1 ; sprite dimensions
 	dw PersianPicFront, PersianPicBack

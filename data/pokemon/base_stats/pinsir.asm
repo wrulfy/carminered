@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db BUG, FIGHTING ; type
-	db 45 ; catch rate
-	db 186 ; base exp
+	db 55 ; catch rate
+	db 182 ; base exp
 
 	INCBIN "gfx/pokemon/front/pinsir.pic", 0, 1 ; sprite dimensions
 	dw PinsirPicFront, PinsirPicBack
 
 	db VICEGRIP, HARDEN, FOCUS_ENERGY, ROLLING_KICK ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, POISON_GAS,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \

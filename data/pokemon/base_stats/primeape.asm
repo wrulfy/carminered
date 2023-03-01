@@ -1,11 +1,11 @@
 	db DEX_PRIMEAPE ; pokedex id
 
-	db  70, 110,  60, 100,  60
+	db  70, 110,  60, 105,  60
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, GROUND ; type
-	db 75 ; catch rate
-	db 154 ; base exp
+	db 80 ; catch rate
+	db 160 ; base exp
 
 	INCBIN "gfx/pokemon/front/primeape.pic", 0, 1 ; sprite dimensions
 	dw PrimeapePicFront, PrimeapePicBack

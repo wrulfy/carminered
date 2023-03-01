@@ -7,7 +7,7 @@ Route3WildMons:
 	db  9, SPEAROW
 	db  6, JIGGLYPUFF
 	db  8, JIGGLYPUFF
-	db 10, PIDGEY
+	db  8, BELLSPROUT
 	db  5, MAGNEMITE
 	db  7, MAGNEMITE
 	end_grass_wildmons

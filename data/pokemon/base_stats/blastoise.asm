@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, ROCK ; type
-	db 45 ; catch rate
-	db 205 ; base exp
+	db 15 ; catch rate
+	db 198 ; base exp
 
 	INCBIN "gfx/pokemon/front/blastoise.pic", 0, 1 ; sprite dimensions
 	dw BlastoisePicFront, BlastoisePicBack

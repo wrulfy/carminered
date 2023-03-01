@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
-	db 255 ; catch rate
-	db 70 ; base exp
+	db 230 ; catch rate
+	db 71 ; base exp
 
 	INCBIN "gfx/pokemon/front/poliwag.pic", 0, 1 ; sprite dimensions
 	dw PoliwagPicFront, PoliwagPicBack

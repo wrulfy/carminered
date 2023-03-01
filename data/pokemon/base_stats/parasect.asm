@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db BUG, GROUND ; type
-	db 25 ; catch rate
-	db 211 ; base exp
+	db 20 ; catch rate
+	db 210 ; base exp
 
 	INCBIN "gfx/pokemon/front/parasect.pic", 0, 1 ; sprite dimensions
 	dw ParasectPicFront, ParasectPicBack

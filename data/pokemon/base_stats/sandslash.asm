@@ -1,11 +1,11 @@
 	db DEX_SANDSLASH ; pokedex id
 
-	db  75, 100, 115,  65,  60
+	db  75, 100, 115,  65,  55
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
-	db 90 ; catch rate
-	db 170 ; base exp
+	db 75 ; catch rate
+	db 164 ; base exp
 
 	INCBIN "gfx/pokemon/front/sandslash.pic", 0, 1 ; sprite dimensions
 	dw SandslashPicFront, SandslashPicBack

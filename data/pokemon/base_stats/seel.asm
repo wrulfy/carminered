@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db ICE, NORMAL ; type
-	db 190 ; catch rate
-	db 97 ; base exp
+	db 160 ; catch rate
+	db 95 ; base exp
 
 	INCBIN "gfx/pokemon/front/seel.pic", 0, 1 ; sprite dimensions
 	dw SeelPicFront, SeelPicBack
@@ -15,9 +15,9 @@
 
 	; tm/hm learnset
 	tmhm POISON_GAS,   HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
-	     BUBBLEBEAM,   ICE_BEAM,     HYDRO_PUMP,   PAY_DAY,      MIMIC,        \
-	     DOUBLE_TEAM,  BIDE,         SWIFT,        REST,         MIST,         \
-	     SUBSTITUTE,   SURF,         STRENGTH      
+	     BUBBLEBEAM,   ICE_BEAM,     HYDRO_PUMP,   PAY_DAY,      SOLARBEAM,    \
+	     THUNDERBOLT,  MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
+	     REST,         MIST,         SUBSTITUTE,   SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding

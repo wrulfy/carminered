@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
-	db 45 ; catch rate
-	db 187 ; base exp
+	db 25 ; catch rate
+	db 202 ; base exp
 
 	INCBIN "gfx/pokemon/front/vaporeon.pic", 0, 1 ; sprite dimensions
 	dw VaporeonPicFront, VaporeonPicBack

@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db BUG, PSYCHIC_TYPE ; type
-	db 75 ; catch rate
-	db 152 ; base exp
+	db 80 ; catch rate
+	db 154 ; base exp
 
 	INCBIN "gfx/pokemon/front/venomoth.pic", 0, 1 ; sprite dimensions
 	dw VenomothPicFront, VenomothPicBack

@@ -8,10 +8,6 @@ SpecialTrainerMoves:
 	db 3, 4, PSYBEAM
 	db 0
 
-	db BUG_CATCHER, 13
-	db 1, 1, WING_ATTACK
-	db 0
-
 	db BUG_CATCHER, 15
 	db 6, 4, BODY_SLAM
 	db 0
@@ -185,10 +181,10 @@ SpecialTrainerMoves:
 
 	db ERIKA, 1
 	db 1, 1, ICE_BEAM
-	db 3, 1, DREAM_EATER
-	db 4, 1, MEGA_DRAIN
-	db 4, 2, CONSTRICT
-	db 4, 4, DIG
+	db 2, 4, FOCUS_ENERGY
+	db 3, 2, MEGA_DRAIN
+	db 4, 1, CONSTRICT
+	db 4, 2, DIG
 	db 0
 
 	db KOGA, 1
@@ -200,7 +196,6 @@ SpecialTrainerMoves:
 	db 4, 1, LEECH_SEED
 	db 4, 2, POISON_GAS
 	db 5, 1, POISON_GAS
-	db 5, 2, SLUDGE
 	db 0
 
 	db BLAINE, 1

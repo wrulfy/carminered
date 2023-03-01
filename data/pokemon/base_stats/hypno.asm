@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, NORMAL ; type
-	db 75 ; catch rate
-	db 175 ; base exp
+	db 65 ; catch rate
+	db 171 ; base exp
 
 	INCBIN "gfx/pokemon/front/hypno.pic", 0, 1 ; sprite dimensions
 	dw HypnoPicFront, HypnoPicBack

@@ -1,11 +1,11 @@
 	db DEX_ARBOK ; pokedex id
 
-	db  60, 105,  80,  85,  80
+	db  60, 105,  80,  90,  75
 	;   hp  atk  def  spd  spc
 
 	db POISON, DRAGON ; type
-	db 90 ; catch rate
-	db 164 ; base exp
+	db 75 ; catch rate
+	db 163 ; base exp
 
 	INCBIN "gfx/pokemon/front/arbok.pic", 0, 1 ; sprite dimensions
 	dw ArbokPicFront, ArbokPicBack

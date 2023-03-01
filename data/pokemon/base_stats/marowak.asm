@@ -1,10 +1,10 @@
 	db DEX_MAROWAK ; pokedex id
 
-	db  60,  80, 120,  45,  80
+	db  60,  80, 125,  45,  70
 	;   hp  atk  def  spd  spc
 
 	db GROUND, ICE ; type
-	db 75 ; catch rate
+	db 95 ; catch rate
 	db 146 ; base exp
 
 	INCBIN "gfx/pokemon/front/marowak.pic", 0, 1 ; sprite dimensions

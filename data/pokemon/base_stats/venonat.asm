@@ -4,7 +4,7 @@
 	;   hp  atk  def  spd  spc
 
 	db BUG, PSYCHIC_TYPE ; type
-	db 190 ; catch rate
+	db 180 ; catch rate
 	db 85 ; base exp
 
 	INCBIN "gfx/pokemon/front/venonat.pic", 0, 1 ; sprite dimensions

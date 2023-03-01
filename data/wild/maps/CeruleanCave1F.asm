@@ -2,10 +2,10 @@ CeruleanCave1FWildMons:
 	def_grass_wildmons 10 ; encounter rate
 	db 60, CHANSEY
 	db 60, ELECTRODE
-	db 60, ARBOK
+	db 60, GOLBAT
 	db 60, DITTO
 	db 60, NINETALES
-	db 60, MAGNETON
+	db 60, GENGAR
 	db 61, WIGGLYTUFF
 	db 61, MAROWAK
 	db 62, VENUSAUR

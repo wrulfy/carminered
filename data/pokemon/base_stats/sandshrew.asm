@@ -1,11 +1,11 @@
 	db DEX_SANDSHREW ; pokedex id
 
-	db  50,  75,  85,  40,  30
+	db  50,  70,  80,  35,  25
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
-	db 255 ; catch rate
-	db 87 ; base exp
+	db 220 ; catch rate
+	db 70 ; base exp
 
 	INCBIN "gfx/pokemon/front/sandshrew.pic", 0, 1 ; sprite dimensions
 	dw SandshrewPicFront, SandshrewPicBack

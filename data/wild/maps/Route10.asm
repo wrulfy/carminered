@@ -1,13 +1,13 @@
 Route10WildMons:
 	def_grass_wildmons 30 ; encounter rate
-	db 20, VOLTORB
-	db 20, VENONAT
-	db 21, GROWLITHE
-	db 19, KOFFING 
 	db 20, VULPIX
-	db 20, RATICATE
+	db 20, GROWLITHE
+	db 21, KOFFING
+	db 19, VENONAT 
+	db 20, VOLTORB
 	db 18, PONYTA
-	db 21, VULPIX
+	db 20, RATICATE
+	db 21, SANDSHREW
 	db 22, FEAROW 
 	db 23, MAGMAR
 	end_grass_wildmons

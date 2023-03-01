@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db ELECTRIC, ICE ; type
-	db 225 ; catch rate
-	db 94 ; base exp
+	db 160 ; catch rate
+	db 90 ; base exp
 
 	INCBIN "gfx/pokemon/front/staryu.pic", 0, 1 ; sprite dimensions
 	dw StaryuPicFront, StaryuPicBack

@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db FIGHTING, FIGHTING ; type
-	db 180 ; catch rate
-	db 79 ; base exp
+	db 200 ; catch rate
+	db 73 ; base exp
 
 	INCBIN "gfx/pokemon/front/machop.pic", 0, 1 ; sprite dimensions
 	dw MachopPicFront, MachopPicBack

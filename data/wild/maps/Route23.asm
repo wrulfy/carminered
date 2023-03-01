@@ -1,9 +1,9 @@
 Route23WildMons:
 	def_grass_wildmons 10 ; encounter rate
-	db 44, FEAROW
+	db 44, ARBOK
 	db 44, WIGGLYTUFF
 	db 44, HYPNO
-	db 44, ARBOK
+	db 44, FEAROW
 	db 45, VICTREEBEL
 	db 45, VILEPLUME
 	db 46, EXEGGUTOR

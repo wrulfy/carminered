@@ -5,7 +5,7 @@
 
 	db ROCK, DRAGON ; type
 	db 45 ; catch rate
-	db 184 ; base exp
+	db 183 ; base exp
 
 	INCBIN "gfx/pokemon/front/onix.pic", 0, 1 ; sprite dimensions
 	dw OnixPicFront, OnixPicBack

@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db GROUND, ICE ; type
-	db 190 ; catch rate
-	db 69 ; base exp
+	db 230 ; catch rate
+	db 68 ; base exp
 
 	INCBIN "gfx/pokemon/front/cubone.pic", 0, 1 ; sprite dimensions
 	dw CubonePicFront, CubonePicBack

@@ -4,14 +4,14 @@
 	;   hp  atk  def  spd  spc
 
 	db BUG, FLYING ; type
-	db 45 ; catch rate
-	db 185 ; base exp
+	db 55 ; catch rate
+	db 181 ; base exp
 
 	INCBIN "gfx/pokemon/front/scyther.pic", 0, 1 ; sprite dimensions
 	dw ScytherPicFront, ScytherPicBack
 
 	db QUICK_ATTACK, LEER, LEECH_LIFE, AGILITY ; level 1 learnset
-	db GROWTH_SLOW ; growth rate
+	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    POISON_GAS,   TAKE_DOWN,    \

@@ -5,7 +5,7 @@
 
 	db ROCK, ROCK ; type
 	db 120 ; catch rate
-	db 129 ; base exp
+	db 130 ; base exp
 
 	INCBIN "gfx/pokemon/front/graveler.pic", 0, 1 ; sprite dimensions
 	dw GravelerPicFront, GravelerPicBack

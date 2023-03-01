@@ -1,10 +1,10 @@
 	db DEX_IVYSAUR ; pokedex id
 
-	db  60,  62,  63,  60,  85
+	db  60,  65,  65,  60,  80
 	;   hp  atk  def  spd  spc
 
 	db GRASS, POISON ; type
-	db 45 ; catch rate
+	db 30 ; catch rate
 	db 120 ; base exp
 
 	INCBIN "gfx/pokemon/front/ivysaur.pic", 0, 1 ; sprite dimensions

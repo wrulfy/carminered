@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db GHOST, FLYING ; type
-	db 25 ; catch rate
-	db 173 ; base exp
+	db 20 ; catch rate
+	db 199 ; base exp
 
 	INCBIN "gfx/pokemon/front/clefable.pic", 0, 1 ; sprite dimensions
 	dw ClefablePicFront, ClefablePicBack

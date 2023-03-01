@@ -5,7 +5,7 @@
 
 	db WATER, PSYCHIC_TYPE ; type
 	db 75 ; catch rate
-	db 168 ; base exp
+	db 166 ; base exp
 
 	INCBIN "gfx/pokemon/front/slowbro.pic", 0, 1 ; sprite dimensions
 	dw SlowbroPicFront, SlowbroPicBack

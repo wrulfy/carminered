@@ -1,10 +1,10 @@
 	db DEX_DRAGONITE ; pokedex id
 
-	db  91, 134,  95,  80, 100
+	db  90, 135,  95,  80, 100
 	;   hp  atk  def  spd  spc
 
 	db DRAGON, FLYING ; type
-	db 45 ; catch rate
+	db 10 ; catch rate
 	db 218 ; base exp
 
 	INCBIN "gfx/pokemon/front/dragonite.pic", 0, 1 ; sprite dimensions

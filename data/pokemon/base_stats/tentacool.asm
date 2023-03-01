@@ -4,8 +4,8 @@
 	;   hp  atk  def  spd  spc
 
 	db WATER, POISON ; type
-	db 190 ; catch rate
-	db 93 ; base exp
+	db 100 ; catch rate
+	db 89 ; base exp
 
 	INCBIN "gfx/pokemon/front/tentacool.pic", 0, 1 ; sprite dimensions
 	dw TentacoolPicFront, TentacoolPicBack

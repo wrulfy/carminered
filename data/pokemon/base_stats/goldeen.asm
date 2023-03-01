@@ -5,7 +5,7 @@
 
 	db WATER, WATER ; type
 	db 255 ; catch rate
-	db 74 ; base exp
+	db 60 ; base exp
 
 	INCBIN "gfx/pokemon/front/goldeen.pic", 0, 1 ; sprite dimensions
 	dw GoldeenPicFront, GoldeenPicBack

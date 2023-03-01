@@ -1,10 +1,10 @@
 	db DEX_ALAKAZAM ; pokedex id
 
-	db  70,  50,  50, 115, 140
+	db  70,  50,  45, 120, 140
 	;   hp  atk  def  spd  spc
 
 	db PSYCHIC_TYPE, PSYCHIC_TYPE ; type
-	db 30 ; catch rate
+	db 40 ; catch rate
 	db 180 ; base exp
 
 	INCBIN "gfx/pokemon/front/alakazam.pic", 0, 1 ; sprite dimensions

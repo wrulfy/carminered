@@ -178,8 +178,8 @@ ItemUseBall:
 ; Rand1 must be within a certain range according the kind of ball being thrown.
 ; The ranges are as follows.
 ; Poké Ball:         [0, 255]
-; Great Ball:        [0, 200]
-; Ultra/Safari Ball: [0, 150]
+; Great Ball:        [0, 180]
+; Ultra/Safari Ball: [0, 120]
 ; Loop until an acceptable number is found.
 
 .loop
@@ -198,8 +198,8 @@ ItemUseBall:
 	cp POKE_BALL
 	jr z, .checkForAilments
 
-; If it's a Great/Ultra/Safari Ball and Rand1 is greater than 200, try again.
-	ld a, 200
+; If it's a Great/Ultra/Safari Ball and Rand1 is greater than 180, try again.
+	ld a, 180
 	cp b
 	jr c, .loop
 
@@ -208,8 +208,8 @@ ItemUseBall:
 	cp GREAT_BALL
 	jr z, .checkForAilments
 
-; If it's an Ultra/Safari Ball and Rand1 is greater than 150, try again.
-	ld a, 150
+; If it's an Ultra/Safari Ball and Rand1 is greater than 120, try again.
+	ld a, 120
 	cp b
 	jr c, .loop
 
@@ -219,16 +219,16 @@ ItemUseBall:
 ; Rand1. Let this value be called Status.
 ; The larger Status is, the more easily the Pokémon can be caught.
 ; no status ailment:     Status = 0
-; Burn/Paralysis/Poison: Status = 12
-; Freeze/Sleep:          Status = 25
+; Burn/Paralysis/Poison: Status = 10
+; Freeze/Sleep:          Status = 20
 ; If Status is greater than Rand1, the Pokémon will be caught for sure.
 	ld a, [wEnemyMonStatus]
 	and a
 	jr z, .skipAilmentValueSubtraction ; no ailments
 	and 1 << FRZ | SLP
-	ld c, 12
+	ld c, 10
 	jr z, .notFrozenOrAsleep
-	ld c, 25
+	ld c, 20
 .notFrozenOrAsleep
 	ld a, b
 	sub c
@@ -252,7 +252,7 @@ ItemUseBall:
 
 ; Determine BallFactor. It's 8 for Great Balls and 12 for the others.
 	ld a, [wcf91]
-	cp GREAT_BALL
+	cp SAFARI_BALL
 	ld a, 12
 	jr nz, .skip1
 	ld a, 8
@@ -334,16 +334,16 @@ ItemUseBall:
 
 ; Determine BallFactor2.
 ; Poké Ball:         BallFactor2 = 255
-; Great Ball:        BallFactor2 = 200
-; Ultra/Safari Ball: BallFactor2 = 150
+; Great Ball:        BallFactor2 = 180
+; Ultra/Safari Ball: BallFactor2 = 120
 	ld a, [wcf91]
 	ld b, 255
 	cp POKE_BALL
 	jr z, .skip4
-	ld b, 200
+	ld b, 180
 	cp GREAT_BALL
 	jr z, .skip4
-	ld b, 150
+	ld b, 120
 	cp ULTRA_BALL
 	jr z, .skip4
 
