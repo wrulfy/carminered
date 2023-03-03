@@ -10,7 +10,7 @@ _HallofFameRoomText1::
 	para "#MON LEAGUE"
 	line "champions are"
 	cont "honored for their"
-	cont "exploits here!"
+	cont "achievement here!"
 
 	para "Their #MON are"
 	line "also recorded in"

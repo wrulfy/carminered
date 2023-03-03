@@ -1,9 +1,9 @@
 _FuchsiaMartText2::;
 	text "Do you have a"
-	line "SAFARI ZONE flag?"
+	line "SAFARI ZONE BALL?"
 
-	para "What about cards"
-	line "or calendars?"
+	para "I bought one to"
+	line "decorate my room."
 	done
 
 _FuchsiaMartText3::

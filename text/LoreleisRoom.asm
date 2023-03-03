@@ -7,15 +7,15 @@ _LoreleiBeforeBattleText::
 
 	para "No one can best"
 	line "me when it comes"
-	cont "to icy #MON!"
+	cont "to water #MON!"
 
-	para "Freezing moves"
+	para "Water moves"
 	line "are powerful!"
 
 	para "Your #MON will"
 	line "be at my mercy"
-	cont "when they are"
-	cont "frozen solid!"
+	cont "when I get to"
+	cont "drown them!"
 
 	para "Hahaha!"
 	line "Are you ready?"

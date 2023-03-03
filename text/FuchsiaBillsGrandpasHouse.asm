@@ -3,7 +3,7 @@ _FuchsiaHouse1Text1::
 	line "WARDEN is old,"
 	cont "but still active!"
 
-	para "He's a coffee"
+	para "He's a COFFEE"
 	line "connosieur."
 	done
 

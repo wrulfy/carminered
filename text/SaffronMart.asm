@@ -7,7 +7,8 @@ _SaffronMartText2::;
 	done
 
 _SaffronMartText3::
-	text "REVIVE is costly,"
-	line "but it revives"
-	cont "fainted #MON!"
+	text "ELIXER is costly,"
+	line "but it saves up"
+	cont "trips to the"
+	cont "#MON CENTER!"
 	done

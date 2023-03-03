@@ -11,5 +11,6 @@ FuchsiaMeetingRoom_Object:
 	object_event  4,  1, SPRITE_SAFARI_ZONE_WORKER, STAY, DOWN, 1 ; person
 	object_event  0,  2, SPRITE_SAFARI_ZONE_WORKER, STAY, UP, 2 ; person
 	object_event 10,  1, SPRITE_SAFARI_ZONE_WORKER, STAY, DOWN, 3 ; person
+	object_event  6,  2, SPRITE_POKE_BALL, STAY, NONE, 4 ; person
 
 	def_warps_to FUCHSIA_MEETING_ROOM

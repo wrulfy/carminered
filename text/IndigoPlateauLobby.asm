@@ -1,7 +1,10 @@
 _IndigoPlateauLobbyText2::
 	text "Yo! Champ in"
 	line "making!"
-
+	
+	para "I knew you could"
+	line "make it here!"
+	
 	para "At #MON LEAGUE,"
 	line "you have to face"
 	cont "the ELITE FOUR in"

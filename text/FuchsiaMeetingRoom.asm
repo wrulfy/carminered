@@ -7,13 +7,13 @@ _FuchsiaMeetingRoomText1::
 	done
 
 _FuchsiaMeetingRoomText2::
-	text "TAUROS is very"
-	line "knowledgeable"
-	cont "about #MON!"
+	text "TAUROS loves to"
+	line "drink COFFEE all"
+	cont "day long!"
 
-	para "He even has some"
-	line "fossils of rare,"
-	cont "extinct #MON!"
+	para "He always has some"
+	line "extra COFFEE in"
+	cont "his house!"
 	done
 
 _FuchsiaMeetingRoomText3::
@@ -23,4 +23,9 @@ _FuchsiaMeetingRoomText3::
 
 	para "I think he's got"
 	line "a speech problem!"
+	done
+
+_FuchsiaMeetingRoomText4::
+	text "A display version"
+	line "of a SAFARI BALL!"
 	done

@@ -9,28 +9,31 @@ _VictoryRoad3EndBattleText2::
 	prompt
 
 _VictoryRoad3AfterBattleText2::
-	text "You beat GIOVANNI"
-	line "of TEAM ROCKET?"
+	text "You beat GIOVANNI,"
+	line "the BOSS of"
+	cont "TEAM ROCKET?"
 	done
 
 _VictoryRoad3BattleText3::
-	text "I'll show you just"
-	line "how good you are!"
+	text "Trainers live to"
+	line "seek stronger"
+	cont "opponents!"
 	done
 
 _VictoryRoad3EndBattleText3::
-	text "I'm"
-	line "furious!"
+	text "Oh!"
+	line "So strong!"
 	prompt
 
 _VictoryRoad3AfterBattleText3::
-	text "You showed me just"
-	line "how good I was!"
+	text "By fighting tough"
+	line "battles, you get"
+	cont "stronger!"
 	done
 
 _VictoryRoad3BattleText4::
-	text "Only the chosen"
-	line "can pass here!"
+	text "Behold, the power"
+	line "of BUG #MON!"
 	done
 
 _VictoryRoad3EndBattleText4::
@@ -39,25 +42,24 @@ _VictoryRoad3EndBattleText4::
 	prompt
 
 _VictoryRoad3AfterBattleText4::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
+	text "I'll defeat the"
+	line "ELITE FOUR using"
+	cont "only BUG #MON!"
+	cont "Just watch!"
 	done
 
 _VictoryRoad3BattleText5::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "opponents!"
+	text "I'll show you just"
+	line "how good plant"
+	cont "#MON can be!"
 	done
 
 _VictoryRoad3EndBattleText5::
-	text "Oh!"
-	line "So strong!"
+	text "I'm"
+	line "furious!"
 	prompt
 
 _VictoryRoad3AfterBattleText5::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
+	text "You just trimmed"
+	line "down my plants!"
 	done

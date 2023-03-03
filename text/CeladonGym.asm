@@ -179,8 +179,8 @@ _CeladonGymAfterBattleText6::
 	cont "but she's also"
 	cont "very skilled!"
 
-	para "She's also the"
-	line "best Waifu!"
+	para "She's also very"
+	line "beautiful!"
 	done
 
 _CeladonGymBattleText7::

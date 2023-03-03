@@ -1,17 +1,17 @@
 _PewterMartText2::
-	text "A young fisherman"
-	line "gave me this rod"
-	cont "and I caught this"
-	cont "fish #MON!"
+	text "I like to fish in"
+	line "the pond next to"
+	cont "PEWTER MUSEUM"
 
-	para "It's totally weak"
-	line "and hard to train"
+	para "The goldfish from"
+	line "there are pretty"
+	cont "easy to train."
 	done
 
 _PewterMartText3::
-	text "Good things can"
-	line "happen if you"
-	cont "raise #MON"
-	cont "diligently, even"
-	cont "the weak ones!"
+	text "Some #MON grow"
+	line "faster, and some"
+	cont "are very slow at"
+	cont "first but speed"
+	cont "up overtime."
 	done

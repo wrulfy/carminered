@@ -46,7 +46,7 @@ _ViridianCityText_19175::
 	text "Oh Grandpa! Don't"
 	line "be so mean!"
 	cont "He hasn't had his"
-	cont "coffee yet."
+	cont "COFFEE yet."
 	done
 
 _ViridianCityText_1917a::
@@ -100,7 +100,7 @@ _TM42NoRoomText::
 
 _ViridianCityText_1920a::
 	text "Ahh, I've had my"
-	line "coffee now and I"
+	line "COFFEE now and I"
 	cont "feel great!"
 
 	para "Sure you can go"

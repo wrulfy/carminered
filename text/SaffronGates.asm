@@ -12,7 +12,7 @@ _SaffronGateText_8aaa9::
 	line "I'm sooo tired..."
 	cont "..."
 	cont "Huh? I can have"
-	cont "these coffees?"
+	cont "that COFFEE?"
 	cont "Gee, thanks!@"
 	text_end
 
@@ -34,5 +34,5 @@ _SaffronGateText_1dff1::
 
 _SaffronGateText_1dff6::
 	text "Hi, thanks for"
-	line "those coffees!"
+	line "that COFFEE!"
 	done

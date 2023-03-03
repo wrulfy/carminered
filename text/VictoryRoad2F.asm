@@ -31,8 +31,8 @@ _VictoryRoad2AfterBattleText2::
 	done
 
 _VictoryRoad2BattleText3::
-	text "Come on!"
-	line "I'll whip you!"
+	text "Come on, my beasts"
+	line "will get you!"
 	done
 
 _VictoryRoad2EndBattleText3::
@@ -41,9 +41,9 @@ _VictoryRoad2EndBattleText3::
 	prompt
 
 _VictoryRoad2AfterBattleText3::
-	text "You earned the"
-	line "right to be on"
-	cont "VICTORY ROAD!"
+	text "DRAGON #MON"
+	line "are fierce and"
+	cont "strong beasts!"
 	done
 
 _VictoryRoad2BattleText4::
@@ -59,24 +59,28 @@ _VictoryRoad2EndBattleText4::
 	prompt
 
 _VictoryRoad2AfterBattleText4::
-	text "I can beat you"
-	line "when it comes to"
-	cont "knowledge about"
-	cont "#MON!"
+	text "I though all of my"
+	line "#MON knowledge"
+	cont "would be enough"
+	cont "to defeat you!"
 	done
 
 _VictoryRoad2BattleText5::
-	text "Is VICTORY ROAD"
-	line "too tough?"
+	text "BOOM! BOOM!"
+	line "Did you miss me?"
 	done
 
 _VictoryRoad2EndBattleText5::
 	text "Well"
-	line "done!"
+	line "done! You have"
+	cont "overcome your"
+	cont "final obstacle"
+	cont "before the ELITE"
+	cont "FOUR. You got it!"
 	prompt
 
 _VictoryRoad2AfterBattleText5::
-	text "Many trainers give"
-	line "up the challenge"
-	cont "here."
+	text "Don't dissapoint me"
+	line "now, and become"
+	cont "the CHAMPION!"
 	done

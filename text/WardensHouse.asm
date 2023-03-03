@@ -59,15 +59,20 @@ _HM04ExplanationText::
 	cont "when you're out-"
 	cont "side of battle."
 
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
+	para "Oh yes, SAFFRON's"
+	line "gate keepers are"
+	cont "giving trouble?"
 
-	para "If you do, you"
-	line "win a ROD!"
+	para "These guys love"
+	line "COFFEE almost as"
+	cont "much as I do!"
 
-	para "I hear it's the"
-	line "rare SUPER ROD."
+	para "I have some spare"
+	line "over there, bring"
+	cont "it to them and I'm"
+	cont "sure they'll let"
+	cont "you pass through."
+
 	done
 
 _HM04NoRoomText::

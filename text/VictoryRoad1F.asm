@@ -10,7 +10,7 @@ _VictoryRoad1EndBattleText1::
 	prompt
 
 _VictoryRoad1AfterBattleText1::
-	text "I never wanted to"
+	text "I wanted to never"
 	line "lose to anybody!"
 	done
 

@@ -5,19 +5,19 @@ _LanceBeforeBattleText::
 	para "I lead the ELITE"
 	line "FOUR! You can"
 	cont "call me LANCE the"
-	cont "dragon trainer!"
+	cont "Sky Tamer!"
 
-	para "You know that"
-	line "dragons are"
-	cont "mythical #MON!"
+	para "You should know"
+	line "how good FLYING"
+	cont "#MON are!"
 
-	para "They're hard to"
-	line "catch and raise,"
-	cont "but their powers"
-	cont "are superior!"
+	para "They're swift and"
+	line "graceful, and"
+	cont "their powers are"
+	cont "superior!"
 
 	para "They're virtually"
-	line "indestructible!"
+	line "unmatchable!"
 
 	para "Well, are you"
 	line "ready to lose?"
@@ -37,8 +37,8 @@ _LanceEndBattleText::
 
 _LanceAfterBattleText::
 	text "I still can't"
-	line "believe my"
-	cont "dragons lost to"
+	line "believe my sky"
+	cont "#MON lost to"
 	cont "you, <PLAYER>!"
 
 	para "You are now the"

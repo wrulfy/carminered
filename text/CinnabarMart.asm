@@ -1,7 +1,9 @@
 _CinnabarMartText2::;
-	text "Don't they have X"
-	line "ATTACK? It's good"
-	cont "for battles!"
+	text "Don't they have"
+	line "HYPER POTION? MAX"
+	cont "POTION aren't that"
+	cont "good if you just"
+	cont "heal a little."
 	done
 
 _CinnabarMartText3::

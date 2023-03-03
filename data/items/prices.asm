@@ -45,16 +45,16 @@ ItemPrices::
 	bcd3 0     ; SECRET_KEY
 	bcd3 0     ; COFFEE
 	bcd3 0     ; BIKE_VOUCHER
-	bcd3 950   ; X_ACCURACY
+	bcd3 1100  ; X_ACCURACY
 	bcd3 8000  ; LEAF_STONE
 	bcd3 0     ; CARD_KEY
 	bcd3 20000 ; NUGGET
-	bcd3 9800  ; XXX PP_UP
+	bcd3 1000  ; SOUVENIR SAFARI BALL
 	bcd3 1000  ; POKE_DOLL
 	bcd3 600   ; FULL_HEAL
 	bcd3 1500  ; REVIVE
 	bcd3 3500  ; MAX_REVIVE
-	bcd3 700   ; GUARD_SPEC
+	bcd3 650   ; GUARD_SPEC
 	bcd3 550   ; SUPER_REPEL
 	bcd3 700   ; MAX_REPEL
 	bcd3 650   ; DIRE_HIT
@@ -64,10 +64,10 @@ ItemPrices::
 	bcd3 350   ; LEMONADE
 	bcd3 0     ; S_S_TICKET
 	bcd3 0     ; GOLD_TEETH
-	bcd3 500   ; X_ATTACK
+	bcd3 700   ; X_ATTACK
 	bcd3 550   ; X_DEFEND
 	bcd3 400   ; X_SPEED
-	bcd3 700   ; X_SPECIAL
+	bcd3 900   ; X_SPECIAL
 	bcd3 0     ; COIN_CASE
 	bcd3 0     ; OAKS_PARCEL
 	bcd3 0     ; ITEMFINDER

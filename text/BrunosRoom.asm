@@ -5,17 +5,17 @@ _BrunoBeforeBattleText::
 	para "Through rigorous"
 	line "training, people"
 	cont "and #MON can"
-	cont "become stronger!"
+	cont "become sturdier!"
 
-	para "I've weight"
-	line "trained with"
-	cont "my #MON!"
+	para "I've hiked though"
+	line "endless mountains"
+	cont "with my #MON!"
 
 	para "<PLAYER>!"
 
-	para "We will grind you"
+	para "We will erode you"
 	line "down with our"
-	cont "superior power!"
+	cont "superior defense!"
 
 	para "Hoo hah!"
 	done
