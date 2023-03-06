@@ -2023,7 +2023,7 @@ wBrunosRoomCurScript:: db
 wAgathasRoomCurScript:: db
 wCeruleanCaveB1FCurScript:: db
 wVictoryRoad1FCurScript:: db
-	ds 1
+wSeafoamIslandsXCurScript:: db
 wLancesRoomCurScript:: db
 	ds 4
 wSilphCo10FCurScript:: db

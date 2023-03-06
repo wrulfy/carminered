@@ -9,7 +9,8 @@ SeafoamIslandsB3F_Object:
 	warp_event 25, 14, SEAFOAM_ISLANDS_B2F, 7
 	warp_event 20, 17, SEAFOAM_ISLANDS_B4F, 1
 	warp_event 21, 17, SEAFOAM_ISLANDS_B4F, 2
-
+	warp_event 29, 16, SEAFOAM_ISLANDS_X, 2
+	warp_event 29, 17, SEAFOAM_ISLANDS_X, 3
 	def_bg_events
 
 	def_object_events

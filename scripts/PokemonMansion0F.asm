@@ -54,9 +54,10 @@ PokemonMansion0F_TextPointers:
 	dw PokemonMansion0FText3
 	dw PokemonMansion0FText4
 	dw PokemonMansion0FText5
+	dw PokemonMansion0FText6
 
-PokemonMansion0FText5:
-	text_far _PokemonMansion0FText5
+PokemonMansion0FText6:
+	text_far _PokemonMansion0FText6
 	text_end
 
 PokemonMansion0FText1:
@@ -73,4 +74,8 @@ PokemonMansion0FText3:
 
 PokemonMansion0FText4:
 	text_far _PokemonMansion0FText4
+	text_end
+
+PokemonMansion0FText5:
+	text_far _PokemonMansion0FText5
 	text_end

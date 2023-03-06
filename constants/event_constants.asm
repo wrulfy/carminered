@@ -780,6 +780,9 @@
 	const EVENT_SEAFOAM4_BOULDER2_DOWN_HOLE
 	const_skip 8
 	const EVENT_BEAT_ARTICUNO
+	const_skip 6
+	const EVENT_BEAT_SEAFOAM_ISLANDS_X_TRAINER_0
+	const EVENT_BEAT_SEAFOAM_ISLANDS_X_TRAINER_1
 
 ; End of events
 	const_next $A00

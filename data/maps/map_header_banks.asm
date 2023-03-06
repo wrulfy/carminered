@@ -109,8 +109,8 @@ MapHeaderBanks::
 	db $1D ; UNUSED_MAP_69
 	db $1D ; UNUSED_MAP_6A
 	db $1D ; UNUSED_MAP_6B
-	db BANK(VictoryRoad1F_h)
-	db $1D ; UNUSED_MAP_6D
+	db BANK(VictoryRoad1F_h);A
+	db BANK(SeafoamIslandsX_h)
 	db $1D ; UNUSED_MAP_6E
 	db $1D ; UNUSED_MAP_6F
 	db $1D ; UNUSED_MAP_70

@@ -5,11 +5,12 @@ SeafoamIslandsB4F_Object:
 	warp_event 20, 17, SEAFOAM_ISLANDS_B3F, 6
 	warp_event 21, 17, SEAFOAM_ISLANDS_B3F, 7
 	warp_event 11,  7, SEAFOAM_ISLANDS_B3F, 2
-	warp_event 25,  4, SEAFOAM_ISLANDS_B3F, 3
+	warp_event 23,  5, SEAFOAM_ISLANDS_B3F, 3
+	warp_event 29,  4, SEAFOAM_ISLANDS_X, 1
 
 	def_bg_events
 	bg_event  9, 15, 4 ; SeafoamIslands5Text4
-	bg_event 23,  1, 5 ; SeafoamIslands5Text5
+	bg_event 19,  1, 5 ; SeafoamIslands5Text5
 
 	def_object_events
 	object_event  4, 15, SPRITE_BOULDER, STAY, NONE, 1 ; person

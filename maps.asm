@@ -980,6 +980,10 @@ INCLUDE "scripts/VictoryRoad1F.asm"
 INCLUDE "data/maps/objects/VictoryRoad1F.asm"
 VictoryRoad1F_Blocks: INCBIN "maps/VictoryRoad1F.blk"
 
+INCLUDE "data/maps/headers/SeafoamIslandsX.asm"
+INCLUDE "scripts/SeafoamIslandsX.asm"
+INCLUDE "data/maps/objects/SeafoamIslandsX.asm"
+SeafoamIslandsX_Blocks: INCBIN "maps/SeafoamIslandsX.blk"
 
 SECTION "Maps 17", ROMX
 

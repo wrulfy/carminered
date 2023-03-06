@@ -1104,8 +1104,9 @@ AcidArmorAnim:
 	db -1 ; end
 
 CrabHammerAnim:
-	battle_anim CRABHAMMER, SUBANIM_05, 1, 6
-	battle_anim NO_MOVE, SUBANIM_2A, 0, 6
+	battle_anim CRABHAMMER, SUBANIM_2A, 0, 3
+	battle_anim NO_MOVE, SUBANIM_5A, 1, 4
+	battle_anim HYDRO_PUMP, SUBANIM_1A, 0, 4
 	db -1 ; end
 
 ExplosionAnim:
@@ -1162,7 +1163,8 @@ SuperFangAnim:
 	db -1 ; end
 
 SlashAnim:
-	battle_anim SLASH, SUBANIM_0F, 0, 6
+	battle_anim CUT, SUBANIM_16, 0, 2
+	battle_anim SLASH, SUBANIM_0F, 0, 8
 	db -1 ; end
 
 SubstituteAnim:

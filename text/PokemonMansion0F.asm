@@ -27,3 +27,8 @@ _PokemonMansion0FText4::
 	line "NO ENTRY WITHOUT"
 	cont "AUTHORIZATION"
 	done
+
+_PokemonMansion0FText6::
+	text "It's the schedule"
+	line "of the outpost."
+	done

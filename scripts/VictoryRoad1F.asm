@@ -50,9 +50,9 @@ VictoryRoad1F_TextPointers:
 VictoryRoad1TrainerHeaders:
 	def_trainers
 VictoryRoad1TrainerHeader0:
-	trainer EVENT_BEAT_VICTORY_ROAD_1_TRAINER_0, 2, VictoryRoad1BattleText1, VictoryRoad1EndBattleText1, VictoryRoad1AfterBattleText1
+	trainer EVENT_BEAT_VICTORY_ROAD_1_TRAINER_0, 4, VictoryRoad1BattleText1, VictoryRoad1EndBattleText1, VictoryRoad1AfterBattleText1
 VictoryRoad1TrainerHeader1:
-	trainer EVENT_BEAT_VICTORY_ROAD_1_TRAINER_1, 2, VictoryRoad1BattleText2, VictoryRoad1EndBattleText2, VictoryRoad1AfterBattleText2
+	trainer EVENT_BEAT_VICTORY_ROAD_1_TRAINER_1, 4, VictoryRoad1BattleText2, VictoryRoad1EndBattleText2, VictoryRoad1AfterBattleText2
 	db -1 ; end
 
 VictoryRoad1Text1:

@@ -108,7 +108,7 @@ _RockTunnel1AfterBattleText7::
 	line "sweaty now!"
 	done
 
-_RockTunnel1Text8::
+_RockTunnel1Text10::
 	text "ROCK TUNNEL"
 	line "CERULEAN CITY -"
 	cont "LAVENDER TOWN"

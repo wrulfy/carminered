@@ -86,6 +86,11 @@ SHOW EQU $15
 	const HS_FIGHTING_DOJO_GIFT_1          ; 4A
 	const HS_FIGHTING_DOJO_GIFT_2          ; 4B
 	const HS_SILPH_CO_1F_RECEPTIONIST      ; 4C
+	const HS_ROCK_TUNNEL_1F_ITEM_1 
+	const HS_ROCK_TUNNEL_1F_ITEM_2 
+	const HS_ROCK_TUNNEL_B1F_ITEM_1 
+	const HS_ROCK_TUNNEL_B1F_ITEM_2 
+	const HS_ROCK_TUNNEL_B1F_ITEM_3 
 	const HS_VOLTORB_1                     ; 4D X
 	const HS_VOLTORB_2                     ; 4E X
 	const HS_VOLTORB_3                     ; 4F X

@@ -26,6 +26,6 @@ SSAnneB1FRooms_Object:
 	object_event 21, 12, SPRITE_MONSTER, STAY, NONE, 8 ; person
 	object_event 20,  2, SPRITE_POKE_BALL, STAY, NONE, 9, ELIXER
 	object_event 10,  2, SPRITE_POKE_BALL, STAY, NONE, 10, TM_RAZOR_WIND
-	object_event 22, 11, SPRITE_POKE_BALL, STAY, NONE, 11, MAX_POTION
+	object_event 22, 11, SPRITE_POKE_BALL, STAY, NONE, 11, REVIVE
 
 	def_warps_to SS_ANNE_B1F_ROOMS

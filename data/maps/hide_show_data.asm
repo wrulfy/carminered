@@ -85,7 +85,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw RockTunnel1FHS
 	dw PowerPlantHS
 	dw NoHS
 	dw NoHS
@@ -235,7 +235,7 @@ MapHSPointers:
 	dw NoHS
 	dw NoHS
 	dw NoHS
-	dw NoHS
+	dw RockTunnelB1FHS
 	dw SilphCo9FHS
 	dw SilphCo10FHS
 	dw SilphCo11FHS
@@ -373,6 +373,13 @@ FightingDojoHS:
 	db FIGHTING_DOJO, $07, SHOW
 SilphCo1FHS:
 	db SILPH_CO_1F, $01, HIDE
+RockTunnel1FHS:
+	db ROCK_TUNNEL_1F, $08, SHOW
+	db ROCK_TUNNEL_1F, $09, SHOW
+RockTunnelB1FHS:
+	db ROCK_TUNNEL_B1F, $09, SHOW
+	db ROCK_TUNNEL_B1F, $0A, SHOW
+	db ROCK_TUNNEL_B1F, $0B, SHOW
 PowerPlantHS:
 	db POWER_PLANT, $01, SHOW
 	db POWER_PLANT, $02, SHOW

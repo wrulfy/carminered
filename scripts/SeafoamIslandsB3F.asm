@@ -77,8 +77,9 @@ SeafoamIslands4Script0:
 	ret
 
 RLEMovement46632:
-	db D_DOWN, 6
-	db D_RIGHT, 5
+	db D_RIGHT, 9
+	db D_DOWN, 5
+	db D_RIGHT, 6
 	db D_DOWN, 3
 	db -1 ; end
 
@@ -120,15 +121,16 @@ SeafoamIslands4Script2:
 	ret
 
 RLEData_4667f:
-	db D_DOWN, 6
+	db D_RIGHT, 9
+	db D_DOWN, 5
 	db D_RIGHT, 2
 	db D_DOWN, 4
-	db D_LEFT, 1
 	db -1 ; end
 
 RLEData_46688:
-	db D_DOWN, 6
-	db D_RIGHT, 2
+	db D_RIGHT, 9
+	db D_DOWN, 5
+	db D_RIGHT, 3
 	db D_DOWN, 4
 	db -1 ; end
 

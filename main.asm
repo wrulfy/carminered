@@ -69,7 +69,6 @@ INCLUDE "engine/math/bcd.asm"
 INCLUDE "engine/movie/oak_speech/init_player_data.asm"
 INCLUDE "engine/items/get_bag_item_quantity.asm"
 INCLUDE "engine/overworld/pathfinding.asm"
-INCLUDE "engine/gfx/hp_bar.asm"
 INCLUDE "engine/events/hidden_objects/bookshelves.asm"
 INCLUDE "engine/events/hidden_objects/indigo_plateau_statues.asm"
 INCLUDE "engine/events/hidden_objects/book_or_sculpture.asm"
@@ -81,6 +80,7 @@ INCLUDE "engine/events/hidden_objects/town_map.asm"
 SECTION "Font Graphics", ROMX
 
 INCLUDE "gfx/font.asm"
+INCLUDE "engine/gfx/hp_bar.asm";MOVED FROM BANK3
 
 
 SECTION "Battle Engine 1", ROMX

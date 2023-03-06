@@ -20,7 +20,9 @@ RockTunnel1F_TextPointers:
 	dw RockTunnel1Text5
 	dw RockTunnel1Text6
 	dw RockTunnel1Text7
-	dw RockTunnel1Text8
+	dw PickUpItemText
+	dw PickUpItemText
+	dw RockTunnel1Text10
 
 RockTunnel1TrainerHeaders:
 	def_trainers
@@ -161,6 +163,6 @@ RockTunnel1AfterBattleText7:
 	text_far _RockTunnel1AfterBattleText7
 	text_end
 
-RockTunnel1Text8:
-	text_far _RockTunnel1Text8
+RockTunnel1Text10:
+	text_far _RockTunnel1Text10
 	text_end
