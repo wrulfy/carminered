@@ -198,6 +198,15 @@ _CableClubNPCWelcomeText::
 	line "Cable Club!"
 	done
 
+_CableClubNPCnopeText::
+	text "The CABLE CLUB"
+	line "service has been"
+	cont "discontinued."
+
+	para "We apologize for"
+	line "the inconvenience."
+	done
+
 _CableClubNPCPleaseApplyHereHaveToSaveText::
 	text "Please apply here."
 
