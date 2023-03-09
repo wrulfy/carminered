@@ -12,3 +12,17 @@ _SaffronMartText3::
 	cont "trips to the"
 	cont "#MON CENTER!"
 	done
+
+_SaffronMartText3::
+	text "GREAT and ULTRA"
+	line "BALLs are better"
+	cont "than # BALLs,"
+	cont "but not for easy"
+	cont "to catch #MON!"
+
+	para "For those there's"
+	line "little advantage,"
+	cont "so save them for"
+	cont "rare, harder to"
+	cont "catch #MON!"
+	done

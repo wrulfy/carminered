@@ -1,6 +1,9 @@
-list of very specific code-related things to keep for last in case I eventually learn asm or to commission someone to code, in order of most interesting of getting done
+Add the secret cable club, probably in cerulean.
+review all partaining text regarding the cable to indicate the pokecenters are outdated.
 
 Review the position of trainers and sight in routes as well.
+
+list of very specific code-related things to keep for last in case I eventually learn asm or to commission someone to code, in order of most interesting of getting done
 
 
 try to make the AIMoveChoiceModification2 actually proc on turn 1 instead of turn 2. If so, review move_choices.asm to sprinke some 2s on more trainer classes

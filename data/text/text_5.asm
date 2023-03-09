@@ -3,9 +3,9 @@ _CableClubNPCPleaseComeAgainText::
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Sorry, you need to"
+	line "have a #DEX in"
+	cont "order to trade."
 	done
 
 _UsedStrengthText::

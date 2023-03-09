@@ -82,8 +82,9 @@ _PewterCityText6::
 
 	para "Any #MON that"
 	line "takes part in"
-	cont "battle, however"
-	cont "short, earns EXP!"
+	cont "battle, earns the"
+	cont "same amount of"
+	cont "EXP regadless!"
 	done
 
 _PewterCityText7::

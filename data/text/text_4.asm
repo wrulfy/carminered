@@ -187,10 +187,10 @@ _PokemonCenterFarewellText::
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "You need first to"
+	line "connect with the"
+	cont "other player in"
+	cont "order to proceed."
 	done
 
 _CableClubNPCWelcomeText::
@@ -215,7 +215,7 @@ _CableClubNPCLinkClosedBecauseOfInactivityText::
 	line "closed because of"
 	cont "inactivity."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Please check on"
+	line "the other player"
+	cont "and try again!"
 	done

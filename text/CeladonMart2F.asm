@@ -14,6 +14,21 @@ _CeladonMart2Text4::
 	done
 
 _CeladonMart2Text5::
+	text "The CABLE CLUB"
+	line "closed long time"
+	cont "so you can't use"
+	cont "their services at"
+	cont "#MON CENTERs."
+
+	para "But I've hear some"
+	line "guys at CELUREAN"
+	cont "CITY are doing a"
+	cont "fanmade project"
+	cont "to restore it."
+	done
+
+
+_CeladonMart2Text6::
 	text "Top Grade Items"
 	line "for Trainers!"
 

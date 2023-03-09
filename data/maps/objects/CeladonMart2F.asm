@@ -7,12 +7,13 @@ CeladonMart2F_Object:
 	warp_event  1,  1, CELADON_MART_ELEVATOR, 1
 
 	def_bg_events
-	bg_event 14,  1, 5 ; CeladonMart2Text5
+	bg_event 14,  1, 6 ; CeladonMart2Text5
 
 	def_object_events
 	object_event  5,  3, SPRITE_CLERK, STAY, DOWN, 1 ; person
 	object_event  6,  3, SPRITE_CLERK, STAY, DOWN, 2 ; person
 	object_event 19,  5, SPRITE_MIDDLE_AGED_MAN, STAY, NONE, 3 ; person
 	object_event 14,  4, SPRITE_GIRL, WALK, UP_DOWN, 4 ; person
+	object_event  2,  6, SPRITE_MIDDLE_AGED_WOMAN, WALK, LEFT_RIGHT, 5 ; person
 
 	def_warps_to CELADON_MART_2F

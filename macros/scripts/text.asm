@@ -194,7 +194,10 @@ script_pokecenter_pc: MACRO
 	db TX_SCRIPT_POKECENTER_PC
 ENDM
 
-	const_skip ; $f8
+	const TX_SCRIPT_CABLE_CLUB_GUY ; $f8
+script_cable_club_guy: MACRO
+	db TX_SCRIPT_CABLE_CLUB_GUY
+ENDM
 
 	const TX_SCRIPT_PRIZE_VENDOR ; $f7
 script_prize_vendor: MACRO
@@ -205,6 +208,7 @@ ENDM
 script_cable_club_receptionist: MACRO
 	db TX_SCRIPT_CABLE_CLUB_RECEPTIONIST
 ENDM
+
 
 	const TX_SCRIPT_VENDING_MACHINE ; $f5
 script_vending_machine: MACRO

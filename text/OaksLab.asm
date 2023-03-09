@@ -410,8 +410,9 @@ _OaksLabText_44210::
 
 _OaksLabText_44215::
 	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	line "Remember to swap"
+	cont "the PC BOX to"
+	cont "catch more!"
 	done
 
 _OaksLabText_4421a::
@@ -459,9 +460,9 @@ _OaksLabText_44238::
 	done
 
 _OaksLabText_4423d::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Excellent! Use"
+	line "evolution stones"
+	cont "to get some more!"
 	done
 
 _OaksLabText_44242::

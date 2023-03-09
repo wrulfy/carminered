@@ -161,8 +161,8 @@ _Route13AfterBattleText11::
 _Route13Text11::
 	text "TRAINER TIPS"
 
-	para "Look to the left"
-	line "of that post!"
+	para "Remember to use"
+	line "the ITEMFINDER!"
 	done
 
 _Route13Text12::
@@ -171,6 +171,10 @@ _Route13Text12::
 	para "Use SELECT to"
 	line "switch items in"
 	cont "the ITEM window!"
+
+	para "Same applies to"
+	line "moves in the"
+	cont "FIGHT window!"
 	done
 
 _Route13Text13::

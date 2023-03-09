@@ -182,8 +182,8 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
-	line "skulls, right?"
+	text "CLEFAIRY are very"
+	line "cute, right?"
 
 	para "People will pay a"
 	line "lot for one!"
@@ -203,8 +203,9 @@ _RockTunnelPokecenterGuyText::
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "... Huh? This is"
+	line "just a mannequin"
+	cont "put on a bench."
 	done
 
 _UnusedBenchGuyText2::
@@ -237,7 +238,9 @@ _VermilionPokecenterGuyText::
 _CeladonCityPokecenterGuyText::
 	text "If I had a BIKE,"
 	line "I would go to"
-	cont "CYCLING ROAD!"
+	cont "CYCLING ROAD,"
+	cont "but they're way"
+	cont "too expensive"
 	done
 
 _FuchsiaCityPokecenterGuyText::
@@ -250,14 +253,15 @@ _FuchsiaCityPokecenterGuyText::
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
+	text "Some #MON can"
 	line "learn techniques"
 	cont "after canceling"
 	cont "evolution."
 
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	para "But in most cases"
+	line "they will still"
+	cont "learn them after"
+	cont "after evolution"
 	done
 
 _SaffronCityPokecenterGuyText1::
@@ -518,9 +522,9 @@ _ViridianSchoolNotebookText2::
 	cont "catch, so weaken"
 	cont "it first!"
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Paralysis, sleep,"
+	line "and other STATUS"
+	cont "are effective!"
 	prompt
 
 _ViridianSchoolNotebookText3::
@@ -573,9 +577,9 @@ _IndigoPlateauHQText::
 
 _RedBedroomSNESText::
 	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	line "playing the STEAM"
+	cont "DECK! It's full"
+	cont "of Emulators!"
 	done
 
 _Route15UpstairsBinocularsText::
@@ -648,7 +652,9 @@ _ViridianSchoolBlackboardText2::
 _ViridianBlackboardSleepText::
 	text "A #MON can't"
 	line "attack if it's"
-	cont "asleep!"
+	cont "asleep, but will"
+	cont "wake up on its"
+	cont "own in a while!"
 
 	para "#MON will stay"
 	line "asleep even after"
@@ -664,16 +670,20 @@ _ViridianBlackboardPoisonText::
 	cont "steadily drops."
 
 	para "Poison lingers"
-	line "after battles."
+	line "after battles,"
+	cont "and keeps hurting"
+	cont "them as you walk!"
+
 
 	para "Use an ANTIDOTE"
 	line "to cure poison!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "Paralysis makes"
+	line "#MON slower,"
+	cont "and their moves"
+	cont "could misfire!"
 
 	para "Paralysis remains"
 	line "after battles."
@@ -684,7 +694,7 @@ _ViridianBlackboardPrlzText::
 
 _ViridianBlackboardBurnText::
 	text "A burn reduces"
-	line "power and speed."
+	line "attack power."
 	cont "It also causes"
 	cont "ongoing damage."
 
@@ -698,7 +708,9 @@ _ViridianBlackboardBurnText::
 _ViridianBlackboardFrozenText::
 	text "If frozen, a"
 	line "#MON becomes"
-	cont "totally immobile!"
+	cont "totally immobile,"
+	cont "unless they get"
+	cont "hit by some FIRE!"
 
 	para "It stays frozen"
 	line "even after the"

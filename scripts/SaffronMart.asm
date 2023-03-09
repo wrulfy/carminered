@@ -5,6 +5,7 @@ SaffronMart_TextPointers:
 	dw SaffronCashierText
 	dw SaffronMartText2
 	dw SaffronMartText3
+	dw SaffronMartText4
 
 SaffronMartText2:
 	text_far _SaffronMartText2
@@ -12,4 +13,8 @@ SaffronMartText2:
 
 SaffronMartText3:
 	text_far _SaffronMartText3
+	text_end
+
+SaffronMartText4:
+	text_far _SaffronMartText4
 	text_end

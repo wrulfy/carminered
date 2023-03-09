@@ -7,6 +7,7 @@ CeladonMart2F_TextPointers:
 	dw CeladonMart2Text3
 	dw CeladonMart2Text4
 	dw CeladonMart2Text5
+	dw CeladonMart2Text6
 
 CeladonMart2Text3:
 	text_far _CeladonMart2Text3
@@ -19,3 +20,9 @@ CeladonMart2Text4:
 CeladonMart2Text5:
 	text_far _CeladonMart2Text5
 	text_end
+
+CeladonMart2Text6:
+	text_far _CeladonMart2Text6
+	text_end
+
+	

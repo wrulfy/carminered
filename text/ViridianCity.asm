@@ -136,6 +136,9 @@ _ViridianCityText_19219::
 	text "First, you need"
 	line "to weaken the"
 	cont "target #MON."
+
+	para "Inflicting STATUS"
+	line "will also help!"
 	done
 
 _ViridianCityText8::
@@ -167,7 +170,8 @@ _ViridianCityText10::
 	para "To replenish PP,"
 	line "rest your tired"
 	cont "#MON at a"
-	cont "#MON CENTER!"
+	cont "#MON CENTER,"
+	cont "or use an ETHER!"
 	done
 
 _ViridianCityText13::

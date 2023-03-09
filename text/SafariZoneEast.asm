@@ -8,6 +8,9 @@ _SafariZoneEastText6::
 	para "The remaining time"
 	line "declines only"
 	cont "while you walk!"
+
+	para "Turning around and"
+	line "fishing is free!"
 	done
 
 _SafariZoneEastText7::
