@@ -30,6 +30,7 @@ HiddenObjectMaps:
 	db ROCK_TUNNEL_POKECENTER
 	db TRADE_CENTER
 	db COLOSSEUM
+	db SECRET_CLUB_B1F
 	db VIRIDIAN_FOREST
 	db MT_MOON_B2F
 	db INDIGO_PLATEAU
@@ -120,6 +121,7 @@ HiddenObjectPointers:
 	dw RockTunnelPokecenterHiddenObjects
 	dw TradeCenterHiddenObjects
 	dw ColosseumHiddenObjects
+	dw SecretClubHiddenObjects
 	dw ViridianForestHiddenObjects
 	dw MtMoon3HiddenObjects
 	dw IndigoPlateauHiddenObjects
@@ -204,6 +206,13 @@ ColosseumHiddenObjects:
 	hidden_object  5,  4, ANY_FACING, CableClubRightGameboy
 	hidden_object  4,  4, ANY_FACING, CableClubLeftGameboy
 	db -1 ; end
+
+SecretClubB1FHiddenObjects:
+	hidden_object  0,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object  2,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object 10,  4, SPRITE_FACING_UP, OpenPokemonCenterPC
+	db -1 ; end
+
 
 RedsHouse2FHiddenObjects:
 	hidden_object  0,  1, SPRITE_FACING_UP, OpenRedsPC
@@ -305,7 +314,7 @@ VermilionGymHiddenObjects:
 	db -1 ; end
 
 CeladonMansion2HiddenObjects:
-	hidden_object  0,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_object  3,  3, SPRITE_FACING_UP, OpenPokemonCenterPC
 	db -1 ; end
 
 CeladonPokecenterHiddenObjects:

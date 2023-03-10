@@ -55,7 +55,9 @@
 	const EVENT_BEAT_CERULEAN_RIVAL
 	const_skip 14
 	const EVENT_BEAT_CERULEAN_ROCKET_THIEF
-	const_skip 18
+	const_skip 8
+	const EVENT_BEAT_SECRET_CLUB_1F_TRAINER_0
+	const_skip 8
 	const EVENT_BEAT_CERULEAN_GYM_TRAINER_0
 	const EVENT_BEAT_CERULEAN_GYM_TRAINER_1
 	const_skip 2

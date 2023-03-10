@@ -8,8 +8,8 @@ _CeladonMansion2Text1::
 
 	para "This woudln't be"
 	line "possible without"
-	cont "all of the team"
-	cont "PRET over github"
+	cont "all of the PRET"
+	cont "team over github"
 	cont "and the people on"
 	cont "the PRET discord"
 	cont "server!"
@@ -24,11 +24,11 @@ _CeladonMansion2Text1::
 	done
 
 _CeladonMansion2Text2::
-	text "---- -----"
-	line "------- ----"
-
-	para "#MON ROMHACK"
+	text "#MON ROMHACK"
 	line "Development Room"
+
+	para "The text is pasted"
+	line "over something."
 
 	para "Did he write over"
 	line "the old sign?"

@@ -242,8 +242,8 @@ MapHeaderBanks::
 	db $11 ; UNUSED_MAP_EE
 	db BANK(TradeCenter_h)
 	db BANK(Colosseum_h)
-	db $11 ; UNUSED_MAP_F1
-	db $11 ; UNUSED_MAP_F2
+	db BANK(SecretClub1F_h)
+	db BANK(SecretClubB1F_h)
 	db BANK(PokemonMansionTunnel_h)	
 	db BANK(CinnabarLabStorageRoom_h)
 	db BANK(LoreleisRoom_h)

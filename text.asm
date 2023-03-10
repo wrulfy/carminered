@@ -78,6 +78,8 @@ INCLUDE "text/ViridianForestSouthGate.asm"
 INCLUDE "text/MtMoonPokecenter.asm"
 INCLUDE "text/SaffronGates.asm"
 INCLUDE "text/Daycare.asm"
+INCLUDE "text/SecretClub1F.asm"
+INCLUDE "text/SecretClubB1F.asm"
 
 
 SECTION "Text 4", ROMX

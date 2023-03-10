@@ -242,8 +242,8 @@ MapHeaderPointers::
 	dw SilphCo2F_h ; UNUSED_MAP_EE
 	dw TradeCenter_h
 	dw Colosseum_h
-	dw SilphCo2F_h ; UNUSED_MAP_F1
-	dw SilphCo2F_h ; UNUSED_MAP_F2
+	dw SecretClub1F_h
+	dw SecretClubB1F_h
 	dw PokemonMansionTunnel_h
 	dw CinnabarLabStorageRoom_h
 	dw LoreleisRoom_h

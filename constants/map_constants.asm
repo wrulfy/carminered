@@ -259,8 +259,8 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst UNUSED_MAP_EE,                  0,  0 ; $EE
 	mapconst TRADE_CENTER,                   4,  5 ; $EF
 	mapconst COLOSSEUM,                      4,  5 ; $F0
-	mapconst UNUSED_MAP_F1,                  0,  0 ; $F1
-	mapconst UNUSED_MAP_F2,                  0,  0 ; $F2
+	mapconst SECRET_CLUB_1F,                 2,  3 ; $F1
+	mapconst SECRET_CLUB_B1F,                4,  6 ; $F2
 	mapconst POKEMON_MANSION_TUNNEL,         3, 20 ; $F3
 	mapconst CINNABAR_LAB_STORAGE_ROOM,      4,  4 ; $F4
 	mapconst LORELEIS_ROOM,                  6,  5 ; $F5
