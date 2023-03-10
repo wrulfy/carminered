@@ -15,7 +15,7 @@ _CeladonMart2Text4::
 
 _CeladonMart2Text5::
 	text "The CABLE CLUB"
-	line "closed long time"
+	line "closed long ago,"
 	cont "so you can't use"
 	cont "their services at"
 	cont "#MON CENTERs."

@@ -13,7 +13,7 @@ _SaffronMartText3::
 	cont "#MON CENTER!"
 	done
 
-_SaffronMartText3::
+_SaffronMartText4::
 	text "GREAT and ULTRA"
 	line "BALLs are better"
 	cont "than # BALLs,"
