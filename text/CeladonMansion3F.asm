@@ -20,11 +20,10 @@ _WriterText::
 	text "I wrote the story!"
 	line "Isn't ERIKA cute?"
 
-	para "I like MISTY a"
-	line "lot too!"
-
-	para "Oh, and SABRINA,"
-	line "I like her!"
+	para "Yes, just because"
+	line "it isn't super"
+	cont "complex doesn't"
+	cont "mean there isn't."
 	done
 
 _GameDesignerText::
@@ -55,7 +54,7 @@ _CeladonMansion3Text5::
 	cont "with it could bug"
 	cont "even more out the"
 	cont "game! Or even fix"
-	cont "it by pure luck"
+	cont "it by pure luck!"
 	done
 
 _CeladonMansion3Text6::

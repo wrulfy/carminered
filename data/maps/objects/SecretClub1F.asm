@@ -1,5 +1,5 @@
 SecretClub1F_Object:
-	db $7d ; border block
+	db $f ; border block
 
 	def_warp_events
 	warp_event  4,  0, LAST_MAP, 11

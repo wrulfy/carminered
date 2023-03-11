@@ -123,6 +123,8 @@ InternalMapEntries:
 	internal_map CERULEAN_BADGE_HOUSE,          10,  2, CeruleanCityName
 	internal_map ROCK_TUNNEL_B1F,               14,  3, RockTunnelName
 	internal_map SILPH_CO_ELEVATOR,             10,  5, SilphCoName
+	internal_map SECRET_CLUB_1F,                10,  2, CeruleanCityName
+	internal_map SECRET_CLUB_B1F,               10,  2, CeruleanCityName
 	internal_map POKEMON_MANSION_TUNNEL,        13,  4, PokemonMansionName
 	internal_map CINNABAR_LAB_STORAGE_ROOM,      2, 15, CinnabarIslandName
 	internal_map AGATHAS_ROOM,                   0,  2, PokemonLeagueName

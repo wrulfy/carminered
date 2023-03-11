@@ -585,16 +585,6 @@ INCLUDE "scripts/Colosseum.asm"
 INCLUDE "data/maps/objects/Colosseum.asm"
 Colosseum_Blocks: INCBIN "maps/Colosseum.blk"
 
-INCLUDE "data/maps/headers/SecretClub1F.asm"
-INCLUDE "scripts/SecretClub1F.asm"
-INCLUDE "data/maps/objects/SecretClub1F.asm"
-SecretClubB1F_Blocks: INCBIN "maps/SecretClub1F.blk"	
-
-INCLUDE "data/maps/headers/SecretClubB1F.asm"
-INCLUDE "scripts/SecretClubB1F.asm"
-INCLUDE "data/maps/objects/SecretClubB1F.asm"
-SecretClubB1F_Blocks: INCBIN "maps/SecretClubB1F.blk"	
-
 SECTION "Maps 10", ROMX
 
 INCLUDE "data/maps/headers/Route22.asm"
@@ -716,6 +706,15 @@ Daycare_Blocks: INCBIN "maps/Daycare.blk"
 
 FuchsiaGoodRodHouse_Blocks: INCBIN "maps/FuchsiaGoodRodHouse.blk"
 
+INCLUDE "data/maps/headers/SecretClub1F.asm"
+INCLUDE "scripts/SecretClub1F.asm"
+INCLUDE "data/maps/objects/SecretClub1F.asm"
+SecretClub1F_Blocks: INCBIN "maps/SecretClub1F.blk"	
+
+INCLUDE "data/maps/headers/SecretClubB1F.asm"
+INCLUDE "scripts/SecretClubB1F.asm"
+INCLUDE "data/maps/objects/SecretClubB1F.asm"
+SecretClubB1F_Blocks: INCBIN "maps/SecretClubB1F.blk"
 
 SECTION "Maps 12", ROMX
 

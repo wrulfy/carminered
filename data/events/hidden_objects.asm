@@ -121,7 +121,7 @@ HiddenObjectPointers:
 	dw RockTunnelPokecenterHiddenObjects
 	dw TradeCenterHiddenObjects
 	dw ColosseumHiddenObjects
-	dw SecretClubHiddenObjects
+	dw SecretClubB1FHiddenObjects
 	dw ViridianForestHiddenObjects
 	dw MtMoon3HiddenObjects
 	dw IndigoPlateauHiddenObjects

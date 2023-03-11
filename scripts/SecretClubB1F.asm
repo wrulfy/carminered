@@ -1,23 +1,42 @@
-VermilionPokecenter_Script:
+SecretClubB1F_Script:
 	call Serial_TryEstablishingExternallyClockedConnection
 	jp EnableAutoTextBoxDrawing
 
-VermilionPokecenter_TextPointers:
-	dw VermilionHealNurseText
-	dw VermilionPokecenterText2
-	dw VermilionPokecenterText3
-	dw VermilionTradeNurseText
+SecretClubB1F_TextPointers:
+	dw SecretClubB1FText1
+	dw SecretClubB1FText2
+	dw SecretClubB1FText3
+	dw SecretClubB1FTradeGuyText
 
-VermilionHealNurseText:
-	script_pokecenter_nurse
+SecretClubB1FText1:
+	text_asm
+	ld hl, SecretClubB1FText_Heal
+	call PrintText
+	predef HealParty
+	call GBFadeOutToWhite
+	call Delay3
+	call GBFadeInFromWhite
+	ld hl, SecretClubB1FText_Done
+	call PrintText
+	jr .asm_5d8e2
+.asm_5d8e2
+	jp TextScriptEnd
 
-VermilionPokecenterText2:
-	text_far _VermilionPokecenterText2
+SecretClubB1FText_Heal:
+	text_far _SecretClubB1FText_Heal
 	text_end
 
-VermilionPokecenterText3:
-	text_far _VermilionPokecenterText3
+SecretClubB1FText_Done:
+	text_far _SecretClubB1FText_Done
+	text_end	
+
+SecretClubB1FText2:
+	text_far _SecretClubB1FText2
 	text_end
 
-VermilionTradeNurseText:
-	script_cable_club_receptionist
+SecretClubB1FText3:
+	text_far _SecretClubB1FText3
+	text_end
+
+SecretClubB1FTradeGuyText:
+	script_cable_club_guy

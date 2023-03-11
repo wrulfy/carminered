@@ -55,7 +55,7 @@ Lobby_Coll::
 	coll_tiles $14, $17, $1a, $1c, $20, $38, $45
 
 Mansion_Coll::
-	coll_tiles $01, $05, $11, $12, $14, $1a, $1c, $2c, $53
+	coll_tiles $01, $05, $11, $12, $14, $1a, $1c, $2c, $49, $53
 
 Lab_Coll::
 	coll_tiles $0c, $26, $16, $1e, $34, $37

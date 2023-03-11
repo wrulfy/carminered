@@ -10,9 +10,6 @@
 So far, most of the common stuff so is "playable" has been done, but a lot of the heavy work is still needed to cover from past celadon to the end of the game in terms of roosters and texts. If you glitched out of Celadon right now you could technically complete the game, but the rest would be much more barren.
 
 # TODO list:
-- Finish updating trainer rosters past Celadon
-- Add a few extra trainers to some areas
-- Finish updating texts past Celadon
 - Finish reviewing some maps to see if they need changes, or redesigns
 - Finish reviewing tileset so they don't have more potted plants/posts with abhorrend "background" styles
 - More detailed stuff from the TODO file

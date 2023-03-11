@@ -1,19 +1,30 @@
-_VermilionPokecenterText2::
-	text "Even if they are"
-	line "the same level,"
-	cont "#MON can have"
-	cont "very different"
-	cont "abilities."
+_SecretClubB1FText_Heal::;
+	text "You need to heal"
+	line "your #MON"
+	cont "before you enter"
+	cont "the COLOSSEUM!"
+	prompt
 
-	para "A #MON raised"
-	line "by a trainer gets"
-	cont "stronger than one"
-	cont "in the wild."
+_SecretClubB1FText_Done::
+	text "There, all done!"
 	done
 
-_VermilionPokecenterText3::
-	text "My #MON was"
-	line "poisoned! It"
-	cont "fainted while we"
-	cont "were walking!"
+_SecretClubB1FText2::
+	text "Hope the custom"
+	line "showdown server"
+	cont "gets done quickly"
+	cont "so I can play"
+	cont "more easily."
+
+	para "Trying to get"
+	line "perfect #MON"
+	cont "on cartridge is a"
+	cont "nightmare."
+	done
+
+_SecretClubB1FText3::
+	text "Back when I was a"
+	line "little kid I used"
+	cont "to trade with my"
+	cont "friends all day!"
 	done
