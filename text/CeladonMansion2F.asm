@@ -33,3 +33,8 @@ _CeladonMansion2Text2::
 	para "Did he write over"
 	line "the old sign?"
 	done
+
+_CeladonMansion2Text3::
+	text "Yuck! Shouldn't"
+	line "have looked!"
+	done

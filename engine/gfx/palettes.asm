@@ -144,9 +144,13 @@ SetPal_Overworld:
 	jr z, .PokemonTowerOrAgatha
 	cp CAVERN
 	jr z, .caveOrBruno
+	cp FOREST
+	jr z, .forest
 	ld a, [wCurMap]
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
+	cp CERULEAN_GYM
+	jr z, .Misty
 	cp CERULEAN_CAVE_2F
 	jr c, .normalDungeonOrBuilding
 	cp CERULEAN_CAVE_1F + 1
@@ -155,6 +159,9 @@ SetPal_Overworld:
 	jr z, .Lorelei
 	cp BRUNOS_ROOM
 	jr z, .caveOrBruno
+	cp AGATHAS_ROOM
+	jr z, .Agatha
+
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
 .townOrRoute
@@ -172,11 +179,20 @@ SetPal_Overworld:
 .PokemonTowerOrAgatha
 	ld a, PAL_GREYMON - 1
 	jr .town
+.forest
+	ld a, PAL_JUNGLE - 1
+	jr .town
+.Misty
+	ld a, PAL_CYANMON - 1
+	jr .town
 .caveOrBruno
 	ld a, PAL_CAVE - 1
 	jr .town
 .Lorelei
-	xor a
+	ld a, PAL_BLUEMON - 1
+	jr .town
+.Agatha
+	ld a, PAL_PURPLEMON - 1
 	jr .town
 
 ; used when a Pokemon is the only thing on the screen

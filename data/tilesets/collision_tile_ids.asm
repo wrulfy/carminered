@@ -41,6 +41,7 @@ ShipPort_Coll::
 	coll_tiles $08, $0a, $1a, $1b, $2a, $2b, $32, $3b, $5e
 
 Cemetery_Coll::
+Cemetery2_Coll::
 	coll_tiles $01, $10, $13, $1b, $1f, $20, $21, $22, $2f, $30
 
 Interior_Coll::
@@ -55,7 +56,7 @@ Lobby_Coll::
 	coll_tiles $14, $17, $1a, $1c, $20, $38, $45
 
 Mansion_Coll::
-	coll_tiles $01, $05, $11, $12, $14, $1a, $1c, $2c, $49, $53
+	coll_tiles $01, $05, $11, $12, $14, $16, $1a, $1c, $2c, $49, $53
 
 Lab_Coll::
 	coll_tiles $0c, $26, $16, $1e, $34, $37

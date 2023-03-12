@@ -8,5 +8,5 @@ WaterTilesets:
 	db CAVERN
 	db FACILITY
 	db PLATEAU
-	db CEMETERY
+	db CEMETERY2
 	db -1 ; end

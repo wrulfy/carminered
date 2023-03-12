@@ -16,6 +16,7 @@ WarpTileIDPointers:
 	dw .ShipWarpTileIDs
 	dw .ShipPortWarpTileIDs
 	dw .CemeteryWarpTileIDs
+	dw .Cemetery2WarpTileIDs
 	dw .InteriorWarpTileIDs
 	dw .CavernWarpTileIDs
 	dw .LobbyWarpTileIDs
@@ -81,6 +82,9 @@ ENDM
 	db $43, $58, $20
 	; fallthrough
 .CemeteryWarpTileIDs:
+	db $1B, $10
+	; fallthrough
+.Cemetery2WarpTileIDs:
 	db $1B, $10
 	; fallthrough
 .UndergroundWarpTileIDs:

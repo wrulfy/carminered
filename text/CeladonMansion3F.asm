@@ -65,9 +65,9 @@ _CeladonMansion3Text6::
 
 _CeladonMansion3Text7::
 	text "It's the script!"
-	line "Better not look"
-	cont "at the horrible"
-	cont "ASM language!"
+	line "Writing in lines"
+	cont "of 17 characters"
+	cont "long is hard!"
 	done
 
 _CeladonMansion3Text8::

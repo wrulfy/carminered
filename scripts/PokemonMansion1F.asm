@@ -15,22 +15,22 @@ Mansion1Subscript1:
 	ret z
 	CheckEvent EVENT_MANSION_SWITCH_ON
 	jr nz, .asm_442ec
-	lb bc, 6, 12
-	call Mansion1Script_4430b
-	lb bc, 3, 8
+	lb bc, 2, 13
 	call Mansion1Script_44304
-	lb bc, 8, 10
+	lb bc, 7, 2
 	call Mansion1Script_44304
-	lb bc, 13, 13
+	lb bc, 7, 12
+	call Mansion1Script_44304
+	lb bc, 11, 11
 	jp Mansion1Script_44304
 .asm_442ec
-	lb bc, 6, 12
-	call Mansion1Script_44304
-	lb bc, 3, 8
+	lb bc, 2, 13
 	call Mansion1Script_4430b
-	lb bc, 8, 10
+	lb bc, 7, 2
 	call Mansion1Script_4430b
-	lb bc, 13, 13
+	lb bc, 7, 12
+	call Mansion1Script_4430b
+	lb bc, 11, 11
 	jp Mansion1Script_4430b
 
 Mansion1Script_44304:
@@ -51,7 +51,7 @@ Mansion1Script_Switches::
 	ret nz
 	xor a
 	ldh [hJoyHeld], a
-	ld a, $4
+	ld a, $5
 	ldh [hSpriteIndexOrTextID], a
 	jp DisplayTextID
 
@@ -62,6 +62,7 @@ PokemonMansion1F_ScriptPointers:
 
 PokemonMansion1F_TextPointers:
 	dw Mansion1Text1
+	dw PickUpItemText
 	dw PickUpItemText
 	dw PickUpItemText
 	dw Mansion1Text4

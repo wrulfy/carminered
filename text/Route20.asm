@@ -52,8 +52,10 @@ _Route20EndBattleText4::
 	prompt
 
 _Route20AfterBattleText4::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "SEAFOAM currents"
+	line "are so strong,"
+	cont "they might push"
+	cont "you over blocks!"
 	done
 
 _Route20BattleText5::

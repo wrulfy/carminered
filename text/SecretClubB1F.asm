@@ -10,6 +10,13 @@ _SecretClubB1FText_Done::
 	done
 
 _SecretClubB1FText2::
+	text "Back when I was a"
+	line "little kid I used"
+	cont "to trade with my"
+	cont "friends all day!"
+	done
+
+_SecretClubB1FText3::
 	text "Hope the custom"
 	line "showdown server"
 	cont "gets done quickly"
@@ -20,11 +27,4 @@ _SecretClubB1FText2::
 	line "perfect #MON"
 	cont "on cartridge is a"
 	cont "nightmare."
-	done
-
-_SecretClubB1FText3::
-	text "Back when I was a"
-	line "little kid I used"
-	cont "to trade with my"
-	cont "friends all day!"
 	done

@@ -9,6 +9,7 @@ CeladonMansion2F_Object:
 
 	def_bg_events
 	bg_event  4,  9, 2 ; CeladonMansion2Text1
+	bg_event  4,  3, 3 ; CeladonMansion2Text1
 
 	def_object_events
 	object_event  4,  4, SPRITE_MONSTER, WALK, ANY_DIR, 1 ; person

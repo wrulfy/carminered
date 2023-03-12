@@ -21,7 +21,7 @@ _Mansion5BattleText2::
 	done
 
 _Mansion5EndBattleText2::
-	text "Blasted"
+	text "Blast"
 	line "off again!"
 	prompt
 

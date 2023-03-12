@@ -13,8 +13,7 @@ PokemonMansionB1F_Object:
 	object_event 10,  2, SPRITE_POKE_BALL, STAY, NONE, 3, RARE_CANDY
 	object_event  1, 22, SPRITE_POKE_BALL, STAY, NONE, 4, FULL_RESTORE
 	object_event 19, 25, SPRITE_POKE_BALL, STAY, NONE, 5, PP_UP
-	object_event  5,  4, SPRITE_POKE_BALL, STAY, NONE, 6, TM_SOLARBEAM
-	object_event 16, 20, SPRITE_POKEDEX, STAY, NONE, 7 ; person
-	object_event  5, 13, SPRITE_POKE_BALL, STAY, NONE, 8, PP_UP
+	object_event 16, 20, SPRITE_POKEDEX, STAY, NONE, 6 ; person
+	object_event  5, 13, SPRITE_POKE_BALL, STAY, NONE, 7, PP_UP
 
 	def_warps_to POKEMON_MANSION_B1F

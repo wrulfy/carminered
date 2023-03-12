@@ -5,6 +5,7 @@ CeladonMansion2F_Script:
 CeladonMansion2F_TextPointers:
 	dw CeladonMansion2Text1
 	dw CeladonMansion2Text2	
+	dw CeladonMansion2Text3
 
 CeladonMansion2Text1:
 	text_far _CeladonMansion2Text1
@@ -14,3 +15,7 @@ CeladonMansion2Text2:
 	text_far _CeladonMansion2Text2
 	text_end
 
+CeladonMansion2Text3:
+	text_far _CeladonMansion2Text3
+	text_end
+	

@@ -8,8 +8,8 @@ SecretClubB1F_Object:
 
 	def_object_events
 	object_event  1,  1, SPRITE_SCIENTIST, STAY, DOWN, 1 ; person
-	object_event 11,  7, SPRITE_BALDING_GUY, STAY, RIGHT, 2 ; person
-	object_event  0,  4, SPRITE_SAFARI_ZONE_WORKER, STAY, LEFT, 3 ; person
+	object_event  0,  4, SPRITE_BALDING_GUY, STAY, RIGHT, 2 ; person
+	object_event 11,  7, SPRITE_BEAUTY, STAY, LEFT, 3 ; person
 	object_event  9,  4, SPRITE_BIKE_SHOP_CLERK, STAY, DOWN, 4 ; person
 
 	def_warps_to SECRET_CLUB_B1F

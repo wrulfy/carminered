@@ -17,6 +17,7 @@
 	const SHIP         ; 13
 	const SHIP_PORT    ; 14
 	const CEMETERY     ; 15
+	const CEMETERY2    ; 15
 	const INTERIOR     ; 16
 	const CAVERN       ; 17
 	const LOBBY        ; 18

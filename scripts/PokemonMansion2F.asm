@@ -18,22 +18,22 @@ Mansion2Script_51fee:
 	ld a, $e
 	lb bc, 2, 4
 	call Mansion2Script_5202f
+	ld a, $e
+	lb bc, 2, 9
+	call Mansion2Script_5202f
 	ld a, $54
 	lb bc, 4, 9
-	call Mansion2Script_5202f
-	ld a, $5f
-	lb bc, 11, 3
 	call Mansion2Script_5202f
 	ret
 .asm_52016
 	ld a, $5f
 	lb bc, 2, 4
 	call Mansion2Script_5202f
-	ld a, $e
-	lb bc, 4, 9
+	ld a, $2d
+	lb bc, 2, 9
 	call Mansion2Script_5202f
 	ld a, $e
-	lb bc, 11, 3
+	lb bc, 4, 9
 	call Mansion2Script_5202f
 	ret
 

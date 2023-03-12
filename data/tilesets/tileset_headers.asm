@@ -24,7 +24,8 @@ Tilesets:
 	tileset Gate,        $17,$32, -1,  -1, TILEANIM_NONE
 	tileset Ship,         -1, -1, -1,  -1, TILEANIM_WATER
 	tileset ShipPort,     -1, -1, -1,  -1, TILEANIM_WATER
-	tileset Cemetery,    $12, -1, -1,  -1, TILEANIM_WATER
+	tileset Cemetery,     -1, -1, -1,  -1, TILEANIM_WATER
+	tileset Cemetery2,   $12, -1, -1,  -1, TILEANIM_WATER
 	tileset Interior,     -1, -1, -1,  -1, TILEANIM_NONE
 	tileset Cavern,       -1, -1, -1,  -1, TILEANIM_WATER
 	tileset Lobby,       $15,$36, -1,  -1, TILEANIM_NONE
