@@ -147,6 +147,8 @@ SetPal_Overworld:
 	cp FOREST
 	jr z, .forest
 	ld a, [wCurMap]
+	cp ROUTE_19; palette test
+	jr z, .searoute
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
 	cp CERULEAN_GYM
@@ -164,6 +166,7 @@ SetPal_Overworld:
 
 .normalDungeonOrBuilding
 	ld a, [wLastMap] ; town or route that current dungeon or building is located
+	
 .townOrRoute
 	cp NUM_CITY_MAPS
 	jr c, .town
@@ -176,6 +179,9 @@ SetPal_Overworld:
 	ld a, SET_PAL_OVERWORLD
 	ld [wDefaultPaletteCommand], a
 	ret
+.searoute
+	ld a, PAL_BLUEMON - 1
+	jr .town
 .PokemonTowerOrAgatha
 	ld a, PAL_GREYMON - 1
 	jr .town
@@ -287,7 +293,7 @@ BadgeBlkDataLengths:
 
 DeterminePaletteID:
 	bit TRANSFORMED, a ; a is battle status 3
-	ld a, PAL_GREYMON  ; if the mon has used Transform, use Ditto's palette
+	ld a, PAL_PINKMON  ; if the mon has used Transform, use Ditto's palette
 	ret nz
 	ld a, [hl]
 DeterminePaletteIDOutOfBattle:

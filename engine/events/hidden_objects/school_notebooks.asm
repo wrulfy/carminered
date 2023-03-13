@@ -10,6 +10,11 @@ TMNotebook::
 	text_waitbutton
 	text_end
 
+FadedBlackboard::
+	text_far FadedBlackboardText
+	text_waitbutton
+	text_end
+
 ViridianSchoolNotebook::
 	text_asm
 	ld hl, ViridianSchoolNotebookText1

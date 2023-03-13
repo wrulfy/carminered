@@ -486,6 +486,18 @@ TMNotebookText::
 	para "SILPH CO.@"
 	text_end
 
+FadedBlackboardText::
+	text "The chalk on the"
+	line "blackboard has"
+	cont "faded away."
+
+	para "..."
+
+	para "Something about a"
+	line "CABLE LINK?"
+
+	text_end
+
 _TurnPageText::
 	text "Turn the page?"
 	done
@@ -575,6 +587,18 @@ _IndigoPlateauHQText::
 	line "#MON LEAGUE HQ"
 	done
 
+_BlackboardTestText::
+	text "The chalk on the"
+	line "blackboard has"
+	cont "faded away."
+
+	para "..."
+
+	para "Something about a"
+	line "CABLE LINK?"
+
+	text_end
+
 _RedBedroomSNESText::
 	text "<PLAYER> is"
 	line "playing the STEAM"
@@ -604,7 +628,8 @@ _KabutopsFossilText::
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "OLD CABLE LINK"
+	cont "INSTRUCTIONS"
 
 	para "Using a Game Link"
 	line "Cable"

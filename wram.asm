@@ -1936,7 +1936,7 @@ wPalletTownCurScript:: db
 	ds 1
 wBluesHouseCurScript:: db
 wViridianCityCurScript:: db
-	ds 2
+	ds 1
 wRoute2CurScript:: db
 wPewterCityCurScript:: db
 wRoute3CurScript:: db
@@ -2048,7 +2048,7 @@ wRoute18Gate1FCurScript:: db
 	ds 78
 wGameProgressFlagsEnd::
 
-	ds 56
+	ds 16
 
 wObtainedHiddenItemsFlags:: flag_array 112
 

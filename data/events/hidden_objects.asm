@@ -211,6 +211,7 @@ SecretClubB1FHiddenObjects:
 	hidden_object  0,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
 	hidden_object  2,  5, SPRITE_FACING_UP, OpenPokemonCenterPC
 	hidden_object 10,  4, SPRITE_FACING_UP, OpenPokemonCenterPC
+	hidden_text_predef  7,  4, LinkCableHelp, PrintBlackboardLinkCableText
 	db -1 ; end
 
 
@@ -598,8 +599,8 @@ LavenderHouse1HiddenObjects:
 	db -1 ; end
 
 CeladonMansion5HiddenObjects:
-	hidden_text_predef  3,  0, LinkCableHelp, PrintBlackboardLinkCableText
-	hidden_text_predef  4,  0, LinkCableHelp, PrintBlackboardLinkCableText
+	hidden_text_predef  3,  0, FadedBlackboard, PrintNotebookText
+	hidden_text_predef  4,  0, SPRITE_FACING_DOWN, PrintBlackboardTestText
 	hidden_text_predef  3,  4, TMNotebook, PrintNotebookText
 	db -1 ; end
 
