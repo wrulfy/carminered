@@ -600,7 +600,7 @@ LavenderHouse1HiddenObjects:
 
 CeladonMansion5HiddenObjects:
 	hidden_text_predef  3,  0, FadedBlackboard, PrintNotebookText
-	hidden_text_predef  4,  0, SPRITE_FACING_DOWN, PrintBlackboardTestText
+	hidden_text_predef  4,  0, FadedBlackboard, PrintNotebookText
 	hidden_text_predef  3,  4, TMNotebook, PrintNotebookText
 	db -1 ; end
 

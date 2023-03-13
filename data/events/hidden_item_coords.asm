@@ -26,7 +26,7 @@ HiddenItemCoords:
 	hidden_item SILPH_CO_9F,                    2,  15
 	hidden_item COPYCATS_HOUSE_2F,              1,   1
 	hidden_item CERULEAN_CAVE_1F,              14,  11
-	hidden_item CERULEAN_CAVE_B1F,             27,   3
+	hidden_item CERULEAN_CAVE_B1F,             14,   4
 	hidden_item POWER_PLANT,                   17,  16
 	hidden_item POWER_PLANT,                   12,   1
 	hidden_item SEAFOAM_ISLANDS_B2F,           15,  15

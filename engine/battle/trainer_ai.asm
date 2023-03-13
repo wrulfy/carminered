@@ -157,7 +157,7 @@ StatusAilmentMoveEffects:
 ; that fall in-between
 AIMoveChoiceModification2:
 	ld a, [wAILayer2Encouragement]
-	cp $0
+	and a ;cp $0 ; jojobear13 fix that should get the ai layer 2 work on the first move instead of the second for sligly less stupid AI
 	ret nz
 	ld hl, wBuffer - 1 ; temp move selection array (-1 byte offset)
 	ld de, wEnemyMonMoves ; enemy moves

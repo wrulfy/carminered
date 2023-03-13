@@ -495,7 +495,7 @@ FadedBlackboardText::
 
 	para "Something about a"
 	line "CABLE LINK?"
-
+	done
 	text_end
 
 _TurnPageText::
@@ -587,17 +587,6 @@ _IndigoPlateauHQText::
 	line "#MON LEAGUE HQ"
 	done
 
-_BlackboardTestText::
-	text "The chalk on the"
-	line "blackboard has"
-	cont "faded away."
-
-	para "..."
-
-	para "Something about a"
-	line "CABLE LINK?"
-
-	text_end
 
 _RedBedroomSNESText::
 	text "<PLAYER> is"
@@ -629,7 +618,7 @@ _KabutopsFossilText::
 
 _LinkCableHelpText1::
 	text "OLD CABLE LINK"
-	cont "INSTRUCTIONS"
+	line "INSTRUCTIONS"
 
 	para "Using a Game Link"
 	line "Cable"

@@ -63,7 +63,7 @@ _CeladonMartRoofText_4850f::
 	line "target sometimes!@"
 	text_end
 
-_CeladonMartRoofText_48515::
+	_CeladonMartRoofText_48515::
 	text "Yay!"
 
 	para "LEMONADE!"
@@ -77,11 +77,15 @@ _CeladonMartRoofText_48515::
 _ReceivedTM24Text::
 	text "<PLAYER> received"
 	line "TM24!@"
+	text_ram wStringBuffer
+	text "!@"
 	text_end
 
 _CeladonMartRoofText_48520::
 	text_start
 
+	para "@"
+	text_ram wStringBuffer
 	para "TM24 contains"
 	line "THUNDERBOLT!@"
 

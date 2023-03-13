@@ -512,10 +512,10 @@ SlotReward100Text:
 	db "100@"
 
 SlotReward8Text:
-	db "8@"
+	db "10@"
 
 SlotReward15Text:
-	db "15@"
+	db "20@"
 
 NotThisTimeText:
 	text_far _NotThisTimeText
@@ -569,7 +569,7 @@ SlotReward8Func:
 	dec [hl]
 .skip
 	ld b, $2
-	ld de, 8
+	ld de, 10
 	ret
 
 SlotReward15Func:
@@ -580,7 +580,7 @@ SlotReward15Func:
 	dec [hl]
 .skip
 	ld b, $4
-	ld de, 15
+	ld de, 20
 	ret
 
 SlotReward100Func:
@@ -884,10 +884,5 @@ SlotMachineMapEnd:
 INCLUDE "data/events/slot_machine_wheels.asm"
 
 SlotMachineTiles1:
-IF DEF(_RED)
 	INCBIN "gfx/slots/red_slots_1.2bpp"
-ENDC
-IF DEF(_BLUE)
-	INCBIN "gfx/slots/blue_slots_1.2bpp"
-ENDC
 SlotMachineTiles1End:

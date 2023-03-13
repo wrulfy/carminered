@@ -249,7 +249,6 @@ INCLUDE "engine/events/prize_menu.asm"
 INCLUDE "engine/events/hidden_objects/school_notebooks.asm"
 INCLUDE "engine/events/hidden_objects/fighting_dojo.asm"
 INCLUDE "engine/events/hidden_objects/indigo_plateau_hq.asm"
-INCLUDE "engine/events/hidden_objects/blackboard_test.asm"
 
 SECTION "Battle Engine 9", ROMX
 

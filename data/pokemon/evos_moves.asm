@@ -868,7 +868,7 @@ MagnetonEvosMoves:
 	db 30, TRI_ATTACK
 	db 33, THUNDERBOLT
 	db 38, EGG_BOMB
-	db 43, SUPERSONIC
+	db 43, THUNDER_WAVE
 	db 49, SCREECH
 	db 54, THUNDER
 	db 0
@@ -2143,7 +2143,7 @@ MagnemiteEvosMoves:
 	db 13, FLASH
 	db 17, ROCK_THROW
 	db 21, SONICBOOM
-	db 25, THUNDER_WAVE
+	db 25, SUPERSONIC
 	db 29, SWIFT
 	db 32, THUNDERBOLT
 	db 0
