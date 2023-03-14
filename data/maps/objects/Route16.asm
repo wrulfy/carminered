@@ -14,7 +14,7 @@ Route16_Object:
 
 	def_bg_events
 	bg_event 27, 11, 8 ; Route16Text8
-	bg_event  5, 17, 9 ; Route16Text9
+	bg_event  5, 15, 9 ; Route16Text9
 
 	def_object_events
 	object_event 17, 12, SPRITE_BIKER, STAY, LEFT, 1, OPP_BIKER, 5

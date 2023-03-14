@@ -77,17 +77,13 @@ _CeladonMartRoofText_4850f::
 _ReceivedTM24Text::
 	text "<PLAYER> received"
 	line "TM24!@"
-	text_ram wStringBuffer
-	text "!@"
 	text_end
 
 _CeladonMartRoofText_48520::
 	text_start
 
-	para "@"
-	text_ram wStringBuffer
 	para "TM24 contains"
-	line "THUNDERBOLT!@"
+	line "THUNDERBOLT!"
 
 	para "It can paralyz the"
 	line "target sometimes!@"

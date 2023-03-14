@@ -370,11 +370,11 @@ SpecialTrainerMoves:
 	db 0
 
 	db AGATHA, 1
-	db 1, 1, CONFUSE_RAY
-	db 1, 3, THUNDERBOLT
-	db 2, 1, DREAM_EATER
-	db 3, 1, SLUDGE
+	db 1, 1, THUNDERBOLT
+	db 2, 1, CONFUSE_RAY
+	db 3, 4, SLUDGE
 	db 5, 1, THUNDER_WAVE
+	db 5, 2, RECOVER
 	db 5, 3, SOLARBEAM
 	db 6, 1, EGG_BOMB
 	db 0
