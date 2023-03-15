@@ -25,7 +25,7 @@ ENDM
 	door_tiles $1B, $58
 
 .ForestDoorTileIDs:
-	door_tiles $3a
+	door_tiles $3a, $5a
 
 .MartDoorTileIDs:
 	door_tiles $5e

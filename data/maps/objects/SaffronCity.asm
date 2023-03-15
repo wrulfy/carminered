@@ -26,7 +26,7 @@ SaffronCity_Object:
 	def_object_events
 	object_event  7,  6, SPRITE_ROCKET, STAY, NONE, 1 ; person
 	object_event 20,  8, SPRITE_ROCKET, WALK, LEFT_RIGHT, 2 ; person
-	object_event 37,  4, SPRITE_ROCKET, STAY, NONE, 3 ; person
+	object_event 34,  4, SPRITE_ROCKET, STAY, NONE, 3 ; person
 	object_event 13, 12, SPRITE_ROCKET, STAY, NONE, 4 ; person
 	object_event 11, 25, SPRITE_ROCKET, WALK, LEFT_RIGHT, 5 ; person
 	object_event 32, 13, SPRITE_ROCKET, WALK, LEFT_RIGHT, 6 ; person
@@ -37,7 +37,7 @@ SaffronCity_Object:
 	object_event 30, 12, SPRITE_GENTLEMAN, STAY, DOWN, 11 ; person
 	object_event 31, 12, SPRITE_BIRD, STAY, DOWN, 12 ; person
 	object_event 18,  8, SPRITE_ROCKER, STAY, UP, 13 ; person
-	object_event 18, 22, SPRITE_ROCKET, STAY, DOWN, 14 ; person
+	object_event 18, 23, SPRITE_ROCKET, STAY, DOWN, 14 ; person
 	object_event 19, 22, SPRITE_ROCKET, STAY, DOWN, 15 ; person
 
 	def_warps_to SAFFRON_CITY

@@ -102,11 +102,11 @@ VermilionGym_TextPointers:
 VermilionGymTrainerHeaders:
 	def_trainers 2
 VermilionGymTrainerHeader0:
-	trainer EVENT_BEAT_VERMILION_GYM_TRAINER_0, 3, VermilionGymBattleText1, VermilionGymEndBattleText1, VermilionGymAfterBattleText1
+	trainer EVENT_BEAT_VERMILION_GYM_TRAINER_0, 4, VermilionGymBattleText1, VermilionGymEndBattleText1, VermilionGymAfterBattleText1
 VermilionGymTrainerHeader1:
-	trainer EVENT_BEAT_VERMILION_GYM_TRAINER_1, 2, VermilionGymBattleText2, VermilionGymEndBattleText2, VermilionGymAfterBattleText2
+	trainer EVENT_BEAT_VERMILION_GYM_TRAINER_1, 4, VermilionGymBattleText2, VermilionGymEndBattleText2, VermilionGymAfterBattleText2
 VermilionGymTrainerHeader2:
-	trainer EVENT_BEAT_VERMILION_GYM_TRAINER_2, 3, VermilionGymBattleText3, VermilionGymEndBattleText3, VermilionGymAfterBattleText3
+	trainer EVENT_BEAT_VERMILION_GYM_TRAINER_2, 4, VermilionGymBattleText3, VermilionGymEndBattleText3, VermilionGymAfterBattleText3
 	db -1 ; end
 
 LTSurgeText:

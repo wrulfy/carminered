@@ -149,5 +149,5 @@ _Route12Text15::
 
 _Route12Text16::
 	text "SURFING GURU's"
-	line "house "
+	line "SEA COTTAGE "
 	done

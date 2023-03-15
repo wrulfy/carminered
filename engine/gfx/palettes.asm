@@ -147,7 +147,13 @@ SetPal_Overworld:
 	cp FOREST
 	jr z, .forest
 	ld a, [wCurMap]
+	cp ROUTE_12; palette test
+	jr z, .searoute
 	cp ROUTE_19; palette test
+	jr z, .searoute
+	cp ROUTE_20; palette test
+	jr z, .searoute
+	cp ROUTE_21; palette test
 	jr z, .searoute
 	cp FIRST_INDOOR_MAP
 	jr c, .townOrRoute
@@ -180,7 +186,7 @@ SetPal_Overworld:
 	ld [wDefaultPaletteCommand], a
 	ret
 .searoute
-	ld a, PAL_BLUEMON - 1
+	ld a, PAL_OCEAN - 1
 	jr .town
 .PokemonTowerOrAgatha
 	ld a, PAL_GREYMON - 1

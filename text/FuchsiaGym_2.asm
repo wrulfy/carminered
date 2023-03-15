@@ -47,7 +47,7 @@ _TM06NoRoomText::
 	done
 
 _FuchsiaGymBattleText1::
-	text "This is ACID"
+	text "This is ACID."
 	done
 
 _FuchsiaGymEndBattleText1::

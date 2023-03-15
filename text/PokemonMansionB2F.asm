@@ -21,8 +21,9 @@ _Mansion5BattleText2::
 	done
 
 _Mansion5EndBattleText2::
-	text "Blast"
-	line "off again!"
+	text "TEAM"
+	line "ROCKET's blasting"
+	cont "off again!"
 	prompt
 
 _Mansion5AfterBattleText2::
