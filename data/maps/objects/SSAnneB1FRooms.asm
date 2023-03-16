@@ -19,8 +19,8 @@ SSAnneB1FRooms_Object:
 	object_event 13,  3, SPRITE_SAILOR, STAY, LEFT, 1, OPP_SAILOR, 3
 	object_event  2,  1, SPRITE_SAILOR, STAY, DOWN, 2, OPP_SAILOR, 4
 	object_event  7, 11, SPRITE_SUPER_NERD, STAY, DOWN, 3, OPP_ROCKER, 3
-	object_event  6, 14, SPRITE_HIKER, STAY, LEFT, 4, OPP_BLACKBELT, 8
-	object_event 22,  2, SPRITE_SAILOR, STAY, RIGHT, 5, OPP_SAILOR, 5
+	object_event  6, 15, SPRITE_HIKER, STAY, LEFT, 4, OPP_BLACKBELT, 8
+	object_event 22,  2, SPRITE_SAILOR, STAY, DOWN, 5, OPP_SAILOR, 5
 	object_event  0,  3, SPRITE_FISHER, STAY, RIGHT, 6, OPP_FISHER, 2
 	object_event 20, 13, SPRITE_SUPER_NERD, STAY, RIGHT, 7 ; person
 	object_event 21, 12, SPRITE_MONSTER, STAY, NONE, 8 ; person

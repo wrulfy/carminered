@@ -38,7 +38,7 @@ _SSAnne8AfterBattleText2::
 
 _SSAnne8BattleText3::
 	text "This boat sure is"
-	line "pretty boring"
+	line "pretty boring."
 	done
 
 _SSAnne8EndBattleText3::

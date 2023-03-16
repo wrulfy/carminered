@@ -23,7 +23,7 @@ Route8_TextPointers:
 	dw Route8Text8
 	dw Route8Text9
 	dw Route8Text10
-	dw Route8Text10
+	dw Route8Text11
 
 Route8TrainerHeaders:
 	def_trainers
@@ -34,13 +34,13 @@ Route8TrainerHeader1:
 Route8TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_8_TRAINER_2, 4, Route8BattleText3, Route8EndBattleText3, Route8AfterBattleText3
 Route8TrainerHeader3:
-	trainer EVENT_BEAT_ROUTE_8_TRAINER_3, 2, Route8BattleText4, Route8EndBattleText4, Route8AfterBattleText4
+	trainer EVENT_BEAT_ROUTE_8_TRAINER_3, 3, Route8BattleText4, Route8EndBattleText4, Route8AfterBattleText4
 Route8TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_8_TRAINER_4, 3, Route8BattleText5, Route8EndBattleText5, Route8AfterBattleText5
 Route8TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_8_TRAINER_5, 3, Route8BattleText6, Route8EndBattleText6, Route8AfterBattleText6
 Route8TrainerHeader6:
-	trainer EVENT_BEAT_ROUTE_8_TRAINER_6, 2, Route8BattleText7, Route8EndBattleText7, Route8AfterBattleText7
+	trainer EVENT_BEAT_ROUTE_8_TRAINER_6, 3, Route8BattleText7, Route8EndBattleText7, Route8AfterBattleText7
 Route8TrainerHeader7:
 	trainer EVENT_BEAT_ROUTE_8_TRAINER_7, 2, Route8BattleText8, Route8EndBattleText8, Route8AfterBattleText8
 Route8TrainerHeader8:

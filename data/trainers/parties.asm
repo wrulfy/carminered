@@ -553,7 +553,7 @@ RocketData:
 ; Cerulean City
 	db 20, MACHOP, GRIMER, 0
 ; Route 24
-	db 20, RATICATE, 0
+	db 19, RATICATE, 0
 ; Game Corner
 	db 26, RATICATE, GOLBAT, 0
 ; Rocket Hideout B1F

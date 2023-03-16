@@ -6,10 +6,10 @@ Route11_Object:
 	warp_event 49,  9, ROUTE_11_GATE_1F, 2
 	warp_event 58,  8, ROUTE_11_GATE_1F, 3
 	warp_event 58,  9, ROUTE_11_GATE_1F, 4
-	warp_event  0,  3, DIGLETTS_CAVE_ROUTE_11, 1
+	warp_event  4,  5, DIGLETTS_CAVE_ROUTE_11, 1
 
 	def_bg_events
-	bg_event  3,  5, 11 ; Route11Text11
+	bg_event  1,  5, 11 ; Route11Text11
 
 	def_object_events
 	object_event 10, 14, SPRITE_GAMBLER, STAY, DOWN, 1, OPP_GAMBLER, 1

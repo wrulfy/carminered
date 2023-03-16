@@ -170,18 +170,18 @@ BlkPacket_PartyMenu:
 	db $03, 12,10, 18,11, $00
 	db $00
 
-BlkPacket_TrainerCard:
+BlkPacket_TrainerCard:;PAL_SET PAL_MEWMON, PAL_CYANMON, PAL_YELLOWMON, PAL_GREYMON
 	ATTR_BLK 10
 	ATTR_BLK_DATA %010, 0,0,0, 03,12, 04,13 ; Boulder Badge
-	ATTR_BLK_DATA %010, 1,1,0, 07,12, 08,13 ; Cascade Badge
-	ATTR_BLK_DATA %010, 3,3,0, 11,12, 12,13 ; Thunder Badge
-	ATTR_BLK_DATA %010, 2,2,0, 16,11, 17,12 ; Rainbow Badge
-	ATTR_BLK_DATA %010, 1,1,0, 14,13, 15,14 ; Rainbow Badge
-	ATTR_BLK_DATA %010, 3,3,0, 16,13, 17,14 ; Rainbow Badge
-	ATTR_BLK_DATA %010, 2,2,0, 03,15, 04,16 ; Soul Badge
-	ATTR_BLK_DATA %010, 3,3,0, 07,15, 08,16 ; Marsh Badge
-	ATTR_BLK_DATA %010, 2,2,0, 11,15, 12,16 ; Volcano Badge
-	ATTR_BLK_DATA %010, 1,1,0, 15,15, 16,16 ; Earth Badge
+	ATTR_BLK_DATA %010, 1,1,0, 07,12, 08,13 ; Cascade Badge OK
+	ATTR_BLK_DATA %010, 0,0,0, 11,12, 12,13 ; Thunder Badge
+	ATTR_BLK_DATA %010, 2,2,0, 15,11, 16,12 ; Rainbow Badge OK
+	ATTR_BLK_DATA %010, 2,2,0, 15,11, 16,12 ; Rainbow Badge OK
+	ATTR_BLK_DATA %010, 2,2,0, 15,11, 16,12 ; Rainbow Badge OK
+	ATTR_BLK_DATA %010, 3,3,0, 03,15, 04,16 ; Soul Badge
+	ATTR_BLK_DATA %010, 1,1,0, 07,15, 08,16 ; Marsh Badge OK
+	ATTR_BLK_DATA %010, 2,2,0, 11,15, 12,16 ; Volcano Badge OK
+	ATTR_BLK_DATA %010, 3,3,3, 15,15, 16,16 ; Earth Badge OK
 	ds 2, 0
 
 ; unused
@@ -222,7 +222,7 @@ PalPacket_TownMap:        PAL_SET PAL_TOWNMAP, 0, 0, 0
 PalPacket_Pokedex:        PAL_SET PAL_BROWNMON, 0, 0, 0
 PalPacket_Slots:          PAL_SET PAL_SLOTS1, PAL_SLOTS2, PAL_SLOTS3, PAL_SLOTS4
 PalPacket_Titlescreen:    PAL_SET PAL_LOGO2, PAL_LOGO1, PAL_MEWMON, PAL_PURPLEMON
-PalPacket_TrainerCard:    PAL_SET PAL_MEWMON, PAL_BADGE, PAL_REDMON, PAL_YELLOWMON
+PalPacket_TrainerCard:    PAL_SET PAL_MEWMON, PAL_CYANMON, PAL_YELLOWMON, PAL_GREYMON
 PalPacket_Generic:        PAL_SET PAL_MEWMON, 0, 0, 0
 PalPacket_NidorinoIntro:  PAL_SET PAL_PURPLEMON, PAL_BLACK, 0, 0
 PalPacket_GameFreakIntro: PAL_SET PAL_GAMEFREAK, PAL_REDMON, PAL_VIRIDIAN, PAL_BLUEMON
