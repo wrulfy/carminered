@@ -10,7 +10,7 @@ _SafariZoneRestHouse2Text2::
 	text "Using BAIT will"
 	line "make #MON"
 	cont "less likely to"
-	cont "run away"
+	cont "run away."
 	done
 
 _SafariZoneRestHouse2Text3::

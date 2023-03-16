@@ -14,7 +14,7 @@ VermilionCity_Object:
 
 	def_bg_events
 	bg_event 27,  3,  7 ; VermilionCityText7
-	bg_event 37, 13,  8 ; VermilionCityText8
+	bg_event 37, 11,  8 ; VermilionCityText8
 	bg_event 24, 13,  9 ; MartSignText
 	bg_event 12,  3, 10 ; PokeCenterSignText
 	bg_event  7, 13, 11 ; VermilionCityText11

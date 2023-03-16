@@ -18,7 +18,7 @@ Route2_TextPointers:
 	dw Route2Text3
 	dw Route2Text4
 	dw Route2Text5
-	dw Route2Text5
+	dw Route2Text6
 
 Route2TrainerHeaders:
 	def_trainers 3

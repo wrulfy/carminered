@@ -147,6 +147,16 @@ SetPal_Overworld:
 	cp FOREST
 	jr z, .forest
 	ld a, [wCurMap]
+	cp ROUTE_0; palette test
+	jr z, .mountain
+	cp ROUTE_3; palette test
+	jr z, .mountain
+	cp ROUTE_4; palette test
+	jr z, .mountain
+	cp ROUTE_9; palette test
+	jr z, .mountain
+	cp ROUTE_10; palette test
+	jr z, .mountain
 	cp ROUTE_12; palette test
 	jr z, .searoute
 	cp ROUTE_19; palette test
@@ -159,10 +169,14 @@ SetPal_Overworld:
 	jr c, .townOrRoute
 	cp CERULEAN_GYM
 	jr z, .Misty
-	cp CERULEAN_CAVE_2F
+	cp ROCK_TUNNEL_POKECENTER
+	jr z, .mountain
+	cp MT_MOON_POKECENTER
+	jr z, .mountain
+	cp ROUTE_12_SUPER_ROD_HOUSE
+	jr z, .searoute
+	cp CINNABAR_LAB_STORAGE_ROOM
 	jr c, .normalDungeonOrBuilding
-	cp CERULEAN_CAVE_1F + 1
-	jr c, .caveOrBruno
 	cp LORELEIS_ROOM
 	jr z, .Lorelei
 	cp BRUNOS_ROOM
@@ -185,6 +199,9 @@ SetPal_Overworld:
 	ld a, SET_PAL_OVERWORLD
 	ld [wDefaultPaletteCommand], a
 	ret
+.mountain
+	ld a, PAL_MOUNTAIN - 1
+	jr .town
 .searoute
 	ld a, PAL_OCEAN - 1
 	jr .town

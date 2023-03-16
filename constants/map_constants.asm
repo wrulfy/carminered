@@ -244,9 +244,9 @@ FIRST_INDOOR_MAP EQU const_value
 	mapconst SAFARI_ZONE_WEST_REST_HOUSE,    4,  4 ; $DF
 	mapconst SAFARI_ZONE_EAST_REST_HOUSE,    4,  4 ; $E0
 	mapconst SAFARI_ZONE_NORTH_REST_HOUSE,   4,  4 ; $E1
-	mapconst CERULEAN_CAVE_2F,               9, 15 ; $E2
-	mapconst CERULEAN_CAVE_B1F,              9, 15 ; $E3
-	mapconst CERULEAN_CAVE_1F,               9, 15 ; $E4
+	mapconst CERULEAN_CAVE_2F,               9, 15 ; $E2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	mapconst CERULEAN_CAVE_B1F,              9, 15 ; $E3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	mapconst CERULEAN_CAVE_1F,               9, 15 ; $E4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	mapconst NAME_RATERS_HOUSE,              4,  4 ; $E5
 	mapconst CERULEAN_BADGE_HOUSE,           4,  4 ; $E6
 	mapconst UNUSED_MAP_E7,                  0,  0 ; $E7

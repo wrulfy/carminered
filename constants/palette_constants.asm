@@ -72,4 +72,5 @@ SET_PAL_DEFAULT EQU $ff
 	const PAL_GAMEFREAK ; $24
 	const PAL_JUNGLE    ; $24
 	const PAL_OCEAN    ; $24
+	const PAL_MOUNTAIN    ; $24
 NUM_SGB_PALS EQU const_value
