@@ -31,7 +31,7 @@ Route15TrainerHeaders:
 Route15TrainerHeader0:
 	trainer EVENT_BEAT_ROUTE_15_TRAINER_0, 2, Route15BattleText1, Route15EndBattleText1, Route15AfterBattleText1
 Route15TrainerHeader1:
-	trainer EVENT_BEAT_ROUTE_15_TRAINER_1, 3, Route15BattleText2, Route15EndBattleText2, Route15AfterBattleText2
+	trainer EVENT_BEAT_ROUTE_15_TRAINER_1, 4 , Route15BattleText2, Route15EndBattleText2, Route15AfterBattleText2
 Route15TrainerHeader2:
 	trainer EVENT_BEAT_ROUTE_15_TRAINER_2, 3, Route15BattleText3, Route15EndBattleText3, Route15AfterBattleText3
 Route15TrainerHeader3:
@@ -39,7 +39,7 @@ Route15TrainerHeader3:
 Route15TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_15_TRAINER_4, 2, Route15BattleText5, Route15EndBattleText5, Route15AfterBattleText5
 Route15TrainerHeader5:
-	trainer EVENT_BEAT_ROUTE_15_TRAINER_5, 3, Route15BattleText6, Route15EndBattleText6, Route15AfterBattleText6
+	trainer EVENT_BEAT_ROUTE_15_TRAINER_5, 4, Route15BattleText6, Route15EndBattleText6, Route15AfterBattleText6
 Route15TrainerHeader6:
 	trainer EVENT_BEAT_ROUTE_15_TRAINER_6, 3, Route15BattleText7, Route15EndBattleText7, Route15AfterBattleText7
 Route15TrainerHeader7:
@@ -47,7 +47,7 @@ Route15TrainerHeader7:
 Route15TrainerHeader8:
 	trainer EVENT_BEAT_ROUTE_15_TRAINER_8, 3, Route15BattleText9, Route15EndBattleText9, Route15AfterBattleText9
 Route15TrainerHeader9:
-	trainer EVENT_BEAT_ROUTE_15_TRAINER_9, 3, Route15BattleText10, Route15EndBattleText10, Route15AfterBattleText10
+	trainer EVENT_BEAT_ROUTE_15_TRAINER_9, 4, Route15BattleText10, Route15EndBattleText10, Route15AfterBattleText10
 	db -1 ; end
 
 Route15Text1:

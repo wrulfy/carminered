@@ -16,30 +16,30 @@ Mansion4Script_523cf:
 	CheckEvent EVENT_MANSION_SWITCH_ON
 	jr nz, .asm_523ff
 	ld a, $e
-	ld bc, $80d
-	call Mansion2Script_5202f
-	ld a, $e
-	ld bc, $b06
-	call Mansion2Script_5202f
-	ld a, $5f
-	ld bc, $304
-	call Mansion2Script_5202f
-	ld a, $54
 	ld bc, $808
 	call Mansion2Script_5202f
-	ret
-.asm_523ff
+	ld a, $5f
+	ld bc, $b06
+	call Mansion2Script_5202f
+	ld a, $e
+	ld bc, $304
+	call Mansion2Script_5202f
 	ld a, $2d
 	ld bc, $80d
 	call Mansion2Script_5202f
-	ld a, $5f
-	ld bc, $b06
+	ret
+.asm_523ff
+	ld a, $54
+	ld bc, $808
 	call Mansion2Script_5202f
 	ld a, $e
+	ld bc, $b06
+	call Mansion2Script_5202f
+	ld a, $5f
 	ld bc, $304
 	call Mansion2Script_5202f
 	ld a, $e
-	ld bc, $808
+	ld bc, $80d
 	call Mansion2Script_5202f
 	ret
 

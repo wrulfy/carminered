@@ -85,7 +85,7 @@ Route12TrainerHeader0:
 Route12TrainerHeader1:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_1, 4, Route12BattleText2, Route12EndBattleText2, Route12AfterBattleText2
 Route12TrainerHeader2:
-	trainer EVENT_BEAT_ROUTE_12_TRAINER_2, 4, Route12BattleText3, Route12EndBattleText3, Route12AfterBattleText3
+	trainer EVENT_BEAT_ROUTE_12_TRAINER_2, 5, Route12BattleText3, Route12EndBattleText3, Route12AfterBattleText3
 Route12TrainerHeader3:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_3, 4, Route12BattleText4, Route12EndBattleText4, Route12AfterBattleText4
 Route12TrainerHeader4:
@@ -93,7 +93,7 @@ Route12TrainerHeader4:
 Route12TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_12_TRAINER_5, 4, Route12BattleText6, Route12EndBattleText6, Route12AfterBattleText6
 Route12TrainerHeader6:
-	trainer EVENT_BEAT_ROUTE_12_TRAINER_6, 1, Route12BattleText7, Route12EndBattleText7, Route12AfterBattleText7
+	trainer EVENT_BEAT_ROUTE_12_TRAINER_6, 3, Route12BattleText7, Route12EndBattleText7, Route12AfterBattleText7
 	db -1 ; end
 
 Route12Text1:

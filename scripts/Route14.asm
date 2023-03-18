@@ -36,7 +36,7 @@ Route14TrainerHeader2:
 Route14TrainerHeader3:
 	trainer EVENT_BEAT_ROUTE_14_TRAINER_3, 3, Route14BattleText4, Route14EndBattleText4, Route14AfterBattleText4
 Route14TrainerHeader4:
-	trainer EVENT_BEAT_ROUTE_14_TRAINER_4, 3, Route14BattleText5, Route14EndBattleText5, Route14AfterBattleText5
+	trainer EVENT_BEAT_ROUTE_14_TRAINER_4, 4, Route14BattleText5, Route14EndBattleText5, Route14AfterBattleText5
 Route14TrainerHeader5:
 	trainer EVENT_BEAT_ROUTE_14_TRAINER_5, 4, Route14BattleText6, Route14EndBattleText6, Route14AfterBattleText6
 Route14TrainerHeader6:
@@ -44,7 +44,7 @@ Route14TrainerHeader6:
 Route14TrainerHeader7:
 	trainer EVENT_BEAT_ROUTE_14_TRAINER_7, 4, Route14BattleText8, Route14EndBattleText8, Route14AfterBattleText8
 Route14TrainerHeader8:
-	trainer EVENT_BEAT_ROUTE_14_TRAINER_8, 3, Route14BattleText9, Route14EndBattleText9, Route14AfterBattleText9
+	trainer EVENT_BEAT_ROUTE_14_TRAINER_8, 9, Route14BattleText9, Route14EndBattleText9, Route14AfterBattleText9
 Route14TrainerHeader9:
 	trainer EVENT_BEAT_ROUTE_14_TRAINER_9, 4, Route14BattleText10, Route14EndBattleText10, Route14AfterBattleText10
 	db -1 ; end

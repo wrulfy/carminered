@@ -89,7 +89,7 @@ VictoryRoad3F_TextPointers:
 VictoryRoad3TrainerHeaders:
 	def_trainers
 VictoryRoad3TrainerHeader0:
-	trainer EVENT_BEAT_VICTORY_ROAD_3_TRAINER_0, 1, VictoryRoad3BattleText2, VictoryRoad3EndBattleText2, VictoryRoad3AfterBattleText2
+	trainer EVENT_BEAT_VICTORY_ROAD_3_TRAINER_0, 4, VictoryRoad3BattleText2, VictoryRoad3EndBattleText2, VictoryRoad3AfterBattleText2
 VictoryRoad3TrainerHeader1:
 	trainer EVENT_BEAT_VICTORY_ROAD_3_TRAINER_1, 4, VictoryRoad3BattleText3, VictoryRoad3EndBattleText3, VictoryRoad3AfterBattleText3
 VictoryRoad3TrainerHeader2:

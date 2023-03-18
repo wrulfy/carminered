@@ -10,7 +10,7 @@ VictoryRoad3F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event 12,  3, SPRITE_COOLTRAINER_M, STAY, RIGHT, 1, OPP_COOLTRAINER_M, 2
+	object_event 12,  4, SPRITE_COOLTRAINER_M, STAY, RIGHT, 1, OPP_COOLTRAINER_M, 2
 	object_event  7, 12, SPRITE_COOLTRAINER_F, STAY, DOWN, 2, OPP_COOLTRAINER_F, 2
 	object_event 28, 11, SPRITE_YOUNGSTER, STAY, LEFT, 3, OPP_BUG_CATCHER, 15
 	object_event 28,  4, SPRITE_COOLTRAINER_F, STAY, LEFT, 4, OPP_COOLTRAINER_F, 3

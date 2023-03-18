@@ -17,7 +17,7 @@ RockTunnel1F_Object:
 
 	def_object_events
 	object_event  3, 17, SPRITE_HIKER, STAY, DOWN, 1, OPP_HIKER, 12
-	object_event  8, 20, SPRITE_HIKER, STAY, DOWN, 2, OPP_HIKER, 13
+	object_event 15, 12, SPRITE_HIKER, STAY, DOWN, 2, OPP_HIKER, 13
 	object_event 23, 19, SPRITE_HIKER, STAY, LEFT, 3, OPP_HIKER, 14
 	object_event 23,  8, SPRITE_SUPER_NERD, STAY, DOWN, 4, OPP_POKEMANIAC, 7
 	object_event 25, 25, SPRITE_COOLTRAINER_F, STAY, LEFT, 5, OPP_JR_TRAINER_F, 16

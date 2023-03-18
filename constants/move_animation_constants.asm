@@ -273,6 +273,7 @@ NUM_SUBANIMS EQU const_value
 	const FRAMEBLOCK_77
 	const FRAMEBLOCK_78
 	const FRAMEBLOCK_79
+	const FRAMEBLOCK_7a
 NUM_FRAMEBLOCKS EQU const_value
 
 ; base coordinates that are part of subanimations

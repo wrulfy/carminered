@@ -31,7 +31,7 @@ RockTunnel1TrainerHeader0:
 RockTunnel1TrainerHeader1:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_1, 4, RockTunnel1BattleText2, RockTunnel1EndBattleText2, RockTunnel1AfterBattleText2
 RockTunnel1TrainerHeader2:
-	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_2, 3, RockTunnel1BattleText3, RockTunnel1EndBattleText3, RockTunnel1AfterBattleText3
+	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_2, 5, RockTunnel1BattleText3, RockTunnel1EndBattleText3, RockTunnel1AfterBattleText3;apparently this works
 RockTunnel1TrainerHeader3:
 	trainer EVENT_BEAT_ROCK_TUNNEL_1_TRAINER_3, 3, RockTunnel1BattleText4, RockTunnel1EndBattleText4, RockTunnel1AfterBattleText4
 RockTunnel1TrainerHeader4:

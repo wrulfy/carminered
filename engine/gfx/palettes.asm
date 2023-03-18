@@ -180,7 +180,7 @@ SetPal_Overworld:
 	cp LORELEIS_ROOM
 	jr z, .Lorelei
 	cp BRUNOS_ROOM
-	jr z, .caveOrBruno
+	jr z, .PokemonTowerOrAgatha
 	cp AGATHAS_ROOM
 	jr z, .Agatha
 

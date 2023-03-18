@@ -39,7 +39,7 @@ Route10TrainerHeader3:
 Route10TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_10_TRAINER_4, 2, Route10BattleText5, Route10EndBattleText5, Route10AfterBattleText5
 Route10TrainerHeader5:
-	trainer EVENT_BEAT_ROUTE_10_TRAINER_5, 2, Route10BattleText6, Route10EndBattleText6, Route10AfterBattleText6
+	trainer EVENT_BEAT_ROUTE_10_TRAINER_5, 3, Route10BattleText6, Route10EndBattleText6, Route10AfterBattleText6
 Route10TrainerHeader6:
 	trainer EVENT_BEAT_ROUTE_10_TRAINER_6, 1, Route10BattleText7, Route10EndBattleText7, Route10AfterBattleText7
 	db -1 ; end
