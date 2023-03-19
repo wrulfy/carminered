@@ -10,7 +10,7 @@ HiddenItemCoords:
 	hidden_item ROUTE_25,                      38,   3
 	hidden_item ROUTE_9,                       14,   7
 	hidden_item SS_ANNE_KITCHEN,               13,   9
-	hidden_item SS_ANNE_B1F_ROOMS,              3,   1
+	hidden_item SS_ANNE_B1F_ROOMS,              2,  11
 	hidden_item ROUTE_10,                       9,  17
 	hidden_item ROUTE_10,                      16,  53
 	hidden_item ROCKET_HIDEOUT_B1F,            21,  15
@@ -37,7 +37,7 @@ HiddenItemCoords:
 	hidden_item ROUTE_23,                      19,  70
 	hidden_item ROUTE_23,                       8,  90
 	hidden_item VICTORY_ROAD_2F,                5,   2
-	hidden_item VICTORY_ROAD_2F,               26,   7
+	hidden_item VICTORY_ROAD_2F,                2,  15
 	hidden_item ROUTE_22,                      30,   2
 	hidden_item VIRIDIAN_CITY,                 14,   4
 	hidden_item ROUTE_11,                      52,  15
@@ -55,7 +55,7 @@ HiddenItemCoords:
 	hidden_item ROUTE_25,                      10,   1
 	hidden_item MT_MOON_B2F,                    6,   9
 	hidden_item SEAFOAM_ISLANDS_B3F,            9,  16
-	hidden_item VERMILION_CITY,                14,  11
+	hidden_item VERMILION_CITY,                29,   6
 	hidden_item CERULEAN_CITY,                 15,   8
 	hidden_item ROUTE_4,                       40,   3
 	hidden_item ROUTE_6,                        2,   3

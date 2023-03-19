@@ -2,7 +2,7 @@ SuperPalettes:
 ; entries correspond to PAL_* constants
 	table_width 2 * 4, SuperPalettes
 	RGB 31,31,31, 09,26,11, 00,19,27, 03,03,03 ; PAL_ROUTE done
-	RGB 31,31,31, 27,24,29, 00,20,31, 03,03,03 ; PAL_PALLET done
+	RGB 31,31,31, 27,24,29, 18,21,27, 03,03,03 ; PAL_PALLET done
 	RGB 31,31,31, 08,28,00, 04,14,00, 03,03,03 ; PAL_VIRIDIAN done
 	RGB 31,31,31, 18,18,15, 14,19,23, 03,03,03 ; PAL_PEWTER done
 	RGB 31,31,31, 11,23,31, 05,08,31, 03,03,03 ; PAL_CERULEAN done

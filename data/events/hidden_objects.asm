@@ -455,7 +455,7 @@ SSAnne6HiddenObjects:
 	db -1 ; end
 
 SSAnne10HiddenObjects:
-	hidden_object  3,  1, HYPER_POTION, HiddenItems
+	hidden_object  2,  11, HYPER_POTION, HiddenItems
 	db -1 ; end
 
 Route10HiddenObjects:
@@ -558,7 +558,7 @@ Route23HiddenObjects:
 
 VictoryRoad2HiddenObjects:
 	hidden_object  5,  2, RARE_CANDY, HiddenItems
-	hidden_object 26,  7, FULL_RESTORE, HiddenItems
+	hidden_object  2, 15, FULL_RESTORE, HiddenItems
 	db -1 ; end
 
 Route22HiddenObjects:
@@ -668,7 +668,7 @@ SeafoamIslands4HiddenObjects:
 	db -1 ; end
 
 VermilionCityHiddenObjects:
-	hidden_object 14, 11, MAX_ETHER, HiddenItems
+	hidden_object 29,  6, MAX_ETHER, HiddenItems
 	db -1 ; end
 
 CeruleanCityHiddenObjects:

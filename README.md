@@ -6,26 +6,20 @@
 - A few key points in the story will require new ways to advance, so at the middle point of the game the game doesn't open as much, so a slowly increasing level curve can be maintained. Don't expect anything too fancy
 - Some types might become way, way stronger than they were in the orginal Gen 1. Really, beware of the Bugs. 
 - There's also several type changes. Some might be logic some might make no sense.
+- Revamping some dungeons and routes even if some just got a bit more decorated. A lot of maps were a bit dull, also some of the dungeons have been redone so you have to figure the way out from scratch.
 
-So far, most of the common stuff so is "playable" has been done, but a lot of the heavy work is still needed to cover from past celadon to the end of the game in terms of roosters and texts. If you glitched out of Celadon right now you could technically complete the game, but the rest would be much more barren.
-
-# TODO list:
-- Finish reviewing some maps to see if they need changes, or redesigns
-- Finish reviewing tileset so they don't have more potted plants/posts with abhorrend "background" styles
-- More detailed stuff from the TODO file
-- "Merge" the few changes Pokered has received over these 2 months. As far I know the game is still the exact same, but I would make sure I do it properly. Last time I tried to merge one of my own branches I almost ruined the whole project.
-
+## TODO list:
+- Basically everything is done for the prerelease. The main things needed for the full release is recompile again the documentation and polish stuff that I might forgotten, or squash stray bugs that got unnoticed.
 
 ## Other stuff I would like to do eventually, but right now I don't really know assembly enough to program it, as it would be making new scripts from scratch
 - Add Gym Leader rematches. The idea is to fight them again after Giovanni goes away.
-- Increase the storage capacity of the PC, even if it is at the cost of one or two pokemon boxes
-- Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, so maybe increase their levels is enough
+- Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, but could be a cool concept for a harder difficulty. Just disabling stat exp gains feels boring to me.
 
 ## Things I don't think about adding, since I think it would deviate the game a bit too much from the gen 1 feel:
 - Dark/steel/fairy types
 - Physical/Special split
 - More pokemon
-- More moves. The point of modifying so many moves is for that
+- More moves. The point of modifying so many moves is for that.
 
 
 ## The original README lies ahead
