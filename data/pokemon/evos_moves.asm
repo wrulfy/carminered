@@ -1441,12 +1441,12 @@ ZubatEvosMoves:
 	db EV_LEVEL, 23, GOLBAT
 	db 0
 ; Learnset
-	db 9, LICK
+	db 9, BITE
 	db 12, SUPERSONIC
-	db 15, BITE
+	db 15, HAZE
 	db 18, WING_ATTACK
 	db 21, LEECH_LIFE
-	db 24, HAZE
+	db 24, HYPER_FANG
 	db 0
 
 EkansEvosMoves:
@@ -1527,7 +1527,7 @@ BeedrillEvosMoves:
 	db 14, RAGE
 	db 16, PIN_MISSILE
 	db 18, SWORDS_DANCE
-	db 21, SMOG
+	db 21, HAZE
 	db 24, AGILITY
 	db 28, FURY_ATTACK
 	db 32, TWINEEDLE
@@ -1690,12 +1690,13 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, HAZE
-	db 30, HYPER_FANG
+	db 23, LICK
+	db 27, HYPER_FANG
+	db 31, SMOG
 	db 35, RAZOR_WIND
 	db 40, CONFUSE_RAY
-	db 44, SLUDGE
-	db 51, SUPER_FANG
+	db 45, SUPER_FANG
+	db 51, TOXIC
 	db 0
 
 MewtwoEvosMoves:

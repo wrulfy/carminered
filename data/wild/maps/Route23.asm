@@ -1,5 +1,5 @@
 Route23WildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 20 ; encounter rate
 	db 44, ARBOK
 	db 44, WIGGLYTUFF
 	db 44, HYPNO
@@ -12,7 +12,7 @@ Route23WildMons:
 	db 40, JIGGLYPUFF 
 	end_grass_wildmons
 
-	def_water_wildmons 5 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
 	db 45, GOLDUCK
 	db 45, SLOWBRO
 	db 45, STARMIE

@@ -137,6 +137,11 @@ FIRST_SE_ID EQU const_value
 	const SUBANIM_58
 	const SUBANIM_59
 	const SUBANIM_5A
+	const SUBANIM_5B
+	const SUBANIM_5C
+	const SUBANIM_5D
+	const SUBANIM_5E
+	const SUBANIM_5F
 NUM_SUBANIMS EQU const_value
 
 ; types of subanimations
@@ -273,7 +278,10 @@ NUM_SUBANIMS EQU const_value
 	const FRAMEBLOCK_77
 	const FRAMEBLOCK_78
 	const FRAMEBLOCK_79
-	const FRAMEBLOCK_7a
+	const FRAMEBLOCK_7A
+	const FRAMEBLOCK_7B
+	const FRAMEBLOCK_7C
+
 NUM_FRAMEBLOCKS EQU const_value
 
 ; base coordinates that are part of subanimations

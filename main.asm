@@ -343,7 +343,9 @@ SECTION "Itemfinder 2", ROMX
 INCLUDE "engine/menus/league_pc.asm"
 INCLUDE "engine/events/hidden_items.asm"
 INCLUDE "gfx/fishing.asm"
-INCLUDE "engine/items/tm_prices.asm"
+INCLUDE "engine/items/tm_prices.asm";moved from 1E
+INCLUDE "engine/overworld/elevator.asm";moved from 1E
+INCLUDE "engine/movie/evolution.asm"; moved from 1E
 
 SECTION "bank1E", ROMX
 
@@ -353,6 +355,5 @@ INCLUDE "engine/overworld/dust_smoke.asm"
 INCLUDE "data/moves/animations.asm"
 INCLUDE "data/battle_anims/subanimations.asm"
 INCLUDE "data/battle_anims/frame_blocks.asm"
-INCLUDE "engine/movie/evolution.asm"
-INCLUDE "engine/overworld/elevator.asm"
+
 

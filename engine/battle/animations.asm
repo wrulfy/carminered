@@ -1964,7 +1964,7 @@ ReshowSubstituteAnim:
 AnimationBoundUpAndDown:
 ; Bounces the mon's sprite up and down several times. It is used
 ; by Splash's animation.
-	ld c, 5
+	ld c, 3
 .loop
 	push bc
 	call AnimationSlideMonDown

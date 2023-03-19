@@ -123,6 +123,8 @@ FrameBlockPointers:
 	dw FrameBlock78
 	dw FrameBlock79
 	dw FrameBlock7a
+	dw FrameBlock7b
+	dw FrameBlock7c
 	assert_table_length NUM_FRAMEBLOCKS
 
 FrameBlock01:
@@ -1233,12 +1235,24 @@ FrameBlock79:
 	db 1 ; #
 	dbsprite  0,  0,  0,  0, $4e, 0
 
-	FrameBlock7a:
+FrameBlock7a:
 	db 4 ; #
 	dbsprite  0,  0,  0,  0, $2c, 0
 	dbsprite  1,  0,  0,  0, $2c, OAM_HFLIP
 	dbsprite  0,  1,  0,  0, $2c, OAM_VFLIP
 	dbsprite  1,  1,  0,  0, $2c, OAM_HFLIP | OAM_VFLIP
+
+FrameBlock7b:
+	db 3 ; #
+	dbsprite  0,  0,  0,  0, $24, 0
+	dbsprite  1,  0,  0,  0, $25, 0
+	dbsprite  0,  1,  0,  0, $34, 0
+
+FrameBlock7c:
+	db 3 ; #
+	dbsprite  0,  1,  0,  0, $25, OAM_HFLIP | OAM_VFLIP
+	dbsprite  1,  1,  0,  0, $24, OAM_HFLIP | OAM_VFLIP
+	dbsprite  1,  0,  0,  0, $34, OAM_HFLIP | OAM_VFLIP
 
 INCLUDE "data/battle_anims/base_coords.asm"
 

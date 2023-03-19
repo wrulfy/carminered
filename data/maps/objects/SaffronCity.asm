@@ -37,7 +37,7 @@ SaffronCity_Object:
 	object_event 30, 12, SPRITE_GENTLEMAN, STAY, DOWN, 11 ; person
 	object_event 31, 12, SPRITE_BIRD, STAY, DOWN, 12 ; person
 	object_event 18,  8, SPRITE_ROCKER, STAY, UP, 13 ; person
-	object_event 18, 23, SPRITE_ROCKET, STAY, DOWN, 14 ; person
+	object_event 18, 22, SPRITE_ROCKET, STAY, DOWN, 14 ; person
 	object_event 19, 22, SPRITE_ROCKET, STAY, DOWN, 15 ; person
 
 	def_warps_to SAFFRON_CITY

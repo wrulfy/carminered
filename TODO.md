@@ -1,27 +1,15 @@
 
-
-Review the position of trainers and sight in routes as well.
-
-list of very specific code-related things to keep for last in case I eventually learn asm or to commission someone to code, in order of most interesting of getting done
-
-
-try to make the AIMoveChoiceModification2 actually proc on turn 1 instead of turn 2. If so, review move_choices.asm to sprinke some 2s on more trainer classes
-
+-check HandleExplodingAnimation and PlayMoveAnimation over core.asm to find where it calls for megapunch after succesfully perfoming an explosion to see if I can get fancy with it
 
 Make the make output the rom as carminered instead of pokered
-^^pretty sure this has to do with makefile
+
+find again where the distiction between dig and fly was in the code and see if this time I can assign withdraw with charge_effect but still behave like the immunity of dig
+or alternatively make so while it uses the fly_effect, it lets me assign a different animation from the fly turn 1.
 
 
-Minor aesthetic changes to other routes and dungeons
 
 
-Below are the things on the todo list that I deem less interesting to focus on, in order of most relevant to least
-__________________________________________________________________________
-
+_________________________________________________________________________
 Make the code that assigns palettes to maps do in a table fashion way instead of cities go by palette order then routes go by route palette then exceptions, so I can tweak them to my hearts content much more easily
-
-
-try to implement chatot4444's method for doing rock tomb to try to do my mist move properly. Haze will have to wait for the clean smog effect, but if its replicable I might be able to so something cool with it too.
-^^right now is balanced within the current chance%, but if I do this I could make easily haze and mist do their current effects but instead the guaranteed ones. For Sand attack and kinesis, I think they're better with just the low chance, since their PP/power is balanced around their procs
 
 
