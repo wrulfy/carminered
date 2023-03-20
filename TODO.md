@@ -1,6 +1,6 @@
 Make the whole documentation for the actual full release
 
-Check 
+Check https://www.youtube.com/watch?v=mHkyO5T5wZU 0:52 because I should try to move that to the other side now that the map has changed 💀
 
 
 -check HandleExplodingAnimation and PlayMoveAnimation over core.asm to find where it calls for megapunch after succesfully perfoming an explosion to see if I can get fancy with it

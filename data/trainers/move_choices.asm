@@ -25,9 +25,9 @@ TrainerClassMoveChoiceModifications:
 	move_choices 1, 3    ; FISHER
 	move_choices 1, 3    ; SWIMMER
 	move_choices         ; CUE_BALL
-	move_choices 1       ; GAMBLER
+	move_choices 1, 2    ; GAMBLER
 	move_choices 1, 3    ; BEAUTY
-	move_choices 1, 2    ; PSYCHIC_TR
+	move_choices 1, 2,   ; PSYCHIC_TR
 	move_choices 1, 3    ; ROCKER
 	move_choices 1, 2    ; JUGGLER
 	move_choices 1, 3    ; TAMER
@@ -37,23 +37,23 @@ TrainerClassMoveChoiceModifications:
 	move_choices 1, 3    ; PROF_OAK
 	move_choices 1, 2, 3 ; CHIEF
 	move_choices 1, 2    ; SCIENTIST
-	move_choices 1, 3    ; GIOVANNI
+	move_choices 1, 2, 3 ; GIOVANNI
 	move_choices 1,      ; ROCKET
 	move_choices 1, 3    ; COOLTRAINER_M
 	move_choices 1, 3    ; COOLTRAINER_F
 	move_choices 1, 3    ; BRUNO
 	move_choices 1       ; BROCK
-	move_choices 1       ; MISTY
-	move_choices 1, 2    ; LT_SURGE
+	move_choices 1, 2    ; MISTY
+	move_choices 1, 3    ; LT_SURGE
 	move_choices 1, 3    ; ERIKA
-	move_choices 1, 3    ; KOGA
-	move_choices 1, 3    ; BLAINE
+	move_choices 1, 2, 3 ; KOGA
+	move_choices 1, 2, 3 ; BLAINE
 	move_choices 1, 3    ; SABRINA
 	move_choices 1, 2    ; GENTLEMAN
 	move_choices 1, 3    ; RIVAL2
 	move_choices 1, 2, 3 ; RIVAL3
 	move_choices 1, 2, 3 ; LORELEI
 	move_choices 1       ; CHANNELER
-	move_choices 1, 3    ; AGATHA
-	move_choices 1, 3    ; LANCE
+	move_choices 1, 2, 3 ; AGATHA
+	move_choices 1, 2, 3 ; LANCE
 	assert_list_length NUM_TRAINERS
