@@ -11,7 +11,7 @@ _Route2EndBattleText1::
 _Route2AfterBattleText1::
 	text "I just started my"
 	line "own adventure"
-	cont "yesterday"
+	cont "yesterday."
 
 	para "#MON are"
 	line "fantastic!"

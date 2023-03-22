@@ -1,5 +1,8 @@
 Make the whole documentation for the actual full release
 
+fix the "end" character of the naming screen
+
+
 Check https://www.youtube.com/watch?v=mHkyO5T5wZU 0:52 because I should try to move that to the other side now that the map has changed 💀
 
 

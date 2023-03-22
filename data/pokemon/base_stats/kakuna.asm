@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kakuna.pic", 0, 1 ; sprite dimensions
 	dw KakunaPicFront, KakunaPicBack
 
-	db DEFENSE_CURL, TACKLE, STRING_SHOT, HARDEN ; level 1 learnset
+	db DEFENSE_CURL, POISON_STING, STRING_SHOT, HARDEN ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

@@ -5,9 +5,9 @@ Route22WildMons:
 	db  3, MANKEY
 	db  4, SPEAROW
 	db  4, RATTATA
-	db  5, SPEAROW
-	db  5, MANKEY
 	db  3, VULPIX
+	db  5, MANKEY
+	db  5, SPEAROW
 	db  4, VULPIX
 	db  5, VULPIX
 	end_grass_wildmons
