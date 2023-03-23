@@ -19,22 +19,22 @@ MtMoonB2F_Script:
 	ret
 
 CoordsData_49d37:
-	dbmapcoord 11,  5
-	dbmapcoord 12,  5
-	dbmapcoord 13,  5
-	dbmapcoord 14,  5
-	dbmapcoord 11,  6
-	dbmapcoord 12,  6
-	dbmapcoord 13,  6
-	dbmapcoord 14,  6
-	dbmapcoord 11,  7
-	dbmapcoord 12,  7
-	dbmapcoord 13,  7
-	dbmapcoord 14,  7
-	dbmapcoord 11,  8
-	dbmapcoord 12,  8
-	dbmapcoord 13,  8
-	dbmapcoord 14,  8
+	dbmapcoord 25,  5
+	dbmapcoord 26,  5
+	dbmapcoord 27,  5
+	dbmapcoord 27,  5
+	dbmapcoord 25,  6
+	dbmapcoord 26,  6
+	dbmapcoord 27,  6
+	dbmapcoord 27,  6
+	dbmapcoord 25,  7
+	dbmapcoord 26,  7
+	dbmapcoord 27,  7
+	dbmapcoord 27,  7
+	dbmapcoord 25,  8
+	dbmapcoord 26,  8
+	dbmapcoord 27,  8
+	dbmapcoord 27,  8
 	db -1 ; end
 
 MtMoon3Script_49d58:
@@ -59,7 +59,7 @@ MtMoon3Script0:
 	cp 8
 	jp nz, MtMoon3Script_49d91
 	ld a, [wXCoord]
-	cp 13
+	cp 27
 	jp nz, MtMoon3Script_49d91
 	xor a
 	ldh [hJoyHeld], a
@@ -110,15 +110,15 @@ MtMoon3Script4:
 	ret
 
 CoordsData_49dea:
-	dbmapcoord 12,  7
-	dbmapcoord 11,  6
-	dbmapcoord 12,  5
+	dbmapcoord 26,  7
+	dbmapcoord 25,  6
+	dbmapcoord 26,  5
 	db -1 ; end
 
 CoordsData_49df1:
-	dbmapcoord 13,  7
-	dbmapcoord 14,  6
-	dbmapcoord 14,  5
+	dbmapcoord 27,  7
+	dbmapcoord 28,  6
+	dbmapcoord 27,  5
 	db -1 ; end
 
 MovementData_49df8:

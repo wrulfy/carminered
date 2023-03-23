@@ -1,3 +1,8 @@
+v0.9.2 Quickfix
+
+Fixed a bug in MtMoon B2F.
+______________
+
 v0.9.1 Quickfix
 
 Fixed kakuna knowing tackle instead of poison sting
