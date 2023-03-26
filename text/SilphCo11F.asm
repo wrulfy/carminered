@@ -123,7 +123,7 @@ _SilphCo11BattleText2::
 	done
 
 _SilphCo11EndBattleText2::
-	text "Gaah!"
+	text "Gah!"
 	line "Demolished!"
 	prompt
 

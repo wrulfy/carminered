@@ -134,7 +134,7 @@ SilphCo9TrainerHeaders:
 SilphCo9TrainerHeader0:
 	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_0, 4, SilphCo9BattleText1, SilphCo9EndBattleText1, SilphCo9AfterBattleText1
 SilphCo9TrainerHeader1:
-	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_1, 2, SilphCo9BattleText2, SilphCo9EndBattleText2, SilphCo9AfterBattleText2
+	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_1, 3, SilphCo9BattleText2, SilphCo9EndBattleText2, SilphCo9AfterBattleText2
 SilphCo9TrainerHeader2:
 	trainer EVENT_BEAT_SILPH_CO_9F_TRAINER_2, 4, SilphCo9BattleText3, SilphCo9EndBattleText3, SilphCo9AfterBattleText3
 	db -1 ; end

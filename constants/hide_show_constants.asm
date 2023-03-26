@@ -193,7 +193,8 @@ SHOW EQU $15
 	const HS_SILPH_CO_9F_3                 ; B0
 	const HS_SILPH_CO_10F_1                ; B1
 	const HS_SILPH_CO_10F_2                ; B2
-	const HS_SILPH_CO_10F_3                ; B3 XXX never (de)activated?
+	const HS_SILPH_CO_10F_3                ; B2
+	const HS_SILPH_CO_10F_4                ; B3 XXX never (de)activated?
 	const HS_SILPH_CO_10F_ITEM_1           ; B4 X
 	const HS_SILPH_CO_10F_ITEM_2           ; B5 X
 	const HS_SILPH_CO_10F_ITEM_3           ; B6 X

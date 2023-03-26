@@ -101,13 +101,13 @@ SilphCo2F_TextPointers:
 SilphCo2TrainerHeaders:
 	def_trainers 2
 SilphCo2TrainerHeader0:
-	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_0, 3, SilphCo2BattleText1, SilphCo2EndBattleText1, SilphCo2AfterBattleText1
+	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_0, 4, SilphCo2BattleText1, SilphCo2EndBattleText1, SilphCo2AfterBattleText1
 SilphCo2TrainerHeader1:
 	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_1, 4, SilphCo2BattleText2, SilphCo2EndBattleText2, SilphCo2AfterBattleText2
 SilphCo2TrainerHeader2:
-	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_2, 3, SilphCo2BattleText3, SilphCo2EndBattleText3, SilphCo2AfterBattleText3
+	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_2, 4, SilphCo2BattleText3, SilphCo2EndBattleText3, SilphCo2AfterBattleText3
 SilphCo2TrainerHeader3:
-	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_3, 3, SilphCo2BattleText4, SilphCo2EndBattleText4, SilphCo2AfterBattleText4
+	trainer EVENT_BEAT_SILPH_CO_2F_TRAINER_3, 4, SilphCo2BattleText4, SilphCo2EndBattleText4, SilphCo2AfterBattleText4
 	db -1 ; end
 
 SilphCo2Text1:

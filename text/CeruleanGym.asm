@@ -112,7 +112,7 @@ _CeruleanGymGuidePreBattleText::
 	cont "here!"
 
 	para "Here's some cold"
-	cont "advice!"
+	line "advice!"
 
 	para "The LEADER, MISTY,"
 	line "is a pro who uses"

@@ -1,7 +1,16 @@
+v0.9.3 Quickfix
+
+Fixed trainer ranges in SilphCo.
+Fixed trainer dialogues in SilphCo.
+Uptaded the map of Route 20 and the entrance of Seafoam Islands.
+KNOWN BUG: going into the seafoam islands though cinnabar side (unintended) puts some boulders in unexpected places. Reloading the maps fixes the issue
+
+______________________
+
 v0.9.2 Quickfix
 
 Fixed a bug in MtMoon B2F.
-______________
+______________________
 
 v0.9.1 Quickfix
 
