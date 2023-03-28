@@ -6,7 +6,7 @@ SeafoamIslands1F_Object:
 	warp_event  5, 13, LAST_MAP, 1
 	warp_event 26, 27, LAST_MAP, 2
 	warp_event 27, 27, LAST_MAP, 2
-	warp_event  7,  5, SEAFOAM_ISLANDS_B1F, 2
+	warp_event  9,  6, SEAFOAM_ISLANDS_B1F, 2
 	warp_event 25,  3, SEAFOAM_ISLANDS_B1F, 7
 	warp_event 25, 23, SEAFOAM_ISLANDS_B1F, 5
 	warp_event 12, 27, LAST_MAP, 3

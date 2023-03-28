@@ -18,7 +18,7 @@ _Mansion3BattleText2::
 	done
 
 _Mansion3EndBattleText2::
-	text "Whew!"
+	text "Wow!"
 	line "Overwhelming!"
 	prompt
 

@@ -1,42 +1,42 @@
 MapSpriteSets:
 	table_width 1, MapSpriteSets
-	db $01 ; PALLET_TOWN
-	db $01 ; VIRIDIAN_CITY
-	db $02 ; PEWTER_CITY
-	db $02 ; CERULEAN_CITY
-	db $03 ; LAVENDER_TOWN
-	db $04 ; VERMILION_CITY
-	db $05 ; CELADON_CITY
-	db $0a ; FUCHSIA_CITY
-	db $01 ; CINNABAR_ISLAND
-	db $06 ; INDIGO_PLATEAU
-	db $07 ; SAFFRON_CITY
+	db $01 ; PALLET_TOWN; RED
+	db $01 ; VIRIDIAN_CITY; RED
+	db $02 ; PEWTER_CITY; ORANGE
+	db $02 ; CERULEAN_CITY; ORANGE
+	db $03 ; LAVENDER_TOWN; YELLOW
+	db $04 ; VERMILION_CITY; GREEN
+	db $05 ; CELADON_CITY; LIGHT BLUE
+	db $0a ; FUCHSIA_CITY; PURPLE
+	db $01 ; CINNABAR_ISLAND; RED
+	db $06 ; INDIGO_PLATEAU; GREY
+	db $07 ; SAFFRON_CITY; PINK
 	db $03 ; ROUTE_0 previusly unused map
-	db $01 ; ROUTE_1
+	db $01 ; ROUTE_1; RED
 	db $f1 ; ROUTE_2
-	db $02 ; ROUTE_3
-	db $02 ; ROUTE_4
+	db $02 ; ROUTE_3; ORANGE
+	db $02 ; ROUTE_4; ORANGE
 	db $f9 ; ROUTE_5
 	db $fa ; ROUTE_6
 	db $fb ; ROUTE_7
 	db $fc ; ROUTE_8
-	db $02 ; ROUTE_9
+	db $02 ; ROUTE_9; ORANGE
 	db $f2 ; ROUTE_10
 	db $f3 ; ROUTE_11
 	db $f4 ; ROUTE_12
-	db $08 ; ROUTE_13
-	db $08 ; ROUTE_14
+	db $08 ; ROUTE_13; FUCHSIA
+	db $08 ; ROUTE_14; FUCHSIA
 	db $f5 ; ROUTE_15
 	db $f6 ; ROUTE_16
-	db $09 ; ROUTE_17
+	db $09 ; ROUTE_17; BLUE
 	db $f7 ; ROUTE_18
-	db $0a ; ROUTE_19
+	db $0a ; ROUTE_19; PURPLE
 	db $f8 ; ROUTE_20
-	db $01 ; ROUTE_21
-	db $01 ; ROUTE_22
-	db $06 ; ROUTE_23
-	db $02 ; ROUTE_24
-	db $02 ; ROUTE_25
+	db $01 ; ROUTE_21; RED
+	db $01 ; ROUTE_22; RED
+	db $06 ; ROUTE_23; GREY
+	db $02 ; ROUTE_24; ORANGE
+	db $02 ; ROUTE_25; ORANGE
 	assert_table_length FIRST_INDOOR_MAP
 
 EAST_WEST   EQU 1
@@ -54,8 +54,8 @@ SplitMapSpriteSets:
 	db NORTH_SOUTH, 21, $03, $08 ; $f4
 	db EAST_WEST,    8, $0A, $08 ; $f5
 	db EAST_WEST,   24, $09, $05 ; $f6
-	db EAST_WEST,   34, $09, $0A ; $f7
-	db EAST_WEST,   53, $01, $0A ; $f8
+	db EAST_WEST,   26, $09, $0A ; $f7
+	db EAST_WEST,   61, $01, $0A ; $f8
 	db NORTH_SOUTH, 33, $02, $07 ; $f9
 	db NORTH_SOUTH,  2, $07, $04 ; $fa
 	db EAST_WEST,   17, $05, $07 ; $fb

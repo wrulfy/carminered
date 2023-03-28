@@ -135,19 +135,19 @@ _Route9AfterBattleText8::
 	done
 
 _Route9BattleText9::
-	text "Go, my super bug"
-	line "#MONs!"
+	text "Going towards ROCK"
+	line "TUNNEL? Fight me!"
 	done
 
 _Route9EndBattleText9::
-	text "My"
-	line "bugs..."
+	text "Don't"
+	line "forget the FLASH!"
 	prompt
 
 _Route9AfterBattleText9::
-	text "If you don't like"
-	line "bug #MON, you"
-	cont "bug me!"
+	text "The ROCK TUNNEL is"
+	line "darker than you"
+	cont "think, watch out!"
 	done
 
 _Route9Text11::

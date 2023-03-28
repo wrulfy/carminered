@@ -32,19 +32,19 @@ _Route13AfterBattleText3::
 	done
 
 _Route13BattleText4::
-	text "Wow! Your BADGEs"
-	line "are too cool!"
+	text "I found CARBOS in"
+	line "a cave once."
 	done
 
 _Route13EndBattleText4::
-	text "Not"
-	line "enough!"
+	text "Just"
+	line "messed up!"
 	prompt
 
 _Route13AfterBattleText4::
-	text "You got those"
-	line "BADGEs from GYM"
-	cont "LEADERs. I know!"
+	text "CARBOS boosted"
+	line "the SPEED of my"
+	cont "#MON."
 	done
 
 _Route13BattleText5::
@@ -65,19 +65,19 @@ _Route13AfterBattleText5::
 	done
 
 _Route13BattleText6::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "Wow! Your BADGEs"
+	line "are too cool!"
 	done
 
 _Route13EndBattleText6::
-	text "Just"
-	line "messed up!"
+	text "Not"
+	line "enough!"
 	prompt
 
 _Route13AfterBattleText6::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "You got those"
+	line "BADGEs from GYM"
+	cont "LEADERs. I know!"
 	done
 
 _Route13BattleText7::

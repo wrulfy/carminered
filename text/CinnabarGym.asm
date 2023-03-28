@@ -86,7 +86,7 @@ _CinnabarGymAfterBattleText2::
 	text "Lightning, or to"
 	line "be more precise,"
 	cont "electrostatic"
-	cont "discharges"
+	cont "discharges..."
 
 	para "Blah, blah, blah,"
 	line "blah..."
@@ -204,8 +204,8 @@ _CinnabarGymGuidePreBattleText::
 	line "making!"
 
 	para "The electrifying"
-	line "BLAINE is an"
-	cont "electric #MON pro!"
+	line "BLAINE is a elec-"
+	cont "tric #MON pro!"
 
 
 	para "Crush his spirits"

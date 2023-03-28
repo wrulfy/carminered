@@ -1150,8 +1150,12 @@ SplashAnim:;very done
 	db -1 ; end
 
 AcidArmorAnim:;done
-	battle_anim ACID_ARMOR, SE_SLIDE_MON_DOWN_AND_HIDE
-	battle_anim HARDEN, SE_SHOW_MON_PIC
+	battle_anim ACID_ARMOR, SE_SLIDE_MON_DOWN
+	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
+	battle_anim NO_MOVE, SE_LIGHT_SCREEN_PALETTE
+	battle_anim HARDEN, SUBANIM_33, 1, 4
+	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+	battle_anim NO_MOVE, SE_SHOW_MON_PIC
 	db -1 ; end
 
 CrabHammerAnim:;done

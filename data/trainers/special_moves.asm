@@ -8,7 +8,7 @@ SpecialTrainerMoves:
 	db 3, 4, PSYBEAM
 	db 0
 
-	db BUG_CATCHER, 15
+	db BUG_CATCHER, 14
 	db 6, 4, BODY_SLAM
 	db 0
 
