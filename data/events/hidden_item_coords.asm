@@ -59,4 +59,5 @@ HiddenItemCoords:
 	hidden_item CERULEAN_CITY,                 15,   8
 	hidden_item ROUTE_4,                       40,   3
 	hidden_item ROUTE_6,                        2,   3
+	hidden_item VICTORY_ROAD_1F,                9,   2
 	db -1 ; end

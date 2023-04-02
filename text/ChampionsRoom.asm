@@ -22,7 +22,10 @@ _GaryChampionIntroText::
 	para "And now!"
 
 	para "I'm the #MON"
-	line "LEAGUE champion!"
+	line "LEAGUE Champion!"
+
+	para "Gramps! Are you"
+	line "watching me now?"
 
 	para "<PLAYER>! Do you"
 	line "know what that"
@@ -42,7 +45,7 @@ _GaryDefeatedText::
 
 	para "After all that"
 	line "work to become"
-	cont "LEAGUE champ?"
+	cont "LEAGUE Champion?"
 
 	para "My reign is over"
 	line "already?"
@@ -75,7 +78,7 @@ _GaryText_76103::
 
 	para "Darn it! You're"
 	line "the new #MON"
-	cont "LEAGUE champion!"
+	cont "LEAGUE Champion!"
 
 	para "Although I don't"
 	line "like to admit it."
@@ -90,7 +93,7 @@ _GaryText_76120::
 	line "Congratulations!"
 	cont "You're the new"
 	cont "#MON LEAGUE"
-	cont "champion!"
+	cont "Champion!"
 
 	para "You've grown up so"
 	line "much since you"
@@ -111,9 +114,12 @@ _GaryText_76125::
 	line "heard you beat"
 	cont "the ELITE FOUR!"
 
-	para "But, when I got"
-	line "here, you had"
-	cont "already lost!"
+	para "But the first"
+	line "battle I get to"
+	cont "see you as the"
+	cont "Champion, is you"
+	cont "losing the title"
+	cont "to <PLAYER>!"
 
 	para "<RIVAL>! Do you"
 	line "understand why"

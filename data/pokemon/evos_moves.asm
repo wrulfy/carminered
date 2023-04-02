@@ -1024,8 +1024,8 @@ DoduoEvosMoves:
 	db EV_LEVEL, 31, DODRIO
 	db 0
 ; Learnset
-	db 12, LOW_KICK
-	db 17, QUICK_ATTACK
+	db 12, QUICK_ATTACK
+	db 17, LOW_KICK
 	db 22, RAGE
 	db 26, FURY_ATTACK
 	db 30, THRASH
@@ -1704,8 +1704,8 @@ MewtwoEvosMoves:
 	db 0
 ; Learnset
 	db 71, DISABLE
-	db 74, AMNESIA
-	db 77, JUMP_KICK
+	db 73, AMNESIA
+	db 76, JUMP_KICK
 	db 80, PSYWAVE
 	db 0
 
@@ -2144,8 +2144,8 @@ MagnemiteEvosMoves:
 	db 13, FLASH
 	db 17, ROCK_THROW
 	db 21, SONICBOOM
-	db 25, SUPERSONIC
-	db 29, SWIFT
+	db 25, SWIFT
+	db 29, SUPERSONIC
 	db 32, THUNDERBOLT
 	db 0
 

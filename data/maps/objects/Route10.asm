@@ -6,7 +6,7 @@ Route10_Object:
 	warp_event  8, 17, ROCK_TUNNEL_1F, 1
 	warp_event  8, 53, ROCK_TUNNEL_1F, 3
 	warp_event  3, 39, POKEMON_MANSION_1F, 2
-	warp_event  7, 41, POKEMON_MANSION_0F, 1
+	warp_event  7, 41, POKEMON_MANSION_0F, 2
 
 	def_bg_events
 	bg_event  7, 19, 8 ; Route10Text7

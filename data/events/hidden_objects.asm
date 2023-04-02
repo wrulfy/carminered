@@ -86,6 +86,7 @@ HiddenObjectMaps:
 	db CERULEAN_CITY
 	db ROUTE_4
 	db ROUTE_6
+	db VICTORY_ROAD_1F
 	db -1 ; end
 
 HiddenObjectPointers:
@@ -177,6 +178,7 @@ HiddenObjectPointers:
 	dw CeruleanCityHiddenObjects
 	dw Route4HiddenObjects
 	dw Route6HiddenObjects
+	dw VictoryRoad1HiddenObjects
 
 hidden_object: MACRO
 	db \2 ; y coord
@@ -514,7 +516,7 @@ CeruleanCave1HiddenObjects:
 	db -1 ; end
 
 CeruleanCave3HiddenObjects:
-	hidden_object 27,  3, PP_UP, HiddenItems
+	hidden_object 14,  4, PP_UP, HiddenItems
 	db -1 ; end
 
 PowerPlantHiddenObjects:
@@ -681,4 +683,8 @@ Route4HiddenObjects:
 
 Route6HiddenObjects:
 	hidden_object 2,  3, THUNDER_STONE, HiddenItems
+	db -1 ; end
+
+VictoryRoad1HiddenObjects:
+	hidden_object  9,  2, PP_UP, HiddenItems
 	db -1 ; end

@@ -76,8 +76,8 @@ LanceScript0:
 	jp LanceShowOrHideEntranceBlocks
 
 LanceTriggerMovementCoords:
-	dbmapcoord  5,  1
-	dbmapcoord  6,  2
+	dbmapcoord  6,  1
+	dbmapcoord  5,  2
 	dbmapcoord  5, 11
 	dbmapcoord  6, 11
 	dbmapcoord 24, 16

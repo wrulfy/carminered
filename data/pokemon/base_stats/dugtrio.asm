@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/dugtrio.pic", 0, 1 ; sprite dimensions
 	dw DugtrioPicFront, DugtrioPicBack
 
-	db GROWL, HEADBUTT, DIG, SHARPEN; level 1 learnset
+	db GROWL, HEADBUTT, DIG, SHARPEN ; level 1 learnset
 	db GROWTH_FAST ; growth rate
 
 	; tm/hm learnset

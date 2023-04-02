@@ -11,6 +11,6 @@ ChampionsRoom_Object:
 
 	def_object_events
 	object_event  4,  2, SPRITE_BLUE, STAY, DOWN, 1 ; person
-	object_event  3,  7, SPRITE_OAK, STAY, UP, 2 ; person
+	object_event  1,  4, SPRITE_OAK, STAY, RIGHT, 2 ; person
 
 	def_warps_to CHAMPIONS_ROOM

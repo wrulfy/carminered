@@ -6,7 +6,7 @@ _CeladonMansion2Text1::
 	para "Are you having fun"
 	line "with Carmine Red?"
 
-	para "This woudln't be"
+	para "This wouldn't be"
 	line "possible without"
 	cont "all of the PRET"
 	cont "team over github"

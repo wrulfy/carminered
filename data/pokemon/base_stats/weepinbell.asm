@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/weepinbell.pic", 0, 1 ; sprite dimensions
 	dw WeepinbellPicFront, WeepinbellPicBack
 
-	db WRAP, ACID, VINE_WHIP, SLEEP_POWDER; level 1 learnset
+	db WRAP, ACID, VINE_WHIP, SLEEP_POWDER ; level 1 learnset
 	db GROWTH_STARTER ; growth rate
 
 	; tm/hm learnset

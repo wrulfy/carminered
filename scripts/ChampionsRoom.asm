@@ -40,9 +40,7 @@ GaryScript1:
 	ret
 
 GaryEntrance_RLEMovement:
-	db D_UP, 1
-	db D_RIGHT, 1
-	db D_UP, 3
+	db D_UP, 4
 	db -1 ; end
 
 GaryScript2:
@@ -127,9 +125,8 @@ GaryScript4:
 	ret
 
 OakEntranceAfterVictoryMovement:
-	db NPC_MOVEMENT_UP
-	db NPC_MOVEMENT_UP
-	db NPC_MOVEMENT_UP
+	db NPC_MOVEMENT_RIGHT
+	db NPC_MOVEMENT_RIGHT
 	db NPC_MOVEMENT_UP
 	db NPC_MOVEMENT_UP
 	db -1 ; end

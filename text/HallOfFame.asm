@@ -8,7 +8,7 @@ _HallofFameRoomText1::
 	cont "FAME!"
 
 	para "#MON LEAGUE"
-	line "champions are"
+	line "Champions are"
 	cont "honored for their"
 	cont "achievement here!"
 
@@ -19,7 +19,7 @@ _HallofFameRoomText1::
 	para "<PLAYER>! You have"
 	line "endeavored hard"
 	cont "to become the new"
-	cont "LEAGUE champion!"
+	cont "LEAGUE Champion!"
 
 	para "Congratulations,"
 	line "<PLAYER>, you and"

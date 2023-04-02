@@ -82,5 +82,5 @@ _VictoryRoad2EndBattleText5::
 _VictoryRoad2AfterBattleText5::
 	text "Don't dissapoint me"
 	line "now, and become"
-	cont "the CHAMPION!"
+	cont "the new Champion!"
 	done

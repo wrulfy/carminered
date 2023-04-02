@@ -1,6 +1,6 @@
 	db DEX_ZUBAT ; pokedex id
 
-	db  30,  45,  30,  35,  75
+	db  30,  45,  30,  75,  35
 	;   hp  atk  def  spd  spc
 
 	db POISON, FLYING ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/zubat.pic", 0, 1 ; sprite dimensions
 	dw ZubatPicFront, ZubatPicBack
 
-	db ABSORB, POISON_STING, NO_MOVE, NO_MOVE ; level 1 learnset
+	db POISON_STING, ABSORB, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_NORMAL ; growth rate
 
 	; tm/hm learnset
