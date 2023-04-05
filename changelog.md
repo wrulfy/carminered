@@ -1,3 +1,13 @@
+**v0.9.6? Fixes and documentation**
+
+Changed stuff on the champions room because apparently wasnt really that bugged
+repruposed item in victory road
+Psyduck gets Amnesia. Aerodactyl gets Hyper Fang.
+Included the type chart withing the repository documentation
+Gave Dodrio back the strongest Hyper Beam
+
+______________________
+
 **v0.9.5 Documentation parity**
 
 Moved an item on victory road due to a bug

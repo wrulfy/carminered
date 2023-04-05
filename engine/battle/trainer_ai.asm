@@ -409,7 +409,7 @@ Rival2AI:
 	jp AIUseSuperPotion
 
 Rival3AI:
-	cp 25 percent + 1
+	cp 50 percent + 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
@@ -419,12 +419,12 @@ Rival3AI:
 LoreleiAI:
 	cp 8 percent
 	jp c, AISwitchIfEnoughMons
-	cp 60 percent + 1
+	cp 33 percent + 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseHyperPotion
 
 BrunoAI:
 	cp 25 percent
@@ -449,7 +449,7 @@ AgathaAI:
 LanceAI:
 	cp 45 percent
 	jp c, AIUseXAccuracy
-	cp 95 percent + 1
+	cp 40 percent + 1
 	ret nc
 	ld a, 5
 	call AICheckIfHPBelowFraction
@@ -511,7 +511,13 @@ AIUseSuperPotion:
 AIUseHyperPotion:
 ; enemy trainer heals his monster with a hyper potion
 	ld a, HYPER_POTION
-	ld b, 200
+	ld b, 120
+	; fallthrough
+
+AIUseMaxPotion:
+; enemy trainer heals his monster with a hyper potion
+	ld a, MAX_POTION
+	ld b, 999
 	; fallthrough
 
 AIRecoverHP:

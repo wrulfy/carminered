@@ -165,7 +165,7 @@ _CinnabarGymAfterBattleText5::
 
 _CinnabarGymBattleText6::
 	text "BLAINE really is a"
-	line "strong LEADER, but"
+	line "great LEADER, but"
 	cont "these quiz are"
 	cont "just silly!"
 	done

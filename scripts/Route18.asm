@@ -22,7 +22,7 @@ Route18_TextPointers:
 Route18TrainerHeaders:
 	def_trainers
 Route18TrainerHeader0:
-	trainer EVENT_BEAT_ROUTE_18_TRAINER_0, 3, Route18BattleText1, Route18EndBattleText1, Route18AfterBattleText1
+	trainer EVENT_BEAT_ROUTE_18_TRAINER_0, 2, Route18BattleText1, Route18EndBattleText1, Route18AfterBattleText1
 Route18TrainerHeader1:
 	trainer EVENT_BEAT_ROUTE_18_TRAINER_1, 3, Route18BattleText2, Route18EndBattleText2, Route18AfterBattleText2
 Route18TrainerHeader2:

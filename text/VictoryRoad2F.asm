@@ -71,12 +71,12 @@ _VictoryRoad2BattleText5::
 	done
 
 _VictoryRoad2EndBattleText5::
-	text "Well"
-	line "done! You have"
-	cont "overcome your"
-	cont "final obstacle"
-	cont "before the ELITE"
-	cont "FOUR. You got it!"
+	text "Well done!"
+	line "You have overcome"
+	cont "your final obsta-"
+	cont "cle before the"
+	cont "ELITE FOUR. You"
+	cont "got it, Champ!"
 	prompt
 
 _VictoryRoad2AfterBattleText5::

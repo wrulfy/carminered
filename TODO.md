@@ -1,10 +1,7 @@
 Make the whole documentation for the actual full release
 
-fix the "end" character of the naming screen
 
-
-Check https://www.youtube.com/watch?v=mHkyO5T5wZU 0:52 because I should try to move that to the other side now that the map has changed 💀
-
+_________________________________________________________________________
 
 -check HandleExplodingAnimation and PlayMoveAnimation over core.asm to find where it calls for megapunch after succesfully perfoming an explosion to see if I can get fancy with it
 
@@ -16,7 +13,6 @@ or alternatively make so while it uses the fly_effect, it lets me assign a diffe
 give a look at how the exp handles the texts, so with exp.all instead of adding a line it just, changes "gained" to "shared" but keeps it as 2 lines so to clutter less.
 
 
-_________________________________________________________________________
-Make the code that assigns palettes to maps do in a table fashion way instead of cities go by palette order then routes go by route palette then exceptions, so I can tweak them to my hearts content much more easily
+Make the code that assigns palettes to maps do it in a table fashion way instead of cities go by palette order then routes go by route palette then exceptions, so I can tweak them to my hearts content much more easily
 
 

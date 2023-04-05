@@ -13,7 +13,7 @@ gfx/tilesets.o
 
 carminered_obj        := $(rom_obj:.o=_red.o)
 #pokeblue_obj       := $(rom_obj:.o=_blue.o)
-#pokeblue_debug_obj := $(rom_obj:.o=_blue_debug.o)
+pokeblue_debug_obj := $(rom_obj:.o=_blue_debug.o)
 
 ### Build tools
 
