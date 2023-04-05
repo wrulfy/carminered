@@ -20,7 +20,7 @@ Route24WildMons:
 	db 30, SEAKING
 	db 25, PSYDUCK
 	db 35, GOLDUCK
-	db 35, GOLDUCK
 	db 40, GOLDUCK
+	db 40, PSYDUCK
 	db 45, GOLDUCK
 	end_water_wildmons

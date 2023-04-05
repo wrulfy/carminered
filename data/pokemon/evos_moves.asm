@@ -797,6 +797,7 @@ PsyduckEvosMoves:
 	db 25, DISABLE
 	db 30, BUBBLEBEAM
 	db 35, PSYBEAM
+	db 41, AMNESIA	
 	db 0
 
 DrowzeeEvosMoves:
@@ -1668,8 +1669,8 @@ GolduckEvosMoves:
 	db 0
 ; Learnset
 	db 36, PSYBEAM
-	db 40, ROAR
-	db 45, FURY_SWIPES
+	db 40, FURY_SWIPES
+	db 45, ROAR
 	db 50, HYDRO_PUMP
 	db 56, KARATE_CHOP
 	db 0
@@ -2121,7 +2122,7 @@ AerodactylEvosMoves:
 ; Learnset
 	db 31, SUPERSONIC
 	db 35, EGG_BOMB
-	db 39, TAKE_DOWN
+	db 39, HYPER_FANG
 	db 43, FLY
 	db 47, ROAR
 	db 51, ROCK_SLIDE
