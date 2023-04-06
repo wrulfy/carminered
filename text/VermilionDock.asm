@@ -25,3 +25,9 @@ _VermilionDockText1::
 	cont "illegible due to"
 	cont "the seawater..."
 	done
+
+_VermilionDockText2::
+	text "It's a truck! And"
+	line "there's nothing"
+	cont "underneath it!"
+	done

@@ -1468,9 +1468,9 @@ ParasEvosMoves:
 	db EV_LEVEL, 35, PARASECT
 	db 0
 ; Learnset
-	db 15, ABSORB
-	db 19, SLEEP_POWDER
-	db 23, LEECH_LIFE
+	db 12, ABSORB
+	db 16, SLEEP_POWDER
+	db 22, LEECH_LIFE
 	db 27, CUT
 	db 32, SLASH
 	db 36, LEECH_SEED

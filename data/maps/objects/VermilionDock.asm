@@ -7,6 +7,8 @@ VermilionDock_Object:
 
 	def_bg_events
 	bg_event  2,  1, 1 ; Route7Text1
+	bg_event 20,  0, 2 ; Route7Text1
+	bg_event 21,  0, 3 ; Route7Text1
 
 	def_object_events
 

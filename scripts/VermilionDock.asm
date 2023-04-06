@@ -210,7 +210,17 @@ VermilionDock_EraseSSAnne:
 
 VermilionDock_TextPointers:
 	dw VermilionDockText1
+	dw VermilionDockText2
+	dw VermilionDockText3
 
 VermilionDockText1:
 	text_far _VermilionDockText1
+	text_end
+
+VermilionDockText2:
+	text_far _VermilionDockText2
+	text_end
+
+VermilionDockText3:
+	text_far _VermilionDockText2
 	text_end
