@@ -517,7 +517,7 @@ AIUseHyperPotion:
 AIUseMaxPotion:
 ; enemy trainer heals his monster with a hyper potion
 	ld a, MAX_POTION
-	ld b, 999
+	ld b, 254
 	; fallthrough
 
 AIRecoverHP:

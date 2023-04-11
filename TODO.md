@@ -1,6 +1,6 @@
 Make the whole documentation for the actual full release
 
-
+find again an unused tile, or a tile with very little use in the cavern tileset, gotta make a new entrance for seafoam island.
 _________________________________________________________________________
 
 -check HandleExplodingAnimation and PlayMoveAnimation over core.asm to find where it calls for megapunch after succesfully perfoming an explosion to see if I can get fancy with it

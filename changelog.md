@@ -5,6 +5,11 @@ repruposed item in victory road
 Psyduck gets Amnesia. Aerodactyl gets Hyper Fang.
 Included the type chart withing the repository documentation
 Gave Dodrio back the strongest Hyper Beam
+minor learnset edits (paras learns some stuff slightly early)
+added extra text in vermilion dock
+minor party rearangements
+reverted a change in the matchups done on the flim before the demo
+added some flavour to an important NPC house
 
 ______________________
 

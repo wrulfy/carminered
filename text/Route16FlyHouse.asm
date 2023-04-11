@@ -1,6 +1,8 @@
 _Route16HouseText3::;
-	text "Oh, you found my"
-	line "secret retreat!"
+
+	text "BIRD GIRL:Oh, you"
+	line "found my secret"
+	cont "bird retreat!"
 
 	para "Please don't tell"
 	line "anyone I'm here."
@@ -29,4 +31,16 @@ _HM02NoRoomText::
 
 _Route16HouseText_1e652::
 	text "FEAROW: Kyueen!"
+	done
+
+_Route16HouseText_A::
+	text "PIDGEOTTO: Piupii!"
+	done
+
+_Route16HouseText_B::
+	text "PORYGON: cry.wav"
+	done
+	
+_Route16HouseText_C::
+	text "GOLDUCK: Quaquak!"
 	done

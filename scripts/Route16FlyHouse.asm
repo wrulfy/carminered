@@ -4,6 +4,9 @@ Route16FlyHouse_Script:
 Route16FlyHouse_TextPointers:
 	dw Route16HouseText1
 	dw Route16HouseText2
+	dw Route16HouseText4
+	dw Route16HouseText5
+	dw Route16HouseText6
 
 Route16HouseText1:
 	text_asm
@@ -50,6 +53,46 @@ Route16HouseText2:
 	call WaitForSoundToFinish
 	jp TextScriptEnd
 
+Route16HouseText_A:
+	text_far _Route16HouseText_A
+	text_end
+
+Route16HouseText_B:
+	text_far _Route16HouseText_B
+	text_end
+
+Route16HouseText_C:
+	text_far _Route16HouseText_C
+	text_end
+
 Route16HouseText_1e652:
 	text_far _Route16HouseText_1e652
 	text_end
+
+
+Route16HouseText4:
+	text_asm
+	ld hl, Route16HouseText_A
+	call PrintText
+	ld a, PIDGEOTTO
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+
+Route16HouseText5:
+	text_asm
+	ld hl, Route16HouseText_B
+	call PrintText
+	ld a, PORYGON
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
+
+Route16HouseText6:
+	text_asm
+	ld hl, Route16HouseText_C
+	call PrintText
+	ld a, GOLDUCK
+	call PlayCry
+	call WaitForSoundToFinish
+	jp TextScriptEnd
