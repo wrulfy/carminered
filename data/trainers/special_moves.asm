@@ -12,6 +12,10 @@ SpecialTrainerMoves:
 	db 6, 4, BODY_SLAM
 	db 0
 
+	db SAILOR, 8
+	db 4, 4, SURF
+	db 0
+
 	db SUPER_NERD, 7
 	db 3, 1, ACID
 	db 5, 4, ACID

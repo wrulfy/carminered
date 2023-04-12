@@ -18,8 +18,8 @@ SafariZoneWestWildMons:
 	db 30, HORSEA
 	db 35, SEADRA
 	db 25, GYARADOS
-	db 30, SLOWPOKE
 	db 30, DRAGONAIR
+	db 30, SLOWPOKE
 	db 30, MAGIKARP
 	db 35, DRAGONAIR
 	db 40, DRAGONAIR

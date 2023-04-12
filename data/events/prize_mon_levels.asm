@@ -1,8 +1,8 @@
 PrizeMonLevelDictionary:
-	db ABRA,     10
-	db PIKACHU,  15
-	db PARAS,    25
+	db ABRA,       10
+	db PARAS,      25
+	db DRATINI,    13
 
-	db DRATINI,  18
-	db KANGASKHAN,  31
-	db PORYGON,  22
+	db ONIX,       27
+	db KANGASKHAN, 33
+	db PORYGON,    22

@@ -1,7 +1,20 @@
 Make the whole documentation for the actual full release
 
 find again an unused tile, or a tile with very little use in the cavern tileset, gotta make a new entrance for seafoam island.
+check said entrance for seafoam
+check indigo plateau and route23
+check if the vermillion dock can handle a citycoast map
+Consider wether to keep pallet town as searoute or as citycoast
+redistribute the Mansion B1F PP ups to the upper floor and to silph co
+move the celadon PP up to the hidden item in vermilion and move it
+make sure the NPCs added talking the surfing guru work
+check the seafoam and vroad changes work
+
+
+try and check if I can make trying to delete an HM move add extra text but let you do it
 _________________________________________________________________________
+
+
 
 -check HandleExplodingAnimation and PlayMoveAnimation over core.asm to find where it calls for megapunch after succesfully perfoming an explosion to see if I can get fancy with it
 

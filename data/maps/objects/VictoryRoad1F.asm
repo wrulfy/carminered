@@ -15,6 +15,6 @@ VictoryRoad1F_Object:
 	object_event  2, 16, SPRITE_POKE_BALL, STAY, NONE, 4, MAX_REPEL
 	object_event  5, 15, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 5 ; person
 	object_event 14,  2, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 6 ; person
-	object_event  2, 10, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 7 ; person
+	object_event  3, 11, SPRITE_BOULDER, STAY, BOULDER_MOVEMENT_BYTE_2, 7 ; person
 
 	def_warps_to VICTORY_ROAD_1F

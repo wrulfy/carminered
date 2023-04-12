@@ -24,6 +24,8 @@ Route19_TextPointers:
 	dw Route19Text9
 	dw Route19Text10
 	dw Route19Text11
+	dw Route19Text12
+	dw Route19Text13
 
 Route19TrainerHeaders:
 	def_trainers
@@ -231,4 +233,15 @@ Route19AfterBattleText10:
 
 Route19Text11:
 	text_far _Route19Text11
+	text_end
+
+Route19Text12:
+	text_far _Route19Text12
+	text_asm
+	ld a, STARYU
+	call PlayCry
+	jp TextScriptEnd
+
+Route19Text13:
+	text_far _Route19Text13
 	text_end

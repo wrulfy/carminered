@@ -3,10 +3,10 @@ Route12WildMons:
 	db 28, GLOOM
 	db 28, WEEPINBELL
 	db 27, SEEL
-	db 28, VENONAT
+	db 28, SEEL
 	db 28, KRABBY
 	db 28, SHELLDER
-	db 28, SEEL
+	db 28, VENONAT
 	db 29, VENONAT
 	db 31, VENOMOTH
 	db 23, CHANSEY

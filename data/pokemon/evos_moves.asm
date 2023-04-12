@@ -797,7 +797,7 @@ PsyduckEvosMoves:
 	db 25, DISABLE
 	db 30, BUBBLEBEAM
 	db 35, PSYBEAM
-	db 41, AMNESIA	
+	db 40, AMNESIA	
 	db 0
 
 DrowzeeEvosMoves:

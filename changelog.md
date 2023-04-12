@@ -10,6 +10,13 @@ added extra text in vermilion dock
 minor party rearangements
 reverted a change in the matchups done on the flim before the demo
 added some flavour to an important NPC house
+added references to the Surfing guru to more npcs
+changed one of the casino price mons (pikachu for onix)
+minor map changes to Victory road and seafoam (fixes a bug in the seafoam entrance)
+Fixed a couple of oversights in the silph co layout and trainers
+minor changes to spawn rates in some areas due to documentation realizations
+minor improvement of the house tileset
+minor touches to some other maps (you can now blindly surf on cinnabar for encounters without getting to r21)
 
 ______________________
 

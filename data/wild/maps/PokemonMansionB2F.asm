@@ -4,9 +4,9 @@ PokemonMansionB2FWildMons:
 	db 46, RHYDON
 	db 46, DODRIO
 	db 45, PARASECT 
-	db 47, PARASECT
+	db 47, GENGAR
 	db 47, ALAKAZAM
-	db 48, GENGAR
+	db 48, PARASECT
 	db 46, DODRIO
 	db 45, PORYGON 
 	db 40, DITTO

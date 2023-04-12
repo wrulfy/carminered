@@ -99,7 +99,7 @@ _FuchsiaGymEndBattleText3::
 	prompt
 
 _FuchsiaGymAfterBattleText3::
-	text "you should be"
+	text "You should be"
 	line "thankful I lost"
 	cont "on prupose to not"
 	cont "make you cry!"

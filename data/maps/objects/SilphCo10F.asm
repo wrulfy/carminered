@@ -11,12 +11,12 @@ SilphCo10F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  1,  8, SPRITE_ROCKET, STAY, UP, 1, OPP_ROCKET, 17
+	object_event  4, 14, SPRITE_ROCKET, STAY, RIGHT, 1, OPP_ROCKET, 17
 	object_event 10,  4, SPRITE_SCIENTIST, STAY, UP, 2, OPP_SCIENTIST, 11
 	object_event 11,  4, SPRITE_ROCKET, STAY, DOWN, 3, OPP_ROCKET, 21
-	object_event  9, 15, SPRITE_ERIKA, WALK, ANY_DIR, 4 ; person
-	object_event  3, 11, SPRITE_POKE_BALL, STAY, NONE, 5, TM_HYDRO_PUMP
-	object_event  1, 15, SPRITE_POKE_BALL, STAY, NONE, 6, CARD_KEY
-	object_event  5, 15, SPRITE_POKE_BALL, STAY, NONE, 7, CARBOS
+	object_event 11, 11, SPRITE_ERIKA, WALK, ANY_DIR, 4 ; person
+	object_event  4,  9, SPRITE_POKE_BALL, STAY, NONE, 5, TM_HYDRO_PUMP
+	object_event  5, 11, SPRITE_POKE_BALL, STAY, NONE, 6, CARD_KEY
+	object_event  1, 15, SPRITE_POKE_BALL, STAY, NONE, 7, CARBOS
 
 	def_warps_to SILPH_CO_10F

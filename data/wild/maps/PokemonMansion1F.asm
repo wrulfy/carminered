@@ -4,10 +4,10 @@ PokemonMansion1FWildMons:
 	db 40, GROWLITHE
 	db 39, PONYTA
 	db 41, RATICATE
-	db 39, VULPIX
+	db 38, GRIMER
 	db 39, KOFFING
 	db 41, MAGMAR
-	db 38, GRIMER
+	db 39, VULPIX
 	db 42, NINETALES
 	db 43, RAPIDASH
 	end_grass_wildmons

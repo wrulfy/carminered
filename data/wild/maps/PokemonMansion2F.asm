@@ -3,11 +3,11 @@ PokemonMansion2FWildMons:
 	db 41, WEEZING
 	db 41, PONYTA
 	db 40, GROWLITHE
-	db 40, VULPIX
+	db 39, KOFFING
 	db 42, NINETALES
 	db 42, MAGMAR
 	db 41, MUK
-	db 39, KOFFING
+	db 40, VULPIX
 	db 43, RAPIDASH 
 	db 44, ARCANINE
 	end_grass_wildmons

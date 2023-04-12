@@ -17,5 +17,7 @@ Route19_Object:
 	object_event 11, 43, SPRITE_SWIMMER, STAY, RIGHT, 8, OPP_BEAUTY, 13
 	object_event  9, 42, SPRITE_SWIMMER, STAY, UP, 9, OPP_SWIMMER, 8
 	object_event 10, 44, SPRITE_SWIMMER, STAY, DOWN, 10, OPP_BEAUTY, 14
+	object_event  6,  9, SPRITE_YOUNGSTER, STAY, DOWN, 11 ; person
+	object_event  5, 10, SPRITE_FOSSIL, STAY, NONE, 12 ; person
 
 	def_warps_to ROUTE_19

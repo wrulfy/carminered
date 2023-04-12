@@ -97,19 +97,21 @@ _Route12AfterBattleText5::
 	done
 
 _Route12BattleText6::
-	text "I'd rather be"
-	line "working!"
+	text "There's a legendary"
+	line "swimmer south of"
+	cont "here that teaches"
+	cont "#MON to SURF!"
 	done
 
 _Route12EndBattleText6::
-	text "It's"
-	line "not easy..."
+	text "I fell"
+	line "into the water..."
 	prompt
 
 _Route12AfterBattleText6::
-	text "It's all right."
-	line "Losing doesn't"
-	cont "bug me any more."
+	text "I surfed up to"
+	line "here with my, pal"
+	cont "KRABBY!"
 	done
 
 _Route12BattleText7::

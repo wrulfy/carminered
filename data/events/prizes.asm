@@ -8,18 +8,18 @@ NoThanksText:
 
 PrizeMenuMon1Entries:
 	db ABRA
-	db PIKACHU
 	db PARAS
+	db DRATINI
 	db "@"
 
 PrizeMenuMon1Cost:
 	bcd2 100
-	bcd2 350
 	bcd2 666
+	bcd2 840
 	db "@"
 
 PrizeMenuMon2Entries:
-	db DRATINI
+	db ONIX
 	db KANGASKHAN
 	db PORYGON
 	db "@"

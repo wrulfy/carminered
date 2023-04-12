@@ -151,6 +151,22 @@ _Route19AfterBattleText10::
 	done
 
 _Route19Text11::
+	text "The other week, a"
+	line "guy from SILENCE"
+	cont "BRIDGE teached my"
+	cont "#MON to SURF."
+
+	para "But I needed the"
+	line "city's gym badge"
+	cont "to even use it!"
+	done
+
+_Route19Text12::
+	text "STARYU: HYAH!@"
+	text_end
+
+
+_Route19Text13::
 	text "SEA ROUTE 19"
 	line "FUCHSIA CITY -"
 	cont "SEAFOAM ISLANDS"

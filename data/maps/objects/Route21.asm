@@ -6,8 +6,8 @@ Route21_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  9, 68, SPRITE_FISHER, STAY, RIGHT, 1, OPP_FISHER, 7
-	object_event  9, 39, SPRITE_FISHER, STAY, LEFT, 2, OPP_FISHER, 8
+	object_event  9, 68, SPRITE_FISHER, STAY, RIGHT, 1, OPP_FISHER, 6
+	object_event  9, 39, SPRITE_FISHER, STAY, LEFT, 2, OPP_FISHER, 7
 	object_event  3, 21, SPRITE_SWIMMER, STAY, RIGHT, 3, OPP_SWIMMER, 12
 	object_event 15, 29, SPRITE_SWIMMER, STAY, LEFT, 4, OPP_CUE_BALL, 9
 	object_event 10, 81, SPRITE_SWIMMER, STAY, RIGHT, 5, OPP_SWIMMER, 13
