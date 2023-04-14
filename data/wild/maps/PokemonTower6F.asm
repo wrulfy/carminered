@@ -1,5 +1,5 @@
 PokemonTower6FWildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 16 ; encounter rate
 	db 26, GASTLY
 	db 26, CLEFAIRY
 	db 26, LICKITUNG

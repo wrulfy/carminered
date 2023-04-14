@@ -1,5 +1,5 @@
 ViridianForestWildMons:
-	def_grass_wildmons 8 ; encounter rate
+	def_grass_wildmons 10 ; encounter rate
 	db  4, CATERPIE
 	db  4, WEEDLE
 	db  5, ODDISH

@@ -1,5 +1,5 @@
 CeruleanCaveB1FWildMons:
-	def_grass_wildmons 20 ; encounter rate
+	def_grass_wildmons 30 ; encounter rate
 	db 64, CHANSEY
 	db 64, WEEZING
 	db 64, ALAKAZAM
@@ -12,7 +12,7 @@ CeruleanCaveB1FWildMons:
 	db 46, WARTORTLE
 	end_grass_wildmons
 
-	def_water_wildmons 20 ; encounter rate
+	def_water_wildmons 30 ; encounter rate
 	db 65, SLOWBRO
 	db 65, GOLDUCK
 	db 55, DRAGONAIR

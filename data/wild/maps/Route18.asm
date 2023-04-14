@@ -1,5 +1,5 @@
 Route18WildMons:
-	def_grass_wildmons 25 ; encounter rate
+	def_grass_wildmons 20 ; encounter rate
 	db 30, PONYTA
 	db 30, DODUO
 	db 29, KOFFING

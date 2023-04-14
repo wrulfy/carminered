@@ -662,7 +662,7 @@ UndergroundPathWeHiddenObjects:
 	db -1 ; end
 
 CeladonCityHiddenObjects:
-	hidden_object 48, 15, PP_UP, HiddenItems
+	hidden_object 48, 15, MAX_ETHER, HiddenItems
 	db -1 ; end
 
 SeafoamIslands4HiddenObjects:
@@ -670,7 +670,7 @@ SeafoamIslands4HiddenObjects:
 	db -1 ; end
 
 VermilionCityHiddenObjects:
-	hidden_object 29,  6, MAX_ETHER, HiddenItems
+	hidden_object 29,  6, PP_UP, HiddenItems
 	db -1 ; end
 
 CeruleanCityHiddenObjects:

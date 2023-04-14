@@ -1,5 +1,5 @@
 Route12WildMons:
-	def_grass_wildmons 20 ; encounter rate
+	def_grass_wildmons 25 ; encounter rate
 	db 28, GLOOM
 	db 28, WEEPINBELL
 	db 27, SEEL
@@ -12,7 +12,7 @@ Route12WildMons:
 	db 23, CHANSEY
 	end_grass_wildmons
 
-	def_water_wildmons 15 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
 	db 30, SEEL
 	db 30, HORSEA
 	db 15, MAGIKARP

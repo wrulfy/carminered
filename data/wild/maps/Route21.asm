@@ -1,5 +1,5 @@
 Route21WildMons:
-	def_grass_wildmons 25 ; encounter rate
+	def_grass_wildmons 30 ; encounter rate
 	db 43, TANGELA
 	db 43, RATICATE
 	db 44, MR_MIME
@@ -12,7 +12,7 @@ Route21WildMons:
 	db 46, PIDGEOT
 	end_grass_wildmons
 
-	def_water_wildmons 5 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
 	db 40, TENTACRUEL
 	db 40, TENTACRUEL
 	db 40, MAGIKARP

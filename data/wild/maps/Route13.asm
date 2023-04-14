@@ -12,7 +12,7 @@ Route13WildMons:
 	db 38, PARASECT
 	end_grass_wildmons
 
-	def_water_wildmons 15 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
 	db 30, SEEL
 	db 30, HORSEA
 	db 15, MAGIKARP

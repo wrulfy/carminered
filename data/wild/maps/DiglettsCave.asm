@@ -1,5 +1,5 @@
 DiglettsCaveWildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 15 ; encounter rate
 	db 18, DIGLETT
 	db 18, SANDSHREW
 	db 20, DIGLETT

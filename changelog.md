@@ -14,9 +14,9 @@ added references to the Surfing guru to more npcs
 changed one of the casino price mons (pikachu for onix)
 minor map changes to Victory road and seafoam (fixes a bug in the seafoam entrance)
 Fixed a couple of oversights in the silph co layout and trainers
-minor changes to spawn rates in some areas due to documentation realizations
+minor changes to spawn rates in some areas due to documentation realizations and encounter frecuencies overall
 minor improvement of the house tileset
-minor touches to some other maps (you can now blindly surf on cinnabar for encounters without getting to r21)
+minor touches to some other maps
 
 ______________________
 

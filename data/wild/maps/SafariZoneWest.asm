@@ -19,8 +19,8 @@ SafariZoneWestWildMons:
 	db 35, SEADRA
 	db 25, GYARADOS
 	db 30, DRAGONAIR
-	db 30, SLOWPOKE
-	db 30, MAGIKARP
+	db 30, DRATINI
+	db 40, SEADRA
 	db 35, DRAGONAIR
 	db 40, DRAGONAIR
 	end_water_wildmons

@@ -1,5 +1,5 @@
 SeafoamIslandsB4FWildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 16 ; encounter rate
 	db 40, JYNX
 	db 40, GOLBAT
 	db 40, GRAVELER
@@ -18,9 +18,9 @@ SeafoamIslandsB4FWildMons:
 	db 35, SHELLDER
 	db 40, CLOYSTER
 	db 40, DEWGONG
-	db 40, STARMIE
+	db 40, MAGIKARP
 	db 30, OMANYTE
 	db 35, LAPRAS
+	db 40, STARMIE
 	db 40, LAPRAS
-	db 45, LAPRAS
 	end_water_wildmons

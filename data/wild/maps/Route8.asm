@@ -1,5 +1,5 @@
 Route8WildMons:
-	def_grass_wildmons 25 ; encounter rate
+	def_grass_wildmons 30 ; encounter rate
 	db 23, GLOOM
 	db 22, POLIWAG
 	db 23, KADABRA
@@ -9,7 +9,7 @@ Route8WildMons:
 	db 25, GLOOM
 	db 25, POLIWHIRL
 	db 19, LICKITUNG
-	db 22, MR_MIME
+	db 23, MAGMAR
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

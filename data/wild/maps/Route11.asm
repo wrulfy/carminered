@@ -1,5 +1,5 @@
 Route11WildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 20 ; encounter rate
 	db 17, DROWZEE
 	db 17, RATTATA
 	db 17, SPEAROW
@@ -12,7 +12,7 @@ Route11WildMons:
 	db 13, FARFETCHD
 	end_grass_wildmons
 
-	def_water_wildmons 15 ; encounter rate
+	def_water_wildmons 20 ; encounter rate
 	db 30, STARYU
 	db 30, KRABBY
 	db 15, MAGIKARP

@@ -9,7 +9,7 @@ Route10WildMons:
 	db 20, RATICATE
 	db 21, SANDSHREW
 	db 22, FEAROW 
-	db 23, MAGMAR
+	db 19, MR_MIME
 	end_grass_wildmons
 
 	def_water_wildmons 15 ; encounter rate

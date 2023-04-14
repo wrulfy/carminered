@@ -1,5 +1,5 @@
 PokemonTower5FWildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 14 ; encounter rate
 	db 25, GASTLY
 	db 25, CLEFAIRY
 	db 26, GASTLY

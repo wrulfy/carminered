@@ -1,5 +1,5 @@
 SeafoamIslands1FWildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 8 ; encounter rate
 	db 36, GOLBAT
 	db 36, MAROWAK
 	db 36, GRAVELER

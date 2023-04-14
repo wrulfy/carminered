@@ -4,9 +4,9 @@ SuperRodData:
 	dbw PALLET_TOWN,         .Group5
 	dbw VIRIDIAN_CITY,       .Group1
 	dbw PEWTER_CITY,         .Group1
-	dbw CERULEAN_CITY,       .Group1
+	dbw CERULEAN_CITY,       .Group2
 	dbw VERMILION_CITY,      .Group3
-	dbw CELADON_CITY,        .Group2
+	dbw CELADON_CITY,        .Group1
 	dbw FUCHSIA_CITY,        .Group1
 	dbw CINNABAR_ISLAND,     .Group5
 	dbw ROUTE_4,             .Group2
@@ -40,7 +40,7 @@ SuperRodData:
 
 .Group1: ;Pond
 	db 4
-	db 40, POLIWHIRL
+	db 35, POLIWHIRL
 	db 40, POLIWRATH
 	db 40, SEAKING
 	db 40, GOLDUCK
@@ -50,13 +50,13 @@ SuperRodData:
 	db 40, SLOWBRO
 	db 40, SEAKING
 	db 40, GYARADOS
-	db 40, SEAKING
+	db 35, SEAKING
 
 .Group3: ;BAY
 	db 4
 	db 40, STARMIE
 	db 40, CLOYSTER
-	db 40, KINGLER
+	db 35, KINGLER
 	db 40, KINGLER
 
 .Group4: ;EAST SEA
@@ -68,7 +68,7 @@ SuperRodData:
 
 .Group5: ;SOUTH SEA
 	db 4
-	db 40, TENTACRUEL
+	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 	db 40, SEADRA
 	db 40, DEWGONG
@@ -77,7 +77,7 @@ SuperRodData:
 	db 4
 	db 30, DRATINI
 	db 40, MAGIKARP
-	db 25, SQUIRTLE
+	db 40, SEADRA
 	db 40, DRAGONAIR
 
 .Group7: ;SEAFOAM
@@ -85,7 +85,7 @@ SuperRodData:
 	db 40, STARMIE
 	db 40, DEWGONG
 	db 40, CLOYSTER
-	db 40, LAPRAS
+	db 30, LAPRAS
 
 .Group8: ;strong
 	db 4
@@ -106,4 +106,4 @@ SuperRodData:
 	db 65, GYARADOS
 	db 65, POLIWRATH
 	db 65, CLOYSTER
-	db 65, DRAGONITE
+	db 60, DRAGONITE

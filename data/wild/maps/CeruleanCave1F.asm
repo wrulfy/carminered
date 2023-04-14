@@ -1,5 +1,5 @@
 CeruleanCave1FWildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 20 ; encounter rate
 	db 60, CHANSEY
 	db 60, ELECTRODE
 	db 60, GOLBAT
@@ -12,7 +12,7 @@ CeruleanCave1FWildMons:
 	db 42, IVYSAUR
 	end_grass_wildmons
 
-	def_water_wildmons 15 ; encounter rate
+	def_water_wildmons 20 ; encounter rate
 	db 60, POLIWRATH
 	db 60, DEWGONG
 	db 60, TENTACRUEL

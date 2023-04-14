@@ -1,5 +1,5 @@
 CeruleanCave2FWildMons:
-	def_grass_wildmons 15 ; encounter rate
+	def_grass_wildmons 25 ; encounter rate
 	db 62, CHANSEY
 	db 62, GOLEM
 	db 62, RAICHU

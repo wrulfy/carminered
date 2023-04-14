@@ -17,9 +17,9 @@ SafariZoneCenterWildMons:
 	db 30, MAGIKARP
 	db 30, HORSEA
 	db 25, DRATINI
-	db 20, DRATINI
-	db 25, POLIWAG
 	db 35, SEADRA
+	db 25, POLIWAG
+	db 20, DRATINI
 	db 35, DRAGONAIR
 	db 35, GYARADOS
 	db 40, GYARADOS

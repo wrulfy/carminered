@@ -1,5 +1,5 @@
 VictoryRoad2FWildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 15 ; encounter rate
 	db 48, ONIX
 	db 48, GOLEM
 	db 48, SANDSLASH

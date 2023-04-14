@@ -1,5 +1,5 @@
 Route16WildMons:
-	def_grass_wildmons 20 ; encounter rate
+	def_grass_wildmons 30 ; encounter rate
 	db 25, DODUO
 	db 25, PONYTA
 	db 25, FEAROW

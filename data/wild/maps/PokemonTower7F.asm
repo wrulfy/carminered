@@ -1,7 +1,7 @@
 PokemonTower7FWildMons:
-	def_grass_wildmons 15 ; encounter rate
-	db 26, CLEFAIRY
-	db 26, LICKITUNG
+	def_grass_wildmons 20 ; encounter rate
+	db 27, CLEFAIRY
+	db 27, LICKITUNG
 	db 29, HAUNTER
 	db 27, GASTLY
 	db 27, VULPIX

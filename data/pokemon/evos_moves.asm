@@ -700,15 +700,15 @@ ChanseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 14, DOUBLESLAP
-	db 19, DEFENSE_CURL
-	db 24, METRONOME
-	db 29, MINIMIZE
-	db 34, TAKE_DOWN
-	db 39, SOFTBOILED
+	db 20, DOUBLESLAP
+	db 24, DEFENSE_CURL
+	db 28, METRONOME
+	db 32, MINIMIZE
+	db 36, TAKE_DOWN
+	db 40, SOFTBOILED
 	db 44, SING
-	db 49, LIGHT_SCREEN
-	db 54, DOUBLE_EDGE
+	db 48, LIGHT_SCREEN
+	db 52, DOUBLE_EDGE
 	db 0
 
 MachokeEvosMoves:

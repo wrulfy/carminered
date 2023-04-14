@@ -16,11 +16,11 @@ Route23WildMons:
 	db 45, GOLDUCK
 	db 45, SLOWBRO
 	db 45, STARMIE
-	db 45, STARMIE
+	db 40, MAGIKARP
 	db 45, GYARADOS
 	db 40, POLIWHIRL 
 	db 45, POLIWRATH
-	db 40, MAGIKARP
+	db 45, STARMIE
 	db 50, POLIWRATH
 	db 50, STARMIE
 	end_water_wildmons

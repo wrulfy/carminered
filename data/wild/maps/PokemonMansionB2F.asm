@@ -1,5 +1,5 @@
 PokemonMansionB2FWildMons:
-	def_grass_wildmons 10 ; encounter rate
+	def_grass_wildmons 20 ; encounter rate
 	db 46, ARCANINE
 	db 46, RHYDON
 	db 46, DODRIO
@@ -18,9 +18,9 @@ PokemonMansionB2FWildMons:
 	db 46, MUK
 	db 45, SLOWBRO
 	db 47, SLOWBRO
-	db 45, DRAGONAIR 
+	db 42, MAGIKARP	
 	db 47, MUK
+	db 45, DRAGONAIR
 	db 46, DRAGONAIR
-	db 47, DRAGONAIR
-	db 42, MAGIKARP
+	db 48, DRAGONAIR 
 	end_water_wildmons
