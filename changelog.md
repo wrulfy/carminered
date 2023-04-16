@@ -18,6 +18,14 @@ minor changes to spawn rates in some areas due to documentation realizations and
 minor improvement of the house tileset
 minor touches to some other maps
 rearranged farfetchd learnset for the last time
+Made HM givers include the description on the first talk, and made sure they tell you how imporant is to keep the HMs
+fixed seafoam island and victory road entrance
+made the vermilion dock's water have encounters
+changed which jingle plays in certain events
+Implemented a warning text to trying to delete an HM, all thanks to Vortiene, I really couldn't made it without you, all credit goes to them
+Rightfully included Vortiene in the credits dialoge
+
+
 
 ______________________
 
