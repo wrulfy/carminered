@@ -82,7 +82,7 @@ VermilionHouse2Text_560b1:
 
 VermilionHouse2Text_560b6:
 	text_far _VermilionHouse2Text_560b6
-	sound_get_item_1
+	sound_get_item_2
 	text_far _VermilionHouse2Text_560bb
 	text_end
 

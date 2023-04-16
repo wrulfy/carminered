@@ -128,7 +128,7 @@ SpecialTrainerMoves:
 	db 1, 2, BODY_SLAM
 	db 2, 1, CUT
 	db 2, 3, DREAM_EATER
-	db 3, 1, FLY
+	db 3, 1, WHIRLWIND
 	db 4, 4, DIG
 	db 5, 1, FLAMETHROWER
 	db 0

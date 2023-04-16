@@ -44,6 +44,8 @@ FuchsiaHouse2Text1:
 	ld hl, ReceivedHM04Text
 	call PrintText
 	SetEvent EVENT_GOT_HM04
+	ld hl, HM04ExplanationText
+	call PrintText
 	jr .done
 .got_item
 	ld hl, HM04ExplanationText
@@ -81,7 +83,7 @@ WardenThankYouText:
 
 ReceivedHM04Text:
 	text_far _ReceivedHM04Text
-	sound_get_item_1
+	sound_get_key_item
 	text_end
 
 HM04ExplanationText:

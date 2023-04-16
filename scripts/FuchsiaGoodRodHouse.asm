@@ -40,7 +40,7 @@ FuchsiaHouse3Text_561bd:
 
 FuchsiaHouse3Text_561c2:
 	text_far _FuchsiaHouse3Text_561c2
-	sound_get_item_1
+	sound_get_item_2
 	text_end
 
 UnusedText_561c8:

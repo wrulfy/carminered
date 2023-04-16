@@ -16,11 +16,11 @@ _CeladonMansion2Text1::
 
 	para "Special thanks to"
 	line "Rangi42, 33Dannye,"
-	cont "Drush, Chatot4444,"
+	cont "Drush, Vortiene,"
 	cont "FrenchOrange,"
-	cont "and many more"
-	cont "over the PRET"
-	cont "discord server!"
+	cont "Chatot4444, and"
+	cont "many more over"
+	cont "the PRET Discord!"
 	done
 
 _CeladonMansion2Text2::

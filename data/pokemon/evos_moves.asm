@@ -969,12 +969,12 @@ FarfetchdEvosMoves:
 ; Learnset
 	db 14, AGILITY
 	db 18, BONE_CLUB
-	db 22, CUT
-	db 26, WING_ATTACK
+	db 22, WING_ATTACK
+	db 26, CUT
 	db 30, SWORDS_DANCE
 	db 34, BONEMERANG
-	db 39, SLASH
-	db 43, DRILL_PECK
+	db 39, DRILL_PECK
+	db 43, SLASH
 	db 47, SOFTBOILED
 	db 53, FISSURE
 	db 0

@@ -101,6 +101,13 @@ _AbandonLearningText::
 	text "?"
 	done
 
+_WarningLearningText::
+	text "Warning learning"
+	line "@"
+	text_ram wStringBuffer
+	text "?"
+	done
+
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start

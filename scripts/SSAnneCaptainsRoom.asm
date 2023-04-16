@@ -28,6 +28,8 @@ SSAnne7Text1:
 	ld hl, ReceivedHM01Text
 	call PrintText
 	SetEvent EVENT_GOT_HM01
+	ld hl, SSAnne7Text_61932
+	call PrintText
 	jr .done
 .bag_full
 	ld hl, HM01NoRoomText

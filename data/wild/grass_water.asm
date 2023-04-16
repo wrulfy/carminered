@@ -1,6 +1,6 @@
 WildDataPointers:
 	table_width 2, WildDataPointers
-	dw SeaRoutesWildMons       ; PALLET_TOWN
+	dw CityCoastWildMons       ; PALLET_TOWN
 	dw CityPondWildMons        ; VIRIDIAN_CITY
 	dw CityPondWildMons        ; PEWTER_CITY
 	dw CityPondWildMons        ; CERULEAN_CITY
@@ -94,7 +94,7 @@ WildDataPointers:
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons
-	dw NothingWildMons
+	dw CityCoastWildMons ;dock?
 	dw NothingWildMons
 	dw NothingWildMons
 	dw NothingWildMons

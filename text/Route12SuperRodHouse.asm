@@ -36,7 +36,8 @@ _HM03ExplanationText::
 	para "And, this HM isn't"
 	line "disposable! You"
 	cont "can use it over"
-	cont "and over!"
+	cont "and over! Always"
+	cont "keep it with you!"
 
 	para "Surfing is a way"
 	line "of life!"

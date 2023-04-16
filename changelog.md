@@ -17,6 +17,7 @@ Fixed a couple of oversights in the silph co layout and trainers
 minor changes to spawn rates in some areas due to documentation realizations and encounter frecuencies overall
 minor improvement of the house tileset
 minor touches to some other maps
+rearranged farfetchd learnset for the last time
 
 ______________________
 

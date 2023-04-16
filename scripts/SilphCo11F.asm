@@ -318,7 +318,7 @@ SilphCoPresidentText:
 
 ReceivedSilphCoMasterBallText:
 	text_far _ReceivedSilphCoMasterBallText
-	sound_get_key_item
+	sound_get_item_2
 	text_end
 
 SilphCo10Text_6231c:

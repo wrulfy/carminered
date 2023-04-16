@@ -1046,7 +1046,7 @@ OaksLabText_1d2fa:
 
 OaksLabDeliverParcelText:
 	text_far _OaksLabDeliverParcelText1
-	sound_get_key_item
+	sound_get_item_2
 	text_far _OaksLabDeliverParcelText2
 	text_end
 
@@ -1056,7 +1056,7 @@ OaksLabAroundWorldText:
 
 OaksLabGivePokeballsText:
 	text_far _OaksLabGivePokeballsText1
-	sound_get_key_item
+	sound_get_item_2
 	text_far _OaksLabGivePokeballsText2
 	text_end
 

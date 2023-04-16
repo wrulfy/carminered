@@ -1,14 +1,18 @@
 Make the whole documentation for the actual full release
 
-check said entrance for seafoam
-check indigo plateau and route23
-check if the vermillion dock can handle a citycoast map
-Consider wether to keep pallet town as searoute or as citycoast
-make sure the NPCs added talking the surfing guru work
-check the seafoam and vroad changes work
+fix the forced bike coordinates in route 18
+add the other HMs to the HM list, and make sure the Daycare doesn't bugger you about them
+
+make the sfx when leaders give you a badge be the lv up jingle, or find something better in the bank its in.
+
+Make the warning message for trying to delete an HM make sense
+
+Make the Gym leaders include the TM description forced instead of only given if you talk again to them
+maybe do what brock does and put the description as a one time dialogue, and keep the aftertalk as blurb
+
+consider whether to make other TM givers force a description on first talk or not
 
 
-try and check if I can make trying to delete an HM move add extra text but let you do it
 _________________________________________________________________________
 
 find again where the distiction between dig and fly was in the code and see if this time I can assign withdraw with charge_effect but still behave like the immunity of dig

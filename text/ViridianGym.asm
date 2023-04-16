@@ -69,10 +69,10 @@ _ReceivedTM26Text::
 _TM26ExplanationText::
 	text_start
 
-	para "TM26 is EARTHQUAKE"
+	para "TM26, EARTHQUAKE"
 	line "is a very strong"
 	cont "coverage move for"
-	cont "a lot of #MON"
+	cont "a lot of #MON!"
 
 	para "I made it when I"
 	line "ran the GYM here,"

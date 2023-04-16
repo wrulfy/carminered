@@ -1,5 +1,15 @@
 _MtMoonPokecenterText_5d616::
-	text "The HM FLASH"
+	text "A HM is a very"
+	line "important item,"
+	cont "you should always"
+	cont "carry them with"
+	cont "you. If you store"
+	cont "them in the PC,"
+	cont "worst case, you"
+	cont "could get stuck"
+	cont "forever anywhere!"
+
+	para "The HM FLASH"
 	line "lights even the"
 	cont "darkest dungeons."
 	done

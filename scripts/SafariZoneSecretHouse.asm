@@ -40,7 +40,7 @@ SafariZoneSecretHouseText_4a350:
 
 SafariZoneSecretHouseText_564c5:
 	text_far _SafariZoneSecretHouseText_564c5
-	sound_get_item_1
+	sound_get_item_2
 	text_far _SafariZoneSecretHouseText_564ca
 	text_end
 

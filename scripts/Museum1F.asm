@@ -215,7 +215,7 @@ Museum1FText_5c28e:
 
 ReceivedOldAmberText:
 	text_far _ReceivedOldAmberText
-	sound_get_item_1
+	sound_get_item_2
 	text_end
 
 Museum1FText_5c299:

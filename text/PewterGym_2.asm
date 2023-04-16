@@ -42,7 +42,7 @@ _TM39ExplanationText::
 
 	para "Your #MON will"
 	line "launch an attack"
-	cont "that won't miss"
+	cont "that won't miss,"
 	cont "is very reliable!"
 	done
 

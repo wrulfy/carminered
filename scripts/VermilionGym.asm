@@ -159,7 +159,7 @@ LTSurgeBurnBadgeInfoText:
 
 ReceivedTM25Text:
 	text_far _ReceivedTM25Text
-	sound_get_key_item
+	sound_get_item_1
 	text_far _TM25ExplanationText
 	text_end
 

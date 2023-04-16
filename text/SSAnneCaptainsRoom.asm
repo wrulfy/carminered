@@ -39,7 +39,14 @@ _ReceivedHM01Text::
 	text_end
 
 _SSAnne7Text_61932::
-	text "CAPTAIN: Whew!"
+	text "Always carry this"
+	line "HM with you so"
+	cont "you can CUT any"
+	cont "trees your way!"
+
+	para "..."
+
+	para "CAPTAIN: Whew!"
 
 	para "Now that I'm not"
 	line "sick any more, I"

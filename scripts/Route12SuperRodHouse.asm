@@ -16,6 +16,8 @@ Route12HouseText1:
 	ld hl, ReceivedHM03Text
 	call PrintText
 	SetEvent EVENT_GOT_HM03
+	ld hl, HM03ExplanationText
+	call PrintText
 	jr .done
 .bag_full
 	ld hl, HM03NoRoomText
@@ -33,7 +35,7 @@ Route12SuperRodHouseText_4a350:
 
 ReceivedHM03Text:
 	text_far _ReceivedHM03Text
-	sound_get_item_1
+	sound_get_key_item
 	text_end
 
 HM03ExplanationText:

@@ -79,7 +79,7 @@ _OaksAideHiText::
 	text_start
 	line "kinds of #MON,"
 	cont "I'm supposed to"
-	cont "give you an"
+	cont "give you the"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "!"

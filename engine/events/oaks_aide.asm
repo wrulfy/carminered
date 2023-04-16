@@ -63,7 +63,7 @@ OaksAideHereYouGoText:
 
 OaksAideGotItemText:
 	text_far _OaksAideGotItemText
-	sound_get_item_1
+	sound_get_key_item
 	text_end
 
 OaksAideNoRoomText:

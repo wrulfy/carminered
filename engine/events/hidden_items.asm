@@ -127,7 +127,7 @@ FoundHiddenCoinsText::
 
 DroppedHiddenCoinsText::
 	text_far _FoundHiddenCoins2Text
-	sound_get_item_2
+	sound_get_item_1
 	text_far _DroppedHiddenCoinsText
 	text_end
 

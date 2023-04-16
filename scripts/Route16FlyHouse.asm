@@ -20,6 +20,8 @@ Route16HouseText1:
 	jr nc, .bag_full
 	SetEvent EVENT_GOT_HM02
 	ld hl, ReceivedHM02Text
+	call PrintText
+	ld hl, HM02ExplanationText
 	jr .got_item
 .bag_full
 	ld hl, HM02NoRoomText

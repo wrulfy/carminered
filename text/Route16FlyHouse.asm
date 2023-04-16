@@ -20,8 +20,9 @@ _HM02ExplanationText::
 	line "It will take you"
 	cont "back to any town."
 
-	para "Put it to good"
-	line "use!"
+	para "Always carry it"
+	line "with you, and put"
+	cont "it to good use!"
 	done
 
 _HM02NoRoomText::

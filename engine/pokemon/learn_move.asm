@@ -89,6 +89,20 @@ AbandonLearning:
 	ld b, 0
 	ret
 
+HmTest:
+	push bc
+	ld hl, WarningLearningText
+	call PrintText
+	hlcoord 14, 7
+	lb bc, 8, 15
+	ld a, TWO_OPTION_MENU
+	ld [wTextBoxID], a
+	call DisplayTextBoxID ; yes/no menu
+	pop bc
+	ld a, [wCurrentMenuItem]
+	and a
+	ret
+
 PrintLearnedMove:
 	ld hl, LearnedMove1Text
 	call PrintText
@@ -169,16 +183,22 @@ TryingToLearn:
 	pop bc
 	pop de
 	ld a, d
-	jr c, .hm
+	jp c, .hm
 	pop hl
 	add hl, bc
 	and a
 	ret
 .hm
-	ld hl, HMCantDeleteText
-	call PrintText
+	push de
+	call HmTest
+	pop de
+	ld a, d
 	pop hl
-	jr .loop
+	jr nz, .loop
+	add hl, bc
+	and a
+	ret
+
 .cancel
 	scf
 	ret
@@ -195,6 +215,10 @@ WhichMoveToForgetText:
 
 AbandonLearningText:
 	text_far _AbandonLearningText
+	text_end
+
+WarningLearningText:
+	text_far _WarningLearningText
 	text_end
 
 DidNotLearnText:
