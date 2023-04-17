@@ -35,7 +35,7 @@ DayCareMText1:
 	pop af
 	ld hl, DayCareAllRightThenText
 	jp c, .done
-	callfar KnowsHMMove
+	callfar KnowsHMMove; I think these are the 3-4 lines I would need to delete
 	ld hl, DayCareCantAcceptMonWithHMText
 	jp c, .done
 	xor a

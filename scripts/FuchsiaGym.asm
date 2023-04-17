@@ -142,6 +142,8 @@ KogaBeforeBattleText:
 
 ReceivedMiasmaBadgeText:
 	text_far _ReceivedMiasmaBadgeText
+	sound_level_up ; changed to play the lv up sound because this one actually works in battle
+	text_promptbutton
 	text_end
 
 KogaPostBattleAdviceText:

@@ -141,6 +141,8 @@ ErikaPreBattleText:
 
 ReceivedGrubBadgeText:
 	text_far _ReceivedGrubBadgeText
+	sound_level_up ; changed to play the lv up sound because this one actually works in battle
+	text_promptbutton
 	text_end
 
 ErikaPostBattleAdviceText:

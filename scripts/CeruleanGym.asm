@@ -137,6 +137,7 @@ MistySnowBadgeInfoText:
 ReceivedTM49Text:
 	text_far _ReceivedTM49Text
 	sound_get_item_1
+	text_far _TM49ExplanationText; this in theory should work and should be the easiest way to put it, 
 	text_end
 
 TM49NoRoomText:
@@ -145,7 +146,7 @@ TM49NoRoomText:
 
 ReceivedSnowBadgeText:
 	text_far _ReceivedSnowBadgeText
-	sound_get_key_item ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
+	sound_level_up ; changed to play the lv up sound because this one actually works in battle
 	text_promptbutton
 	text_end
 

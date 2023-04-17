@@ -1,9 +1,9 @@
 Make the whole documentation for the actual full release
 
-fix the forced bike coordinates in route 18
+test that the bike coordinates in route 18 are fixed
 add the other HMs to the HM list, and make sure the Daycare doesn't bugger you about them
 
-make the sfx when leaders give you a badge be the lv up jingle, or find something better in the bank its in.
+check that leaders jingles work well, check that misty gives the explanation and implement that to the rest if it does
 
 Make the warning message for trying to delete an HM make sense
 

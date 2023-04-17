@@ -24,7 +24,8 @@ made the vermilion dock's water have encounters
 changed which jingle plays in certain events
 Implemented a warning text to trying to delete an HM, all thanks to Vortiene, I really couldn't made it without you, all credit goes to them
 Rightfully included Vortiene in the credits dialoge
-
+fixed not being forced into the bike when entering cycling road though route 18
+added the same jingle to all leaders when giving their badge
 
 
 ______________________
