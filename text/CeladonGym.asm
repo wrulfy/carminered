@@ -42,7 +42,7 @@ _ErikaPostBattleAdviceText::
 	cont "say I'm impressed."
 
 	para "I would never"
-	line "collect #MON"
+	line "collect #MON,"
 	cont "if they weren't"
 	cont "invertebrates."
 	done
@@ -76,7 +76,7 @@ _TM48ExplanationText::
 
 	para "your #MON will"
 	line "cling to the foe"
-	cont "dealing damage and"
+	cont "doing damage and"
 	cont "may slow it down."
 	done
 

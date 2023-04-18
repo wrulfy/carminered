@@ -5,8 +5,10 @@ _KogaPostBattleAdviceText::
 	cont "more and more as"
 	cont "the battle goes!"
 
-	para "It will surely"
-	line "terrorize foes!"
+	para "Combine it with"
+	line "partial trapping"
+	cont "or leeching to"
+	cont "defeat your foes!"
 	done
 
 _KogaMiasmaBadgeInfoText::
@@ -39,6 +41,10 @@ _TM06ExplanationText::
 	para "It is a old tech"
 	line "that will badly"
 	cont "poison the enemy!"
+
+	para "That means they'll"
+	line "take more damage,"
+	cont "as time goes on."
 	done
 
 _TM06NoRoomText::

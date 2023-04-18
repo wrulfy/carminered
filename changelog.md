@@ -26,6 +26,10 @@ Implemented a warning text to trying to delete an HM, all thanks to Vortiene, I 
 Rightfully included Vortiene in the credits dialoge
 fixed not being forced into the bike when entering cycling road though route 18
 added the same jingle to all leaders when giving their badge
+revised their dialogues when giving the TM and the advice afterwards
+made the daycare not reject mons with HM (because I put the HMs back into their list)
+fixed the warning message when trying to delete an HM move
+
 
 
 ______________________

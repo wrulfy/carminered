@@ -102,12 +102,15 @@ _AbandonLearningText::
 	done
 
 _WarningLearningText::
-	text "Warning learning"
-	line "@"
+	text "This is an impor-"
+	line "tant move, do you"
+	cont "really want to"
+	cont "erase the HM move"
+	cont "for @"
 	text_ram wStringBuffer
 	text "?"
 	done
-
+	
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start

@@ -97,7 +97,7 @@ MistyText:
 	call DisableWaitingAfterTextDisplay
 	jr .done
 .afterBeat
-	ld hl, TM49ExplanationText
+	ld hl, MistyPostBattleAdviceText
 	call PrintText
 	jr .done
 .beforeBeat
@@ -126,8 +126,8 @@ MistyPreBattleText:
 	text_far _MistyPreBattleText
 	text_end
 
-TM49ExplanationText:
-	text_far _TM49ExplanationText
+MistyPostBattleAdviceText:
+	text_far _MistyPostBattleAdviceText
 	text_end
 
 MistySnowBadgeInfoText:

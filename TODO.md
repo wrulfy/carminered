@@ -1,17 +1,11 @@
 Make the whole documentation for the actual full release
 
-test that the bike coordinates in route 18 are fixed
-add the other HMs to the HM list, and make sure the Daycare doesn't bugger you about them
 
-check that leaders jingles work well, check that misty gives the explanation and implement that to the rest if it does
+check all  gym leader badge jingle and explanation texts
 
-Make the warning message for trying to delete an HM make sense
+See if they can bring help on having both moves in the warning text, otherwise keep it as it is
 
-Make the Gym leaders include the TM description forced instead of only given if you talk again to them
-maybe do what brock does and put the description as a one time dialogue, and keep the aftertalk as blurb
-
-consider whether to make other TM givers force a description on first talk or not
-
+give the warden instant text speed
 
 _________________________________________________________________________
 

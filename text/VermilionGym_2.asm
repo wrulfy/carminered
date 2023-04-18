@@ -2,12 +2,14 @@ _LTSurgePostBattleAdviceText::
 	text "A little word of"
 	line "advice, kid!"
 
-	para "Fire sure is"
-	line "powerful!"
+	para "#MON Battles,"
+	line "like in the war,"
+	cont "anything goes!"
 
-	para "But, it's weak"
-	line "against water-"
-	cont "type #MON!"
+	para "Don't be afraid of"
+	line "using your stron-"
+	cont "gest strategy to"
+	cont "achieve victory!"
 	done
 
 _LTSurgeBurnBadgeInfoText::
@@ -40,11 +42,12 @@ _TM25ExplanationText::
 	para "TM25 contains"
 	line "SMOKESCREEN!"
 
-	para "Teach it to an"
-	line "fiery #MON!"
+	para "Teach it to any"
+	line "#MON that"
+	cont "needs FIRE moves!"
 
 	para "Sometimes it will"
-	line "poison the target"
+	line "poison the enemy!"
 	done
 
 _TM25NoRoomText::

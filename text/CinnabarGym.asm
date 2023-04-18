@@ -28,8 +28,14 @@ _BlainePostBattleAdviceText::
 	line "an essential tool"
 	cont "for competitive!"
 
-	para "Don't waste it on"
-	line "weak #MON!"
+	para "Paralyze your foes"
+	line "to make progress"
+	cont "in battle!"
+	
+	para "Just be aware that"
+	line "paralyzed #MON"
+	cont "cant be put to"
+	cont "sleep or frozen!"
 	done
 
 _BlainePowerBadgeInfoText::
@@ -57,8 +63,10 @@ _TM45ExplanationText::
 	para "TM45 contains"
 	line "THUNDER WAVE!"
 
-	para "Teach it to type"
-	line "electric #MON!"
+	para "Teach it to your"
+	line "#MON and start"
+	cont "spreading"
+	cont "paralysis!"
 
 	para "ELECTRODE or"
 	line "STARMIE would be"

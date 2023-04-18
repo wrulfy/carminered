@@ -18,9 +18,11 @@ _TM41ExplanationText::
 	line "called SOFTBOILED."
 
 	para "This move heals"
-	line "other #MON"
-	cont "with its own HP,"
-	cont "so use it wisely."
+	line "your own #MON,"
+	cont "and if used out"
+	cont "of battle, it can"
+	cont "heal your other"
+	cont "#MON."
 	done
 
 _TM41NoRoomText::

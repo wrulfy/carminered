@@ -32,9 +32,12 @@ _ReceivedPolterBadgeText::
 
 _SabrinaPostBattleAdviceText::
 	text "Everyone can talk"
-	line "with spirits!"
-	cont "People just don't"
-	cont "know how!"
+	line "with spirits, and"
+	cont "use supernatural"
+	cont "powers!"
+
+	para "Most People just"
+	line "don't know how!"
 	done
 
 _KogaPolterBadgeInfoText::
@@ -63,10 +66,14 @@ _ReceivedTM46Text::
 _TM46ExplanationText::
 	text_start
 
-	para "TM46, CONFUSE RAY!"
-	line "It uses powerful"
-	cont "spirit waves to"
-	cont "hurt and confuse!"
+	para "TM46 contains"
+	line "CONFUSE RAY!"
+
+	para "It uses powerful"
+	cont "eerie lights to"
+	cont "damage the foe,"
+	cont "and might even"
+	cont "cause confusion!"
 	done
 
 _TM46NoRoomText::

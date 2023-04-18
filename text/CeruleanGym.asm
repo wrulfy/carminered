@@ -17,11 +17,29 @@ _MistyPreBattleText::
 	cont "#MON!"
 	done
 
+_MistyPostBattleAdviceText::
+	text "Always watch out"
+	line "for strong ICE"
+	cont "attacks!"
+
+	para "They can freeze"
+	line "your #MON, and"
+	cont "a frozen #MON"
+	cont "is defenseless,"
+	cont "unless they get"
+	cont "hit by moves that"
+	cont "can cause burns!"
+	done
+
 _TM49ExplanationText::
-	text "TM49 teaches"
+	text_start
+
+	para "TM49 teaches"
 	line "MIST!"
 
-	para "It will slow down"
+	para "It attacks with a"
+	line "frozen wind that"
+	cont "can slow down the"
 	line "enemy #MON!"
 	done
 
