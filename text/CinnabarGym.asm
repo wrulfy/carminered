@@ -7,8 +7,8 @@ _BlainePreBattleText::
 
 	para "My electrifying"
 	line "#MON will"
-	cont "shock all"
-	cont "the challengers!"
+	cont "shock all the"
+	cont "challengers!"
 
 
 	para "Hah! You better"
@@ -16,8 +16,9 @@ _BlainePreBattleText::
 	done
 
 _ReceivedPowerBadgeText::
-	text "I have"
-	line "low battery!"
+	text "You have"
+	line "depleted all of"
+	cont "my batteries!"
 
 	para "You have earned"
 	line "the POWERBADGE!@"
