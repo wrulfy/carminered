@@ -22,5 +22,5 @@ _ReceivedMiasmaBadgeText::
 	cont "your worth!"
 
 	para "Here! Take the"
-	line "MIASMABADGE!"
+	line "MIASMABADGE!@"
 	prompt

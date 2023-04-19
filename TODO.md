@@ -1,11 +1,11 @@
 Make the whole documentation for the actual full release
 
-
-check all  gym leader badge jingle and explanation texts
-
 See if they can bring help on having both moves in the warning text, otherwise keep it as it is
 
 give the warden instant text speed
+
+test a few extra palettes, but I don't think I'll change it
+tidy things up
 
 _________________________________________________________________________
 

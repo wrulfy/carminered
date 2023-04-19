@@ -62,7 +62,7 @@ _ReceivedBurnBadgeText::
 	line "deal, kid!"
 
 	para "Fine then, take"
-	line "the BURNBADGE!"
+	line "the BURNBADGE!@"
 	prompt
 
 _VermilionGymBattleText1::

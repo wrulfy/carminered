@@ -237,7 +237,7 @@ BlainePreBattleText:
 ReceivedPowerBadgeText:
 	text_far _ReceivedPowerBadgeText
 	sound_level_up ; actually plays the second channel of SFX_BALL_POOF due to the wrong music bank being loaded
-	text_waitbutton
+	text_promptbutton
 	text_end
 
 BlainePostBattleAdviceText:

@@ -251,6 +251,7 @@ GiovanniPreBattleText:
 ReceivedDrillBadgeText:
 	text_far _ReceivedDrillBadgeText
 	sound_level_up ; probably supposed to play SFX_GET_ITEM_1 but the wrong music bank is loaded
+	text_promptbutton
 	text_end
 
 GiovanniPostBattleAdviceText:

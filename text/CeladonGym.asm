@@ -33,7 +33,7 @@ _ReceivedGrubBadgeText::
 	line "strong."
 
 	para "I must confer you"
-	line "the GRUBBADGE."
+	line "the GRUBBADGE.@"
 	prompt
 
 _ErikaPostBattleAdviceText::
