@@ -23,4 +23,4 @@ _ReceivedMiasmaBadgeText::
 
 	para "Here! Take the"
 	line "MIASMABADGE!@"
-	prompt
+	text_end

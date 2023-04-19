@@ -9,11 +9,12 @@
 - Revamping some dungeons and routes even if some just got a bit more decorated. A lot of maps were a bit dull, also some of the dungeons have been redone so you have to figure the way out from scratch.
 
 ## TODO list:
-- Basically everything is done for the prerelease. The main things needed for the full release is recompile again the documentation and polish stuff that I might forgotten, or squash stray bugs that got unnoticed.
+ - what remains in the TODO list, is stuff that isn't needed for the game as it is now, or are ideas for future patches, or simply minor stuff that doesn't affect much
 
 ## Other stuff I would like to do eventually, but right now I don't really know assembly enough to program it, as it would be making new scripts from scratch
 - Add Gym Leader rematches. The idea is to fight them again after Giovanni goes away.
 - Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, but could be a cool concept for a harder difficulty. Just disabling stat exp gains feels boring to me.
+- Alternatively, a patch that disables stat exp, but mainly for hardcore nuzlockers, if they think would be a good idea
 
 ## Things I don't think about adding, since I think it would deviate the game a bit too much from the gen 1 feel:
 - Dark/steel/fairy types

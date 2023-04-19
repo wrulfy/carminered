@@ -34,7 +34,7 @@ _ReceivedGrubBadgeText::
 
 	para "I must confer you"
 	line "the GRUBBADGE.@"
-	prompt
+	text_end
 
 _ErikaPostBattleAdviceText::
 	text "You are cataloging"
@@ -74,7 +74,7 @@ _TM48ExplanationText::
 	para "TM48 contains"
 	line "CONSTRICT."
 
-	para "your #MON will"
+	para "Your #MON will"
 	line "cling to the foe"
 	cont "doing damage and"
 	cont "may slow it down."

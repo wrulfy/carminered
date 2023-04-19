@@ -63,7 +63,7 @@ _ReceivedBurnBadgeText::
 
 	para "Fine then, take"
 	line "the BURNBADGE!@"
-	prompt
+	text_end
 
 _VermilionGymBattleText1::
 	text "When I was in the"

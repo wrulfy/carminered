@@ -1,4 +1,4 @@
-**v0.9.6? Fixes and documentation**
+**v1.0 FULL RELEASE**
 
 Changed stuff on the champions room because apparently wasnt really that bugged
 repruposed item in victory road
@@ -8,7 +8,7 @@ Gave Dodrio back the strongest Hyper Beam
 minor learnset edits (paras learns some stuff slightly early)
 added extra text in vermilion dock
 minor party rearangements
-reverted a change in the matchups done on the flim before the demo
+reverted a change in the matchups done on the flim before the prerelease
 added some flavour to an important NPC house
 added references to the Surfing guru to more npcs
 changed one of the casino price mons (pikachu for onix)
@@ -29,8 +29,7 @@ added the same jingle to all leaders when giving their badge
 revised their dialogues when giving the TM and the advice afterwards
 made the daycare not reject mons with HM (because I put the HMs back into their list)
 fixed the warning message when trying to delete an HM move
-
-
+revised the dialogue of gym leaders
 
 ______________________
 
