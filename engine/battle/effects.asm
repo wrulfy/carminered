@@ -56,9 +56,9 @@ SleepEffect:
 	and a
 	jr nz, .didntAffect
 .setSleepCounter
-; set target's sleep counter to a random number between 1 and 4
+; set target's sleep counter to a random number between 0 and 3
 	call BattleRandom
-	and $4
+	and $3; sleep should now last 0, 1, 2, or 3 turns, plus the turn you wake up where you can't attack
 	jr z, .setSleepCounter
 	ld [de], a
 	call PlayCurrentMoveAnimation2

@@ -1,3 +1,9 @@
+**v1.0.1**
+
+Fixed sleep lasting either 0 turns or 4 turns, now it last 0 to 3 turns (plus the turn where you wake up)
+
+______________________
+
 **v1.0 FULL RELEASE**
 
 Changed stuff on the champions room because apparently wasnt really that bugged
