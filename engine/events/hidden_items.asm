@@ -72,23 +72,23 @@ HiddenCoins:
 	ldh [hCoins + 1], a
 	ld a, [wHiddenObjectFunctionArgument]
 	sub COIN
-	cp 10
+	cp 5
 	jr z, .bcd10
-	cp 20
+	cp 10
 	jr z, .bcd20
-	cp 40
-	jr z, .bcd20 ; should be bcd40
+	cp 20
+	jr z, .bcd40 ; should be bcd40
 	jr .bcd100
 .bcd10
-	ld a, $10
+	ld a, $5
 	ldh [hCoins + 1], a
 	jr .bcdDone
 .bcd20
-	ld a, $20
+	ld a, $10
 	ldh [hCoins + 1], a
 	jr .bcdDone
 .bcd40 ; due to a typo, this is never used
-	ld a, $40
+	ld a, $20
 	ldh [hCoins + 1], a
 	jr .bcdDone
 .bcd100

@@ -58,8 +58,9 @@ SleepEffect:
 .setSleepCounter
 ; set target's sleep counter to a random number between 0 and 3
 	call BattleRandom
-	and $3; sleep should now last 0, 1, 2, or 3 turns, plus the turn you wake up where you can't attack
-	jr z, .setSleepCounter
+	and $3; sets a random number between 0 and 3
+	jr z, .setSleepCounter; if rolls a 0 it rolls again because it doesn't quite work with 0. sleeps last now for 0-2 turns
+	inc a; adds 1 to the possible sleep turns so it last 1 to 3, so you get at least one turn of mandatory sleep status
 	ld [de], a
 	call PlayCurrentMoveAnimation2
 	ld hl, FellAsleepText
