@@ -1,6 +1,7 @@
 **v1.0.1**
 
 Fixed sleep lasting exactly 3 turns, now it last 1 to 3 turns (plus the turn where you wake up)
+Fixed the game corner's floor coins giving an unintended large amount of coins
 
 ______________________
 
