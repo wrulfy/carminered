@@ -1777,7 +1777,7 @@ CloysterEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, PIN_MISSILE
+	db 25, PIN_MISSILE; I realized this should be learned at lv25
 	db 32, SPIKE_CANNON
 	db 39, CLAMP
 	db 46, BARRAGE

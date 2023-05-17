@@ -18,7 +18,7 @@
 	     DOUBLE_EDGE,  ICE_BEAM,     COUNTER,      DRAGON_RAGE,  THUNDERBOLT,  \
 	     SMOKESCREEN,  EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        \
 	     DOUBLE_TEAM,  BIDE,         EGG_BOMB,     FLAMETHROWER, REST,         \
-	     MIST,         SUBSTITUTE,   CUT,          STRENGTH      
+	     MIST,         SUBSTITUTE,   STRENGTH      
 	; end
 
 

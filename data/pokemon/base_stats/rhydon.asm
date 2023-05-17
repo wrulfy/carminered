@@ -19,8 +19,8 @@
 	     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     DRAGON_RAGE,  THUNDERBOLT,  SMOKESCREEN,  EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         EGG_BOMB,     \
-	     FLAMETHROWER, REST,         MIST,         SUBSTITUTE,   SURF,         \
-	     STRENGTH      
+	     FLAMETHROWER, REST,         MIST,         SUBSTITUTE,   CUT,          \
+	     SURF,         STRENGTH      
 	; end
 
 	db 0 ; padding
