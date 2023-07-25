@@ -1,3 +1,13 @@
+**v1.0.5** Road to 1.1
+Increased a bit the levels of the last dungeons' wilds post 8th gym, since the curve falls a bit there.
+
+
+
+**v1.0.2** (not released)
+Fixed rhyhorn learning cut but rhydon not (now is the opposite)
+Cloyster should learn pin missile at lv25, not lv26
+
+
 **v1.0.1**
 
 Fixed sleep lasting exactly 3 turns, now it last 1 to 3 turns (plus the turn where you wake up)
