@@ -683,6 +683,7 @@ KadabraEvosMoves:
 	db 28, PSYBEAM
 	db 32, SONICBOOM
 	db 36, RECOVER
+	db 40, PSYCHIC_M
 	db 0
 
 GravelerEvosMoves:

@@ -1,26 +1,26 @@
 PokemonMansionB2FWildMons:
 	def_grass_wildmons 20 ; encounter rate
-	db 46, ARCANINE
-	db 46, RHYDON
-	db 46, DODRIO
-	db 45, PARASECT 
-	db 47, GENGAR
-	db 47, ALAKAZAM
-	db 48, PARASECT
-	db 46, DODRIO
-	db 45, PORYGON 
-	db 40, DITTO
+	db 48, ARCANINE
+	db 48, RHYDON
+	db 48, DODRIO
+	db 47, PARASECT 
+	db 49, GENGAR
+	db 49, ALAKAZAM
+	db 50, PARASECT
+	db 48, DODRIO
+	db 47, PORYGON 
+	db 42, DITTO
 	end_grass_wildmons
 
 	def_water_wildmons 20 ; encounter rate
-	db 46, STARMIE
-	db 46, POLIWRATH
-	db 46, MUK
-	db 45, SLOWBRO
+	db 48, STARMIE
+	db 48, POLIWRATH
+	db 48, MUK
 	db 47, SLOWBRO
+	db 49, SLOWBRO
 	db 42, MAGIKARP	
-	db 47, MUK
-	db 45, DRAGONAIR
-	db 46, DRAGONAIR
-	db 48, DRAGONAIR 
+	db 49, MUK
+	db 47, DRAGONAIR
+	db 48, DRAGONAIR
+	db 50, DRAGONAIR 
 	end_water_wildmons
