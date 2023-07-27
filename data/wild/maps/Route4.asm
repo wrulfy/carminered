@@ -13,14 +13,14 @@ Route4WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 25 ; encounter rate
-	db 20, GOLDEEN
-	db 25, PSYDUCK
-	db 15, MAGIKARP
-	db 25, SEAKING
-	db 30, SEAKING
+	db 30, PSYDUCK
 	db 25, GOLDEEN
+	db 15, MAGIKARP
 	db 35, GOLDUCK
-	db 35, SEAKING
-	db 40, SEAKING
-	db 45, SEAKING
+	db 35, GOLDUCK
+	db 25, PSYDUCK
+	db 30, SEAKING
+	db 40, GOLDUCK
+	db 40, PSYDUCK
+	db 45, GOLDUCK
 	end_water_wildmons

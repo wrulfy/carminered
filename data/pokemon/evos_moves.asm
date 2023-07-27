@@ -793,12 +793,12 @@ PsyduckEvosMoves:
 	db EV_LEVEL, 33, GOLDUCK
 	db 0
 ; Learnset
-	db 15, TAIL_WHIP
-	db 20, CONFUSION
-	db 25, DISABLE
-	db 30, BUBBLEBEAM
-	db 35, PSYBEAM
-	db 40, AMNESIA	
+	db 16, DISABLE
+	db 19, SCREECH
+	db 23, BUBBLEBEAM
+	db 27, PSYBEAM
+	db 31, FURY_SWIPES
+	db 35, AMNESIA	
 	db 0
 
 DrowzeeEvosMoves:
@@ -1597,7 +1597,7 @@ DewgongEvosMoves:
 ; Learnset
 	db 34, DRILL_PECK
 	db 38, REST
-	db 42, DOUBLE_EDGE
+	db 42, TRI_ATTACK
 	db 47, BLIZZARD
 	db 54, HORN_DRILL
 	db 0
@@ -1669,11 +1669,11 @@ GolduckEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 36, PSYBEAM
-	db 40, FURY_SWIPES
-	db 45, ROAR
-	db 50, HYDRO_PUMP
-	db 56, KARATE_CHOP
+	db 33, DREAM_EATER
+	db 37, WATERFALL
+	db 42, ROAR
+	db 47, NIGHT_SHADE
+	db 52, HYDRO_PUMP
 	db 0
 
 HypnoEvosMoves:
@@ -2284,9 +2284,9 @@ VileplumeEvosMoves:
 ; Learnset
 	db 24, SMOG
 	db 32, PSYCHIC_M
-	db 40, SLUDGE
+	db 40, RECOVER
 	db 48, SOLARBEAM
-	db 56, RECOVER
+	db 56, TOXIC
 	db 0
 
 BellsproutEvosMoves:

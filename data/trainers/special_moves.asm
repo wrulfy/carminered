@@ -41,7 +41,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db BIRD_KEEPER, 13
-	db 2, 1, RAZOR_WIND
+	db 2, 2, RAZOR_WIND
 	db 0
 
 	db BIRD_KEEPER, 14
@@ -135,7 +135,7 @@ SpecialTrainerMoves:
 
 	db GIOVANNI, 3
 	db 1, 1, SLUDGE
-	db 1, 2, EGG_BOMB
+	db 1, 3, EGG_BOMB
 	db 1, 4, DOUBLE_TEAM
 	db 2, 1, SWORDS_DANCE
 	db 2, 2, SKY_ATTACK

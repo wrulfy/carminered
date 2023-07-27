@@ -9,7 +9,7 @@ GoodRodData:
 	dbw CELADON_CITY,        .Group5
 	dbw FUCHSIA_CITY,        .Group5
 	dbw CINNABAR_ISLAND,     .Group7
-	dbw ROUTE_4,             .Group2
+	dbw ROUTE_4,             .Group3
 	dbw ROUTE_6,             .Group3
 	dbw ROUTE_10,            .Group5
 	dbw ROUTE_11,            .Group8
@@ -22,7 +22,7 @@ GoodRodData:
 	dbw ROUTE_21,            .Group7
 	dbw ROUTE_22,            .Group1
 	dbw ROUTE_23,            .Group10
-	dbw ROUTE_24,            .Group3
+	dbw ROUTE_24,            .Group2
 	dbw VERMILION_DOCK,      .Group9
 	dbw SEAFOAM_ISLANDS_B3F, .Group10
 	dbw SEAFOAM_ISLANDS_B4F, .Group10
