@@ -1,6 +1,13 @@
 **v1.0.5** Road to 1.1
 Increased a bit the levels of the last dungeons' wilds post 8th gym, since the curve falls a bit there.
-
+golduck is now part ghost type
+psyduck and golduck have now slightly less attack but a bit more special
+they also have a different lvup learnset
+couple of lvup learnset changes (vileplume gets recover earlier and toxic last, instead of sludge, and dewgong gets triatack instead of double edge)
+fixed giovanni's dugtrio bad moveset
+added a pond next to the mtmoon pokecenter
+TODO: move the fly point coordinates
+swapped the water and rod encounters of routes 4 and 24
 
 
 **v1.0.2** (not released)
