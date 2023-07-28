@@ -40,7 +40,7 @@ _TM49ExplanationText::
 	para "It attacks with a"
 	line "frozen wind that"
 	cont "can slow down the"
-	line "enemy #MON!"
+	cont "enemy #MON!"
 	done
 
 _MistySnowBadgeInfoText::

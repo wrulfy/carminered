@@ -9,7 +9,7 @@ _CinnabarIslandText2::
 	text "The POWER PLANT"
 	line "is overrun by wild"
 	cont "#MON but still"
-	cont "works nonetheless"
+	cont "works nonetheless."
 	done
 
 _CinnabarIslandText3::

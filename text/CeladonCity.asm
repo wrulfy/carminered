@@ -54,7 +54,7 @@ _TM23ExplanationText::
 	line "can use it!"
 
 	para "It is a strong"
-	line "dragon type move"
+	line "dragon type move."
 	done
 
 _TM23NoRoomText::

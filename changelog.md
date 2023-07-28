@@ -6,8 +6,8 @@ they also have a different lvup learnset
 couple of lvup learnset changes (vileplume gets recover earlier and toxic last, instead of sludge, and dewgong gets triatack instead of double edge)
 fixed giovanni's dugtrio bad moveset
 added a pond next to the mtmoon pokecenter
-TODO: move the fly point coordinates
 swapped the water and rod encounters of routes 4 and 24
+minor text fixes
 
 
 **v1.0.2** (not released)

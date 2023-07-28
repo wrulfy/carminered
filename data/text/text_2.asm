@@ -240,7 +240,7 @@ _CeladonCityPokecenterGuyText::
 	line "I would go to"
 	cont "CYCLING ROAD,"
 	cont "but they're way"
-	cont "too expensive"
+	cont "too expensive!"
 	done
 
 _FuchsiaCityPokecenterGuyText::

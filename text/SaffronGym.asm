@@ -70,7 +70,7 @@ _TM46ExplanationText::
 	line "CONFUSE RAY!"
 
 	para "It uses powerful"
-	cont "eerie lights to"
+	line "eerie lights to"
 	cont "damage the foe,"
 	cont "and might even"
 	cont "cause confusion!"
