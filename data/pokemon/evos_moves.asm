@@ -1671,7 +1671,7 @@ GolduckEvosMoves:
 ; Learnset
 	db 33, DREAM_EATER
 	db 37, WATERFALL
-	db 42, ROAR
+	db 42, MIRROR_MOVE
 	db 47, NIGHT_SHADE
 	db 52, HYDRO_PUMP
 	db 0

@@ -1234,18 +1234,16 @@ _GainedText::
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
-	cont "@"
+	text "shared @"
 	text_end
 
 _BoostedText::
-	text "a boosted"
-	cont "@"
+	text "boosted @"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " EXP!"
 	prompt
 
 _GrewLevelText::

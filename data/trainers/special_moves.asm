@@ -36,6 +36,10 @@ SpecialTrainerMoves:
 	db 4, 3, STRENGTH
 	db 0
 
+	db BEAUTY, 11
+	db 3, 3, SCREECH
+	db 0
+
 	db TAMER, 5
 	db 6, 1, SUBMISSION
 	db 0

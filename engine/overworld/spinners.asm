@@ -20,7 +20,7 @@ LoadSpinnerArrowTiles::
 	ld de, $18
 	add hl, de
 .asm_45001
-	ld a, $4
+	ld a, $1 ; according to jojobear13 changing this from $4 to $1 makes spinners faster
 	ld bc, $0
 .asm_45006
 	push af
