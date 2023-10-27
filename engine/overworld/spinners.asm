@@ -20,7 +20,7 @@ LoadSpinnerArrowTiles::
 	ld de, $18
 	add hl, de
 .asm_45001
-	ld a, $1 ; according to jojobear13 changing this from $4 to $1 makes spinners faster
+	ld a, $4 ;changing it to $1 messes the animation so we keep it as $4 but add jojobear13's code
 	ld bc, $0
 .asm_45006
 	push af
@@ -38,7 +38,11 @@ LoadSpinnerArrowTiles::
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	call CopyVideoData
+;	call CopyVideoData
+
+	;joenote - use a new function to update the tiles
+	call CopySpinnerTiles
+
 	pop bc
 	ld a, $6
 	add c
@@ -47,6 +51,64 @@ LoadSpinnerArrowTiles::
 	pop af
 	dec a
 	jr nz, .asm_45006
+	;now what follows is straight up code from Jojobear13
+	call DelayFrame ;Delay a frame because CopySpinnerTiles does not do this like CopyVideoData
+	ret
+
+;DE = tile source address
+;C = data length (not used)
+;B = source bank (not used)
+;HL = tile destination address
+CopySpinnerTiles:
+	di	;prevent vblank functions from running
+	
+	;back up destination address
+	ld b, h
+	ld c, l
+	;back up stack pointer
+	ld hl, sp + 0
+	ld a, h
+	ld [hstemp], a
+	ld a, l
+	ld [hstemp + 1], a
+	;set stack pointer to source address
+	ld h, d
+	ld l, e
+	ld sp, hl
+	;restore destination address
+	ld h, b
+	ld l, c
+	
+	;Stack Pointer = tile source address
+	;HL = tile destination address
+
+	ld c, 8
+.loop
+	pop de ;copies the next 2 bytes of whatever the stack pointer is pointing to (the source address) to de
+;wait if in mode 2 or mode 3
+;HBLANK length (mode 0) is highly variable. Worst case scenario is 21 cycles.
+;Can also write VRAM during OAM scan (mode 2) which is always 20 cycles.
+;For more info about timing the HBLANK, see https://gbdev.io/guides/lyc_timing.html
+.waitVRAM
+	ldh a, [rSTAT]		;read from stat register to get the mode
+	and %10				
+	jr nz, .waitVRAM	
+	ld [hl], e
+	inc l
+	ld [hl], d
+	inc l
+	dec c
+	jr nz, .loop
+
+	;restore stack spointer
+	ld a, [hstemp]
+	ld h, a
+	ld a, [hstemp + 1]
+	ld l, a
+	ld sp, hl
+	
+	ei	;re-enable vblank functions
+	;end of Jojobear13's code
 	ret
 
 INCLUDE "data/tilesets/spinner_tiles.asm"

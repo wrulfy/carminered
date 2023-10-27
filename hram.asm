@@ -343,7 +343,7 @@ hUnlockedSilphCoDoors::
 ; the first tile ID in a sequence of tile IDs that increase by 1 each step
 hStartTileID:: db
 
-	ds 2
+hstemp:: dw ;there was a ds 2 before we take that space to add the thing needed to run the new spinner code
 
 hNewPartyLength:: db
 
