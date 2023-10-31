@@ -181,10 +181,31 @@ SpecialTrainerMoves:
 	db 3, 4, AURORA_BEAM
 	db 0
 
+	db MISTY, 2
+	db 1, 2, EGG_BOMB
+	db 1, 4, FLAMETHROWER
+	db 2, 3, REFLECT
+	db 3, 1, THUNDERBOLT
+	db 3, 4, DRILL_PECK
+	db 4, 3, EXPLOSION
+	db 6, 1, SURF
+	db 6, 3, SOLARBEAM
+	db 0
+	
 	db LT_SURGE, 1
 	db 1, 3, QUICK_ATTACK
 	db 3, 2, EMBER
 	db 4, 2, SMOKESCREEN
+	db 0
+
+	db LT_SURGE, 2
+	db 1, 2, SOLARBEAM
+	db 2, 3, THUNDERBOLT
+	db 3, 1, BODY_SLAM
+	db 4, 1, SLASH
+	db 5, 4, EARTHQUAKE
+	db 6, 2, SUBMISSION
+	db 5, 1, HYPER_BEAM
 	db 0
 
 	db ERIKA, 1
@@ -219,6 +240,17 @@ SpecialTrainerMoves:
 	db 6, 3, CONFUSE_RAY
 	db 0
 
+	db BLAINE, 1
+	db 1, 1, EARTHQUAKE
+	db 1, 2, PSYCHIC_M
+	db 2, 3, CONFUSE_RAY
+	db 3, 2, SURF
+	db 4, 3, FLAMETHROWER
+	db 5, 1, GROWTH
+	db 6, 1, DOUBLE_TEAM
+	db 6, 2, CONFUSE_RAY
+	db 0
+
 	db SABRINA, 1
 	db 1, 1, CONFUSE_RAY
 	db 1, 2, CONSTRICT
@@ -227,6 +259,17 @@ SpecialTrainerMoves:
 	db 5, 1, CONFUSE_RAY
 	db 5, 2, SKY_ATTACK
 	db 5, 3, ICE_BEAM
+	db 0
+
+	db SABRINA, 2
+	db 1, 1, CONSTRICT
+	db 2, 1, AMNESIA
+	db 2, 2, PSYCHIC_M
+	db 3, 4, SUBMISSION
+	db 4, 1, SOLARBEAM
+	db 5, 1, THUNDERBOLT
+	db 5, 3, SEISMIC_TOSS
+	db 6, 1, ICE_BEAM
 	db 0
 
 	db RIVAL2, 1 ;	db $FF, 23, PIDGEOTTO, 21, BELLSPROUT, 22, VULPIX, 25, WARTORTLE, 0
