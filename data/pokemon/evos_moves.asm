@@ -1528,7 +1528,7 @@ BeedrillEvosMoves:
 	db 12, FOCUS_ENERGY
 	db 14, RAGE
 	db 16, PIN_MISSILE
-	db 18, SWORDS_DANCE
+	db 18, SHARPEN
 	db 21, HAZE
 	db 24, AGILITY
 	db 28, FURY_ATTACK
@@ -1770,7 +1770,7 @@ KinglerEvosMoves:
 	db 33, CONSTRICT
 	db 37, DIG
 	db 41, CRABHAMMER
-	db 47, SWORDS_DANCE
+	db 47, SLAM
 	db 53, GUILLOTINE
 	db 0
 

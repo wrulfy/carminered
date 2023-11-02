@@ -176,6 +176,16 @@ SpecialTrainerMoves:
 	db 3, 4, SWIFT
 	db 0
 
+	db BROCK, 2
+	db 1, 1, SEISMIC_TOSS
+	db 1, 2, THUNDERBOLT
+	db 2, 1, HYDRO_PUMP
+	db 3, 3, ICE_BEAM
+	db 3, 4, COUNTER
+	db 4, 1, FLAMETHROWER
+	db 5, 1, FISSURE
+	db 6, 1, HORN_DRILL
+
 	db MISTY, 1
 	db 3, 3, MIST
 	db 3, 4, AURORA_BEAM
@@ -204,8 +214,8 @@ SpecialTrainerMoves:
 	db 3, 1, BODY_SLAM
 	db 4, 1, SLASH
 	db 5, 4, EARTHQUAKE
-	db 6, 2, SUBMISSION
-	db 5, 1, HYPER_BEAM
+	db 6, 1, SUBMISSION
+	db 6, 2, HYPER_BEAM
 	db 0
 
 	db ERIKA, 1
@@ -214,6 +224,16 @@ SpecialTrainerMoves:
 	db 3, 2, MEGA_DRAIN
 	db 4, 1, CONSTRICT
 	db 4, 2, DIG
+	db 0
+
+	db ERIKA, 2
+	db 1, 1, REFLECT
+	db 1, 4, MEGA_DRAIN
+	db 2, 2, SUBMISSION
+	db 3, 1, DREAM_EATER
+	db 4, 1, EARTHQUAKE
+	db 5, 3, EGG_BOMB
+	db 6, 3, SLUDGE
 	db 0
 
 	db KOGA, 1
@@ -225,6 +245,18 @@ SpecialTrainerMoves:
 	db 4, 1, LEECH_SEED
 	db 4, 2, POISON_GAS
 	db 5, 1, POISON_GAS
+	db 0
+
+	db KOGA, 2
+	db 1, 1, FISSURE
+	db 1, 2, DRAGON_RAGE
+	db 2, 4, WRAP
+	db 3, 1, SKY_ATTACK
+	db 3, 2, SUPERSONIC
+	db 4, 3, ICE_BEAM
+	db 4, 4, ACID_ARMOR
+	db 5, 2, SING
+	db 6, 2, THUNDERBOLT
 	db 0
 
 	db BLAINE, 1
@@ -240,7 +272,7 @@ SpecialTrainerMoves:
 	db 6, 3, CONFUSE_RAY
 	db 0
 
-	db BLAINE, 1
+	db BLAINE, 2
 	db 1, 1, EARTHQUAKE
 	db 1, 2, PSYCHIC_M
 	db 2, 3, CONFUSE_RAY
