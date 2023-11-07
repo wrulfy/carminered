@@ -148,3 +148,17 @@ _PewterGymGuidePostBattleText::
 	line "You're #MON"
 	cont "champ material!"
 	done
+
+_BrockRematchDefeatedText::
+	text "I see"
+	line "you're far better"
+	cont "that I expected!"
+	prompt
+
+_BrockRematchPostText::
+	text "I've got nothing"
+	line "more to tell you,"
+	cont "get going to the"
+	cont "Indigo Plateau!"
+	done
+

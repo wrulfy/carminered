@@ -164,6 +164,8 @@ ViridianGymReceiveTM26:
 	ld [wMissableObjectIndex], a
 	predef ShowObject
 	SetEvents EVENT_2ND_ROUTE22_RIVAL_BATTLE, EVENT_ROUTE22_RIVAL_WANTS_BATTLE
+	SetEvent EVENT_TEST_REMATCH
+
 	jp ViridianGymResetScripts
 
 ViridianGym_TextPointers:

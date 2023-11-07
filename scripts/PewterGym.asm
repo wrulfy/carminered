@@ -95,12 +95,37 @@ PewterGymTrainerHeader0:
 
 BrockText:
 	text_asm
+	CheckEvent EVENT_TEST_REMATCH
+	jr nz, .testRematchBrock
 	CheckEvent EVENT_BEAT_BROCK
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM39
 	jr nz, .afterBeat
 	call z, PewterGymScriptReceiveTM39
 	call DisableWaitingAfterTextDisplay
+	jr .done
+.testRematchBrock
+	ld hl, BrockRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, BrockRematchDefeatedText
+	ld de, BrockRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_BROCK
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_TEST_REMATCH
 	jr .done
 .afterBeat
 	ld hl, BrockPostBattleAdviceText
@@ -220,4 +245,12 @@ PewterGymText_5c524:
 
 PewterGymGuidePostBattleText:
 	text_far _PewterGymGuidePostBattleText
+	text_end
+
+BrockRematchPreBattleText:
+	text_far _BrockRematchPreBattleText
+	text_end
+
+BrockRematchDefeatedText:
+	text_far _BrockRematchDefeatedText
 	text_end

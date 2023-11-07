@@ -180,11 +180,12 @@ SpecialTrainerMoves:
 	db 1, 1, SEISMIC_TOSS
 	db 1, 2, THUNDERBOLT
 	db 2, 1, HYDRO_PUMP
-	db 3, 3, ICE_BEAM
-	db 3, 4, COUNTER
-	db 4, 1, FLAMETHROWER
+	db 3, 1, FLAMETHROWER
+	db 4, 3, ICE_BEAM
+	db 4, 4, COUNTER
 	db 5, 1, FISSURE
 	db 6, 1, HORN_DRILL
+	db 0
 
 	db MISTY, 1
 	db 3, 3, MIST
@@ -279,6 +280,7 @@ SpecialTrainerMoves:
 	db 3, 2, SURF
 	db 4, 3, FLAMETHROWER
 	db 5, 1, GROWTH
+	db 5, 3, PSYCHIC_M
 	db 6, 1, DOUBLE_TEAM
 	db 6, 2, CONFUSE_RAY
 	db 0

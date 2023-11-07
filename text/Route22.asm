@@ -75,6 +75,10 @@ _Route22RivalAfterBattleText2::
 	para "<PLAYER>, you need"
 	line "more practice!"
 
+	para "You could try to"
+	line "rematch some of"
+	line "the GYM LEADERs!"
+
 	para "But hey, you know"
 	line "that! I'm out of"
 	cont "here. Smell ya!"

@@ -28,7 +28,7 @@ ELSE
 	db MEW, 20
 ENDC
 	db JOLTEON, 56
-	db DUGTRIO, 56
+	db MEW, 98
 	db JYNX, 99
 IF DEF(_DEBUG)
 	db PARAS, 25
