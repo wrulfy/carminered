@@ -45,3 +45,13 @@ _Route2Text5::
 _Route2Text6::
 	text "DIGLETT's CAVE"
 	done
+
+
+_Route2Text7::
+	text "TRAINER TIPS"
+
+	para "You can walk much"
+	line "more quickly if"
+	cont "press and hold"
+	cont "the B button."
+	done

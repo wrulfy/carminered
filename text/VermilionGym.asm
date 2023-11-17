@@ -19,3 +19,15 @@ _LTSurgePreBattleText::
 	para "The same as I'll"
 	line "do to you!"
 	done
+
+_LTSurgeRematchPreBattleText::
+	text "I see you have"
+	line "collected at last"
+	cont "the 8 GYM BADGEs"
+
+	para "You're now ready to"
+	line "face the Elite 4,"
+	cont "but first, let me"
+	cont "show you my team"
+	cont "at full power!"
+	done

@@ -150,15 +150,10 @@ _PewterGymGuidePostBattleText::
 	done
 
 _BrockRematchDefeatedText::
-	text "I see"
-	line "you're far better"
-	cont "that I expected!"
+	text "I see you're"
+	line "far better that"
+	cont "I expected! You"
+	cont "should be ready"
+	cont "for the Elite 4!"
 	prompt
-
-_BrockRematchPostText::
-	text "I've got nothing"
-	line "more to tell you,"
-	cont "get going to the"
-	cont "Indigo Plateau!"
-	done
 

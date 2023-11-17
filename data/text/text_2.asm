@@ -1231,18 +1231,18 @@ _GainedText::
 	text_ram wcd6d
 	text " gained"
 	line "@"
+	text_decimal wExpAmountGained, 2, 4
 	text_end
 
 _WithExpAllText::
-	text "shared @"
+	text " shared@"
 	text_end
 
 _BoostedText::
-	text "boosted @"
+	text " boosted@"
 	text_end
 
 _ExpPointsText::
-	text_decimal wExpAmountGained, 2, 4
 	text " EXP!"
 	prompt
 

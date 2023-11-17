@@ -152,3 +152,25 @@ _CeruleanGymGuidePostBattleText::
 	line "we make a pretty"
 	cont "darn good team!"
 	done
+
+_MistyRematchPreBattleText::
+	text "I see you have"
+	line "collected at last"
+	cont "the 8 GYM BADGEs"
+
+	para "You're now ready to"
+	line "face the Elite 4,"
+	cont "but first, let me"
+	cont "show you my team"
+	cont "at full power!"
+	done
+
+_MistyRematchDefeatedText::
+	text "I see you're"
+	line "far better that"
+	cont "I expected! You"
+	cont "should be ready"
+	cont "for the Elite 4!"
+	prompt
+
+	

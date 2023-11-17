@@ -89,12 +89,37 @@ CeruleanGymTrainerHeader1:
 
 MistyText:
 	text_asm
+	CheckEvent EVENT_MISTY_REMATCH
+	jr nz, .rematchMisty
 	CheckEvent EVENT_BEAT_MISTY
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM49
 	jr nz, .afterBeat
 	call z, CeruleanGymReceiveTM49
 	call DisableWaitingAfterTextDisplay
+	jr .done
+.rematchMisty
+	ld hl, MistyRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, MistyRematchDefeatedText
+	ld de, MistyRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_MISTY
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_MISTY_REMATCH
 	jr .done
 .afterBeat
 	ld hl, MistyPostBattleAdviceText
@@ -206,3 +231,13 @@ CeruleanGymGuidePreBattleText:
 CeruleanGymGuidePostBattleText:
 	text_far _CeruleanGymGuidePostBattleText
 	text_end
+
+MistyRematchPreBattleText:
+	text_far _MistyRematchPreBattleText
+	text_end
+
+MistyRematchDefeatedText:
+	text_far _MistyRematchDefeatedText
+	text_end
+
+	

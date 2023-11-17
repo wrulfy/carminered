@@ -119,7 +119,7 @@ Moves:
 	move MINIMIZE,     EVASION_UP1_EFFECT,           0, NORMAL,       100, 15
 	move SMOKESCREEN,  POISON_SIDE_EFFECT1,         65, FIRE,         100, 20
 	move CONFUSE_RAY,  CONFUSION_SIDE_EFFECT,       95, GHOST,        100, 10
-	move WITHDRAW,     FLY_EFFECT,                  85, WATER,        100, 15
+	move WITHDRAW,     CHARGE_EFFECT,               85, WATER,        100, 15
 	move DEFENSE_CURL, DEFENSE_UP1_EFFECT,           0, NORMAL,       100, 25
 	move BARRIER,      DEFENSE_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 15
 	move LIGHT_SCREEN, LIGHT_SCREEN_EFFECT,          0, PSYCHIC_TYPE, 100, 30

@@ -111,12 +111,37 @@ VermilionGymTrainerHeader2:
 
 LTSurgeText:
 	text_asm
+	CheckEvent EVENT_LT_SURGE_REMATCH
+	jr nz, .rematchLTSurge
 	CheckEvent EVENT_BEAT_LT_SURGE
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM25
 	jr nz, .afterBeat
 	call z, VermilionGymReceiveTM25
 	call DisableWaitingAfterTextDisplay
+	jr .done
+.rematchLTSurge
+	ld hl, LTSurgeRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, LTSurgeRematchDefeatedText
+	ld de, LTSurgeRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_LT_SURGE
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_LT_SURGE_REMATCH
 	jr .done
 .afterBeat
 	ld hl, LTSurgePostBattleAdviceText
@@ -247,4 +272,12 @@ VermilionGymGuidePreBattleText:
 
 VermilionGymGuidePostBattleText:
 	text_far _VermilionGymGuidePostBattleText
+	text_end
+
+LTSurgeRematchPreBattleText:
+	text_far _LTSurgeRematchPreBattleText
+	text_end
+
+LTSurgeRematchDefeatedText:
+	text_far _LTSurgeRematchDefeatedText
 	text_end

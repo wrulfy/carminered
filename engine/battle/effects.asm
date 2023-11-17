@@ -1019,6 +1019,12 @@ ChargeEffect:
 	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
 	ld b, ANIM_C0
 .notDigOrFly
+	ld a, [de]
+	cp WITHDRAW
+	jr nz, .notDigOrFlyOrWithdraw
+	set INVULNERABLE, [hl] ; mon is now invulnerable to typical attacks (fly/dig)
+	ld b, ANIM_C0
+.notDigOrFlyOrWithdraw
 	xor a
 	ld [wAnimationType], a
 	ld a, b

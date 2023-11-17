@@ -18,7 +18,10 @@ _CeladonMansion2Text1::
 	line "Rangi42, 33Dannye,"
 	cont "Drush, Vortiene,"
 	cont "FrenchOrange,"
-	cont "Chatot4444, and"
+	cont "Chatot4444,"
+	cont "BlueZangoose,"
+	cont "PlagueVonKarma,"
+	cont "Jojobear13, and"
 	cont "many more over"
 	cont "the PRET Discord!"
 	done

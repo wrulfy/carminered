@@ -153,3 +153,12 @@ _VermilionGymGuidePostBattleText::
 	text "Whew! That match"
 	line "was flaming hot!"
 	done
+
+_LTSurgeRematchDefeatedText::
+	text "I see yu"
+	line "far better that"
+	cont "I expected! You"
+	cont "should be ready"
+	cont "for the Elite 4!"
+	prompt
+

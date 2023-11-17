@@ -95,8 +95,8 @@ PewterGymTrainerHeader0:
 
 BrockText:
 	text_asm
-	CheckEvent EVENT_TEST_REMATCH
-	jr nz, .testRematchBrock
+	CheckEvent EVENT_BROCK_REMATCH
+	jr nz, .rematchBrock
 	CheckEvent EVENT_BEAT_BROCK
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM39
@@ -104,7 +104,7 @@ BrockText:
 	call z, PewterGymScriptReceiveTM39
 	call DisableWaitingAfterTextDisplay
 	jr .done
-.testRematchBrock
+.rematchBrock
 	ld hl, BrockRematchPreBattleText
 	call PrintText
 	ld c, BANK(Music_MeetMaleTrainer)
@@ -125,7 +125,7 @@ BrockText:
 	ld [wTrainerNo], a
 	ld a, $1
 	ld [wGymLeaderNo], a
-	ResetEvent EVENT_TEST_REMATCH
+	ResetEvent EVENT_BROCK_REMATCH
 	jr .done
 .afterBeat
 	ld hl, BrockPostBattleAdviceText
