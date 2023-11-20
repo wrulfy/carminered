@@ -103,12 +103,37 @@ CeladonGymTrainerHeader6:
 
 ErikaText:
 	text_asm
+	CheckEvent EVENT_ERIKA_REMATCH
+	jr nz, .rematchErika
 	CheckEvent EVENT_BEAT_ERIKA
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM48
 	jr nz, .afterBeat
 	call z, CeladonGymReceiveTM48
 	call DisableWaitingAfterTextDisplay
+	jr .done
+.rematchErika
+	ld hl, ErikaRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, ErikaRematchDefeatedText
+	ld de, ErikaRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_ERIKA
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_ERIKA_REMATCH
 	jr .done
 .afterBeat
 	ld hl, ErikaPostBattleAdviceText
@@ -287,4 +312,12 @@ CeladonGymEndBattleText8:
 
 CeladonGymAfterBattleText8:
 	text_far _CeladonGymAfterBattleText8
+	text_end
+
+ErikaRematchPreBattleText:
+	text_far _ErikaRematchPreBattleText
+	text_end
+
+ErikaRematchDefeatedText:
+	text_far _ErikaRematchDefeatedText
 	text_end

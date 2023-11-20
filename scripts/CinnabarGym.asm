@@ -209,6 +209,8 @@ CinnabarGymScript_758b7:
 
 BlaineText:
 	text_asm
+	CheckEvent EVENT_BLAINE_REMATCH
+	jr nz, .rematchBlaine
 	CheckEvent EVENT_BEAT_BLAINE
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM45
@@ -216,6 +218,29 @@ BlaineText:
 	call z, CinnabarGymReceiveTM45
 	call DisableWaitingAfterTextDisplay
 	jp TextScriptEnd
+.rematchBlaine
+	ld hl, BlaineRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, BlaineRematchDefeatedText
+	ld de, BlaineRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_BLAINE
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_BLAINE_REMATCH
+	jr .done
 .afterBeat
 	ld hl, BlainePostBattleAdviceText
 	call PrintText
@@ -229,6 +254,8 @@ BlaineText:
 	ld a, $7
 	ld [wGymLeaderNo], a
 	jp CinnabarGymScript_758b7
+.done
+	jp TextScriptEnd
 
 BlainePreBattleText:
 	text_far _BlainePreBattleText
@@ -472,4 +499,12 @@ CinnabarGymGuidePreBattleText:
 
 CinnabarGymGuidePostBattleText:
 	text_far _CinnabarGymGuidePostBattleText
+	text_end
+
+BlaineRematchPreBattleText:
+	text_far _BlaineRematchPreBattleText
+	text_end
+
+BlaineRematchDefeatedText:
+	text_far _BlaineRematchDefeatedText
 	text_end

@@ -104,12 +104,37 @@ SaffronGymTrainerHeader6:
 
 SabrinaText:
 	text_asm
+	CheckEvent EVENT_SABRINA_REMATCH
+	jr nz, .rematchSabrina
 	CheckEvent EVENT_BEAT_SABRINA
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM46
 	jr nz, .afterBeat
 	call z, SaffronGymReceiveTM46
 	call DisableWaitingAfterTextDisplay
+	jr .done
+.rematchSabrina
+	ld hl, SabrinaRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, SabrinaRematchDefeatedText
+	ld de, SabrinaRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_SABRINA
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_SABRINA_REMATCH
 	jr .done
 .afterBeat
 	ld hl, SabrinaPostBattleAdviceText
@@ -308,4 +333,12 @@ SaffronGymEndBattleText7:
 
 SaffronGymAfterBattleText7:
 	text_far _SaffronGymAfterBattleText7
+	text_end
+
+SabrinaRematchPreBattleText:
+	text_far _SabrinaRematchPreBattleText
+	text_end
+
+SabrinaRematchDefeatedText:
+	text_far _SabrinaRematchDefeatedText
 	text_end

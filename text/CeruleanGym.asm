@@ -154,23 +154,25 @@ _CeruleanGymGuidePostBattleText::
 	done
 
 _MistyRematchPreBattleText::
-	text "I see you have"
-	line "collected at last"
-	cont "the 8 GYM BADGEs"
+	text "Hey! You're back"
+	line "here, it has been"
+	cont "a long time!"
 
-	para "You're now ready to"
-	line "face the Elite 4,"
-	cont "but first, let me"
-	cont "show you my team"
-	cont "at full power!"
+	para "How do you feel"
+	line "about a rematch?"
+
+	para "This time I won't"
+	line "hold back, I'll"
+	cont "freeze you over!"
 	done
 
 _MistyRematchDefeatedText::
-	text "I see you're"
-	line "far better that"
-	cont "I expected! You"
-	cont "should be ready"
-	cont "for the Elite 4!"
+	text "Wow! Your"
+	line "fighting style is"
+	cont "no match for my"
+	cont "freezing #MON"
+	cont "I need to improve"
+	cont "my policy!"
 	prompt
 
 	

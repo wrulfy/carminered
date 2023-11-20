@@ -193,3 +193,11 @@ _FuchsiaGymGuidePostBattleText::
 	line "ninja can terrify"
 	cont "even now!"
 	done
+
+_KogaRematchDefeatedText::
+	text "I see you're"
+	line "far better that"
+	cont "I expected! You"
+	cont "should be ready"
+	cont "for the Elite 4!"
+	prompt

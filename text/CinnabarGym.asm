@@ -228,3 +228,22 @@ _CinnabarGymGuidePostBattleText::
 	text "<PLAYER>! You beat"
 	line "that thunderbald!"
 	done
+
+_BlaineRematchPreBattleText::
+	text "You're already here"
+	line "for a rematch? My"
+	cont "battery is back"
+	cont "to full charge!"
+
+	para "You better be"
+	line "prepared to get"
+	cont "shocked!"
+	done
+
+_BlaineRematchDefeatedText::
+	text "BLAINE: Hah! What"
+	line "an electryfing"
+	cont "match! You really"
+	cont "discharged me for"
+	cont "good, <PLAYER>!"
+	prompt

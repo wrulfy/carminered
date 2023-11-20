@@ -24,3 +24,15 @@ _ReceivedMiasmaBadgeText::
 	para "Here! Take the"
 	line "MIASMABADGE!@"
 	text_end
+
+_KogaRematchPreBattleText::
+	text "I see you have"
+	line "collected at last"
+	cont "the 8 GYM BADGEs"
+
+	para "You're now ready to"
+	line "face the Elite 4,"
+	cont "but first, let me"
+	cont "show you my team"
+	cont "at full power!"
+	done

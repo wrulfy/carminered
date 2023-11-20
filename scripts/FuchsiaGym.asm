@@ -103,12 +103,37 @@ FuchsiaGymTrainerHeader5:
 
 KogaText:
 	text_asm
+	CheckEvent EVENT_KOGA_REMATCH
+	jr nz, .rematchKoga
 	CheckEvent EVENT_BEAT_KOGA
 	jr z, .beforeBeat
 	CheckEventReuseA EVENT_GOT_TM06
 	jr nz, .afterBeat
 	call z, FuchsiaGymReceiveTM06
 	call DisableWaitingAfterTextDisplay
+	jr .done
+.rematchKoga
+	ld hl, KogaRematchPreBattleText
+	call PrintText
+	ld c, BANK(Music_MeetMaleTrainer)
+	ld a, MUSIC_MEET_MALE_TRAINER
+	call PlayMusic
+	ld hl, wd72d
+	set 6, [hl]
+	set 7, [hl]
+	ldh a, [hSpriteIndex]
+	ld [wSpriteIndex], a
+	ld hl, KogaRematchDefeatedText
+	ld de, KogaRematchDefeatedText
+	call SaveEndBattleTextPointers
+	call EngageMapTrainer
+	ld a, OPP_KOGA
+	ld [wCurOpponent], a
+	ld a, 2
+	ld [wTrainerNo], a
+	ld a, $1
+	ld [wGymLeaderNo], a
+	ResetEvent EVENT_KOGA_REMATCH
 	jr .done
 .afterBeat
 	ld hl, KogaPostBattleAdviceText
@@ -290,4 +315,12 @@ FuchsiaGymGuidePreBattleText:
 
 FuchsiaGymGuidePostBattleText:
 	text_far _FuchsiaGymGuidePostBattleText
+	text_end
+
+KogaRematchPreBattleText:
+	text_far _KogaRematchPreBattleText
+	text_end
+
+KogaRematchDefeatedText:
+	text_far _KogaRematchDefeatedText
 	text_end
