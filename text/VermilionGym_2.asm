@@ -155,10 +155,9 @@ _VermilionGymGuidePostBattleText::
 	done
 
 _LTSurgeRematchDefeatedText::
-	text "I see yu"
-	line "far better that"
-	cont "I expected! You"
-	cont "should be ready"
-	cont "for the Elite 4!"
+	text "LT.SURGE: OK, Kid,"
+	line "I'll ceasefire!"
+	cont "I admit defeat,"
+	cont "you won the war!"
 	prompt
 

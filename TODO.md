@@ -1,7 +1,7 @@
 Finish the script for the rematch of the other gym leaders
 
 
-double check again the gate tileset to see if I can gnag enough free tiles to duplicate the plant and give it proper background like the other indoor plants.
+edit the old amber stand to something that uses one less tile to get more plants on the gate tileset
 
 test even more the wandering trainers because they still do the thing. test more in mGBA and maybe even in BGB in case is emulator-dependant
 

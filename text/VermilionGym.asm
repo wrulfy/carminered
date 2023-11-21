@@ -21,13 +21,14 @@ _LTSurgePreBattleText::
 	done
 
 _LTSurgeRematchPreBattleText::
-	text "I see you have"
-	line "collected at last"
-	cont "the 8 GYM BADGEs"
+	text "You might won last"
+	line "time, but I wont"
+	cont "let that mistake"
+	cont "happen again!"
 
-	para "You're now ready to"
-	line "face the Elite 4,"
-	cont "but first, let me"
-	cont "show you my team"
-	cont "at full power!"
+	para "This time I won't"
+	line "hold back. Get"
+	cont "ready to be turn"
+	cont "into a pile of"
+	cont "ashes!"
 	done
