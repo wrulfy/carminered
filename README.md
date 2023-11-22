@@ -2,19 +2,17 @@
 ## The objetive is to create a more personal interesting view of Gen 1, mainly focused on:
 - Improving the barren movepools a lot of pokemon had, by altering a lot of moves so they're better and repruposing a lot of useless or identic moves into different ones so every type has some barebones useable coverage.
 - Buffing a lot of pokemon that definitely got the short end of the stick. this is by better stats or improved movesets, directly or indirectly due to the updated moves. Beware of the Bugs
-- Increasing the difficulty of the gameplay by giving AI trainers overall better teams, mainly by progressively having more pokemon, evolved pokemon (For example no more birdkeepers with high level Pidgeys when they could had Pidgeottos or even Pidgeots)
-- A few key points in the story will require new ways to advance, so at the middle point of the game the game doesn't open as much, so a slowly increasing level curve can be maintained. Don't expect anything too fancy
+- Increasing the difficulty of the gameplay a bit by giving AI trainers overall better teams, mainly by progressively having more pokemon, evolved pokemon (For example no more birdkeepers with high level Pidgeys when they could had Pidgeottos or even Pidgeots)
+- A few key points in the story will require new ways to advance, so at the middle point of the game the game doesn't open as much, so a slowly increasing level curve can be maintained. Don't expect anything too fancy.
 - Some types might become way, way stronger than they were in the orginal Gen 1. Really, beware of the Bugs. 
 - There's also several type changes. Some might be logic some might make no sense.
 - Revamping some dungeons and routes even if some just got a bit more decorated. A lot of maps were a bit dull, also some of the dungeons have been redone so you have to figure the way out from scratch.
 
-## TODO list:
- - what remains in the TODO list, is stuff that isn't needed for the game as it is now, or are ideas for future patches, or simply minor stuff that doesn't affect much
 
 ## Other stuff I would like to do eventually, but right now I don't really know assembly enough to program it, as it would be making new scripts from scratch
-- Add Gym Leader rematches. The idea is to fight them again after Giovanni goes away.
-- Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, but could be a cool concept for a harder difficulty. Just disabling stat exp gains feels boring to me.
-- Alternatively, a patch that disables stat exp, but mainly for hardcore nuzlockers, if they think would be a good idea
+- Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, but could be a cool concept for a harder difficulty. Just disabling stat exp gains feels boring to me. I could consider looking into it as an alternate difficulty for Hardcore Nuzlockers.
+
+
 
 ## Things I don't think about adding, since I think it would deviate the game a bit too much from the gen 1 feel:
 - Dark/steel/fairy types

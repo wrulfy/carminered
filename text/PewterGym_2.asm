@@ -154,6 +154,7 @@ _BrockRematchDefeatedText::
 	line "far better that"
 	cont "I expected! You"
 	cont "should be ready"
-	cont "for the Elite 4!"
+	cont "to battle against"
+	cont "the ELITE FOUR!"
 	prompt
 

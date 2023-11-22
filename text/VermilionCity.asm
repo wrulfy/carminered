@@ -72,7 +72,7 @@ _VermilionCityText5::
 	line "Gogogoh!@"
 	text_end
 
-_VermilionCityText14::
+_VermilionCityText15::
 	text_start
 	para "A MACHOP is"
 	line "carrying several"
@@ -89,12 +89,29 @@ _VermilionCityText6::
 	done
 
 _VermilionCityText7::
+	text "One of my friends"
+	line "married recently"
+	cont "and they had a"
+	cont "honeymoon trip to"
+	cont "SEAFOAM ISLANDS."
+
+	para "I suggested them"
+	line "a cruise on the"
+	cont "S.S.ANNE, but his"
+	cont "partner said it"
+	cont "was too boring."
+
+	para "I wonder how that"
+	line "trip went."
+	done
+
+_VermilionCityText8::
 	text "VERMILION CITY"
 	line "The Port of"
 	cont "Exquisite Sunsets"
 	done
 
-_VermilionCityText8::
+_VermilionCityText9::
 	text "NOTICE!"
 
 	para "ROUTE 12 may be"
@@ -108,13 +125,13 @@ _VermilionCityText8::
 	para "VERMILION POLICE"
 	done
 
-_VermilionCityText11::
+_VermilionCityText12::
 	text "#MON FAN CLUB"
 	line "All #MON fans"
 	cont "welcome!"
 	done
 
-_VermilionCityText12::
+_VermilionCityText13::
 	text "VERMILION CITY"
 	line "#MON GYM"
 	cont "LEADER: LT.SURGE"
@@ -123,6 +140,6 @@ _VermilionCityText12::
 	line "American!"
 	done
 
-_VermilionCityText13::
+_VermilionCityText14::
 	text "VERMILION HARBOR"
 	done

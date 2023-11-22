@@ -36,6 +36,22 @@ _VictoryRoadGuardText_513a3::
 	done
 
 _Route23Text8::
+	text "Darn! Those ELITE"
+	line "FOUR are really"
+	cont "strong! I don't"
+	cont "stand a chance"
+	cont "against them."
+
+	para "I think I should"
+	line "go back and train"
+	cont "with some of the"
+	cont "GYM LEADERs, so I"
+	cont "could have any"
+	cont "chance!"
+	done
+
+
+_Route23Text9::
 	text "VICTORY ROAD GATE"
 	line "- #MON LEAGUE"
 	done

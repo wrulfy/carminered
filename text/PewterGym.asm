@@ -25,8 +25,9 @@ _BrockRematchPreBattleText::
 	cont "the 8 GYM BADGEs"
 
 	para "You're now ready to"
-	line "face the Elite 4,"
-	cont "but first, let me"
-	cont "show you my team"
-	cont "at full power!"
+	line "face the ELITE"
+	cont "FOUR, but first,"
+	cont "let me show you"
+	cont "my team at full"
+	cont "power!"
 	done

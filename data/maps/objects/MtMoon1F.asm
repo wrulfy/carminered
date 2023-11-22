@@ -17,8 +17,8 @@ MtMoon1F_Object:
 	object_event 26,  7, SPRITE_COOLTRAINER_F, STAY, UP, 3, OPP_LASS, 5
 	object_event 23, 17, SPRITE_SUPER_NERD, STAY, UP, 4, OPP_SUPER_NERD, 1
 	object_event 11, 29, SPRITE_COOLTRAINER_F, STAY, UP, 5, OPP_LASS, 6
-	object_event 34, 12, SPRITE_YOUNGSTER, WALK, ANY_DIR, 6, OPP_BUG_CATCHER, 7
-	object_event  5, 12, SPRITE_YOUNGSTER, STAY, ANY_DIR, 7, OPP_BUG_CATCHER, 8
+	object_event 34, 12, SPRITE_YOUNGSTER, WALK, ANY_DIR, 6, OPP_BUG_CATCHER, 7; wandering trainer (vision of one so it shouldn't trigger the bug)
+	object_event  5, 12, SPRITE_YOUNGSTER, STAY, ANY_DIR, 7, OPP_BUG_CATCHER, 8; spinner trainer
 	object_event 33,  5, SPRITE_POKE_BALL, STAY, NONE, 8, FRESH_WATER
 	object_event 20, 33, SPRITE_POKE_BALL, STAY, NONE, 9, MOON_STONE
 	object_event 25, 29, SPRITE_POKE_BALL, STAY, NONE, 10, RARE_CANDY

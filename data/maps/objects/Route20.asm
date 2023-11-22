@@ -14,7 +14,7 @@ Route20_Object:
 	def_object_events
 	object_event 87,  8, SPRITE_SWIMMER, STAY, UP, 1, OPP_SWIMMER, 9; east
 	object_event 68, 11, SPRITE_SWIMMER, STAY, UP, 2, OPP_BEAUTY, 2; east
-	object_event 47, 10, SPRITE_SWIMMER, WALK, LEFT_RIGHT, 3, OPP_BEAUTY, 6; east
+	object_event 47, 10, SPRITE_SWIMMER, WALK, LEFT_RIGHT, 3, OPP_BEAUTY, 6; east; wandering trainer (cant move because stuck in water)
 	object_event 51, 14, SPRITE_SWIMMER, STAY, RIGHT, 4, OPP_COOLTRAINER_F, 4
 	object_event 38, 13, SPRITE_SWIMMER, STAY, DOWN, 5, OPP_SWIMMER, 10
 	object_event 87, 13, SPRITE_SWIMMER, STAY, UP, 6, OPP_SWIMMER, 11; east

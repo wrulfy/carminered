@@ -1,9 +1,8 @@
 _KogaBeforeBattleText::
-	text "KOGA: Fwahahaha!"
-
-	para "A mere child like"
-	line "you dares to"
-	cont "challenge me?"
+	text "Fwahahaha! A mere"
+	line "child like you"
+	cont "dares challenge"
+	cont "me, KOGA?"
 
 	para "Very well, I"
 	line "shall show you"
@@ -26,13 +25,14 @@ _ReceivedMiasmaBadgeText::
 	text_end
 
 _KogaRematchPreBattleText::
-	text "I see you have"
-	line "collected at last"
-	cont "the 8 GYM BADGEs"
-
-	para "You're now ready to"
-	line "face the Elite 4,"
-	cont "but first, let me"
-	cont "show you my team"
-	cont "at full power!"
+	text "Fwahahaha! I see"
+	line "you have made"
+	cont "some time for a"
+	cont "rematch!"
+	
+	para "Very well, let"
+	line "that be your last"
+	cont "mistake! Prepare"
+	cont "to succumb to my"
+	cont "ninja techniques!"
 	done

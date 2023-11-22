@@ -120,13 +120,13 @@ VermilionCity_TextPointers:
 	dw VermilionCityText4
 	dw VermilionCityText5
 	dw VermilionCityText6
-	dw VermilionCityText7
 	dw VermilionCityText8
+	dw VermilionCityText9
 	dw MartSignText
 	dw PokeCenterSignText
-	dw VermilionCityText11
 	dw VermilionCityText12
 	dw VermilionCityText13
+	dw VermilionCityText14
 
 VermilionCityText1:
 	text_far _VermilionCityText1
@@ -225,16 +225,17 @@ VermilionCityText5:
 	ld a, MACHOP
 	call PlayCry
 	call WaitForSoundToFinish
-	ld hl, VermilionCityText14
+	ld hl, VermilionCityText15
 	ret
 
-VermilionCityText14:
-	text_far _VermilionCityText14
+VermilionCityText15:
+	text_far _VermilionCityText15
 	text_end
 
 VermilionCityText6:
 	text_far _VermilionCityText6
 	text_end
+	
 
 VermilionCityText7:
 	text_far _VermilionCityText7
@@ -244,14 +245,18 @@ VermilionCityText8:
 	text_far _VermilionCityText8
 	text_end
 
-VermilionCityText11:
-	text_far _VermilionCityText11
+VermilionCityText9:
+	text_far _VermilionCityText9
 	text_end
 
-VermilionCityText12:
+VermilionCityText11:
 	text_far _VermilionCityText12
 	text_end
 
-VermilionCityText13:
+VermilionCityText12:
 	text_far _VermilionCityText13
+	text_end
+
+VermilionCityText13:
+	text_far _VermilionCityText14
 	text_end

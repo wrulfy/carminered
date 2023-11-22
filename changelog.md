@@ -1,17 +1,17 @@
 **v1.1** Gym Rematches and QoL!
-added Gym Leader rematches.
+Added Gym leader rematches (Special thanks to PlagueVonKarma!)
+Increased the levels of the Elite 4 to widen the gap between the last gym
 Added running shoes functionality, and increased the speed of surf and bike
 Increased the speed of spinner tiles (Special thanks to JojoBear13!)
-Added Gym leader rematches (Special thanks to PlagueVonKarma!)
 Minor learnset changes (golduck gets mirror move instead of roar, beedril and kingler get sharpen and slam respectively instead of swords dance by lv up.)
-EXP. ALL texts are now much faster, making using it less fainfully slow. this affects traded mons as well.
+EXP. ALL texts are now much faster, making using it less painfully slow. this affects traded mons as well.
 Revamped the text speeds, Fast gets replaced with "super" which is instant text, the mid speed gets replaced with fast speed, labeled normal, and slow is slightly less slow.
 Minor trainer party adjustments
 Revised dungeon map battle transitions.
 slightly better AI for Erika and Sabrina
 minor dialog adjustments to hint the rematches and the running function
 fixed the withdraw animation
-
+minor gate tileset improvements
 
 **v1.0.5** (Not released, Road to 1.1)
 Increased a bit the levels of the last dungeons' wilds post 8th gym, since the curve falls a bit there.

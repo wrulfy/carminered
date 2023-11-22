@@ -12,6 +12,10 @@ SpecialTrainerMoves:
 	db 6, 4, BODY_SLAM
 	db 0
 
+	db SAILOR, 7
+	db 2, 3, SURF
+	db 0
+
 	db SAILOR, 8
 	db 4, 4, SURF
 	db 0
@@ -28,7 +32,7 @@ SpecialTrainerMoves:
 	db 0
 
 	db HIKER, 17
-	db 1, 1, SURF
+	db 2, 3, SURF
 	db 0
 
 	db ENGINEER, 4

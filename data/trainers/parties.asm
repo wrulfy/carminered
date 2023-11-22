@@ -141,7 +141,7 @@ SailorData:
 ; Vermilion Gym
 	db 27, PONYTA, 0
 ; Extra for seafoam
-	db 41, MACHOKE, OMANYTE, KINGLER, MACHAMP, 0
+	db 41, MACHOKE, OMANYTE, DEWGONG, MACHAMP, 0
 ; extra for Route 12
 	db 25, MANKEY, GOLDEEN, POLIWHIRL, KRABBY, 0
 

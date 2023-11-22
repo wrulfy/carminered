@@ -39,13 +39,13 @@ SaffronGym_Object:
 
 	def_object_events
 	object_event 10,  9, SPRITE_GIRL, STAY, DOWN, 1, OPP_SABRINA, 1
-	object_event 10,  3, SPRITE_CHANNELER, STAY, ANY_DIR, 2, OPP_CHANNELER, 15
-	object_event 17,  3, SPRITE_YOUNGSTER, STAY, ANY_DIR, 3, OPP_PSYCHIC_TR, 1
-	object_event  3,  9, SPRITE_CHANNELER, STAY, ANY_DIR, 4, OPP_CHANNELER, 16
-	object_event 17,  9, SPRITE_YOUNGSTER, STAY, ANY_DIR, 5, OPP_PSYCHIC_TR, 2
-	object_event  3, 15, SPRITE_CHANNELER, STAY, ANY_DIR, 6, OPP_CHANNELER, 17
-	object_event 17, 15, SPRITE_SUPER_NERD, STAY, ANY_DIR, 7, OPP_POKEMANIAC, 8
-	object_event  3,  3, SPRITE_BEAUTY, STAY, ANY_DIR, 8, OPP_BEAUTY, 11
+	object_event 10,  3, SPRITE_CHANNELER, STAY, ANY_DIR, 2, OPP_CHANNELER, 15; spinner trainer
+	object_event 17,  3, SPRITE_YOUNGSTER, STAY, ANY_DIR, 3, OPP_PSYCHIC_TR, 1; spinner trainer
+	object_event  3,  9, SPRITE_CHANNELER, STAY, ANY_DIR, 4, OPP_CHANNELER, 16; spinner trainer
+	object_event 17,  9, SPRITE_YOUNGSTER, STAY, ANY_DIR, 5, OPP_PSYCHIC_TR, 2; spinner trainer
+	object_event  3, 15, SPRITE_CHANNELER, STAY, ANY_DIR, 6, OPP_CHANNELER, 17; spinner trainer
+	object_event 17, 15, SPRITE_SUPER_NERD, STAY, ANY_DIR, 7, OPP_POKEMANIAC, 8; spinner trainer
+	object_event  3,  3, SPRITE_BEAUTY, STAY, ANY_DIR, 8, OPP_BEAUTY, 11; spinner trainer
 	object_event 10, 15, SPRITE_GYM_GUIDE, STAY, DOWN, 9 ; person
 
 	def_warps_to SAFFRON_GYM

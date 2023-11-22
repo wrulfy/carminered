@@ -17,7 +17,7 @@ VictoryRoad2F_Object:
 	object_event 21, 13, SPRITE_SUPER_NERD, STAY, LEFT, 2, OPP_ENGINEER, 4
 	object_event 18,  5, SPRITE_ROCKER, STAY, LEFT, 3, OPP_TAMER, 5
 	object_event  6,  0, SPRITE_SUPER_NERD, STAY, DOWN, 4, OPP_POKEMANIAC, 6
-	object_event 25,  7, SPRITE_HIKER, STAY, ANY_DIR, 5, OPP_HIKER, 16
+	object_event 25,  7, SPRITE_HIKER, STAY, ANY_DIR, 5, OPP_HIKER, 16; spinner trainer extra evil
 	object_event 28,  3, SPRITE_POKE_BALL, STAY, NONE, 6, TM_FISSURE
 	object_event 20,  8, SPRITE_POKE_BALL, STAY, NONE, 7, FULL_HEAL
 	object_event 12,  1, SPRITE_POKE_BALL, STAY, NONE, 8, TM_HYPER_BEAM

@@ -9,7 +9,7 @@ PokemonMansion3F_Object:
 	def_bg_events
 
 	def_object_events
-	object_event  6,  5, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 1, OPP_BURGLAR, 3
+	object_event  6,  5, SPRITE_SUPER_NERD, WALK, LEFT_RIGHT, 1, OPP_BURGLAR, 3; wandering trainer (vision of zero so doesnt trigger the bug)
 	object_event 21, 10, SPRITE_COOLTRAINER_M, STAY, LEFT, 2, OPP_COOLTRAINER_M, 3
 	object_event  5, 11, SPRITE_BIRD, STAY, UP, 3, MOLTRES, 50
 	object_event 25,  5, SPRITE_POKE_BALL, STAY, NONE, 4, IRON

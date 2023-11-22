@@ -195,9 +195,10 @@ _FuchsiaGymGuidePostBattleText::
 	done
 
 _KogaRematchDefeatedText::
-	text "I see you're"
-	line "far better that"
-	cont "I expected! You"
-	cont "should be ready"
-	cont "for the Elite 4!"
+	text "Ah! You have"
+	line "bested my ninja"
+	cont "techniques once"
+	cont "again! you truly"
+	cont "are an excelent"
+	cont "trainer!"
 	prompt

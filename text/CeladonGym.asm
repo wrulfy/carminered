@@ -224,21 +224,23 @@ _CeladonGymAfterBattleText8::
 	done
 
 _ErikaRematchPreBattleText::
-	text "I see you have"
-	line "collected at last"
-	cont "the 8 GYM BADGEs"
+	text "Tell me, <PLAYER>,"
+	line "how much have you"
+	cont "learned through"
+	cont "your journey?"
 
-	para "You're now ready to"
-	line "face the Elite 4,"
-	cont "but first, let me"
-	cont "show you my team"
-	cont "at full power!"
+	para "Let me test your"
+	line "knowledge as a"
+	cont "trainer against"
+	cont "my full team of"
+	cont "bug #MON!"
 	done
 
 _ErikaRematchDefeatedText::
-	text "I see you're"
-	line "far better that"
-	cont "I expected! You"
-	cont "should be ready"
-	cont "for the Elite 4!"
+	text "Excelent!"
+	line "You're remarkable"
+	cont "as a trainer. The"
+	cont "ELITE FOUR should"
+	cont "not be a problem"
+	cont "for you to beat!"
 	prompt

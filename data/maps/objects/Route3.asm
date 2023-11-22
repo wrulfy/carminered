@@ -15,6 +15,6 @@ Route3_Object:
 	object_event 61,  5, SPRITE_COOLTRAINER_F, STAY, LEFT, 6, OPP_LASS, 2
 	object_event 22,  9, SPRITE_YOUNGSTER, STAY, LEFT, 7, OPP_YOUNGSTER, 2
 	object_event 24,  6, SPRITE_YOUNGSTER, STAY, RIGHT, 8, OPP_BUG_CATCHER, 6
-	object_event 31, 11, SPRITE_COOLTRAINER_F, WALK, ANY_DIR, 9, OPP_LASS, 3
+	object_event 31, 11, SPRITE_COOLTRAINER_F, WALK, ANY_DIR, 9, OPP_LASS, 3; wandering trainer (vision of one so it shouldn't trigger the bug)
 
 	def_warps_to ROUTE_3

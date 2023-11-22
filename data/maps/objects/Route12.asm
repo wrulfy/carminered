@@ -21,7 +21,7 @@ Route12_Object:
 	object_event 10, 75, SPRITE_SUPER_NERD, STAY, UP, 5, OPP_ROCKER, 2
 	object_event 12, 40, SPRITE_FISHER, STAY, LEFT, 6, OPP_FISHER, 5
 	object_event 15, 52, SPRITE_SAILOR, STAY, LEFT, 7, OPP_SAILOR, 8
-	object_event  9, 82, SPRITE_FISHER, STAY, ANY_DIR, 8, OPP_FISHER, 9
+	object_event  9, 82, SPRITE_FISHER, STAY, ANY_DIR, 8, OPP_FISHER, 9; spinner trainer
 	object_event 14, 35, SPRITE_POKE_BALL, STAY, NONE, 9, TM_SLUDGE
 	object_event 13, 98, SPRITE_POKE_BALL, STAY, NONE, 10, IRON
 

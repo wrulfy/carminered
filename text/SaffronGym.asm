@@ -246,21 +246,26 @@ _SaffronGymAfterBattleText7::
 	done
 
 _SabrinaRematchPreBattleText::
-	text "I see you have"
-	line "collected at last"
-	cont "the 8 GYM BADGEs"
+	text "I must express my"
+	line "gratitude towards"
+	cont "you for defeating"
+	cont "GIOVANNI once and"
+	cont "for all."
 
-	para "You're now ready to"
-	line "face the Elite 4,"
-	cont "but first, let me"
-	cont "show you my team"
-	cont "at full power!"
+	para "With him gone, our"
+	line "city won't be"
+	cont "terrorized again"
+	cont "by TEAM ROCKET!"
+
+	para "As a reward I will"
+	line "concede you a"
+	cont "rematch!"
 	done
 
 _SabrinaRematchDefeatedText::
-	text "I see you're"
-	line "far better that"
-	cont "I expected! You"
-	cont "should be ready"
-	cont "for the Elite 4!"
+	text "I wouldn't"
+	line "expect any less"
+	cont "from you! I wish"
+	cont "you luck with the"
+	cont "ELITE FOUR!"
 	prompt

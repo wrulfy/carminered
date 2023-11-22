@@ -9,7 +9,7 @@ _SeafoamIslandsXEndBattleText1::
 	prompt
 
 _SeafoamIslandsXAfterBattleText1::
-	text "My partner and I"
+	text "My husband and I"
 	line "fell down a hole,"
 	cont "now we're stuck!"
 	done
