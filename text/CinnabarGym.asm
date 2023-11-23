@@ -241,7 +241,7 @@ _BlaineRematchPreBattleText::
 	done
 
 _BlaineRematchDefeatedText::
-	text "BLAINE: Hah! What"
+	text "Hah! What"
 	line "an electryfing"
 	cont "match! You really"
 	cont "discharged me for"

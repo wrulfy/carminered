@@ -198,7 +198,7 @@ _KogaRematchDefeatedText::
 	text "Ah! You have"
 	line "bested my ninja"
 	cont "techniques once"
-	cont "again! you truly"
+	cont "again! You truly"
 	cont "are an excelent"
 	cont "trainer!"
 	prompt
