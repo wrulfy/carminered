@@ -19,9 +19,9 @@ SeafoamIslandsX_TextPointers:
 SeafoamIslandsXTrainerHeaders:
 	def_trainers
 SeafoamIslandsXTrainerHeader0:
-	trainer EVENT_BEAT_SEAFOAM_ISLANDS_X_TRAINER_0, 2, SeafoamIslandsXBattleText1, SeafoamIslandsXEndBattleText1, SeafoamIslandsXAfterBattleText1
+	trainer EVENT_BEAT_SEAFOAM_ISLANDS_X_TRAINER_0, 1, SeafoamIslandsXBattleText1, SeafoamIslandsXEndBattleText1, SeafoamIslandsXAfterBattleText1
 SeafoamIslandsXTrainerHeader1:
-	trainer EVENT_BEAT_SEAFOAM_ISLANDS_X_TRAINER_1, 2, SeafoamIslandsXBattleText2, SeafoamIslandsXEndBattleText2, SeafoamIslandsXAfterBattleText2
+	trainer EVENT_BEAT_SEAFOAM_ISLANDS_X_TRAINER_1, 1, SeafoamIslandsXBattleText2, SeafoamIslandsXEndBattleText2, SeafoamIslandsXAfterBattleText2
 	db -1 ; end
 
 SeafoamIslandsXText1:

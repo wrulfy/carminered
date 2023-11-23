@@ -12,7 +12,7 @@ Route18_Object:
 	bg_event 25,  7, 5 ; Route18Text5
 
 	def_object_events
-	object_event 31, 11, SPRITE_COOLTRAINER_M, WALK, LEFT_RIGHT, 1, OPP_BIRD_KEEPER, 8; wandering trainer (vision of two)
+	object_event 31, 11, SPRITE_COOLTRAINER_M, WALK, LEFT_RIGHT, 1, OPP_BIRD_KEEPER, 8; wandering trainer (vision of one)
 	object_event 33, 15, SPRITE_COOLTRAINER_M, STAY, LEFT, 2, OPP_BIRD_KEEPER, 9
 	object_event 42, 13, SPRITE_COOLTRAINER_M, STAY, ANY_DIR, 3, OPP_BIRD_KEEPER, 10; spinner trainer
 

@@ -19,6 +19,7 @@
 - Physical/Special split
 - More pokemon
 - More moves. The point of modifying so many moves is for that.
+- Hyper training and other related features intended just for online battling. I've been thinking about this one but I feel like that's what the planned showdown solomod is for. I don't think anyone is gonna be insane to consider doing legit link battles in the hack. In the end, is a singleplayer story, there's pretty much the same postgame content as there is in the vanilla games. and even so, reaching lv100 is unnecessary.
 
 
 ## The original README lies ahead
