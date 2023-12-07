@@ -15,7 +15,7 @@ _ReceivedTM41Text::
 
 _TM41ExplanationText::
 	text "TM41 is a move"
-	line "called SOFTBOILED."
+	line "named SOFTBOILED."
 
 	para "This move heals"
 	line "your own #MON,"

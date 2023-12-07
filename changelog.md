@@ -12,6 +12,7 @@ slightly better AI for Erika and Sabrina
 minor dialog adjustments to hint the rematches and the running function
 fixed the withdraw animation
 minor gate tileset improvements
+minor shop rebalancing
 
 **v1.0.5** (Not released, Road to 1.1)
 Increased a bit the levels of the last dungeons' wilds post 8th gym, since the curve falls a bit there.
