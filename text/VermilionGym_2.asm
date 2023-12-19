@@ -155,7 +155,7 @@ _VermilionGymGuidePostBattleText::
 	done
 
 _LTSurgeRematchDefeatedText::
-	text "LT.SURGE: OK, Kid,"
+	text "OK, Kid,"
 	line "I'll ceasefire!"
 	cont "I admit defeat,"
 	cont "you won the war!"

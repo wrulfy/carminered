@@ -1327,7 +1327,7 @@ OmanyteEvosMoves:
 ; Learnset
 	db 22, BITE
 	db 26, WITHDRAW
-	db 32, DIG
+	db 31, DIG;PARITY WITH KABUTO
 	db 37, BARRAGE
 	db 42, BARRIER
 	db 0

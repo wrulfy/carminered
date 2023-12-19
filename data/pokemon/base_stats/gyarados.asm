@@ -5,7 +5,7 @@
 
 	db WATER, FLYING ; type
 	db 35 ; catch rate
-	db 212 ; base exp
+	db 211 ; base exp
 
 	INCBIN "gfx/pokemon/front/gyarados.pic", 0, 1 ; sprite dimensions
 	dw GyaradosPicFront, GyaradosPicBack
