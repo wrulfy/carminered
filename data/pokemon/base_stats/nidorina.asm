@@ -1,6 +1,6 @@
 	db DEX_NIDORINA ; pokedex id
 
-	db  80,  62,  67,  56,  55
+	db  80,  57,  62,  51,  65
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type

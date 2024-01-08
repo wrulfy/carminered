@@ -1,11 +1,11 @@
 	db DEX_NIDORAN_F ; pokedex id
 
-	db  55,  47,  52,  41,  40
+	db  55,  42,  47,  36,  50
 	;   hp  atk  def  spd  spc
 
 	db POISON, POISON ; type
 	db 240 ; catch rate
-	db 58 ; base exp
+	db 57 ; base exp
 
 	INCBIN "gfx/pokemon/front/nidoranf.pic", 0, 1 ; sprite dimensions
 	dw NidoranFPicFront, NidoranFPicBack
