@@ -1,5 +1,5 @@
 MtMoonB2F_Object:
-	db $3 ; border block
+	db $2e ; border block
 
 	def_warp_events
 	warp_event 15,  9, MT_MOON_B1F, 2

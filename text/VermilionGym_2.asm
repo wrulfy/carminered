@@ -23,7 +23,7 @@ _LTSurgeBurnBadgeInfoText::
 
 	para "And #MON from"
 	line "strangers will"
-	cont "obey up to L40!"
+	cont "obey up to L45!"
 
 	para "You're special,"
 	line "kid! Take this!"

@@ -1,5 +1,5 @@
 SeafoamIslandsX_Object:
-	db $7d ; border block
+	db $2e ; border block
 
 	def_warp_events
 	warp_event  0,  4, SEAFOAM_ISLANDS_B4F, 5

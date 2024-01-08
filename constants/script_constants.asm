@@ -20,13 +20,13 @@ SLOTS_SOMEONESKEYS EQU $ff
 ; in game trades
 ; TradeMons indexes (see data/events/trades.asm)
 	const_def
-	const TRADE_FOR_PLINKO
+	const TRADE_FOR_VALKYRIE
 	const TRADE_FOR_JESTER
 	const TRADE_FOR_JESSIE
 	const TRADE_FOR_MAGNESIS
 	const TRADE_FOR_GOOSE
 	const TRADE_FOR_HERCULES
-	const TRADE_FOR_VALKYRIE
+	const TRADE_FOR_PLINKO
 	const TRADE_FOR_BRAVO
 	const TRADE_FOR_NOODLES
 	const TRADE_FOR_MR_FISH

@@ -1,5 +1,5 @@
 _CeruleanHouse1Text1::
-	text "My husband likes"
+	text "My grandson likes"
 	line "trading #MON."
 
 	para "If you are a"

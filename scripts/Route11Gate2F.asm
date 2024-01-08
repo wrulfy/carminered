@@ -9,7 +9,7 @@ Route11Gate2F_TextPointers:
 
 Route11GateUpstairsText1:
 	text_asm
-	xor a ; TRADE_FOR_PLINKO
+	xor a ; TRADE_FOR_VALKYRIE
 	ld [wWhichTrade], a
 	predef DoInGameTradeDialogue
 Route11GateUpstairsScriptEnd:

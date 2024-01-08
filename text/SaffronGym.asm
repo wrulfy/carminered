@@ -40,10 +40,10 @@ _SabrinaPostBattleAdviceText::
 	line "don't know how!"
 	done
 
-_KogaPolterBadgeInfoText::
+_SabrinaPolterBadgeInfoText::
 	text "The POLTERBADGE"
 	line "makes #MON up"
-	cont "to L70 obey you!"
+	cont "to L75 obey you!"
 
 	para "Stronger #MON"
 	line "will become wild,"

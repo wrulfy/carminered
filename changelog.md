@@ -8,11 +8,14 @@ EXP. ALL texts are now much faster, making using it less painfully slow. this af
 Revamped the text speeds, Fast gets replaced with "super" which is instant text, the mid speed gets replaced with fast speed, labeled normal, and slow is slightly less slow.
 Minor trainer party adjustments
 Revised dungeon map battle transitions.
+revised dungeon borders
 slightly better AI for Erika and Sabrina
 minor dialog adjustments to hint the rematches and the running function
 fixed the withdraw animation
 minor gate tileset improvements
 minor shop rebalancing
+increased the obedience levels assigned to badges and pre-badge
+moved around some of the in-game trades to make some of them avaiable earlier
 
 **v1.0.5** (Not released, Road to 1.1)
 Increased a bit the levels of the last dungeons' wilds post 8th gym, since the curve falls a bit there.
@@ -70,6 +73,7 @@ revised their dialogues when giving the TM and the advice afterwards
 made the daycare not reject mons with HM (because I put the HMs back into their list)
 fixed the warning message when trying to delete an HM move
 revised the dialogue of gym leaders
+
 
 ______________________
 
