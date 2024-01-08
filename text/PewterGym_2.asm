@@ -80,7 +80,7 @@ _BrockBoulerBadgeInfoText::
 
 	para "Also foreing"
 	line "#MON will obey"
-	cont "up to L20!"
+	cont "up to L25!"
 	prompt
 
 _PewterGymBattleText1::

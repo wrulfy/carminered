@@ -100,7 +100,7 @@ Lab4Text_75dd5:
 
 Lab4Text2:
 	text_asm
-	ld a, TRADE_FOR_MAGNESIS
+	ld a, TRADE_FOR_JESSIE
 	ld [wWhichTrade], a
 	predef DoInGameTradeDialogue
 	jp TextScriptEnd

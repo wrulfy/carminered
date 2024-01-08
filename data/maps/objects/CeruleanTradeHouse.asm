@@ -9,6 +9,6 @@ CeruleanTradeHouse_Object:
 
 	def_object_events
 	object_event  5,  4, SPRITE_GRANNY, STAY, LEFT, 1 ; person
-	object_event  1,  2, SPRITE_GAMBLER, STAY, NONE, 2 ; person
+	object_event  1,  2, SPRITE_YOUNGSTER, STAY, NONE, 2 ; person
 
 	def_warps_to CERULEAN_TRADE_HOUSE

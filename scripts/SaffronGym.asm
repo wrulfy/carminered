@@ -80,7 +80,7 @@ SaffronGym_TextPointers:
 	dw SaffronGymTrainerText6
 	dw SaffronGymTrainerText7
 	dw SaffronGymGuideText
-	dw KogaPolterBadgeInfoText
+	dw SabrinaPolterBadgeInfoText
 	dw ReceivedTM46Text
 	dw TM46NoRoomText
 
@@ -174,8 +174,8 @@ SabrinaPostBattleAdviceText:
 	text_far _SabrinaPostBattleAdviceText
 	text_end
 
-KogaPolterBadgeInfoText:
-	text_far _KogaPolterBadgeInfoText
+SabrinaPolterBadgeInfoText:
+	text_far _SabrinaPolterBadgeInfoText
 	text_end
 
 ReceivedTM46Text:

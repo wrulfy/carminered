@@ -11,7 +11,7 @@ CeruleanHouse1Text1:
 
 CeruleanHouse1Text2:
 	text_asm
-	ld a, TRADE_FOR_VALKYRIE
+	ld a, TRADE_FOR_PLINKO
 	ld [wWhichTrade], a
 	predef DoInGameTradeDialogue
 	jp TextScriptEnd

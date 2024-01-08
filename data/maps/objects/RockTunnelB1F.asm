@@ -1,5 +1,5 @@
 RockTunnelB1F_Object:
-	db $3 ; border block
+	db $7b ; border block
 
 	def_warp_events
 	warp_event 35, 17, ROCK_TUNNEL_1F, 5

@@ -35,7 +35,7 @@ ViridianForestTrainerHeader0:
 ViridianForestTrainerHeader1:
 	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_1, 4, ViridianForestBattleText2, ViridianForestEndBattleText2, ViridianForestAfterBattleText2
 ViridianForestTrainerHeader2:
-	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2, 1, ViridianForestBattleText3, ViridianForestEndBattleText3, ViridianForestAfterBattleText3
+	trainer EVENT_BEAT_VIRIDIAN_FOREST_TRAINER_2, 2, ViridianForestBattleText3, ViridianForestEndBattleText3, ViridianForestAfterBattleText3
 	db -1 ; end
 
 ViridianForestText1:

@@ -47,6 +47,10 @@ _BlainePowerBadgeInfoText::
 	cont "SPECIAL abilities"
 	cont "of your #MON!"
 
+	para "And all of your"
+	line "#mon will obey"
+	cont "you up to L85!"
+
 	para "Here, you can"
 	line "have this too!"
 	done

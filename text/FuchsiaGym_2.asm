@@ -22,6 +22,10 @@ _KogaMiasmaBadgeInfoText::
 	line "SURF outside of"
 	cont "battle!"
 
+	para "And foreing"
+	line "#MON will obey"
+	cont "up to L65!"
+
 	para "Ah! Take this"
 	line "too!"
 	done

@@ -46,7 +46,7 @@ _TM49ExplanationText::
 _MistySnowBadgeInfoText::
 	text "The SNOWBADGE"
 	line "makes all #MON"
-	cont "up to L30 obey!"
+	cont "up to L35 obey!"
 
 	para "That includes"
 	line "even outsiders!"

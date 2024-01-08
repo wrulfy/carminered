@@ -1,9 +1,9 @@
 SeafoamIslandsB1F_Object:
-	db $7d ; border block
+	db $2e ; border block
 
 	def_warp_events
-	warp_event  4,  2, SEAFOAM_ISLANDS_B2F, 1
-	warp_event  7,  5, SEAFOAM_ISLANDS_1F, 5
+	warp_event  3,  1, SEAFOAM_ISLANDS_B2F, 1
+	warp_event  7,  3, SEAFOAM_ISLANDS_1F, 5
 	warp_event 13,  7, SEAFOAM_ISLANDS_B2F, 3
 	warp_event 19, 15, SEAFOAM_ISLANDS_B2F, 4
 	warp_event 23, 15, SEAFOAM_ISLANDS_1F, 7

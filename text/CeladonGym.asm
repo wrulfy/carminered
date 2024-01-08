@@ -50,7 +50,7 @@ _ErikaPostBattleAdviceText::
 _ErikaGrubBadgeInfoText::
 	text "The GRUBBADGE"
 	line "will make #MON"
-	cont "up to L50 obey."
+	cont "up to L55 obey."
 
 	para "It also allows"
 	line "#MON to use"

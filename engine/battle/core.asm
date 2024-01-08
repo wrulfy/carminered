@@ -3961,27 +3961,27 @@ CheckForDisobedience:
 	ld a, 101
 	jr nz, .next
 	bit BIT_POWERBADGE, [hl]
-	ld a, 80
+	ld a, 85
 	jr nz, .next
 	bit BIT_POLTERBADGE, [hl]
-	ld a, 70
+	ld a, 75
 	jr nz, .next
 	bit BIT_MIASMABADGE, [hl]
-	ld a, 60
+	ld a, 65
 	jr nz, .next
 	bit BIT_GRUBBADGE, [hl]
-	ld a, 50
+	ld a, 55
 	jr nz, .next
 	bit BIT_BURNBADGE, [hl]
-	ld a, 40
+	ld a, 45
 	jr nz, .next
 	bit BIT_SNOWBADGE, [hl]
-	ld a, 30
+	ld a, 35
 	jr nz, .next
 	bit BIT_COMMONBADGE, [hl]
-	ld a, 20
+	ld a, 25
 	jr nz, .next
-	ld a, 10
+	ld a, 15
 .next
 	ld b, a
 	ld c, a
