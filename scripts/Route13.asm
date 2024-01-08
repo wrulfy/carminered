@@ -40,7 +40,7 @@ Route13TrainerHeader3:
 Route13TrainerHeader4:
 	trainer EVENT_BEAT_ROUTE_13_TRAINER_4, 4, Route13BattleText6, Route13EndBattleText6, Route13AfterBattleText6
 Route13TrainerHeader5:
-	trainer EVENT_BEAT_ROUTE_13_TRAINER_5, 3, Route13BattleText7, Route13EndBattleText7, Route13AfterBattleText7
+	trainer EVENT_BEAT_ROUTE_13_TRAINER_5, 2, Route13BattleText7, Route13EndBattleText7, Route13AfterBattleText7
 Route13TrainerHeader6:
 	trainer EVENT_BEAT_ROUTE_13_TRAINER_6, 1, Route13BattleText8, Route13EndBattleText8, Route13AfterBattleText8
 Route13TrainerHeader7:

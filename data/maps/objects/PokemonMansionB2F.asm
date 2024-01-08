@@ -1,5 +1,5 @@
 PokemonMansionB2F_Object:
-	db $3 ; border block
+	db $32 ; border block
 
 	def_warp_events
 	warp_event 36,  3, LAST_MAP, 2
