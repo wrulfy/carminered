@@ -22,7 +22,7 @@ SpecialTrainerMoves:
 
 	db SUPER_NERD, 7
 	db 3, 1, ACID
-	db 5, 4, ACID
+	db 5, 2, ACID
 	db 0
 
 	db HIKER, 16
@@ -120,7 +120,7 @@ SpecialTrainerMoves:
 	db CHIEF, 6
 	db 1, 1, ICE_BEAM
 	db 1, 3, SUPERSONIC
-	db 2, 1, EARTHQUAKE
+	db 2, 2, EARTHQUAKE
 	db 3, 1, BUBBLEBEAM
 	db 3, 2, THUNDERBOLT
 	db 3, 3, SLASH
@@ -243,8 +243,8 @@ SpecialTrainerMoves:
 
 	db KOGA, 1
 	db 1, 1, SWORDS_DANCE
-	db 2, 1, WRAP
-	db 2, 3, POISON_GAS
+	db 2, 2, WRAP
+	db 2, 4, POISON_GAS
 	db 3, 1, SLUDGE
 	db 3, 2, SURF
 	db 4, 1, LEECH_SEED
@@ -256,7 +256,7 @@ SpecialTrainerMoves:
 	db 1, 1, FISSURE
 	db 1, 2, DRAGON_RAGE
 	db 2, 4, WRAP
-	db 3, 1, SKY_ATTACK
+	db 3, 1, FLY
 	db 3, 2, SUPERSONIC
 	db 4, 3, ICE_BEAM
 	db 4, 4, ACID_ARMOR
@@ -471,7 +471,7 @@ SpecialTrainerMoves:
 	db LANCE, 1
 	db 1, 1, HORN_DRILL
 	db 1, 4, HYPER_BEAM
-	db 2, 1, FLY
+	db 2, 1, SKY_ATTACK
 	db 3, 1, SLASH
 	db 4, 1, SOLARBEAM
 	db 5, 2, EARTHQUAKE

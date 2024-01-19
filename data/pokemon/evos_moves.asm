@@ -769,9 +769,9 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, HAZE
-	db 33, ROAR
-	db 38, SLAM
+	db 28, GLARE
+	db 33, SLAM
+	db 38, ROAR
 	db 44, TOXIC
 	db 50, HYPER_FANG
 	db 0
@@ -1457,11 +1457,11 @@ EkansEvosMoves:
 	db 0
 ; Learnset
 	db 8, WRAP
-	db 12, BITE
-	db 16, ACID
+	db 12, ACID
+	db 16, BITE
 	db 20, GUST
-	db 23, GLARE
-	db 26, HAZE
+	db 23, HAZE
+	db 26, GLARE
 	db 0
 
 ParasEvosMoves:

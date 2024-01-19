@@ -7,7 +7,7 @@ _BikeShopText_1d810::;
 	prompt
 
 _BikeShopText_1d815::
-	text "It's a cool BIKE!"
+	text "It's a fast BIKE!"
 	line "Do you want it?"
 	done
 
@@ -42,6 +42,10 @@ _BikeShopText_1d82f::
 	para "You can take it"
 	line "on CYCLING ROAD"
 	cont "and in caves!"
+
+	para "It's so fast you'll"
+	line "get to any places"
+	cont "in  time!"
 	done
 
 _BikeShopText_1d834::
@@ -56,16 +60,16 @@ _BikeShopText_1d843::
 
 	para "You can't put a"
 	line "shopping basket"
-	cont "on an MTB!"
+	cont "on an mach bike!"
 	done
 
 _BikeShopText_1d85c::
 	text "These BIKEs are"
-	line "cool, but they're"
+	line "fast, but they're"
 	cont "way expensive!"
 	done
 
 _BikeShopText_1d861::
 	text "Wow. Your BIKE is"
-	line "really cool!"
+	line "really fast!"
 	done
