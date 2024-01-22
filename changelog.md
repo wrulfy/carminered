@@ -3,13 +3,17 @@ Added Gym leader rematches (Special thanks to PlagueVonKarma!)
 Increased the levels of the Elite 4 to widen the gap between the last gym
 Added running shoes functionality, and increased the speed of surf and bike
 Increased the speed of spinner tiles (Special thanks to JojoBear13!)
-Minor learnset changes (golduck gets mirror move instead of roar, beedril and kingler get sharpen and slam respectively instead of swords dance by lv up.)
+Minor learnset changes (golduck gets mirror move instead of roar, beedril and kingler get sharpen and slam respectively instead of swords dance by lv up, arbok/ekans get some of their STAB earlier)
+Minor stat rebalancing of some unevolved mons (slighlty altered the stats of the nidos)
 EXP. ALL texts are now much faster, making using it less painfully slow. this affects traded mons as well.
+Changed Jynx's sprite for the 97 spaceworld demo because is just that good.
 Revamped the text speeds, Fast gets replaced with "super" which is instant text, the mid speed gets replaced with fast speed, labeled normal, and slow is slightly less slow.
 Minor trainer party adjustments
 Revised dungeon map battle transitions.
 revised dungeon borders
+slightly altered some dungeon maps with the new borders in mind
 slightly better AI for Erika and Sabrina
+Lance now uses max potions instead
 minor dialog adjustments to hint the rematches and the running function
 fixed the withdraw animation
 minor gate tileset improvements

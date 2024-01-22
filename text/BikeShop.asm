@@ -45,7 +45,7 @@ _BikeShopText_1d82f::
 
 	para "It's so fast you'll"
 	line "get to any places"
-	cont "in  time!"
+	cont "in no time!"
 	done
 
 _BikeShopText_1d834::

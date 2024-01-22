@@ -23,7 +23,8 @@ _WriterText::
 	para "Yes, just because"
 	line "it isn't super"
 	cont "complex doesn't"
-	cont "mean there isn't."
+	cont "mean there isn't"
+	cont "a story."
 	done
 
 _GameDesignerText::
