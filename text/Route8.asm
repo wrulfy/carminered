@@ -148,7 +148,7 @@ _Route8AfterBattleText9::
 	done
 
 _Route8Text10::
-	text "Some ROCKET have"
+	text "Some ROCKETs have"
 	line "been spotted"
 	cont "hiking down the"
 	cont "mountain, I'm on"
@@ -160,4 +160,19 @@ _Route8Text11::
 	text "UNDERGROUND PATH"
 	line "CELADON CITY -"
 	cont "LAVENDER TOWN"
+	done
+
+_Route8Text12::
+	text "What? There is a"
+	line "SECRET JUNGLE up"
+	cont "in the mountains,"
+	cont "and that the"
+	cont "mythical #MON"
+	cont "MEW was there?"
+
+	para "That's nonsense!"
+	line "You must have hit"
+	cont "your head pretty"
+	cont "hard while hiking"
+	cont "downhill."
 	done

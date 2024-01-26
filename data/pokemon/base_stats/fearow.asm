@@ -1,6 +1,6 @@
 	db DEX_FEAROW ; pokedex id
 
-	db  69,  95,  65, 105,  61
+	db  69, 105,  65,  95,  61
 	;   hp  atk  def  spd  spc
 
 	db FLYING, FLYING ; type

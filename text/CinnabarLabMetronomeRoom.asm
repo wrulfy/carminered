@@ -14,7 +14,7 @@ _ReceivedTM40Text::
 	text_end
 
 _TM40ExplanationText::
-	text "Ka-chink"
+	text "Ka-chink!"
 	line "That's the sound"
 	cont "of a GUILLOTINE!"
 

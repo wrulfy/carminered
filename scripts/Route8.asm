@@ -210,7 +210,24 @@ Route8AfterBattleText9:
 	text_end
 
 Route8Text10:
+	text_asm
+	CheckEvent EVENT_RESCUED_MR_FUJI
+	jr nz, .Bogus
+	ld hl, .PoliceText
+	call PrintText
+	jr .done
+.Bogus
+	ld hl, .BogusText
+	call PrintText
+.done
+	jp TextScriptEnd
+
+.PoliceText
 	text_far _Route8Text10
+	text_end
+
+.BogusText
+	text_far _Route8Text12
 	text_end
 
 Route8Text11:

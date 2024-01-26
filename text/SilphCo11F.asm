@@ -56,6 +56,11 @@ _SilphCo11Text2::
 
 	para "We admire your"
 	line "courage."
+
+	para "You can use the"
+	line "tile to the right"
+	cont "to teleport out"
+	cont "off the building."
 	done
 
 _SilphCo11Text3::

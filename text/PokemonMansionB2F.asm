@@ -12,7 +12,7 @@ _Mansion5AfterBattleText1::
 	text "Boss asked us to"
 	line "catch a mythical"
 	cont "#MON that fled"
-	cont "over here."
+	cont "over this JUNGLE."
 	done
 
 _Mansion5BattleText2::
