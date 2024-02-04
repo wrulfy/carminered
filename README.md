@@ -8,6 +8,8 @@
 - There's also several type changes. Some might be logic some might make no sense.
 - Revamping some dungeons and routes even if some just got a bit more decorated. A lot of maps were a bit dull, also some of the dungeons have been redone so you have to figure the way out from scratch.
 
+### The game has compatibility with SGB mode for addig color to the game, however it lacks a custom SGB border. for best results play with SGB mode but without the SGB border
+
 
 ## Other stuff I would like to do eventually, but right now I don't really know assembly enough to program it, as it would be making new scripts from scratch
 - Give Stat experience to some trainers, by trainer class. This could deviate a bit too much from the feel of Gen 1, but could be a cool concept for a harder difficulty. Just disabling stat exp gains feels boring to me. I could consider looking into it as an alternate difficulty for Hardcore Nuzlockers.
