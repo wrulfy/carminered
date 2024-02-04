@@ -4,7 +4,7 @@ Increased the levels of the Elite 4 to widen the gap between the last gym
 Added running shoes functionality, and increased the speed of surf and bike
 Increased the speed of spinner tiles (Special thanks to JojoBear13!)
 Minor learnset changes (golduck gets mirror move instead of roar, beedril and kingler get sharpen and slam respectively instead of swords dance by lv up, arbok/ekans get some of their STAB earlier)
-Minor stat rebalancing of some unevolved mons (slighlty altered the stats of the nidos)
+Minor stat rebalancing of some unevolved (slighlty altered the stats of the nidos) and fearow (traded speed for attack)
 EXP. ALL texts are now much faster, making using it less painfully slow. this affects traded mons as well.
 Changed Jynx's sprite for the 97 spaceworld demo because is just that good.
 Revamped the text speeds, Fast gets replaced with "super" which is instant text, the mid speed gets replaced with fast speed, labeled normal, and slow is slightly less slow.
@@ -20,6 +20,7 @@ minor gate tileset improvements
 minor shop rebalancing
 increased the obedience levels assigned to badges and pre-badge
 moved around some of the in-game trades to make some of them avaiable earlier
+few altered and extra dialogues
 
 **v1.0.5** (Not released, Road to 1.1)
 Increased a bit the levels of the last dungeons' wilds post 8th gym, since the curve falls a bit there.

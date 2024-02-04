@@ -211,7 +211,7 @@ Route8AfterBattleText9:
 
 Route8Text10:
 	text_asm
-	CheckEvent EVENT_RESCUED_MR_FUJI
+	CheckEvent EVENT_BEAT_MEW
 	jr nz, .Bogus
 	ld hl, .PoliceText
 	call PrintText
